@@ -1,2 +1,2 @@
 # Nioh_Website 
-Initial Test
+Wiki website for the Video Game Nioh and Nioh 2.
