@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Testing</title>
+
+    <!-- CSS Styling -->
+    <style>
+        .hidden {
+        visibility: hidden;
+        }
+
+        img {
+        width: 400px;
+        }
+    </style>
+
+    <!-- JavaScript Functions -->
+    <script>
+        function toggle(elem) {
+            // console.log("foo" + elem);
+            if (elem.classList.contains("hidden")) {
+                elem.classList.remove("hidden");
+            } else {
+                elem.classList.add("hidden");
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <img src="https://gamespot1.cbsistatic.com/uploads/scale_medium/536/5360430/2976028-untitled-2.jpg"
+        onclick="toggle(document.getElementById('target'));">
+    <img id="target" class="hidden" src="http://rpgvaliant.com/wp-content/uploads/2016/11/NiOh-Weapon-Axe.jpg">
+</body>
+</html>
