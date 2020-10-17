@@ -1,5 +1,6 @@
 Nioh 1 Menu / Content
 
+Section 1:
 Missions:
     Main Missions:
         - Cover all main missions on all difficulties 
@@ -7,6 +8,7 @@ Missions:
             - Cover the story texts before and after missions
             - Show all cutscenes from the game
         - Ninja & Onmyo locks of hair
+        - All Kodama locations
         - All important mission rewards (smithing texts from mission rewards)
 
     Side Missions:
@@ -15,6 +17,14 @@ Missions:
         - Ninja & Onmyo locks of hair
         - All important mission rewards (ex. smithing texts from missions rewards)
 
+    Twilight Missions
+        - Videos covering all the Twilight Missions on all difficulties
+        - Show important item locations in the Twilight Missions
+
+    Trophies and Achivements
+        - How to get all Trophies
+
+Section 2:
 Enemies, Characters, Guaridan Spirits:
     Enemies:
         - Show all basic enemies: Pictures and story / lore descriptions
@@ -38,6 +48,7 @@ Enemies, Characters, Guaridan Spirits:
         - Show images and lore description for each character
         - Link to bosses page vice versa if needed
 
+Section 3:
 Weapons, Skill Tree, Technical Mechanics:
     Skill Tree:
         - Show all Weapon Skill Trees (GIFs?)
@@ -47,12 +58,50 @@ Weapons, Skill Tree, Technical Mechanics:
     Technical Mechanics:
         - SacredForce / PooferLlama tech showcase
 
+Section 4:
 Character Stats, Satuses:
     Stats:
-        - 
+        - Show all stats and weapon scaling
+        - Link level reset books 
 
     Status:
-        - All status icons
+        - All status icons (images)
         - Descriptions of all status in the game (including Demon, Wise, Nioh, and Abyss)
+
+Section 5:
+Items:
+    - Show all the items (images and item description. If lore exists then show lore as well)
+    - Locations of main items (ex. Harakiri Sword in Isle of Demons)
+
+Section 6:
+Blacksmith:
+    - Full Temper table
+    - Full percentages for attributes (min and max percentages)
+    - Show data for attributes when at min and max familiarity
+    - Show all rarities of Umbracite and link to the Twilight Missions
+    - Show all consumable items that can be forged at the blacksmith
+    - Link mission that brings Muramasa to the forge
+    - Show Patronage Points
+    
+Section 7
+The Abyss
+    - Website format:
+        - Floors 1-100
+            - Floors 1-10
+                - Floor 1
+                - Floor 2
+                - Floor 3 . . .
+    - Graces / Ethereal Gear
+    - All Grace sets
+    - Yasakani Magatama. Link to the Acivement "Holy Trinity" for the Yasakani Magatama farm.
+    - Defiling gear
+    - Marabashi Amrita farm
+    - Floors 32 - 37 
+
+Section 8
+Builds
+    - How to build your own build
+    - link to Graces
+    - link to floors 32-37 farming
 
 
