@@ -17,12 +17,15 @@ Missions:
         - Ninja & Onmyo locks of hair
         - All important mission rewards (ex. smithing texts from missions rewards)
 
-    Twilight Missions
+    Twilight Missions:
         - Videos covering all the Twilight Missions on all difficulties
         - Show important item locations in the Twilight Missions
 
-    Trophies and Achivements
+    Trophies and Achivements:
         - How to get all Trophies
+        - Link to finding all Kodama locations
+        - All spa locations
+        - 
 
 Section 2:
 Enemies, Characters, Guaridan Spirits:
@@ -54,6 +57,7 @@ Weapons, Skill Tree, Technical Mechanics:
         - Show all Weapon Skill Trees (GIFs?)
         - Show where the skills are aquired if needed
         - Show which Dojo missions are required for the specific skills
+        - Show ho to unlock specific Dojo missions
     
     Technical Mechanics:
         - SacredForce / PooferLlama tech showcase
@@ -63,6 +67,8 @@ Character Stats, Satuses:
     Stats:
         - Show all stats and weapon scaling
         - Link level reset books 
+        - Agyo points list (100% completion)
+        - Ungyo points list (100% completion)
 
     Status:
         - All status icons (images)
@@ -72,6 +78,7 @@ Section 5:
 Items:
     - Show all the items (images and item description. If lore exists then show lore as well)
     - Locations of main items (ex. Harakiri Sword in Isle of Demons)
+    - If specific farming methods exists for specific items, then show them as well (large Amrita crystals, White Ochoko Cup farm)
 
 Section 6:
 Blacksmith:
@@ -81,7 +88,8 @@ Blacksmith:
     - Show all rarities of Umbracite and link to the Twilight Missions
     - Show all consumable items that can be forged at the blacksmith
     - Link mission that brings Muramasa to the forge
-    - Show Patronage Points
+    - Show what you can get with Patronage points
+    - How to get Patronage points
     
 Section 7
 The Abyss
@@ -91,12 +99,19 @@ The Abyss
                 - Floor 1
                 - Floor 2
                 - Floor 3 . . .
+    - Show the debuffs for each floor 
+    - Show every single level for each of the boats
+
+        (Steam guide covers all boat levels, and debuffs for each floor)
+
     - Graces / Ethereal Gear
+    - Defiling gear
     - All Grace sets
     - Yasakani Magatama. Link to the Acivement "Holy Trinity" for the Yasakani Magatama farm.
-    - Defiling gear
     - Marabashi Amrita farm
-    - Floors 32 - 37 
+    - Floors 32 - 37
+    - Floor 4 red boat Hanzo farming for smithing texts
+    - Link to the full smithing text list 
 
 Section 8
 Builds
