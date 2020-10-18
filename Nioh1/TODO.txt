@@ -1,6 +1,14 @@
 Nioh 1 Menu / Content
 
-Section 1:
+Section 0
+Tutorial / Basic Controls:
+    - Specific menu settings
+    - Basics of Stance Switching
+    - Ki Pulsing
+    - Flux I and II 
+    - Basic fighting mechanics from SacredForce
+
+Section 1
 Missions:
     Main Missions:
         - Cover all main missions on all difficulties 
@@ -9,6 +17,8 @@ Missions:
             - Show all cutscenes from the game
         - Ninja & Onmyo locks of hair
         - All Kodama locations
+        - All spa locations. Link to the "Spa Healer", "Spa Lover", "Cleanliness is Next to Godliness", and "Wrinkly Soaker" 
+            Achivements
         - All important mission rewards (smithing texts from mission rewards)
 
     Side Missions:
@@ -27,7 +37,7 @@ Missions:
         - All spa locations
         - 
 
-Section 2:
+Section 2
 Enemies, Characters, Guaridan Spirits:
     Enemies:
         - Show all basic enemies: Pictures and story / lore descriptions
@@ -51,7 +61,7 @@ Enemies, Characters, Guaridan Spirits:
         - Show images and lore description for each character
         - Link to bosses page vice versa if needed
 
-Section 3:
+Section 3
 Weapons, Skill Tree, Technical Mechanics:
     Skill Tree:
         - Show all Weapon Skill Trees (GIFs?)
@@ -62,7 +72,7 @@ Weapons, Skill Tree, Technical Mechanics:
     Technical Mechanics:
         - SacredForce / PooferLlama tech showcase
 
-Section 4:
+Section 4
 Character Stats, Satuses:
     Stats:
         - Show all stats and weapon scaling
@@ -74,13 +84,13 @@ Character Stats, Satuses:
         - All status icons (images)
         - Descriptions of all status in the game (including Demon, Wise, Nioh, and Abyss)
 
-Section 5:
+Section 5
 Items:
     - Show all the items (images and item description. If lore exists then show lore as well)
     - Locations of main items (ex. Harakiri Sword in Isle of Demons)
     - If specific farming methods exists for specific items, then show them as well (large Amrita crystals, White Ochoko Cup farm)
 
-Section 6:
+Section 6
 Blacksmith:
     - Full Temper table
     - Full percentages for attributes (min and max percentages)
@@ -90,33 +100,51 @@ Blacksmith:
     - Link mission that brings Muramasa to the forge
     - Show what you can get with Patronage points
     - How to get Patronage points
+    - Link to smithing texts
     
 Section 7
-The Abyss
-    - Website format:
+Smithing Texts Table:
+    - Full smithing text table 
+    - Location of drops 
+    - Link to the Floor 4 Hanzo smithing text farm
+    - Hidden texts / skills
+
+Section 8
+The Abyss:
+    - Graces / Ethereal Gear
+    - Defiling gear
+    - Droplet of Decay. Link to the Droplet of Decay item description
+    - All Grace sets
+    - Yasakani Magatama. Link to the Acivement "Holy Trinity" for the Yasakani Magatama farm.
+    - Marobashi Amrita farm
+    - Floors 32 - 37
+    - Floor 4 red boat Hanzo farming for smithing texts
+    - Link to the full smithing text list? 
+    
+    - Abyss Floor Guide: Website format:
         - Floors 1-100
             - Floors 1-10
                 - Floor 1
                 - Floor 2
                 - Floor 3 . . .
     - Show the debuffs for each floor 
-    - Show every single level for each of the boats
-
+    - Show every single level for each of the boats. Guide to the boat levels
         (Steam guide covers all boat levels, and debuffs for each floor)
 
-    - Graces / Ethereal Gear
-    - Defiling gear
-    - All Grace sets
-    - Yasakani Magatama. Link to the Acivement "Holy Trinity" for the Yasakani Magatama farm.
-    - Marabashi Amrita farm
-    - Floors 32 - 37
-    - Floor 4 red boat Hanzo farming for smithing texts
-    - Link to the full smithing text list 
-
-Section 8
-Builds
+Section 9
+Builds:
     - How to build your own build
-    - link to Graces
-    - link to floors 32-37 farming
+    - Link to Graces
+    - Link to floors 32-37 farming
+    - Link to Marobashi farm
+    - Link to Hanzo smithing text farm
+    - Link to full smithing texts table 
+
+    - SotC build
+    - Iai Quickdraw build
+    - Flowing Shadow build
+    - LW build
+    - Hayabusa Build
+    -
 
 
