@@ -111,15 +111,16 @@ Smithing Texts Table:
 
 Section 8
 The Abyss:
+    - Gear Sets (link to smithing text table if needed)
     - Graces / Ethereal Gear
+    - All Grace sets
     - Defiling gear
     - Droplet of Decay. Link to the Droplet of Decay item description
-    - All Grace sets
     - Yasakani Magatama. Link to the Acivement "Holy Trinity" for the Yasakani Magatama farm.
     - Marobashi Amrita farm
     - Floors 32 - 37
     - Floor 4 red boat Hanzo farming for smithing texts
-    - Link to the full smithing text list? 
+    - Link to the full smithing text list when needed 
     
     - Abyss Floor Guide: Website format:
         - Floors 1-100
