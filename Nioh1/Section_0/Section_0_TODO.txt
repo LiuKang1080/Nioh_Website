@@ -1,0 +1,29 @@
+Section 0: Tutorial and Basic Controls 
+    
+Specific game settings:
+    - Changing gear color drops to default. Rest of the website matches the defualt.
+    - Setting the number of hotbar wheels between 2-4.
+    - 
+
+Weight Percentages:
+    - Weight percent for A agility.
+    - Weight percent for B agility.
+    - Weight percent for C agility.
+    - Weight percent for D agility.
+
+Animations for each tier of agility:
+    - Dash Ki consumption for each tier.
+    - Dodge length for each tier. 
+    - Ki recovery speed for each tier.
+
+Low / Mid / High Stance Mechanics:
+    - Attacks deflecting off of enemies (Strong attack and special attacks do not)
+    - Special attacks
+    - Stance switching during animations
+
+Flux I / Flux II:
+    - Specific skills that overwrite Flux I 
+        - Tonfa's Demon Dance (link to the skill tree)
+        - Spear High stance switch (link to the skill tree)
+
+
