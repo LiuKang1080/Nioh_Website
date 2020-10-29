@@ -3,7 +3,6 @@ Section 0: Tutorial and Basic Controls
 Specific game settings:
     - Changing gear color drops to default. Rest of the website matches the defualt.
     - Setting the number of hotbar wheels between 2-4.
-    - 
 
 Weight Percentages:
     - Weight percent for A agility.
@@ -15,15 +14,27 @@ Animations for each tier of agility:
     - Dash Ki consumption for each tier.
     - Dodge length for each tier. 
     - Ki recovery speed for each tier.
+    - When are invincibility frames (i-frames) active during dashing / rolling?
+    - Which stance has more i-frames during dodge / rolls?
 
 Low / Mid / High Stance Mechanics:
     - Attacks deflecting off of enemies (Strong attack and special attacks do not)
-    - Special attacks
-    - Stance switching during animations
+    - Special attacks.
+    - Stance switching during animations.
+    - Specific animation canceling? (Link to SacredForce if needed)
 
 Flux I / Flux II:
     - Specific skills that overwrite Flux I 
         - Tonfa's Demon Dance (link to the skill tree)
         - Spear High stance switch (link to the skill tree)
+    - Translate accurately of the Flux I and II descriptions.
 
+Starting Suggestions / Tower of London Tutorial:
+    - Tower of London (ToL):
+        - Mechanics that are missing:
+            - No stance switching in ToL
+            - No ki pulse in ToL
 
+    - Choosing the first 2 stats isn't that important, the weapon selection is more important.
+    - Suggestion: Sword + Spear starting
+    - Kato Guardian Spirit start
