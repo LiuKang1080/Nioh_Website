@@ -1,6 +1,6 @@
 Nioh 1 Menu / Content
 
-Section 0
+Section 1
 Tutorial / Basic Controls:
     - Specific menu settings
     - Basics of Stance Switching
@@ -8,7 +8,7 @@ Tutorial / Basic Controls:
     - Flux I and II 
     - Basic fighting mechanics from SacredForce
 
-Section 1
+Section 2
 Missions:
     Main Missions:
         - Cover all main missions on all difficulties 
@@ -37,7 +37,7 @@ Missions:
         - All spa locations
         - 
 
-Section 2
+Section 3
 Enemies, Characters, Guaridan Spirits:
     Enemies:
         - Show all basic enemies: Pictures and story / lore descriptions
@@ -61,7 +61,7 @@ Enemies, Characters, Guaridan Spirits:
         - Show images and lore description for each character
         - Link to bosses page vice versa if needed
 
-Section 3
+Section 4
 Weapons, Skill Tree, Technical Mechanics:
     Skill Tree:
         - Show all Weapon Skill Trees (GIFs?)
@@ -72,7 +72,7 @@ Weapons, Skill Tree, Technical Mechanics:
     Technical Mechanics:
         - SacredForce / PooferLlama tech showcase
 
-Section 4
+Section 5
 Character Stats, Satuses:
     Stats:
         - Show all stats and weapon scaling
@@ -84,13 +84,13 @@ Character Stats, Satuses:
         - All status icons (images)
         - Descriptions of all status in the game (including Demon, Wise, Nioh, and Abyss)
 
-Section 5
+Section 6
 Items:
     - Show all the items (images and item description. If lore exists then show lore as well)
     - Locations of main items (ex. Harakiri Sword in Isle of Demons)
     - If specific farming methods exists for specific items, then show them as well (large Amrita crystals, White Ochoko Cup farm)
 
-Section 6
+Section 7
 Blacksmith:
     - Full Temper table
     - Full percentages for attributes (min and max percentages)
@@ -102,14 +102,14 @@ Blacksmith:
     - How to get Patronage points
     - Link to smithing texts
     
-Section 7
+Section 8
 Smithing Texts Table:
     - Full smithing text table 
     - Location of drops 
     - Link to the Floor 4 Hanzo smithing text farm
     - Hidden texts / skills
 
-Section 8
+Section 9
 The Abyss:
     - Gear Sets (link to smithing text table if needed)
     - Graces / Ethereal Gear
@@ -132,7 +132,7 @@ The Abyss:
     - Show every single level for each of the boats. Guide to the boat levels
         (Steam guide covers all boat levels, and debuffs for each floor)
 
-Section 9
+Section 10
 Builds:
     - How to build your own build
     - Link to Graces
@@ -147,5 +147,3 @@ Builds:
     - LW build
     - Hayabusa Build
     -
-
-
