@@ -38,7 +38,7 @@ Missions:
         - 
 
 Section 3
-Enemies, Characters, Guardian Spirits:
+Enemies / Bosses:
     Enemies:
         - Show all basic enemies: Pictures and story / lore descriptions
         - Show stratagies fighting the basic enemies (ex. fighting raven tengu (PooferLlama Raven Tengu video guide))
@@ -51,18 +51,18 @@ Enemies, Characters, Guardian Spirits:
         - Picture and lore description
         - Link to main or side missions vice versa if needed.
 
-Section 4 
-    Characters:
-        - Show images and lore description for each character
-        - Link to bosses page vice versa if needed
-
-Section 5
+Section 4
 Guardian Spirits:
     Guardian Spirits:
         - Picture and lore descriptions
         - Show the GS card at base rank, and at max rank
         - Show secondary effects when equipped as a secondary guardian spirit
         - Information on when you get your 2nd guardian spirit
+
+Section 5
+    Characters:
+        - Show images and lore description for each character
+        - Link to bosses page vice versa if needed
 
 Section 6
 Weapons, Skill Tree, Technical Mechanics:
