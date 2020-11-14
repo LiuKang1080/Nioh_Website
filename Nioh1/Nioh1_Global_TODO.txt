@@ -73,6 +73,8 @@ Weapons, Skill Tree, Technical Mechanics:
         - Show ho to unlock specific Dojo missions
     
     Technical Mechanics:
+        - Advanced input tech
+        - Techniques to simplify the process of inputs (thumb work)
         - SacredForce / PooferLlama tech showcase
 
 Section 7
