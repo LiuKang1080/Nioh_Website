@@ -22,7 +22,7 @@
                 <span class="sr-only"></span>
             </button>
             <!-- <div class="dropdown-menu" aria-labelledby="Missions_Dropdown"> -->
-            <div class="dropdown-menu" aria-labelledby="Missions_Dropdown">
+            <div class="dropdown-menu">
                 <a class="dropdown-item" href="#">Way of the Samurai</a>
                 <a class="dropdown-item" href="#">Way of the Strong</a>
                 <a class="dropdown-item" href="#">Way of the Demon</a>
@@ -32,56 +32,90 @@
             </div>
         </div>
 
+        <!-- Section 3: Bosses / Enemies -->
         <div class="btn-group">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Bosses / Enemies
-                <span class="caret"></span>
+            <button type="button" class="btn btn-primary">Bosses / Enemies</button>
+            <button type="button" id="Enemies_Dropdown" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only"></span>
             </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Bosses</a>
+                <a class="dropdown-item" href="#">Enemies</a>
+            </div>
         </div>
         
+        <!-- Section 4: Guardian Spirits -->
         <div class="btn-group">
             <button type="button" class="btn btn-primary">Guardian Spirits</button>
         </div>
         
+        <!-- Section 5: Characters -->
         <div class="btn-group">
             <button type="button" class="btn btn-primary">Characters</button>
         </div>
         
+        <!-- Section 6: Weapons / Skill Tree -->
         <div class="btn-group">
             <button type="button" class="btn btn-primary">Weapons / Skill Tree</button>
         </div>
         
     <br>
         
+        <!-- Section 7: Character Stats / Statuses -->
         <div class="btn-group">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Stats / Statuses
-                <span class="caret"></span>
-            </button>  
+            <button type="button" class="btn btn-primary">Stats / Statuses</button>
+            <button type="button" id="Enemies_Dropdown" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only"></span>
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Character Stats</a>
+                <a class="dropdown-item" href="#">Statuses</a>
+            </div> 
         </div>
         
+        <!-- Section 8: Items -->
         <div class="btn-group">
             <button type="button" class="btn btn-primary">Items</button>
         </div>
         
+        <!-- Section 9: Blacksmith -->
         <div class="btn-group">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blacksmith
-                <span class="caret"></span>
+            <button type="button" class="btn btn-primary">Blacksmith</button>
+            <button type="button" id="Enemies_Dropdown" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only"></span>
             </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Temper Table</a>
+                <a class="dropdown-item" href="#">? Attribute Conflict Table ?</a>
+            </div>
         </div>
         
+        <!-- Section 10: Smithing Texts -->
         <div class="btn-group">
             <button type="button" class="btn btn-primary">Smithing Texts</button>
         </div>
         
+        <!-- Section 11: The Abyss -->
+        <!-- [Amrita Farm | Graces | Hanzo Farm | Abyss Floors 1-999] -->
         <div class="btn-group">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">The Abyss
-                <span class="caret"></span>
+            <button type="button" class="btn btn-primary">The Abyss</button>
+            <button type="button" id="Enemies_Dropdown" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only"></span>
             </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Amrita Farming</a>
+                <a class="dropdown-item" href="#">Graces</a>
+                <a class="dropdown-item" href="#">Hanzo Farming</a>
+                <a class="dropdown-item" href="#">Floors 1 - 999</a>
+            </div>
         </div>
         
+        <!-- Section 12: Builds -->
         <div class="btn-group">
             <button type="button" class="btn btn-primary">Builds</button>
         </div>
     </div>
+
 
     <!-- Adding JavaScript, JQuery, and Bootstrap.js Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -91,12 +125,6 @@
 </body>
 </html>
 
-<!-- 
-<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action
-    <span class="caret"></span>
-</button> 
--->
-
 
 <!-- 
 TODO:
@@ -104,8 +132,7 @@ TODO:
     - Add a constant Navbar at the top of the website.
         - Navbar should contain the links back to "Home" (landing page), "Nioh 2 home page"
     
-    !!! Split Bottons now have been fixed, need to add the proper content for the specific dropwdowns !!!
-    - Add split dropdown button selections to specific buttons: 
+    !!! Add proper links to the individual HTML pages once you've created those HTML pages !!!
     - Missions[Way of the Samurai | Way of the Strong | Way of the Demon | Way of the Wise | Way of the Nioh | Twilight Missions]
     - Bosses / Enemies [Bosses | Enemies]
     - Stats / Statuses [Stats | Statuses]
@@ -116,3 +143,6 @@ TODO:
     - Place all of the buttons in a div and center the div towards the middle of the screen. 
         (Might need to move it towards the left of the screen depending on the background image)
 -->
+
+<!-- Information on Bootstrap Split Dropdown Buttons: -->
+<!-- https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-dropdowns.php -->
