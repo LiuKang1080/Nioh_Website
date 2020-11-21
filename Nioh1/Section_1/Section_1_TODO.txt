@@ -1,4 +1,4 @@
-Section 0: Tutorial and Basic Controls 
+Section 1: Tutorial and Basic Controls 
     
 Specific game settings:
     - Changing gear color drops to default. Rest of the website matches the defualt.
