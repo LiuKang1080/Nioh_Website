@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nioh 1 and 2 Wiki</title>
-    <link rel="stylesheet" href="\index.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <a href="..\Nioh1\Nioh1_index.html">
-        <img id="Nioh_Logo" src="..\Home_Page_Images\Nioh_logo.png" alt="">
+    <a href="Nioh1/Nioh1_index.html">
+        <img id="Nioh_Logo" src="Home_Page_Images/Nioh_logo.png" alt="">
     </a>
-    <a href="..\Nioh2\Nioh2_Index.html">
-        <img id="Nioh2_Logo" src="..\Home_Page_Images\Nioh2_logo.png" alt="">
+    <a href="Nioh2/Nioh2_Index.html">
+        <img id="Nioh2_Logo" src="Home_Page_Images/Nioh2_logo.png" alt="">
     </a>
     
 </body>
 </html>
+
+<!-- https://maximorlov.com/deploying-to-github-pages-dont-forget-to-fix-your-links/ -->
