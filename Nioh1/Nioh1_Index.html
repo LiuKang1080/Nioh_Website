@@ -11,12 +11,29 @@
 <body>
     <nav class="navbar navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="..\index.html">Home</a>
-            <a class="navbar-brand" href="#">
-                <img src="..\Home_Page\Nioh2_logo.png" width="33" height="33" class="d-inline-block align-top" alt="">
-                Nioh 2
-            </a>
-
+            <div class="btn-group" id="navbar_links">
+                <a class="navbar-brand" href="..\index.html">Home</a>
+            </div>
+            
+            <div class="btn-group" id="navbar_links">
+                <a class="navbar-brand dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="..\Home_Page\Nioh2_logo.png" width="35" height="35" class="d-inline-block align-top" alt="">
+                    Nioh 2
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="..\Nioh2\Nioh2_Index.html">Nioh 2 Home</a>
+                    <a class="dropdown-item" href="#">Nioh 2: Section 1</a>
+                    <a class="dropdown-item" href="#">Nioh 2: Section 2</a>
+                    <a class="dropdown-item" href="#">Nioh 2: Section 3</a>
+                    <a class="dropdown-item" href="#">Nioh 2: Section 4</a>
+                    <a class="dropdown-item" href="#">Nioh 2: Section 5</a>
+                    <a class="dropdown-item" href="#">Nioh 2: Section 6</a>
+                    <a class="dropdown-item" href="#">Nioh 2: Section 7</a>
+                    <a class="dropdown-item" href="#">Nioh 2: Section 8</a>
+                    <a class="dropdown-item" href="#">Nioh 2: Section 9</a>
+                    <a class="dropdown-item" href="#">Nioh 2: Section 10</a>
+                </div>
+            </div>
         </div>
     </nav>
 
@@ -139,16 +156,21 @@
 <!-- 
 TODO:
     - Add static background of the Nioh 1 main menu. 
-    - Add a constant Navbar at the top of the website.
-        - Navbar should contain the links back to "Home" (landing page), "Nioh 2 home page"
-    
+    - Double check and make sure that the Navbar is constant throughout all of the pages for Nioh 1 and Nioh 2 
+        - Nioh 2 button dropdown menu: Make the proper number of sections for Nioh 2.
+            - Nioh 2 Sections 1 - 10 are placeholder sections for the purposes of testing links.
+            - Properly link all of the sections to the correct pages.
+       
     !!! Add proper links to the individual HTML pages once you've created those HTML pages !!!
-    - Missions[Way of the Samurai | Way of the Strong | Way of the Demon | Way of the Wise | Way of the Nioh | Twilight Missions]
-    - Bosses / Enemies [Bosses | Enemies]
-    - Stats / Statuses [Stats | Statuses]
-    - Blacksmith ["Other"? | Temper Table | Patronage Points]
-    - The Abyss [Amrita Farm | Graces | Hanzo Farm | Abyss Floors 1-999]
-        (Graces dropdown should link to the modulo calculation for the grace sets)
+    - Link to the Main Topic / Home for each of the specific buttons
+    - Link to the proper pages within the dropdowns:
+        - Missions
+            - [Way of the Samurai | Way of the Strong | Way of the Demon | Way of the Wise | Way of the Nioh | Twilight Missions]
+        - Bosses / Enemies [Bosses | Enemies]
+        - Stats / Statuses [Stats | Statuses]
+        - Blacksmith [Temper Table]
+        - The Abyss [Amrita Farm | Graces | Hanzo Farm | Abyss Floors 1-999]
+            (Graces dropdown should link to the modulo calculation for the grace sets)
     
     - Place all of the buttons in a div and center the div towards the middle of the screen. 
         (Might need to move it towards the left of the screen depending on the background image)

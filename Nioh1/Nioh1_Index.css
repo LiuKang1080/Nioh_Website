@@ -12,6 +12,12 @@ Styling Sheet for Nioh1_Index.html
     margin-top: 0.25em;
 }
 
+#navbar_links {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 0.10em;
+}
+
 /* .btn-primary {
     text-align: center;
     width: 175px;
