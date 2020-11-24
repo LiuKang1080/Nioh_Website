@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="..\Nioh_Website\index.css">
 </head>
 <body>
-    <a href="..\Nioh_Website\Nioh1\Nioh1_index.html">
+    <a href="..//Nioh1//Nioh1_index.html">
         <img id="Nioh_Logo" src="..\Nioh_Website\Home_Page\Nioh_logo.png" alt="">
     </a>
-    <a href="..\Nioh_Website\Nioh2\Nioh2_Index.html">
+    <a href="..//Nioh2//Nioh2_Index.html">
         <img id="Nioh2_Logo" src="..\Nioh_Website\Home_Page\Nioh2_logo.png" alt="">
     </a>
     
