@@ -69,9 +69,9 @@ Guardian Spirits:
         - GIFs of Guardian Spirit Amulet usage
 
 Section 5
-    Characters:
-        - Show images and lore description for each character
-        - Link to bosses page vice versa if needed
+Characters:
+    - Show images and lore description for each character
+    - Link to bosses page vice versa if needed
 
 Section 6
 Weapons, Skill Tree, Technical Mechanics:
