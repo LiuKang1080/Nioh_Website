@@ -3,10 +3,16 @@ Nioh 1 Menu / Content
 Section 1
 Tutorial / Basic Controls:
     - Specific menu settings
+    
+    (Basic combat)
     - Basics of Stance Switching
     - Ki Pulsing
-    - Flux I and II 
-    - Basic fighting mechanics from SacredForce
+    - Flux I and II
+    - High Stance and special move interactions on block
+    - Living Weapon Mechanics
+
+    - Elemental damage (Fire, Water, Lightning, Wind, Earth, Poison, Paralysis)
+    - Basic fighting mechanics from SacredForce (Nioh 1 videos)
 
 Section 2
 Missions:
@@ -18,8 +24,8 @@ Missions:
         - Ninja & Onmyo locks of hair
         - All Kodama locations
         - All spa locations. Link to the "Spa Healer", "Spa Lover", "Cleanliness is Next to Godliness", and "Wrinkly Soaker" 
-            Achivements
-        - All important mission rewards (smithing texts from mission rewards)
+            Achievements
+        - All important mission rewards (smithing texts / locks of hair from mission rewards)
 
     Side Missions:
         - Cover all side missions on all difficulties
@@ -30,34 +36,34 @@ Missions:
     Twilight Missions:
         - Videos covering all the Twilight Missions on all difficulties
         - Show important item locations in the Twilight Missions
+        - Different tiers of Umbracite
 
     Trophies and Achivements:
         - How to get all Trophies
         - Link to finding all Kodama locations
         - All spa locations
-        - 
 
 Section 3
-Enemies / Bosses:
-    Enemies:
-        - Show all basic enemies: Pictures and story / lore descriptions
-        - Show stratagies fighting the basic enemies (ex. fighting raven tengu (PooferLlama Raven Tengu video guide))
-        - Picture and lore description
-        - Weaknesses and resistances for enemies
-
+Bosses / Enemies:
     Bosses:
         - Show all bosses (main story, DLC 1, 2, 3)
         - Strategy to fight all bosses
         - Picture and lore description
         - Link to main or side missions vice versa if needed.
+        - Weakness and resistances for bosses 
+        
+    Enemies:
+        - Show all basic enemies: Pictures and story / lore descriptions
+        - Show stratagies fighting the enemies (ex. fighting Raven Tengu [PooferLlama Raven Tengu video guide])
+        - Picture and lore description
+        - Weaknesses and resistances for enemies
 
 Section 4
 Guardian Spirits:
-    Guardian Spirits:
-        - Picture and lore descriptions
-        - Show the GS card at base rank, and at max rank
-        - Show secondary effects when equipped as a secondary guardian spirit
-        - Information on when you get your 2nd guardian spirit
+    - Picture and lore descriptions
+    - Show the GS card at base rank, and at max rank
+    - Show secondary effects when equipped as a secondary guardian spirit
+    - Information on when you get your 2nd guardian spirit
 
 Section 5
     Characters:
@@ -70,7 +76,7 @@ Weapons, Skill Tree, Technical Mechanics:
         - Show all Weapon Skill Trees (GIFs?)
         - Show where the skills are aquired if needed
         - Show which Dojo missions are required for the specific skills
-        - Show ho to unlock specific Dojo missions
+        - Show how to unlock specific Dojo missions
     
     Technical Mechanics:
         - Advanced input tech
@@ -146,9 +152,10 @@ Builds:
     - Link to Hanzo smithing text farm
     - Link to full smithing texts table 
 
-    - SotC build
-    - Iai Quickdraw build
-    - Flowing Shadow build
-    - LW build
-    - Hayabusa Build
-    -
+    Specific Builds:
+        - SotC build
+        - Iai Quickdraw build
+        - Flowing Shadow build
+        - LW build
+        - Hayabusa Build
+        -

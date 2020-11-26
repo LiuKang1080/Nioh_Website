@@ -1,0 +1,243 @@
+Nioh 2 Menu / Content 
+
+Section 1
+Basic Controls:
+    - Specific menu settings
+    - Dark Relm mechanic
+        - Finding the host of the dark relm
+        - Suggestions of  certain skills from the skill tree to make it easier in the dark relm 
+    
+    (Basic Combat)
+    - Basics of stance switching
+    - Ki Pulsing
+    - Flux I and II
+    - High Stance and special move interactions on block
+
+    - Elemental damage (Fire, Water, Lightning, Purity, Corruption, Poison, Paralysis)
+    
+    (Yokai Shift)
+    [!! GIFs would be recommended for the following sections !!]
+    - Yokai Shift(YS) (Living Weapon) Mechanics
+        - Movesets for Brute, Feral, Phantom
+        - Animation cancels while in YS 
+        - Charge attacks in YS (trinagle + circle --> charge heavy attack)
+        - Yokai Shiftling Skill Tree. Look at the skills that change the way YS behaves 
+
+    - Burst Counter Mechanics:
+        - Burst Counter animation cancels
+            - Burst Counter out of heavy attacks and special attacks
+                - ex) Feral dodge out of normal attacks (ex Spearfall) and skill attacks (Renegade Dragon)
+            - Burst Counter animation cancel out of Feather Techniques / Ninjutsu / Onmyo spell casting.
+        
+        - Burst Counter usage / tactics
+            - When out of Ki
+            - Movement during combat / repositioning 
+            - Continue combos for more pressure (Brute)
+
+    (Soul Core)
+    - Soul Core Mechanics:
+        - Soul Core abilities. Talk a little bit about what they are. Link to the FULL Soul Core list 
+        - Animation cancels from normal attacks, and skill attacks
+        - Animation cancels from Feather Techniques / Ninjutsu / Onmyo spell casting (!!!Need to double check this!!!)
+        - Soul Core usage / tactics
+            - When out of Ki
+            - Continue combos for more pressure
+            - Deplete an enemy's Ki
+            - Invincibility Frames
+            - Movement during combat / repositioning
+
+    - Secondary Guardian Spirit
+        - Strategies with 2 Guardian Spirits and 6 Souls Cores
+        - Acces to 2 different Burst Counters 
+            - No cooldown on switching back and forth between guardian spirits
+    
+    - Basic fighting mechanics from SacredForce
+    - Advanced Techniques from SacredForce
+    - Link to other basic mechanics / hidden mechanics (PooferLlama?)
+
+Section 2
+Missions:
+    Main Missions:
+        - Cover all main missions on all difficulties
+        - Videos covering all main missions ("Would like a complete walkthrough [FightingCowboy]")
+            - Cover the story texts before and after missions
+            - Show all cutscenes from the game
+        - All Ninja & Onmyo Locks of hair
+        - All Kodama locations
+        - All Spa locations. Link to the Achievements:
+            Base Game
+                - "Spa Healer"
+                - "Spa Lover"
+            DLC 1 (Tengu's Desciple)
+                - "Spa Addict"
+            DLC 2 (Darkness In the Capital)
+                - "Spa Fanatic"
+            DLC 3 (The First Samurai)
+                - Spa "SOMETHING"
+        - All Dark Relms cleared
+            - Link to the "Let There Be Light" achievement
+            
+        - All important mission rewards
+            - smithing texts, lock of hair, and other important items
+
+    Side Missions:
+        - Cover all side missions on all difficulties
+        - Videos covering all side missions ("Would like a complete walkthrough [FightingCowboy]")
+        - Ninja & Onmyo locks of hair locations
+        - All important mission rewards
+            - smithing texts, locks of hair, and other important items
+        - All Dark Relms cleared
+            - Link to the "Let There Be Light" achievement
+
+    Twilight Missions:
+        - Videos covering all Twilight Missions on all difficulties
+        - Show important item locations in Twilight Missions
+        - Different tiers of Umbracite
+        - All Dark Relms cleared
+            - Link to the "Let There Be Light" achievement
+
+    Trphies & Achivements:
+        - How to get all trophies
+        - Link to fighting all Kodamas
+        - All spa locations
+        - All Dark Relms cleared
+        (Link vice-versa when needed)
+
+Section 3
+Bosses / Enemies:
+    Bosses:
+        - Show all bosses (main story, DLC 1, 2, 3)
+        - Strategy to fight all bosses
+        - Picture and description of each boss
+        - Link to main or side missions where the boss appears (vice-versa when needed)
+        - Show weakness and resistances for every single boss
+
+    Enemies:
+        - Show all enemies: Picture and lore descriptions
+        - Show Strategies fighting the enemies (ex. fighting Raven Tengu [PooferLlama's Raven Tengu guide]) 
+        - Show weakness and resistances for every single enemy
+
+Section 4
+Guardian Spirits:
+    - Picture and lore descriptions (include YS color (Brute, Phantom, Feral))
+    - ["Is DLC 3 going to allow us to level up GS?"]
+    - Show secondary effects when equipped as a secondary guardian spirit
+    - Information on when you get your 2nd guardian spirit
+    - 2 burst counters, 6 Soul Cores
+
+Section 5
+Characters:
+    - Show images and lore description for each character
+        - Section it off with DLCs
+    - Link to bosses page (vice-versa) when needed
+
+Section 6 
+Weapons, Skill Tree, Techincal Mechanics:
+    Skill Tree:
+        - Show all Weapons, Samurai, Ninjutsu, Onmyo, and Shiftling Skill Trees 
+            - Show hidden skills. Link to Section 10 when needed
+        - Show the max proficiency for Weapons, Ninjutsu, Onmyo, and Shiftling
+        - How to level up Weapons proficiency
+        - How to level up Ninjutsu & Onmyo proficiency
+        - How to level up Samurai proficiency
+        - How to level up Shiftling proficiency
+        - Link to specific Dojo Missions for unlocking certain skills
+        - Link to the Smithing Text table for Secret Skills (ex. Ultimate Sign of the Cross)
+
+        - Technical / Hidden Mechanics should be expanded upon here
+        - SacredForce, PooferLlama, NuclearTooth, Xenoswarm and others
+
+Section 7 
+Character Stats, Statuses:
+    Stats:
+        - Link to level reset books in Section 8 Items
+        - Show all stats and weapon scaling
+        - Show max level for each stat when DLC 3 releases
+        - Link to Blacksmith for Remodeling
+        - Agyo points list (100% completion)
+        - Ungyo points list (100% completion)
+
+    Status:
+        - All status icons (images)
+        - Description of all status in the game (including Demon, Wise, Nioh, and the Abyss)
+
+Section 8
+Items:
+    - Show all of the items (images and description. If lore exists then show lore info as well)
+    - Location of main items (ex. Harakiri Sword)
+    - If specific farming methods exists for specific items, then show them as well (Farming Amrita Crystals, Whetstone, Nikawa Glue)
+
+Section 9
+Blacksmith:
+    - Full Temper Table
+        - Attributes seperated by weapon rarity. ex) show the attributes that can only be rolled on Ethereal items
+    - Full percentages for attributes (min and max percentages)
+    - Show data for attributes when at min and max familiarity
+    - Show what the Remodel feature does
+    
+    - Show all rarities of Umbracite, and link to the Umbracite item description. If specific farming methods exists, then link to them as well.
+    - Show all consumable items that can be forged at the blackmsith
+    
+    - What do the missions like "Fire Forge God" (whatever it is called) even do?
+        what does completing the mission change for the blackmith? Does it add new items for crafting?
+
+    - Link the mission that brings back Muramasa to the forge
+    - Show what you can get with Patronage points
+    - How to get Patronage points
+    - Link to the Smithing Texts table for forging, and build creation
+
+Section 10
+Smithing Text Table / Secret Skills:
+    Smithing Texts:
+        - FULL Smithing Text Table (Should cover ALL smithing texts (seperate sections for DLCs), Shows who drops what smithing text)
+        - Location of drops, link to main and side missions when needed
+        - Speedrun through level methods for farming bosses
+        - Boss farming methods 
+        
+    Secret Skills
+        - List of ALL hidden skills (seperate section for the DLCs)
+            - Link to the nodes on the skill trees when needed.
+            - Link to Section 6 Skill Trees when needed.
+        - Speedrun through level methods for farming bosses
+        - Boss farming methods
+
+Section 11
+Soul Cores:
+    - Link to Section 2 Missions - Achievements 
+        - Get all soul cores achievement:
+            - "Core Score"
+            - "Friend to the Kodama" 
+            - "Fuse It or Lose It"
+            - "Soul Searcher"
+    
+    - List of ALL Soul Cores (Seperate section for DLCs)
+    - FULL Soul Core Table
+        - Show min - max values for base rank, rank 9, and rank 20
+        - Soul Core attribute conflict table for Souls Core inheriting 
+    - GIFs of Yokai Soul Core Abilities: Normal ability and Dark Relm ability
+
+Section 12
+[!!! The Abyss !!!]:
+    - Gear sets
+        - Show all gear sets [might need to combine it with the Grace list and just make it as one giant table]
+    - Grace list
+        - Show all stats for every single grace
+        - Show specific farming methods for certain graces if they exist
+    
+    - [! Wait until DLC 3 !]
+    - Information on Floors 1 - 999,999 
+    - Who do I gotta farm to get through the abyss?
+
+Section 13
+Builds:
+    - How to build your own build
+        - Link to Poofer's 2 build videos: 1 for Demon and the other one for Wise
+    - Link to Graces
+    - Link Specific important items and the farming strategies
+    - Link to Hidden Skills / farming
+    - Link to full smithing texts table
+
+    Specific Builds:
+        - Paralysis Bow / Arrow Build
+        - Poison Build?
+        -  
