@@ -64,6 +64,9 @@ Guardian Spirits:
     - Show the GS card at base rank, and at max rank
     - Show secondary effects when equipped as a secondary guardian spirit
     - Information on when you get your 2nd guardian spirit
+    - Guardian Spirit Skills: 
+        - Link to the Skill Tree for the Guardian Spirit Amulet 
+        - GIFs of Guardian Spirit Amulet usage
 
 Section 5
     Characters:

@@ -3,17 +3,21 @@ Nioh 2 Menu / Content
 Section 1
 Basic Controls:
     - Specific menu settings
-    - Dark Relm mechanic
-        - Finding the host of the dark relm
-        - Suggestions of  certain skills from the skill tree to make it easier in the dark relm 
     
     (Basic Combat)
     - Basics of stance switching
     - Ki Pulsing
     - Flux I and II
     - High Stance and special move interactions on block
+    - Basic fighting mechanics from SacredForce
+    - Advanced Techniques from SacredForce
+    - Link to other basic mechanics / hidden mechanics (PooferLlama?)
 
     - Elemental damage (Fire, Water, Lightning, Purity, Corruption, Poison, Paralysis)
+    
+    - Dark Relm mechanic
+        - Finding the host of the dark relm
+        - Suggestions of certain skills from the skill tree to make it easier in the dark relm 
     
     (Yokai Shift)
     [!! GIFs would be recommended for the following sections !!]
@@ -50,10 +54,6 @@ Basic Controls:
         - Strategies with 2 Guardian Spirits and 6 Souls Cores
         - Acces to 2 different Burst Counters 
             - No cooldown on switching back and forth between guardian spirits
-    
-    - Basic fighting mechanics from SacredForce
-    - Advanced Techniques from SacredForce
-    - Link to other basic mechanics / hidden mechanics (PooferLlama?)
 
 Section 2
 Missions:
@@ -120,11 +120,16 @@ Bosses / Enemies:
 Section 4
 Guardian Spirits:
     - Picture and lore descriptions (include YS color (Brute, Phantom, Feral))
+    - Guardian Spirit Skills: 
+        - Link to the Skill Tree 
+            - "Fleeting Guardian Amulets"
+            - "Guardian Spirit Talismans"
+        - GIFs of Amulet / trinagle + circle skill in Yokai Shift
     - ["Is DLC 3 going to allow us to level up GS?"]
     - Show secondary effects when equipped as a secondary guardian spirit
     - Information on when you get your 2nd guardian spirit
     - 2 burst counters, 6 Soul Cores
-
+ 
 Section 5
 Characters:
     - Show images and lore description for each character
@@ -147,7 +152,22 @@ Weapons, Skill Tree, Techincal Mechanics:
         - Technical / Hidden Mechanics should be expanded upon here
         - SacredForce, PooferLlama, NuclearTooth, Xenoswarm and others
 
-Section 7 
+Section 7
+Soul Cores:
+    - Link to Section 2 Missions - Achievements 
+        - Get all soul cores achievement:
+            - "Core Score"
+            - "Friend to the Kodama" 
+            - "Fuse It or Lose It"
+            - "Soul Searcher"
+    
+    - List of ALL Soul Cores (Seperate section for DLCs)
+    - FULL Soul Core Table
+        - Show min - max values for base rank, rank 9, and rank 20
+        - Soul Core attribute conflict table for Souls Core inheriting 
+    - GIFs of Yokai Soul Core Abilities: Normal ability and Dark Relm ability
+
+Section 8
 Character Stats, Statuses:
     Stats:
         - Link to level reset books in Section 8 Items
@@ -161,13 +181,13 @@ Character Stats, Statuses:
         - All status icons (images)
         - Description of all status in the game (including Demon, Wise, Nioh, and the Abyss)
 
-Section 8
+Section 9
 Items:
     - Show all of the items (images and description. If lore exists then show lore info as well)
     - Location of main items (ex. Harakiri Sword)
     - If specific farming methods exists for specific items, then show them as well (Farming Amrita Crystals, Whetstone, Nikawa Glue)
 
-Section 9
+Section 10
 Blacksmith:
     - Full Temper Table
         - Attributes seperated by weapon rarity. ex) show the attributes that can only be rolled on Ethereal items
@@ -186,35 +206,20 @@ Blacksmith:
     - How to get Patronage points
     - Link to the Smithing Texts table for forging, and build creation
 
-Section 10
-Smithing Text Table / Secret Skills:
+Section 11
+Smithing Text Table / Hidden Skills:
     Smithing Texts:
         - FULL Smithing Text Table (Should cover ALL smithing texts (seperate sections for DLCs), Shows who drops what smithing text)
         - Location of drops, link to main and side missions when needed
         - Speedrun through level methods for farming bosses
         - Boss farming methods 
         
-    Secret Skills
+    Hidden Skills
         - List of ALL hidden skills (seperate section for the DLCs)
             - Link to the nodes on the skill trees when needed.
             - Link to Section 6 Skill Trees when needed.
         - Speedrun through level methods for farming bosses
         - Boss farming methods
-
-Section 11
-Soul Cores:
-    - Link to Section 2 Missions - Achievements 
-        - Get all soul cores achievement:
-            - "Core Score"
-            - "Friend to the Kodama" 
-            - "Fuse It or Lose It"
-            - "Soul Searcher"
-    
-    - List of ALL Soul Cores (Seperate section for DLCs)
-    - FULL Soul Core Table
-        - Show min - max values for base rank, rank 9, and rank 20
-        - Soul Core attribute conflict table for Souls Core inheriting 
-    - GIFs of Yokai Soul Core Abilities: Normal ability and Dark Relm ability
 
 Section 12
 [!!! The Abyss !!!]:
