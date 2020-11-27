@@ -12,7 +12,23 @@ Tutorial / Basic Controls:
     - Living Weapon Mechanics
 
     - Elemental damage (Fire, Water, Lightning, Wind, Earth, Poison, Paralysis)
+        - Elemental conflicts
+        - How discord properly works
+        
     - Basic fighting mechanics from SacredForce (Nioh 1 videos)
+
+    - Revenant mechanics, Revenant farming spots (Way of the Strong: Spirit Stone Huntress)
+    - How to farm Glory
+    - Hidden Tea House: 
+        - When does the Tea House unlock? (after spider boss mission)
+        - Show all items that Danjo sells (Items, transformations, and gestures)
+        - Show the entire list of Transformation characters
+    
+        - Clans:
+            - Show all stats of clans (min and max)
+
+    - Kodama Offerings 
+        - What do you get when you offer items using the Kodama?
 
 Section 2
 Missions:
