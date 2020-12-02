@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Nioh2_Index.css">
 </head>
 <body>
-    
     <!-- NavBar -->
     <nav class="navbar navbar-dark bg-dark">
         <div class="container">
@@ -42,18 +41,135 @@
     </nav>
 
     <div>
+        <!-- Section 1: Basic Controls / Settings -->
+        <div class="btn-group">
+            <a type="button" class="btn btn-primary" href="">Basic Controls</a>
+        </div>
 
+        <!-- Section 2: Missions -->
+        <div class="btn-group">
+            <a class="btn btn-primary" href="">Missions</a>
+            <button type="button" id="Missions_Dropdown" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only"></span>
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Dream of the Samurai</a>
+                <a class="dropdown-item" href="#">Dream of the Strong</a>
+                <a class="dropdown-item" href="#">Dream of the Demon</a>
+                <a class="dropdown-item" href="#">Dream of the Wise</a>
+                <a class="dropdown-item" href="#">Dream of the Nioh</a>
+                <a class="dropdown-item" href="#">Twilight Missions</a>
+                <a class="dropdown-item" href="#">Achievements</a>
+            </div>
+        </div>
 
+        <!-- Section 3: Bosses / Enemies -->
+        <div class="btn-group">
+            <a class="btn btn-primary" href="">Bosses / Enemies</a>
+            <button type="button" id="Enemies_Dropdown" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only"></span>
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Bosses</a>
+                <a class="dropdown-item" href="#">Enemies</a>
+            </div>
+        </div>
 
+        <!-- Section 4: Guardian Spirits -->
+        <div class="btn-group">
+            <a type="button" class="btn btn-primary" href="">Guardian Spirits</a>
+        </div>
 
+        <!-- Section 5: Characters -->
+        <div class="btn-group">
+            <a type="button" class="btn btn-primary" href="">Characters</a>
+        </div>
 
+        <!-- Section 6: Skills / Skill Tree -->
+        <div class="btn-group">
+            <a type="button" class="btn btn-primary" href="">Skills / Skill Tree</a>
+        </div>
 
+        <br>
+
+        <!-- Section 7: Soul Cores -->
+        <div class="btn-group">
+            <a type="button" class="btn btn-primary" href="">Soul Cores</a>
+        </div>
+
+        <!-- Section 8: Character Stats / Statuses -->
+        <div class="btn-group">
+            <a class="btn btn-primary" href="">Stats / Statuses</a>
+            <button type="button" id="Stats_Dropdown" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only"></span>
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Character Stats</a>
+                <a class="dropdown-item" href="#">Statuses</a>
+            </div> 
+        </div>
+
+        <!-- Section 9: Items -->
+        <div class="btn-group">
+            <a type="button" class="btn btn-primary" href="">Items</a>
+        </div>
+
+        <!-- Section 10: Blacksmith -->
+        <div class="btn-group">
+            <a class="btn btn-primary" href="">Blacksmith</a>
+            <button type="button" id="Blacksmith_Dropdown" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only"></span>
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Temper Table</a>
+            </div>
+        </div>
+
+        <!-- Section 11: Smithing Texts -->
+        <div class="btn-group">
+            <a type="button" class="btn btn-primary" href="">Smithing Texts</a>
+        </div>
+
+        <!-- Section 12: The Abyss -->
+        <div class="btn-group">
+            <a class="btn btn-primary" href="">The Abyss</a>
+            <button type="button" id="Enemies_Dropdown" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only"></span>
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Graces</a>
+                <a class="dropdown-item" href="#">Floors 1 - 999</a>
+            </div>
+        </div>
+
+        <br>
+
+        <!-- Section 13: Builds -->
+        <div class="btn-group">
+            <a type="button" class="btn btn-primary" id="builds_button" href="">Builds</a>
+        </div>
     </div>
 
 
-
-
-
+    <!-- Adding JavaScript, JQuery, and Bootstrap.js Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 </body>
 </html>
+
+<!-- 
+TODO:
+    Background Image:
+        - Add a static background of the Nioh 2 main menu 
+
+    Navbar:
+        - Link back to all of the Nioh 1 - 12 section landing pages
+        - Double check to make sure that the navbar is constant throughout all of the pages for Nioh 1 and Nioh 2
+
+    Nioh2 Index buttons:
+        - Place all of the buttons in a div and center the div towards the middle of the screen
+            (Might need to move it towards the left of the screen depending on the background image)
+
+-->
