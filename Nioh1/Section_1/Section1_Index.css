@@ -10,6 +10,7 @@ Styling Sheet for Section1_Index.html
 }
 
 #nioh1_logo {
-    margin-right: 0.10em;
-    margin-bottom: 0.10em;
+    margin-right: 0.25em;
+    position: relative;
+    top: -5px
 }
