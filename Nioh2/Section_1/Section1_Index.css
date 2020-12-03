@@ -1,0 +1,16 @@
+/* 
+Styling Sheet for Section1_Index.html 
+*/
+
+
+#navbar_links {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 0.10em;
+}
+
+#nioh1_logo {
+    margin-right: 0.15em;
+    position: relative;
+    top: -7px
+}
