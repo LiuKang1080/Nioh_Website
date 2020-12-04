@@ -39,3 +39,14 @@ Starting Suggestions / Tower of London Tutorial:
     - Choosing the first 2 stats isn't that important, the weapon selection is more important.
     - Suggestion: Sword + Spear starting
     - Kato Guardian Spirit start
+
+
+Adding Videos & GIFs into HTML:
+    Video:
+        - https://www.w3schools.com/tags/tag_video.asp
+        - https://www.w3schools.com/html/html5_video.asp
+        - 
+    
+    GIFs:
+        - https://www.quora.com/How-do-I-add-a-GIF-image-using-HTML-code
+    
