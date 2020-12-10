@@ -16,6 +16,15 @@ Achivements:
 Base Game:
     - You Are Nioh
         (You have unlocked all achievements!) 
+
+    - Spa Healer
+        (Bathed in first hot spring)
+
+    - Spa Lover
+        (Bathed in every hot spring from the Kyushu to the Omi Region)
+    
+    - Kodama Leader
+        (Collected all Kodama from the Kyushu Region to the Omi Region)
     
     - A Long Journey Begins
         (Completed "The Man with the Guardian Spirit.")
@@ -114,23 +123,14 @@ Base Game:
     - Twilight Walker
         (Completed your first Twilight Mission)
 
-    - Spa Healer
-        (Bathed in first hot spring)
-
     - Divine Obtainer
         (Obtained first divine item)
 
     - Yokai Quelling Master 
         (Defeated all types of yokai)
 
-    - Spa Lover
-        (Bathed in every hot spring from the Kyushu to the Omi Region)
-
     - Gesture Master
         (Acquired 40 gestures)
-
-    - Kodama Leader
-        (Collected all Kodama from the Kyushu Region to the Omi Region)
 
     - Friend of Guardians
         (Collected all Guardian Spirits)
@@ -154,6 +154,12 @@ Base Game:
         (Defeated Derrick the Executioner)
 
 DLC 1 (Dragon of the North):
+    - Hot Spring Enthusiast
+        (Bathed in every hot spring in the Tohoku Region)
+
+    - Oshu Guide
+        (Collected all Kodama in the Tohoku Region)
+    
     - A Reunion with Hanzo
         (Completed "Yokai Country")
 
@@ -163,17 +169,11 @@ DLC 1 (Dragon of the North):
     - The Smoldering Flames of War
         (Completed "Spirit Stone Huntress")
 
-    - Oshu Guide
-        (Collected all Kodama in the Tohoku Region)
-
     - Odachi Master
         (Acquired the Mystic Art for the Odachi)
 
     - The Chosen One
         (Equipped +15 divine equipment in all slots. (Excludes accessories))
-
-    - Hot Spring Enthusiast
-        (Bathed in every hot spring in the Tohoku Region)
 
     - Female Impersonater
         (Completed any mission while transformed into a woman)
@@ -188,20 +188,20 @@ DLC 1 (Dragon of the North):
         (Listened to Katakura Shigenaga's entire introduction in "The One-Eyed Dragon's Castle")
 
 DLC 2: Defiant Honor [Siege of Osaka (Winter)]
+    - Cleanliness is next to Godliness 
+        (Bathed in every hot spring in the "Siege of Osaka (Winter) chapter")
+
+    - Battlefield Guide
+        (Collected all Kodama in the "Siege of Osaka (Winter) chapter")
+
     - Infiltrating Sanada Maru
         (Completed the mission "The Siege of Osaka (Winter)")
 
     - Gesture of Reconcoliation
         (Completed "Scion of Virtue")
 
-    - Battlefield Guide
-        (Collected all Kodama in the "Siege of Osaka (Winter) chapter")
-
     - Tonfa Master
         (Acquired the Mystic Art for the Tonfa)
-
-    - Cleanliness is next to Godliness 
-        (Bathed in every hot spring in the "Siege of Osaka (Winter) chapter")
 
     - Tonfa Triumph
         (Defeated Sarutobi Sasuke in the mission "The Siege of Osaka (Winter)" using only tonfa. (Cannot use a Visitor/Companion.))
@@ -222,6 +222,12 @@ DLC 2: Defiant Honor [Siege of Osaka (Winter)]
         (Equipped the Kusanagi Tsurugi, Yasakani Magatama, and the Yata Mirror)
 
 DLC 3: Bloodshed's End [Siege of Osaka (Summer)]
+    - Wrinkly Soaker
+        (Bathed in every hot spring in the "Siege of Osaka (Summer)")
+    
+    - The Ultimate Guide
+        (Collected all of the Kodamas in the "Siege of Osaka (Summer)")
+
     - Spirit Stones Run Amok
         (Completed "The Sanada's Resolve")
 
@@ -230,12 +236,6 @@ DLC 3: Bloodshed's End [Siege of Osaka (Summer)]
 
     - Turmoil's End
         (Completed ""The Last Samurai)
-
-    - Wrinkly Soaker
-        (Bathed in every hot spring in the "Siege of Osaka (Summer)")
-
-    - The Ultimate Guide
-        (Collected all of the Kodamas in the "Siege of Osaka (Summer)")
 
     - Battle-Hardened Veteran 
         (Completed "The Grand Tournament on Way of the Strong or higher")
@@ -254,4 +254,3 @@ DLC 3: Bloodshed's End [Siege of Osaka (Summer)]
 
     - The Sinister Arts
         (Destroyed all of the Revenant contraptions on "The Last Samurai")
-
