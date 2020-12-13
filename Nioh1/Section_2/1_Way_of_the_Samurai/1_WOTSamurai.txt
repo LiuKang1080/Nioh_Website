@@ -4,7 +4,7 @@ Kyushu Region:
     - Isle of Demons:
         - Quest Giver       = N/A | William
         - # of Kodamas      = 9
-        - # of Hot Springs  = N/A
+        - # of Hot Springs  = 0 N/A
         - Notable Rewards   = N/A
         -
  

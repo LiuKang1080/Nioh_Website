@@ -41,6 +41,11 @@ Basic Controls:
             - Movement during combat / repositioning 
             - Continue combos for more pressure (Brute)
 
+    - Yokai Ki Mechanics
+        - Current Ki, Available Ki, Max Ki
+        - Yokai always stumble (drop down for final blows) when Max Ki reaches zero
+        - Special Yokai Burst Animation finisher when final blow would drop thier Ki to zero
+
     (Soul Core)
     - Soul Core Mechanics:
         - Soul Core abilities. Talk a little bit about what they are. Link to the FULL Soul Core list 
