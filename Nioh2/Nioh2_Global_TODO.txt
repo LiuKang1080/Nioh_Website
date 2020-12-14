@@ -44,7 +44,8 @@ Basic Controls:
     - Yokai Ki Mechanics
         - Current Ki, Available Ki, Max Ki
         - Yokai always stumble (drop down for final blows) when Max Ki reaches zero
-        - Special Yokai Burst Animation finisher when final blow would drop thier Ki to zero
+        - Special Yokai Burst Animation grapple / finisher: If the Yokai Burst Parry would drop the Yokai's Maximum Ki to zero, then the
+            special animation will automatically happen.
 
     (Soul Core)
     - Soul Core Mechanics:
