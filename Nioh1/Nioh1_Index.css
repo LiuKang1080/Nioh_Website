@@ -3,6 +3,12 @@ Styling Sheet for Nioh1_Index.html
 */
 
 
+body {
+    background-image: url("https://liukang1080.github.io/Nioh_Website/Nioh1/Index_Images/Index_Background_Image.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .btn-group {
     text-align: center;
     width: 177px;
