@@ -18,6 +18,11 @@ Styling Sheet for Nioh1_Index.html
     margin-top: 0.10em;
 }
 
+#complete_button_group {
+    margin-top: 22em;
+    margin-left: 22em;
+}
+
 /*
 .btn-primary {
     text-align: center;
