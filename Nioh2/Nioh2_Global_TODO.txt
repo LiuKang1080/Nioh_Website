@@ -3,6 +3,9 @@ Nioh 2 Menu / Content
 Section 1
 Basic Controls:
     - Specific menu settings
+    - Default loot rarity colors
+    - Changing the number of hotbar wheels
+    - Defualt control scheme
     
     (Basic Combat)
     - Basics of stance switching
@@ -22,6 +25,14 @@ Basic Controls:
         - Finding the host of the dark relm
         - Suggestions of certain skills from the skill tree to make it easier in the dark relm 
     
+    - Yokai Ki Mechanics
+        - Current Ki, Available Ki, Max Ki
+        - Yokai always stumble (drop down for final blows) when Max Ki reaches zero
+        - Special Yokai Burst Animation grapple: If the Yokai Burst counter would drop the Yokai's Maximum Ki to zero, then the
+            special Yokai grapple animation will automatically happen.
+
+        - Link PooferLlama's video: https://www.youtube.com/watch?v=3gkwgGeMuFc
+    
     (Yokai Shift)
     [!! GIFs would be recommended for the following sections !!]
     - Yokai Shift(YS) (Living Weapon) Mechanics
@@ -40,12 +51,6 @@ Basic Controls:
             - When out of Ki
             - Movement during combat / repositioning 
             - Continue combos for more pressure (Brute)
-
-    - Yokai Ki Mechanics
-        - Current Ki, Available Ki, Max Ki
-        - Yokai always stumble (drop down for final blows) when Max Ki reaches zero
-        - Special Yokai Burst Animation grapple / finisher: If the Yokai Burst Parry would drop the Yokai's Maximum Ki to zero, then the
-            special animation will automatically happen.
 
     (Soul Core)
     - Soul Core Mechanics:
