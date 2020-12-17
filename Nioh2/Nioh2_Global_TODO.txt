@@ -81,7 +81,7 @@ Basic Controls:
         Big Sudama
             - How does re-rolling work?
 
-    - Revenant mechanics, Revenant farming spots (Way of the Strong: Spirit Stone Huntress)
+    - Revenant mechanics, Revenant farming spots
     - How to farm Glory
     - Hidden Tea House: 
         - When does the Tea House unlock? (after spider boss mission)
@@ -90,6 +90,11 @@ Basic Controls:
     
         - Clans:
             - Show all stats of clans (min and max)
+
+    - Picture Scrolls
+        - How to re-roll attributes in Picture Scrolls
+        - Rarities of Picture Scrolls
+        - All possible rollable attributes on Picture Scrolls
 
 Section 2
 Missions:
