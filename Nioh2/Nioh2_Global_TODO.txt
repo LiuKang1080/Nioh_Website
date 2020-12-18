@@ -52,6 +52,9 @@ Basic Controls:
             - Movement during combat / repositioning 
             - Continue combos for more pressure (Brute)
 
+        - Link to PooferLlama's Burst Counter Guide:
+            (https://www.youtube.com/watch?v=3gkwgGeMuFc)
+
     (Soul Core)
     - Soul Core Mechanics:
         - Soul Core abilities. Talk a little bit about what they are. Link to the FULL Soul Core list 
@@ -263,14 +266,13 @@ Smithing Text Table / Hidden Skills:
         - Boss farming methods
 
 Section 12
-[!!! The Abyss !!!]:
+The Underworld:
     - Gear sets
         - Show all gear sets [might need to combine it with the Grace list and just make it as one giant table]
     - Grace list
         - Show all stats for every single grace
         - Show specific farming methods for certain graces if they exist
     
-    - [! Wait until DLC 3 !]
     - Information on Floors 1 - 999,999 
     - Who do I gotta farm to get through the abyss?
 
@@ -281,7 +283,14 @@ Builds:
     - Link to Graces
     - Link Specific important items and the farming strategies
     - Link to Hidden Skills / farming
-    - Link to full smithing texts table
+    - Link to full smithing texts table (if needed)
+
+    - PooferLlama's How to Make a Build:
+        (https://www.youtube.com/watch?v=ZP81uOot02E)
+    - PooferLlama's Making Builds on Demon:
+        (https://www.youtube.com/watch?v=NyhyQ3SnP2Y)
+    - PooferLlama's Making Builds on Wise
+        (https://www.youtube.com/watch?v=kbCQHZTB7Fo)
 
     Specific Builds:
         - Paralysis Bow / Arrow Build

@@ -1,44 +1,88 @@
 Section 1: Tutorial and Basic Controls 
-    
-Specific game settings:
-    - Changing gear color drops to default. Rest of the website matches the defualt.
-    - Setting the number of hotbar wheels between 2-4.
-    - Toggle head gear on / off
 
-Weight Percentages:
-    - Weight percent for A agility.
-    - Weight percent for B agility.
-    - Weight percent for C agility.
-    - Weight percent for D agility.
+Game Settings [Button]: 
+    Specific game settings:
+        - Changing gear color drops to default. Rest of the website matches the defualt.
+        - Setting the number of hotbar wheels between 2-4.
+        - Toggle head gear on / off
 
-Animations for each tier of agility:
-    - Dash Ki consumption for each tier.
-    - Dodge length for each tier. 
-    - Ki recovery speed for each tier.
-    - When are invincibility frames (i-frames) active during dashing / rolling?
-    - Which stance has more i-frames during dodge / rolls?
+Mechanics / Controls [Button]:
+    Ki Pulse:
+        - Mechanics of Ki Pulse
+        - Purification of Yokai Pools
+        - Activating Ki Pulse with dodging
+            - Living Water: Heaven  (High-stance)
+            - Living Water: Man     (Mid-stance)
+            - Living Water: Earth   (Low-stance)
 
-Low / Mid / High Stance Mechanics:
-    - Attacks deflecting off of enemies (Strong attack and special attacks do not)
-    - Special attacks.
+    Low / Mid / High Stance Mechanics:
+    - Attacks deflecting off of guarding enemies (Strong attack and special attacks do not)
     - Stance switching during animations.
-    - Specific animation canceling? (Link to SacredForce if needed)
+    - Link to PooferLlama's Stance Switching video:
+        (https://www.youtube.com/watch?v=P0t8EPT-KUM)
 
-Flux I / Flux II:
+    Flux I / Flux II:
+    - Mechanics of Flux I and II 
     - Specific skills that overwrite Flux I 
         - Tonfa's Demon Dance (link to the skill tree)
         - Spear High stance switch (link to the skill tree)
     - Translate accurately of the Flux I and II descriptions.
+    - Link to PooferLlama's Flux Mechanics video: 
+        (https://www.youtube.com/watch?v=s6xbiSK2xWM)
 
-Starting Suggestions / Tower of London Tutorial:
-    - Tower of London (ToL):
+    Flash Attack (Swapping weapons during Ki Pulse):
+        - Getting the Flash Attack skill
+        - Mechanics of Flash Attack
+        - Same weapon Flash Attack
+            - Link to PooferLlama's video on Flash Attack:
+                (https://www.youtube.com/watch?v=RI36T-8TA8w)
+
+    Parry / Timely Guard:
+        - Link to PooferLlama's video on Parries:
+            (https://www.youtube.com/watch?v=045KiL1biQE)
+
+    Animation Cancels:
+        - PooferLlama's part 1 video on Animation Cancels:
+            (https://www.youtube.com/watch?v=3QsnSJcU13E)
+        - PooferLlama's part 2 video on Animation Cancels:
+            (https://www.youtube.com/watch?v=_T_sZS5Coo4)
+        - PooferLlama's part 3 video on Animation Cancels:
+            (https://www.youtube.com/watch?v=zIIrnuRUg94)
+
+    Weight Percentages:
+        - Weight percent for A agility.
+        - Weight percent for B agility.
+        - Weight percent for C agility.
+        - Weight percent for D agility.
+
+    Animations for each tier of agility:
+        - Dash Ki consumption for each tier.
+        - Dodge length for each tier. 
+        - Ki recovery speed for each tier.
+        - When are invincibility frames (i-frames) active during dashing / rolling?
+        - Which stance has more i-frames during dodge / rolls?
+
+Tower of London / Tutorial [Button]:
+    - Tower of London (ToL) Tutorial:
         - Mechanics that are missing:
             - No stance switching in ToL
             - No ki pulse in ToL
 
-    - Choosing the first 2 stats isn't that important, the weapon selection is more important.
-    - Suggestion: Sword + Spear starting
-    - Kato Guardian Spirit start
+    - Starting Weapons / Guardian Spirit Suggestions:
+        - Choosing the first 2 stats isn't that important, the weapon selection is more important.
+        - Suggestion: Sword + Spear starting
+        - Kato Guardian Spirit start
+
+    - The level number on missions dooes not mean anything
+        - The mission level is not an indicator to how easy that mission will be
+        - Mission Grave difficulty indicator is also not a good indicator to how easy a mission will be
+        - You will always be "under-leveled". This is normal, and you should not worry about the level number
+
+    - PooferLlama's Beginner's Guide: 
+        - Tips for Beginners:
+            (https://www.youtube.com/watch?v=EkSCRHncPc8)
+        - Stats for Beginners:
+            (https://www.youtube.com/watch?v=LrYFLE5o-iE)
 
 
 Adding Videos & GIFs into HTML:
@@ -49,4 +93,3 @@ Adding Videos & GIFs into HTML:
     
     GIFs:
         - https://www.quora.com/How-do-I-add-a-GIF-image-using-HTML-code
-    
