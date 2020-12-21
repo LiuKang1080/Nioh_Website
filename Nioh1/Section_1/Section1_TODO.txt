@@ -4,7 +4,7 @@ Game Settings [Button]:
     Specific game settings:
         - Changing gear color drops to default. Rest of the website matches the defualt.
         - Setting the number of hotbar wheels between 2-4.
-        - Toggle head gear on / off
+        - Toggle head gear on / off.
 
 Mechanics / Controls [Button]:
     Ki Pulse:
