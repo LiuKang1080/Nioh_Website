@@ -3,6 +3,10 @@ Styling Sheet for the navbar that is present throughout the site
 */
 
 
+.nabar {
+    position: fixed;
+}
+
 #navbar_links {
     text-align: center;
     font-size: 16px;
