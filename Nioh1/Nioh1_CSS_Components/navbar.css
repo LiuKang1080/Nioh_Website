@@ -5,6 +5,8 @@ Styling Sheet for the navbar that is present throughout the site
 
 .navbar {
     position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 #navbar_links {
