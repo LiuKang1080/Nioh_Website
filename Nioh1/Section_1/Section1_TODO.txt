@@ -49,6 +49,8 @@ Mechanics / Controls [Button]:
         - PooferLlama's part 3 video on Animation Cancels:
             (https://www.youtube.com/watch?v=zIIrnuRUg94)
 
+        - Quickdraw Mechanics for Iai Quickdraw, Sign of the Cross, and the Odachi one
+
     Weight Percentages:
         - Weight percent for A agility.
         - Weight percent for B agility.
