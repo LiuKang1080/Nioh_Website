@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Nioh1_CSS_Components/navbar.css">
     
     <!-- Local CSS Link | Proper Path Link--> 
-    <!-- <link rel="stylesheet" href="../1_Game_Settings/Game_Settings.css"> -->
-    <link rel="stylesheet" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_1/1_Game_Settings/Game_Settings.css">
+    <link rel="stylesheet" href="../1_Game_Settings/Game_Settings.css">
+    <!-- <link rel="stylesheet" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_1/1_Game_Settings/Game_Settings.css"> -->
 </head>
 <body>
     <!-- NavBar -->
@@ -73,10 +73,20 @@
     <h2 id="title_text">Nioh 1 - General Game Settings</h2>
     <hr>
 
+    <!-- Table of Contents -->
+    <div id="table_of_contents">
+        <h3 style="margin-bottom: -0.5em;">Table of Contents:</h3><br>
+        <a href="javascript:basic_game_settings()">Basic Game settings</a><br>
+        <a href="javascript:misc_settings()">Miscellaneous Settings</a><br>
+        <a href="javascript:online_settings()">Online Game Settings</a><br>
+        <a href="javascript:individual_game_settings()">Individual Game Settings</a>
+    </div>
+    <br>
+
     <!-- Jumbotron -->
     <div class="jumbotron">
         <!-- Basic Game Settings -->
-        <h3 style="margin-top: -1.5em; margin-left: 25em;">Basic Game Settings</h3>
+        <h3 id="basic_game_settings" style="margin-top: -1.5em; margin-left: 25em;">Basic Game Settings</h3>
         <h4>Changing the Item Rarity Color Pattern</h4>
         <hr>
         <p>To change the color of rarity of item drops from the main menu: SYSTEM &#8594; BASIC GAME SETTINGS &#8594; 4th PAGE &#8594; RARITY COLOR PATTERN <br>
@@ -102,7 +112,7 @@
         <br>
 
         <!-- Miscellaneous Settings -->
-        <h3 style="margin-left: 22.5em;">Other Miscellaneous Settings</h3>
+        <h3 id="misc_settings" style="margin-left: 22.5em;">Other Miscellaneous Settings</h3>
         <h4>Skip Watched Movies</h4>
         <hr>
         <p>We can skip movies we have already seen by setting the option to: AUTOMATIC in SYSTEM &#8594; BASIC GAME SETTINGS &#8594; 2nd PAGE
@@ -149,7 +159,7 @@
     <!-- Online Settings -->
     <div class="jumbotron">
         <!-- Online Game Settings -->
-        <h3 style="margin-top: -1.5em; margin-left: 24.25em;">Online Game Settings</h3>
+        <h3 id="online_settings" style="margin-top: -1.5em; margin-left: 24.25em;">Online Game Settings</h3>
         <p>TODO: [ Complete Image of the Online Settings ] <br>
             General Online Settings Suggestions: <br> <br>
             MATCHING AREA: Suggested Setting = UNLIMITED. By setting the Matching Area to Unlimited, there are higher chances to be matched with more people in 
@@ -167,7 +177,7 @@
 
     <!-- Individual Game Settings -->
     <div class="jumbotron">
-        <h3 style="margin-top: -1.5em; margin-left: 23em;">Individual Game Settings</h3>
+        <h3 id="individual_game_settings" style="margin-top: -1.5em; margin-left: 23em;">Individual Game Settings</h3>
         
         TODO: [ Complete Image of the Shortcut Sets ] <br>
         
@@ -183,16 +193,49 @@
         </p>
     </div>
 
+    <div id="back_to_top_button" class="btn-group">
+        <a type="button" class="btn btn-warning" href="">Top</a>
+    </div>
+
     <!-- Adding JavaScript, JQuery, and Bootstrap.js Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     
+    <!-- Local JavaScript Functions -->
+    <script>
+        function basic_game_settings() {
+            var elmnt = document.getElementById("basic_game_settings");
+            elmnt.scrollIntoView();
+            window.scrollBy(0, -75);
+        }
+
+        function misc_settings() {
+            var elmnt = document.getElementById("misc_settings");
+            elmnt.scrollIntoView();
+            window.scrollBy(0, -75);
+        }
+
+        function online_settings() {
+            var elmnt = document.getElementById("online_settings");
+            elmnt.scrollIntoView();
+            window.scrollBy(0, -10);
+        }
+
+        function individual_game_settings() {
+            var elmnt = document.getElementById("individual_game_settings");
+            elmnt.scrollIntoView();
+            // window.scrollBy(0, -75);
+        }
+    </script>
+
 </body>
 </html>
 
 <!-- TODO -->
 <!-- 
+    - Add a button that brings the user back to the top of the webpage.
+    - Add a Table of Contents
     - Images:
         - Get, edit, and properly center all of the required images on this page.
 -->
