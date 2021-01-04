@@ -4,8 +4,8 @@ Styling Sheet for Game_Settings.html
 
 
 #title_text {
-    margin-left: 24em;
     margin-top: 2.5em;
+    text-align: center;
 }
 
 .jumbotron {

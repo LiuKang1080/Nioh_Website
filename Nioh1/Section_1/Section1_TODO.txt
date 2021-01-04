@@ -64,6 +64,10 @@ Mechanics / Controls [Button]:
         - When are invincibility frames (i-frames) active during dashing / rolling?
         - Which stance has more i-frames during dodge / rolls?
 
+Revenant Mechanics [Button]:
+
+Hidden Tea House / Clans [Button]:
+
 Tower of London / Tutorial [Button]:
     - Tower of London (ToL) Tutorial:
         - Mechanics that are missing:
