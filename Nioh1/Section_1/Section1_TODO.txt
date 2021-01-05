@@ -1,10 +1,30 @@
 Section 1: Tutorial and Basic Controls 
 
 Game Settings [Button]: 
-    Specific game settings:
-        - Changing gear color drops to default. Rest of the website matches the defualt.
-        - Setting the number of hotbar wheels between 2-4.
-        - Toggle head gear on / off.
+    Basic game Settings:
+        - Changing the rarity color pattern to be default. It will be this throughout the rest of the site.
+        - Display / Turn off Damage and Healing numbers.
+        [TODO: Add the proper images]
+
+    Other Miscellaneous Settings:
+        - Skip watched movies.
+        - Toggle displaying headgear.
+        - Toggle displaying bows, rifles, and cannons.
+        - Autofill ammo on mission start.
+        - Auto refill consumables.
+        - Display Refashioned Items.
+        [TODO: Add the proper images]
+
+    Online Game Settings:
+        - Matching Area = Unlimited
+        - Visitor's Online ID / Health Bar = ON
+        - Secret Word: description of the this feature
+        [TODO: Add the proper image]
+
+    Individual Game Settings:
+        - Number of Shortcut Sets
+        - Hold to Switch back to Set 1 (personal preference)
+        [TODO: Add the proper image]
 
 Mechanics / Controls [Button]:
     Ki Pulse:
@@ -18,6 +38,7 @@ Mechanics / Controls [Button]:
     Low / Mid / High Stance Mechanics:
     - Attacks deflecting off of guarding enemies (Strong attack and special attacks do not)
     - Stance switching during animations.
+    - Which stance has more i-frames during dodge / rolls?
     - Link to PooferLlama's Stance Switching video:
         (https://www.youtube.com/watch?v=P0t8EPT-KUM)
 
@@ -62,7 +83,6 @@ Mechanics / Controls [Button]:
         - Dodge length for each tier. 
         - Ki recovery speed for each tier.
         - When are invincibility frames (i-frames) active during dashing / rolling?
-        - Which stance has more i-frames during dodge / rolls?
 
 Revenant Mechanics [Button]:
 

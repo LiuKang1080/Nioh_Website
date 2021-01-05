@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Nioh1_CSS_Components/navbar.css">
     
     <!-- Local CSS Link | Proper Path Link--> 
-    <link rel="stylesheet" href="../Section_1/Section1_Index.css">
-    <!-- <link rel="stylesheet" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_1/Section1_Index.css"> -->
+    <!-- <link rel="stylesheet" href="../Section_1/Section1_Index.css"> -->
+    <link rel="stylesheet" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_1/Section1_Index.css">
 </head>
 <body>
     <!-- NavBar -->
@@ -69,27 +69,49 @@
         </div>
     </nav>
 
-    <!-- Title Text -->
+    <!-- Title Text
     <h2 id="title_text">Nioh 1 - Basic Controls and Tutorial</h2>
-    <hr>
+    <hr> -->
 
     <!-- Button Group -->
-    <div id="complete_button_group">
-        <!-- Game Settings -->
-        <div class="btn-group">
-            <a type="button" class="btn btn-warning" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_1/1_Game_Settings/Game_Settings.html">Game Settings</a>
-        </div>
+    <div class="row">
+        <div class="col-12" id="complete_button_group" style="text-align: center;">
+            <!-- Game Settings -->
+            <div class="btn-group">
+                <a type="button" class="btn btn-warning" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_1/1_Game_Settings/Game_Settings.html">Game Settings</a>
+            </div>
+    
+            <!-- Mechanics / Controls -->
+            <div class="btn-group">
+                <a type="button" class="btn btn-warning" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_1/2_Mechanics/Mechanics.html">Mechanics / Controls</a>
+            </div>
 
-        <!-- Mechanics -->
-        <div class="btn-group">
-            <a type="button" class="btn btn-warning" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_1/2_Mechanics/Mechanics.html">Mechanics</a>
-        </div>
-
-        <!-- Tower of London / Tutorial -->
-        <div class="btn-group">
-            <a type="button" class="btn btn-warning" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_1/3_TOL_Tutorial/Tutorial.html">Tower of London / Tutorial</a>
+            <!-- Revenant Mechanics -->
+            <div class="btn-group">
+                <a type="button" class="btn btn-warning" href="">Revenant Mechanics</a>
+            </div>        
         </div>
     </div>
+
+    <div class="row">
+        <div class="col-12" id="complete_button_group_2" style="text-align: center;">
+            <!-- Hidden Tea House -->
+            <div class="btn-group">
+                <a type="button" class="btn btn-warning" href="">Hidden Tea House</a>
+            </div>
+
+            <!-- Clans -->
+            <div class="btn-group">
+                <a type="button" class="btn btn-warning" href="">Clans</a>
+            </div>
+
+            <!-- Tower of London / Tutorial -->
+            <div class="btn-group">
+                <a type="button" class="btn btn-warning" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_1/3_TOL_Tutorial/Tutorial.html">Tower of London / Tutorial</a>
+            </div>
+        </div>
+    </div>
+    
 
     <!-- Adding JavaScript, JQuery, and Bootstrap.js Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -101,6 +123,7 @@
 
 <!-- TODO -->
 <!-- 
+    - The Navbar drop down menu for Nioh 1 is being hidden behind the buttons. This needs to get fixed!
     - Background Image:
         - A subtle color / repeating texture
 
