@@ -9,8 +9,8 @@ Styling Sheet for Game_Settings.html
 }
 
 .jumbotron {
-    margin-left: 7.5em;
-    margin-right: 7.5em;
+    margin-left: 6.0em;
+    margin-right: 6.0em;
 }
 
 p {
@@ -25,7 +25,7 @@ p {
 #back_to_top_button {
     position: fixed;
     bottom: 20px;
-    right: 30px;
+    right: 25px;
     margin-bottom: 1em;
     text-align: center;
     font-size: 16px; 
