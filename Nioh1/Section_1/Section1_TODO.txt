@@ -72,6 +72,18 @@ Mechanics / Controls [Button]:
 
         - Quickdraw Mechanics for Iai Quickdraw, Sign of the Cross, and the Odachi one
 
+    Living Weapon Mechanics:
+        - Activating Living Weapon
+        - Health and Ki values while in LW
+        - Stats from Ungyo and Agyo to boost LW duration
+        - Extraction and Pleadies Talismans
+        - Amrita usage while in LW
+        
+    Elemental Damage and Application
+        - Fire, Lighting, Water, Wind, and Earth
+        - Poison, Paralysis
+        - Applying Discord
+    
     Weight Percentages:
         - Weight percent for A agility.
         - Weight percent for B agility.
