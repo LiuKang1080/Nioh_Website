@@ -100,6 +100,11 @@ Mechanics / Controls [Button]:
         - Items that are generally rewarded when items are offered
         - Agyo and Ungyo points for offering a certain amount of items
 
+    General Suggestions:
+        - learn your “bread and butter” combos and skills. Practicing Ki Pulse after every single combo and special attack. 
+            Practice Flux after every single combo and special attack. Learn enemy patterns. Finally look into builds 
+            (fixing builds and upgrading builds should be the last thing to worry about)
+
 Revenant Mechanics [Button]:
 
 Hidden Tea House / Clans [Button]:
