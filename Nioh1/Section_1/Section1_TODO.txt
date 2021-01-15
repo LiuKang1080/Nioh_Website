@@ -58,6 +58,11 @@ Mechanics / Controls [Button]:
             - Link to PooferLlama's video on Flash Attack:
                 (https://www.youtube.com/watch?v=RI36T-8TA8w)
 
+    Blocking:
+        - Doesn't reduce health
+        - Can block everything
+        - Blocking is one of the best defensive options
+
     Parry / Timely Guard:
         - Link to PooferLlama's video on Parries:
             (https://www.youtube.com/watch?v=045KiL1biQE)
