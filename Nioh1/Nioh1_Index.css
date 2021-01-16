@@ -19,24 +19,6 @@ body {
     margin-top: 0.25em;
 }
 
-#navbar_links {
-    text-align: center;
-    font-size: 16px;
-    margin-top: 0.10em;
-}
-
 #complete_button_group {
-    margin-top: 22em;
-    margin-left: 22em;
+    margin-top: 30em; 
 }
-
-/*
-.btn-primary {
-    text-align: center;
-    width: 175px;
-    font-size: 16px;
-    margin-top: 0.25em;
-    margin-bottom: 0.20em;
-    margin-right: 0.275em;
-} 
-*/
