@@ -12,24 +12,6 @@ Styling Sheet for Nioh2_Index.html
     margin-top: 0.25em;
 }
 
-#navbar_links {
-    text-align: center;
-    font-size: 16px;
-    margin-top: 0.10em;
-}
-
-#nioh1_logo {
-    margin-right: 0.25em;
-    position: relative;
-    top: -7px
-}
-
 #complete_button_group {
     margin-top: 22em;
-    margin-left: 22em;
 }
-
-#builds_button {
-    margin-left: 16.20em;
-}
-

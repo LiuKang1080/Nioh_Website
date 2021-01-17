@@ -3,10 +3,19 @@ Styling Sheet for the navbar that is present throughout the site
 */
 
 
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* z-index: 99; */
+}
+
 #navbar_links {
     text-align: center;
     font-size: 16px;
     margin-top: 0.10em;
+    margin-left: 6.0em;
+    /* z-index: 99; */
 }
 
 #nioh1_logo {
