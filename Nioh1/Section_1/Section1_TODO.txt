@@ -101,6 +101,10 @@ Mechanics / Controls [Button]:
         - Ki recovery speed for each tier.
         - When are invincibility frames (i-frames) active during dashing / rolling?
 
+    Misc. Mechanics:
+        - Attacking near / off ledges will not push you over the edge.
+        - Dashing over the edge will push you off of the edge.
+
     Offering Items to the Kodama at the Shrine:
         - Items that are generally rewarded when items are offered
         - Agyo and Ungyo points for offering a certain amount of items
