@@ -1,0 +1,107 @@
+Nioh 2: Section 7 - Soul Cores
+
+Soul Core Mechanics [Button]:
+
+Soul Core List [Button]:
+    Base Game Soul Cores:
+        - Gaki
+        - Enki
+        - Yoki
+        - Gozuki (boss)
+        - Mezuki (boss)
+        - Ippon-Datara
+        - Kappa
+        - Nurikabe
+        - Mujina
+        - Enenra (boss)
+        - Nure-Onna
+        - Aberrant Soldier
+        - Toxic Slime
+        - Yatsu-No-Kami (boss)
+        - Yamanba
+        - One-Eyed Oni
+        - Karasu Tengu
+        - Waira
+        - Karakasa Umbrella
+        - Lesser Umi-Bozu
+        - Kamaitachi (boss)
+        - Koroka
+        - Dweller
+        - Rokurokubi
+        - Onryoki (boss)
+        - Mitsume Yazura
+        - Biwa Boku-Boku
+        - Tatarimokke (boss)
+        - Flying Bolt
+        - Namahage
+        - Tesso
+        - Ubume
+        - Onyudo
+        - Gyuki (boss)
+        - Wheelmonk
+        - Kasha (boss)
+        - Ryomen Sukuna (boss)
+        - Daidara Bocchi (boss)
+        - Shuten Doji (boss)
+        - Magatsu Warrior 
+        - Lady Osakabe (boss)
+        - Otakemaru (boss)
+        - Kodama 
+        - Scampuss
+        - Infernal Oni-Bi
+        - Maelstrom Oni-Bi
+        - Thunderstorm Oni-Bi
+
+    DLC 1 - Tengu's Deciple - Soul Cores:
+        - Nue (boss)
+        - Kiryoki
+        - Bakegani
+        - Seto Taisho / Benkei (boss)
+        - Nueppeppo
+        - Uminyudo (boss)
+    
+    DLC 2 - Darkness In The Capital - Soul Cores:
+        - Giant Toad (boss)
+        - White Tiger (boss)
+        - Oboroguruma
+        - Lighting Gods of Yomi (boss)
+        - Hellish Hag
+        - Tsuchigumo (boss)
+        - Yasha
+        - Underworld Soldier
+        - Infernal Fox
+
+    DLC 3 - The First Samurai - Soul Cores:
+        - Maelstrom Fox
+        - Thunderstorm Fox
+        - Harinobo
+        - Ancient Nyotengu (boss)
+        - Tate Eboshi (boss)
+        - Itsumade
+        - Konaki-Jiji
+        - Kinki
+        - Fuki
+        - Suiki
+        - Ongyoki
+        - Nightmare Bringer (boss)
+
+    - Mortal Soul Core
+
+    - Fixed Stats / Special Effects for all soul cores
+    - Percentages at Base Rank lvl 4, lvl 9, lvl 20, and lvl 30 
+    - Attunment Cost
+    - Name of Yokai Skill (ex. Enki Soul Core: Monkey Dance)
+    - Yokai Ability Cost
+    - Animations of normal Ability use
+    - Animations of Yokai Soul Core use in Dark Realm
+    - Link to boss pages when needed
+    - Link to Yokai.com Yokai pages if they exist
+    
+
+Soul Core Attribute List [Button]:
+    - Generate a table with: all possible rollabe stats (excludes the inherited attributes that are already built into Yokai Soul Cores)
+
+Credits:
+    - Ocean Machine's Nioh 2 Soul Core List and Stats Table
+        - Ocean Machine +
+            - LOLSAN, dwbl, neverhere, Peter, KitPes, and Lynch

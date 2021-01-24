@@ -1,5 +1,5 @@
 /*
-Styling Sheet for Game_Settings.html 
+Styling Sheet for Credits.html 
 */
 
 
@@ -12,12 +12,6 @@ Styling Sheet for Game_Settings.html
     margin-left: 6.0em;
 }
 
-#p_table_of_contents {
-    margin-top: -0.9em;
-    text-indent: 2.0em;
-    font-size: 16px;
-}
-
 .jumbotron {
     margin-left: 6.0em;
     margin-right: 6.0em;
@@ -28,11 +22,6 @@ p {
     font-size: 16.5px;
 }
 
-#back_to_top_button {
-    position: fixed;
-    bottom: 20px;
-    right: 25px;
-    margin-bottom: 1em;
+#title_text {
     text-align: center;
-    font-size: 16px; 
 }
