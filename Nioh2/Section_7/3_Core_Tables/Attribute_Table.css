@@ -31,6 +31,13 @@ th, td {
     text-align: center;
 }
 
+/* 
+table th {
+    position: sticky;
+    top: 0px;
+}
+*/
+
 #back_to_top_button {
     position: fixed;
     bottom: 20px;
