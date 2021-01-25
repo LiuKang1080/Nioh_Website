@@ -1,5 +1,5 @@
 /*
-Styling Sheet for Core_List.html
+Styling Sheet for Game_Settings.html 
 */
 
 
@@ -17,6 +17,20 @@ Styling Sheet for Core_List.html
     margin-right: 6.0em;
 }
 
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
 #back_to_top_button {
     position: fixed;
     bottom: 20px;
@@ -24,9 +38,4 @@ Styling Sheet for Core_List.html
     margin-bottom: 1em;
     text-align: center;
     font-size: 16px; 
-}
-
-p {
-    margin-top: -0.75em;
-    font-size: 16.5px;
 }

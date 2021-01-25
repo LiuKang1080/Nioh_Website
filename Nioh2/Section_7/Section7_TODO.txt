@@ -4,88 +4,88 @@ Soul Core Mechanics [Button]:
 
 Soul Core List [Button]:
     Base Game Soul Cores:
-        - Gaki
-        - Enki
-        - Yoki
-        - Gozuki (boss)
-        - Mezuki (boss)
-        - Ippon-Datara
-        - Kappa
-        - Nurikabe
-        - Mujina
-        - Enenra (boss)
-        - Nure-Onna
-        - Aberrant Soldier
-        - Toxic Slime
-        - Yatsu-No-Kami (boss)
-        - Yamanba
-        - One-Eyed Oni
-        - Karasu Tengu
-        - Waira
-        - Karakasa Umbrella
-        - Lesser Umi-Bozu
-        - Kamaitachi (boss)
-        - Koroka
-        - Dweller
-        - Rokurokubi
-        - Onryoki (boss)
-        - Mitsume Yazura
-        - Biwa Boku-Boku
-        - Tatarimokke (boss)
-        - Flying Bolt
-        - Namahage
-        - Tesso
-        - Ubume
-        - Onyudo
-        - Gyuki (boss)
-        - Wheelmonk
-        - Kasha (boss)
-        - Ryomen Sukuna (boss)
-        - Daidara Bocchi (boss)
-        - Shuten Doji (boss)
-        - Magatsu Warrior 
-        - Lady Osakabe (boss)
-        - Otakemaru (boss)
-        - Kodama 
-        - Scampuss
-        - Infernal Oni-Bi
-        - Maelstrom Oni-Bi
-        - Thunderstorm Oni-Bi
+        - 1  Gaki
+        - 2  Enki
+        - 3  Yoki
+        - 4  Gozuki (boss)
+        - 5  Mezuki (boss)
+        - 6  Ippon-Datara
+        - 7  Kappa
+        - 8  Nurikabe
+        - 9  Mujina
+        - 10 Enenra (boss)
+        - 11 Nure-Onna
+        - 12 Aberrant Soldier
+        - 13 Toxic Slime
+        - 14 Yatsu-No-Kami (boss)
+        - 15 Yamanba
+        - 16 One-Eyed Oni
+        - 17 Karasu Tengu
+        - 18 Waira
+        - 19 Karakasa Umbrella
+        - 20 Lesser Umi-Bozu
+        - 21 Kamaitachi (boss)
+        - 22 Koroka
+        - 23 Dweller
+        - 24 Rokurokubi
+        - 25 Onryoki (boss)
+        - 26 Mitsume Yazura
+        - 27 Biwa Boku-Boku
+        - 28 Tatarimokke (boss)
+        - 29 Flying Bolt
+        - 30 Namahage
+        - 31 Tesso
+        - 32 Ubume
+        - 33 Onyudo
+        - 34 Gyuki (boss)
+        - 35 Wheelmonk
+        - 36 Kasha (boss)
+        - 37 Ryomen Sukuna (boss)
+        - 38 Daidara Bocchi (boss)
+        - 39 Shuten Doji (boss)
+        - 40 Magatsu Warrior 
+        - 41 Lady Osakabe (boss)
+        - 42 Otakemaru (boss)
+        - 43 Kodama 
+        - 44 Scampuss
+        - 45 Infernal Oni-Bi
+        - 46 Maelstrom Oni-Bi
+        - 47 Thunderstorm Oni-Bi
 
+        - 48 Mortal Soul Core
+    
     DLC 1 - Tengu's Deciple - Soul Cores:
-        - Nue (boss)
-        - Kiryoki
-        - Bakegani
-        - Seto Taisho / Benkei (boss)
-        - Nueppeppo
-        - Uminyudo (boss)
+        - 49 Nue (boss)
+        - 50 Kiryoki
+        - 51 Bakegani
+        - 52 Seto Taisho / Benkei (boss)
+        - 53 Nueppeppo
+        - 54 Uminyudo (boss)
     
     DLC 2 - Darkness In The Capital - Soul Cores:
-        - Giant Toad (boss)
-        - White Tiger (boss)
-        - Oboroguruma
-        - Lighting Gods of Yomi (boss)
-        - Hellish Hag
-        - Tsuchigumo (boss)
-        - Yasha
-        - Underworld Soldier
-        - Infernal Fox
+        - 55 Giant Toad (boss)
+        - 56 White Tiger (boss)
+        - 57 Oboroguruma
+        - 58 Lightning Gods of Yomi (boss)
+        - 59 Hellish Hag
+        - 60 Tsuchigumo (boss)
+        - 61 Yasha
+        - 62 Underworld Soldier
+        - 63 Infernal Fox
 
     DLC 3 - The First Samurai - Soul Cores:
-        - Maelstrom Fox
-        - Thunderstorm Fox
-        - Harinobo
-        - Ancient Nyotengu (boss)
-        - Tate Eboshi (boss)
-        - Itsumade
-        - Konaki-Jiji
-        - Kinki
-        - Fuki
-        - Suiki
-        - Ongyoki
-        - Nightmare Bringer (boss)
-
-    - Mortal Soul Core
+        - 64 Maelstrom Fox
+        - 65 Thunderstorm Fox
+        - 66 Harinobo
+        - 67 Ancient Nyotengu (boss)
+        - 68 Tate Eboshi (boss)
+        - 69 Itsumade
+        - 70 Konaki-Jiji
+        - 71 Kinki
+        - 72 Fuki
+        - 73 Suiki
+        - 74 Ongyoki
+        - 75 Nightmare Bringer (boss)
 
     - Fixed Stats / Special Effects for all soul cores
     - Percentages at Base Rank lvl 4, lvl 9, lvl 20, and lvl 30 
