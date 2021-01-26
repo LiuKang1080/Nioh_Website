@@ -96,10 +96,12 @@ Soul Core List [Button]:
     - Animations of Yokai Soul Core use in Dark Realm
     - Link to boss pages when needed
     - Link to Yokai.com Yokai pages if they exist
-    
 
 Soul Core Attribute List [Button]:
     - Generate a table with: all possible rollabe stats (excludes the inherited attributes that are already built into Yokai Soul Cores)
+
+Soul Core Conflict Table [Button]:
+    - Add the full conflict stats table
 
 Credits:
     - Ocean Machine's Nioh 2 Soul Core List and Stats Table
