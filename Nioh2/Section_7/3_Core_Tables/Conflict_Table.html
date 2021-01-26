@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soul Core Attribute Conflict Table</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    
+    <!-- Navbar CSS -->
+    <!-- <link rel="stylesheet" href="/navbar.css"> -->
+    <link rel="stylesheet" href="https://liukang1080.github.io/Nioh_Website/navbar.css">
+    
+    <!-- Local CSS Link | Proper Path Link-->
+    <link rel="stylesheet" href="../3_Core_Tables/Conflict_Table.css">
+    <!-- <link rel="stylesheet" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_7/3_Core_Tables/Conflict_Table.css"> -->
+</head>
+<body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <!-- Home Button -->
+            <div class="btn-group" id="navbar_links">
+                <a class="navbar-brand" href="https://liukang1080.github.io/Nioh_Website/">Home</a>
+            </div>
+            
+            <!-- Nioh 1 Dropdown -->
+            <div class="btn-group" id="navbar_links">
+                <a class="navbar-brand dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   <img src="https://liukang1080.github.io/Nioh_Website/Home_Page_Images/Nioh_logo.png" id="nioh1_logo" width="37" height="37" class="d-inline-block align-top" alt="">Nioh 1
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Nioh1_Index.html">Nioh 1 Home</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_1/Section1_Index.html">Settings / Gameplay</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_2/Section2_Index.html">Missions</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_3/Section3_Index.html">Bosses / Enemies</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_4/Section4_Index.html">Guardian Spirits</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_5/Section5_Index.html">Characters</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_6/Section6_Index.html">Weapons / Skill Tree</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_7/Section7_Index.html">Stats / Statuses</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_8/Section8_Index.html">Items</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_9/Section9_Index.html">Blacksmith</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_10/Section10_Index.html">Smithing Texts</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_11/Section11_Index.html">The Abyss</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_12/Section12_Index.html">Builds</a>
+                </div>
+            </div>
+
+            <!-- Nioh 2 dropdown -->
+            <div class="btn-group" id="navbar_links">
+                 <a class="navbar-brand dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="https://liukang1080.github.io/Nioh_Website/Home_Page_Images/Nioh2_logo.png" width="35" height="35" class="d-inline-block align-top" alt="">Nioh 2
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Nioh2_Index.html">Nioh 2 Home</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_1/Section1_Index.html">Settings / Gameplay</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_2/Section2_Index.html">Missions</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_3/Section3_Index.html">Bosses / Enemies</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_4/Section4_Index.html">Guardian Spirits</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_5/Section5_Index.html">Characters</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_6/Section6_Index.html">Skills / Skill Tree</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_7/Section7_Index.html">Soul Cores</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_8/Section8_Index.html">Stats / Statuses</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_9/Section9_Index.html">Items</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_10/Section10_Index.html">Blacksmith</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_11/Section11_Index.html">Smithing Texts / Hidden Skills</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_12/Section12_Index.html">The Underworld</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_13/Section13_Index.html">Builds</a>
+                </div>
+            </div>
+
+            <!-- Credits -->
+            <div class="btn-group" id="navbar_links">
+                <a class="navbar-brand" href="https://liukang1080.github.io/Nioh_Website/Credits.html">Credits</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Title Text -->
+    <h2 id="title_text">Soul Core Attribute Conflict Table</h2>
+    <hr>
+
+    <!-- Table of Contents -->
+    <div id="table_of_contents">
+        <h3 style="margin-bottom: -0.5em;">Table of Contents:</h3><br>
+        <a href="javascript: how_to()">How to read the Conflict Table</a><br>
+        <a href="javascript: anima_stats()">Anima Stats</a><br>
+        <a href="javascript: damage_stats()">Damage Stats</a><br>
+        <a href="javascript: ki_damage_stats()">Ki Damage Stats</a><br>
+        <a href="javascript: elemental_damage_stats()">Elemental Damage Stats</a><br>
+        <a href="javascript: idr_stats()">Item Drop Rate Stats</a><br>
+        <a href="javascript: edr_stats()">Equipment Drop Rate Stats</a><br>
+        <a href="javascript: luck_stats()">Luck Stats</a><br>
+        <a href="javascript: power_stats()">Power Stats</a><br>
+        <a href="javascript: no_conflict_stats()">No Conflict Stats</a><br>
+        <a href="javascript: ">Credits</a><br>
+    </div>
+    <br>
+
+    <!-- Jumbotron -->
+    <!-- How to read the table -->
+    <div class="jumbotron">
+        <div class="container-fluid" style="text-align: center; margin-top: -2.0em;">
+            <h3 id="how_to">How to read the Conflict Table</h3>
+        </div>
+        <br>
+
+        <p>The following tables are grouped into 9 tables. Stats within a single table conflict each other, except for the last table. All attributes in the last table do
+            not conflict with each other, nor do they conflict with the other attributes in the other 8 tables. Ex) Looking at the 8th table (Power Stats), both Ninjutsu
+            Power and Onmyo Magic Power are in the same table. A Soul Core that already has Ninjutsu Power CANNOT roll the Onmyo Magic Power attribute. They conflict.
+            <br>
+            <br>
+            Anima Bonus (Scorched Enemy) vs. Anima Bonus (Enemy Scorched):
+            <br>
+            Scorched Enemy = Continuous bonus when dealing damage vs. enemy with that status. <br>
+            Enemy Scorched = One time bonus on status proc.
+        </p>
+    </div>
+
+    <!-- Anima Stats -->
+    <div class="jumbotron">
+        <div class="container-fluid" style="text-align: center; margin-top: -2.0em;">
+            <h3 id="anima_stats">Anima Stats</h3>
+        </div>
+        <br>
+
+        <div class="container-fluid">
+            <table class="center">
+                <!-- Header -->
+                <tr>
+                    <th></th>
+                    <th>Rank 1</th>
+                    <th>Rank 9</th>
+                    <th>Rank 20</th>
+                    <th>Rank 30</th>
+                </tr>
+
+                <tr>
+                    <td>Anima Bonus (Amrita Absorption)</td>
+                    <td>D-</td>
+                    <td>D+</td>
+                    <td>C</td>
+                    <td>B-</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Critical Amrita)</td>
+                    <td>D-</td>
+                    <td>D+</td>
+                    <td>C</td>
+                    <td>B-</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Unscathed Amrita)</td>
+                    <td>D-</td>
+                    <td>D+</td>
+                    <td>C</td>
+                    <td>B-</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Elemental Attack)</td>
+                    <td>C</td>
+                    <td>B</td>
+                    <td>A</td>
+                    <td>AA</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Unscathed Enemy)</td>
+                    <td>D-</td>
+                    <td>C-</td>
+                    <td>C</td>
+                    <td>B-</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Scorched Enemy)</td>
+                    <td>C+</td>
+                    <td>B</td>
+                    <td>A-</td>
+                    <td>A+</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Saturated Enemy)</td>
+                    <td>C+</td>
+                    <td>B</td>
+                    <td>A-</td>
+                    <td>A+</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Electrified Enemy)</td>
+                    <td>C+</td>
+                    <td>B</td>
+                    <td>A-</td>
+                    <td>A+</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Purified Enemy)</td>
+                    <td>C+</td>
+                    <td>B</td>
+                    <td>A-</td>
+                    <td>A+</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Corrupted Enemy)</td>
+                    <td>C+</td>
+                    <td>B</td>
+                    <td>A-</td>
+                    <td>A+</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Paralyzed Enemy)</td>
+                    <td>C+</td>
+                    <td>B</td>
+                    <td>A-</td>
+                    <td>A+</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Paralyzed Enemy)</td>
+                    <td>B</td>
+                    <td>A-</td>
+                    <td>A+</td>
+                    <td>AA</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Poisoned Enemy)</td>
+                    <td>C+</td>
+                    <td>B</td>
+                    <td>A-</td>
+                    <td>A+</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Confused Enemy)</td>
+                    <td>B</td>
+                    <td>A-</td>
+                    <td>A+</td>
+                    <td>AA</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Enemy <span style="color: red;">Scorched</span>)</td>
+                    <td>C+</td>
+                    <td>B</td>
+                    <td>A-</td>
+                    <td>A+</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Enemy Saturated)</td>
+                    <td>C+</td>
+                    <td>B</td>
+                    <td>A-</td>
+                    <td>A+</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Enemy Electrified)</td>
+                    <td>C+</td>
+                    <td>B</td>
+                    <td>A-</td>
+                    <td>A+</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Enemy Purified)</td>
+                    <td>C+</td>
+                    <td>B</td>
+                    <td>A-</td>
+                    <td>A+</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Enemy Corrupted)</td>
+                    <td>C+</td>
+                    <td>B</td>
+                    <td>A-</td>
+                    <td>A+</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Enemy Poisoned)</td>
+                    <td>C+</td>
+                    <td>B</td>
+                    <td>A-</td>
+                    <td>A+</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Enemy Paralyzed)</td>
+                    <td>C+</td>
+                    <td>B</td>
+                    <td>A-</td>
+                    <td>A+</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Enemy Paralyzed)</td>
+                    <td>B</td>
+                    <td>A-</td>
+                    <td>A+</td>
+                    <td>AA</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Enemy Confused)</td>
+                    <td>B</td>
+                    <td>A-</td>
+                    <td>A+</td>
+                    <td>AA</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Inflict Ailment)</td>
+                    <td>D+</td>
+                    <td>C+</td>
+                    <td>B</td>
+                    <td>B+</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Grapple)</td>
+                    <td>1.2</td>
+                    <td>1.3</td>
+                    <td>1.4</td>
+                    <td>1.5</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Final Blow)</td>
+                    <td>1.0</td>
+                    <td>1.1</td>
+                    <td>1.2</td>
+                    <td>1.3</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Ninjutsu Hit)</td>
+                    <td>D</td>
+                    <td>C-</td>
+                    <td>B</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Onmyo Magic Hit)</td>
+                    <td>D</td>
+                    <td>C-</td>
+                    <td>B</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Purification)</td>
+                    <td>0.3</td>
+                    <td>0.5</td>
+                    <td>0.7</td>
+                    <td>0.9</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Ranged Hit)</td>
+                    <td>C+</td>
+                    <td>B</td>
+                    <td>A</td>
+                    <td>AA</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Ranged Weapon Hit)</td>
+                    <td>C+</td>
+                    <td>B</td>
+                    <td>A</td>
+                    <td>AA</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Damage Taken)</td>
+                    <td>D</td>
+                    <td>C-</td>
+                    <td>B</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>Efficient Yokai Abilities (All)</td>
+                    <td>7.3%</td>
+                    <td>10.0%</td>
+                    <td>13.6%</td>
+                    <td>16.9%</td>
+                </tr>
+                <tr>
+                    <td>Super-Efficient Yokai Abilities (All)</td>
+                    <td>3.1%</td>
+                    <td>4.0%</td>
+                    <td>5.2%</td>
+                    <td>6.3%</td>
+                </tr>
+                <tr>
+                    <td>Super-Efficient Yokai Abilities (All)</td>
+                    <td>2.6%</td>
+                    <td>4.1%</td>
+                    <td>6.0%</td>
+                    <td>7.7%</td>
+                </tr>
+                <tr>
+                    <td>Anima Charge</td>
+                    <td>3.1%</td>
+                    <td>4.0%</td>
+                    <td>5.2%</td>
+                    <td>6.3%</td>
+                </tr>
+                <tr>
+                    <td>Anima Charge (Critical)</td>
+                    <td>9.2%</td>
+                    <td>11.0%</td>
+                    <td>13.4%</td>
+                    <td>15.6%</td>
+                </tr>
+                <tr>
+                    <td>Anima Charge (Unscathed)</td>
+                    <td>3.6%</td>
+                    <td>4.5%</td>
+                    <td>5.7%</td>
+                    <td>9.8%</td>
+                </tr>
+                <tr>
+                    <td>Anima Charge (Dark Realm)</td>
+                    <td>8.1%</td>
+                    <td>9.0%</td>
+                    <td>10.2%</td>
+                    <td>11.3%</td>
+                </tr>
+                <tr>
+                    <td>Anima Charge (Yokai Shift)</td>
+                    <td>9.1%</td>
+                    <td>10.0%</td>
+                    <td>11.2%</td>
+                    <td>14.2%</td>
+                </tr>
+                <tr>
+                    <td>Anima Charge (Ailing)</td>
+                    <td>8.1%</td>
+                    <td>9.0%</td>
+                    <td>10.2%</td>
+                    <td>11.3%</td>
+                </tr>
+                <tr>
+                    <td>Anima Charge (Enhanced)</td>
+                    <td>3.6%</td>
+                    <td>4.5%</td>
+                    <td>5.7%</td>
+                    <td>6.8%</td>
+                </tr>
+                <tr>
+                    <td>Anima Charge Bonus (Cumulative Damage)</td>
+                    <td>D-</td>
+                    <td>C</td>
+                    <td>B-</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>Anima Charge Bonus (Amrita Guage)</td>
+                    <td>C+</td>
+                    <td>B</td>
+                    <td>A-</td>
+                    <td>A+</td>
+                </tr>
+                <tr>
+                    <td>Anima Charge Bonus (Amrita Guage)</td>
+                    <td>B</td>
+                    <td>A-</td>
+                    <td>A+</td>
+                    <td>AA</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Timely Guard) [Innate Stat / Cannot Be Rolled]</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Water Attack) [Innate Stat / Cannot Be Rolled]</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- Damage Stats -->
+    <div class="jumbotron">
+        <div class="container-fluid" style="text-align: center; margin-top: -2.0em;">
+            <h3 id="damage_stats">Damage Stats</h3>
+        </div>
+        <br>
+
+        <div class="container-fluid">
+            <table class="center">
+                <!-- Header -->
+                <tr>
+                    <th></th>
+                    <th>Rank 1</th>
+                    <th>Rank 9</th>
+                    <th>Rank 20</th>
+                    <th>Rank 30</th>
+                </tr>
+
+                <tr>
+                    <td>Melee Damage vs. Saturated Enemy</td>
+                    <td>1.0%</td>
+                    <td>1.7%</td>
+                    <td>2.5%</td>
+                    <td>3.3%</td>
+                </tr>
+                <tr>
+                    <td>Melee Damage vs. Electrified Enemy</td>
+                    <td>1.0%</td>
+                    <td>1.7%</td>
+                    <td>2.5%</td>
+                    <td>3.3%</td>
+                </tr>
+                <tr>
+                    <td>Melee Damage vs. Purified Enemy</td>
+                    <td>1.0%</td>
+                    <td>1.7%</td>
+                    <td>2.5%</td>
+                    <td>3.3%</td>
+                </tr>
+                <tr>
+                    <td>Melee Damage vs. Corrupted Enemy</td>
+                    <td>1.0%</td>
+                    <td>1.7%</td>
+                    <td>2.5%</td>
+                    <td>3.3%</td>
+                </tr>
+                <tr>
+                    <td>Yokai Ability Damage</td>
+                    <td>10.5%</td>
+                    <td>15.0%</td>
+                    <td>21.0%</td>
+                    <td>26.5%</td>
+                </tr>
+                <tr>
+                    <td>Yokai Ability Damage (All)</td>
+                    <td>5.5%</td>
+                    <td>10.0%</td>
+                    <td>16.0%</td>
+                    <td>21.5%</td>
+                </tr>
+                <tr>
+                    <td>Melee Damage (Dark Realm)</td>
+                    <td>2.0%</td>
+                    <td>2.5%</td>
+                    <td>3.1%</td>
+                    <td>3.6%</td>
+                </tr>
+                <tr>
+                    <td>Quick Attack Damage [Innate Stat / Cannot Be Rolled]</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Strong Attack Damage [Innate Stat / Cannot Be Rolled]</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Melee Damage vs. Humans [Innate Stat / Cannot Be Rolled]</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Damage vs. Revenants [Innate Stat / Cannot Be Rolled]</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Active Skill Damage [Innate Stat / Cannot Be Rolled]</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Melee Damage vs. Unscathed Enemy [Innate Stat / Cannot Be Rolled]</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Melee Damage vs. Poisoned Enemy [Innate Stat / Cannot Be Rolled]</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Backstab Damage [Innate Stat / Cannot Be Rolled]</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Elemental Weapon Damage [Innate Stat / Cannot Be Rolled]</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Thrust Damage [Innate Stat / Cannot Be Rolled]</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Damage Bonus (Equipment Weight) [Innate Stat / Cannot Be Rolled]</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Bare-Handed Attack Damage [Innate Stat / Cannot Be Rolled]</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Ranged Damage [Innate Stat / Cannot Be Rolled]</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Melee Damage vs. Corrupted Enemy [Innate Stat / Cannot Be Rolled]</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- Ki Damage Stats -->
+    <div class="jumbotron">
+        <div class="container-fluid" style="text-align: center; margin-top: -2.0em;">
+            <h3 id="ki_damage_stats">Ki Damage Stats</h3>
+        </div>
+        <br>
+
+        <div class="container-fluid">
+
+            <table class="center">
+                <!-- Header -->
+                <tr>
+                    <th></th>
+                    <th>Rank 1</th>
+                    <th>Rank 9</th>
+                    <th>Rank 20</th>
+                    <th>Rank 30</th>
+                </tr>
+                
+                <tr>
+                    <td>Melee Ki Damage</td>
+                    <td>1.0%</td>
+                    <td>1.2%</td>
+                    <td>1.4%</td>
+                    <td>1.6%</td>
+                </tr>
+                <tr>
+                    <td>Strong Attack Ki Damage [Innate Stat / Cannot Be Rolled]</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Active Skill Ki Damage [Innate Stat / Cannot Be Rolled]</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- Elemental Damage Stats -->
+    <div class="jumbotron">
+        <div class="container-fluid" style="text-align: center; margin-top: -2.0em;">
+            <h3 id="elemental_damage_stats">Elemental Damage Stats</h3>
+        </div>
+        <br>
+
+        <div class="container-fluid">
+            <table class="center">
+                <!-- Header -->
+                <tr>
+                    <th></th>
+                    <th>Rank 1</th>
+                    <th>Rank 9</th>
+                    <th>Rank 20</th>
+                    <th>Rank 30</th>
+                </tr>
+
+                <tr>
+                    <td>Elemental Damage</td>
+                    <td>3.1%</td>
+                    <td>4.0%</td>
+                    <td>5.2%</td>
+                    <td>6.3%</td>
+                </tr>
+                <tr>
+                    <td>Fire Damage</td>
+                    <td>4.1%</td>
+                    <td>5.0%</td>
+                    <td>6.2%</td>
+                    <td>7.3%</td>
+                </tr>
+                <tr>
+                    <td>Water Damage</td>
+                    <td>4.1%</td>
+                    <td>5.0%</td>
+                    <td>6.2%</td>
+                    <td>7.3%</td>
+                </tr>
+                <tr>
+                    <td>Lightning Damage</td>
+                    <td>4.1%</td>
+                    <td>5.0%</td>
+                    <td>6.2%</td>
+                    <td>7.3%</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- Item Drop Rate Stats -->
+    <div class="jumbotron">
+        <div class="container-fluid" style="text-align: center; margin-top: -2.0em;">
+            <h3 id="idr_stats">Item Drop Rate Stats</h3>
+        </div>
+        <br>
+
+        <div class="container-fluid">
+            <table>
+                <!-- Header -->
+                <tr>
+                    <th></th>
+                    <th>Rank 1</th>
+                    <th>Rank 9</th>
+                    <th>Rank 20</th>
+                    <th>Rank 30</th>
+                </tr>
+
+                <tr>
+                    <td>Item Drop Rate vs. Humans</td>
+                    <td>2.1%</td>
+                    <td>3.0%</td>
+                    <td>4.2%</td>
+                    <td>5.3%</td>
+                </tr>
+                <tr>
+                    <td>Item Drop Rate vs. Yokai</td>
+                    <td>1.0%</td>
+                    <td>1.5%</td>
+                    <td>3.0%</td>
+                    <td>3.8%</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- Equipment Drop Rate Stats -->
+    <div class="jumbotron">
+        <div class="container-fluid" style="text-align: center; margin-top: -2.0em;">
+            <h3 id="edr_stats">Equipment Drop Rate Stats</h3>
+        </div>
+        <br>
+
+        <div class="container-fluid">
+            <table class="center">
+                <!-- Header -->
+                <tr>
+                    <th></th>
+                    <th>Rank 1</th>
+                    <th>Rank 9</th>
+                    <th>Rank 20</th>
+                    <th>Rank 30</th>
+                </tr>
+
+                <tr>
+                    <td>Equipment Drop Rate vs. Humans</td>
+                    <td>1.2%</td>
+                    <td>1.7%</td>
+                    <td>3.0%</td>
+                    <td>3.8%</td>
+                </tr>
+                <tr>
+                    <td>Equipment Drop Rate vs. Yokai</td>
+                    <td>1.2%</td>
+                    <td>1.7%</td>
+                    <td>3.0%</td>
+                    <td>3.8%</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- Luck Stats -->
+    <div class="jumbotron">
+        <div class="container-fluid" style="text-align: center; margin-top: -2.0em;">
+            <h3 id="luck_stats">Luck Stats</h3>
+        </div>
+        <br>
+
+        <div class="container-fluid">
+            <table class="center">
+                <!-- Header -->
+                <tr>
+                    <th></th>
+                    <th>Rank 1</th>
+                    <th>Rank 9</th>
+                    <th>Rank 20</th>
+                    <th>Rank 30</th>
+                </tr>
+
+                <tr>
+                    <td>Luck</td>
+                    <td>4</td>
+                    <td>8</td>
+                    <td>12</td>
+                    <td>17</td>
+                </tr>
+                <tr>
+                    <td>Luck</td>
+                    <td>10</td>
+                    <td>17</td>
+                    <td>25</td>
+                    <td>33</td>
+                </tr>
+                <tr>
+                    <td>Luck (Yokai Shift)</td>
+                    <td>30</td>
+                    <td>35</td>
+                    <td>41</td>
+                    <td>46</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- Power Stats -->
+    <div class="jumbotron">
+        <div class="container-fluid" style="text-align: center; margin-top: -2.0em;">
+            <h3 id="power_stats">Power Stats</h3>
+        </div>
+        <br>
+
+        <div class="container-fluid">
+            <table class="center">
+                <!-- Header -->
+                <tr>
+                    <th></th>
+                    <th>Rank 1</th>
+                    <th>Rank 9</th>
+                    <th>Rank 20</th>
+                    <th>Rank 30</th>
+                </tr>
+
+                <tr>
+                    <td>Ninjutsu Power</td>
+                    <td>5</td>
+                    <td>7</td>
+                    <td>9</td>
+                    <td>11</td>
+                </tr>
+                <tr>
+                    <td>Onmyo Magic Power</td>
+                    <td>5</td>
+                    <td>7</td>
+                    <td>9</td>
+                    <td>11</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- No Conflict -->
+    <div class="jumbotron">
+        <div class="container-fluid" style="text-align: center; margin-top: -2.0em;">
+            <h3 id="no_conflict_stats">No Conflict Stats</h3>
+        </div>
+        <br>
+
+        <div class="container-fluid">
+            <table class="center">
+                <!-- Header -->
+                <tr>
+                    <th></th>
+                    <th>Rank 1</th>
+                    <th>Rank 9</th>
+                    <th>Rank 20</th>
+                    <th>Rank 30</th>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+
+
+            </table>
+        </div>
+    </div>
+
+    <!-- Credits -->
+    <div class="jumbotron">
+        <div class="container-fluid" style="text-align: center; margin-top: -2.0em;">
+            <h3 id="credits">Credits:</h3>
+        </div>
+
+        <p><b>Nioh 2 Soul Core List and Rollable Stats Table (Complete Edition):</b> Ocean Machine. <br>
+            Additional Information: LOLSAN, dwbl, neverhere, Peter, KitPes, and Lynch <br>
+            <a href="https://docs.google.com/spreadsheets/d/1Nc2wvXZHrOqf_IvHWlPiFI4CJ_p1fFtFnKUJlxYllls/edit#gid=488141566">Link to Document</a>
+        </p>
+        <br>
+
+        <p><b>Nioh Community Discord Server: </b>
+            <a href="https://discord.gg/pAH5U9mRBj">Link to Discord Server</a>
+        </p>
+    </div>
+
+    <!-- Back to Top Button -->
+    <div id="back_to_top_button" class="btn-group">
+        <a type="button" class="btn btn-warning" href="#">Top</a>
+    </div>
+
+
+    <!-- Local JavaScript Functions -->
+
+
+    <!-- Adding JavaScript, JQuery, and Bootstrap.js Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+<!-- TODO -->
+<!-- 
+
+-->
