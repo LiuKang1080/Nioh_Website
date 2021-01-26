@@ -83,11 +83,11 @@
     <!-- Table of Contents -->
     <div id="table_of_contents">
         <h3 style="margin-bottom: -0.5em;">Table of Contents:</h3><br>
-        <a href="javascript:">Base Game Soul Cores</a><br>
-        <a href="javascript:">Tengu's Desciple (DLC 1) Soul Cores</a><br>
-        <a href="javascript:">Darkness In The Capital (DLC 2) Soul Cores</a><br>
-        <a href="javascript:">The First Samurai (DLC 3) Soul Cores</a><br>
-        <a href="javascript:">Credits</a><br>
+        <a href="javascript: base_game()">Base Game Soul Cores</a><br>
+        <a href="javascript: dlc_1()">Tengu's Desciple (DLC 1) Soul Cores</a><br>
+        <a href="javascript: dlc_2()">Darkness In The Capital (DLC 2) Soul Cores</a><br>
+        <a href="javascript: dlc_3()">The First Samurai (DLC 3) Soul Cores</a><br>
+        <a href="javascript: credits()">Credits</a><br>
     </div>
     <br>
 
@@ -95,7 +95,7 @@
     <!-- Base Game Soul Cores -->
     <div class="jumbotron">
         <div class="container-fluid" style="text-align: center; margin-top: -2.0em;">
-            <h3>Base Game Soul Cores</h3>
+            <h3 id="base_game">Base Game Soul Cores</h3>
         </div>
         <br>
 
@@ -154,11 +154,1580 @@
                     <td>2.6%</td>
                     <td>3.1%</td>
                 </tr>
-                
 
+                <!-- Yoki -->
+                <tr>
+                    <td rowspan="2"><a href="">Yoki</a></td>
+                    <td rowspan="2">Brute</td>
+                    <td>Anima Bonus (Amrita Absorption)</td>
+                    <td>D</td>
+                    <td>D+</td>
+                    <td>C</td>
+                    <td>B-</td>
+                    <td rowspan="2">7</td>
+                    <td rowspan="2">6</td>
+                </tr>
+                <tr>
+                    <td>Defense (Yokai Shift)</td>
+                    <td>32</td>
+                    <td>40</td>
+                    <td>52</td>
+                    <td>63</td>
+                </tr>
+                
+                <!-- Gozuki -->
+                <tr>
+                    <td rowspan="2"><a href="">Gozuki (Boss)</a></td>
+                    <td rowspan="2">Brute</td>
+                    <td>Charge Attack Boost</td>
+                    <td>2.1%</td>
+                    <td>2.5%</td>
+                    <td>3.1%</td>
+                    <td>3.6%</td>
+                    <td rowspan="2">9</td>
+                    <td rowspan="2">8</td>
+                </tr>
+                <tr>
+                    <td>Attack (Yokai Shift)</td>
+                    <td>23</td>
+                    <td>30</td>
+                    <td>42</td>
+                    <td>53</td>
+                </tr>
+
+                <!-- Mezuki -->
+                <tr>
+                    <td rowspan="2"><a href="">Mezuki (Boss)</a></td>
+                    <td rowspan="2">Brute</td>
+                    <td>Pleides (Enemy Killed)</td>
+                    <td>28.2%</td>
+                    <td>33.0%</td>
+                    <td>42.6%</td>
+                    <td>51.4%</td>
+                    <td rowspan="2">9</td>
+                    <td rowspan="2">8</td>
+                </tr>
+                <tr>
+                    <td>Attack (Yokai Shift)</td>
+                    <td>24</td>
+                    <td>30</td>
+                    <td>42</td>
+                    <td>53</td>
+                </tr>
+
+                <!-- Ippon-Datara -->
+                <tr>
+                    <td rowspan="2"><a href="">Ippon-Datara</a></td>
+                    <td rowspan="2">Brute</td>
+                    <td>Yokai Ability Damage (Scorched Enemy)</td>
+                    <td>16.0%</td>
+                    <td>20.0%</td>
+                    <td>26.0%</td>
+                    <td>31.5%</td>
+                    <td rowspan="2">7</td>
+                    <td rowspan="2">7</td>
+                </tr>
+                <tr>
+                    <td>Equipment Drop Rate</td>
+                    <td>2.7%</td>
+                    <td>3.5%</td>
+                    <td>4.7%</td>
+                    <td>5.3%</td>
+                </tr>
+
+                <!-- Kappa -->
+                <tr>
+                    <td rowspan="2"><a href="">Kappa</a></td>
+                    <td rowspan="2">Feral</td>
+                    <td>Life Drain (Water Attack)</td>
+                    <td>D-</td>
+                    <td>C-</td>
+                    <td>B-</td>
+                    <td>A-</td>
+                    <td rowspan="2">4</td>
+                    <td rowspan="2">6</td>
+                </tr>
+                <tr>
+                    <td>Block</td>
+                    <td>5</td>
+                    <td>7</td>
+                    <td>9</td>
+                    <td>11</td>
+                </tr>
+
+                <!-- Nurikabe -->
+                <tr>
+                    <td rowspan="2"><a href="">Nurikabe</a></td>
+                    <td rowspan="2">Brute</td>
+                    <td>Damage Taken</td>
+                    <td>-0.6%</td>
+                    <td>-1.1%</td>
+                    <td>-1.8%</td>
+                    <td>-2.4%</td>
+                    <td rowspan="2">8</td>
+                    <td rowspan="2">2</td>
+                </tr>
+                <tr>
+                    <td>Toughness</td>
+                    <td>3</td>
+                    <td>5</td>
+                    <td>7</td>
+                    <td>9</td>
+                </tr>
+
+                <!-- Mujina -->
+                <tr>
+                    <td rowspan="2"><a href="">Mujina</a></td>
+                    <td rowspan="2">Phantom</td>
+                    <td>Copy Enhancement</td>
+                    <td>53.3%</td>
+                    <td>66.7%</td>
+                    <td>86.7%</td>
+                    <td>105.1%</td>
+                    <td rowspan="2">4</td>
+                    <td rowspan="2">-</td>
+                </tr>
+                <tr>
+                    <td>Anima Charge (Unscathed)</td>
+                    <td>3.7%</td>
+                    <td>4.5%</td>
+                    <td>5.7%</td>
+                    <td>9.8%</td>
+                </tr>
+
+                <!-- Enenra -->
+                <tr>
+                    <td rowspan="2"><a href="">Enenra (Boss)</a></td>
+                    <td rowspan="2">Phantom</td>
+                    <td>Anima</td>
+                    <td>0.8</td>
+                    <td>1.0</td>
+                    <td>1.3</td>
+                    <td>1.6</td>
+                    <td rowspan="2">9</td>
+                    <td rowspan="2">6</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Scorched Enemy)</td>
+                    <td>C+</td>
+                    <td>B</td>
+                    <td>A-</td>
+                    <td>A+</td>
+                </tr>
+
+                <!-- Nure-Onna -->
+                <tr>
+                    <td rowspan="2"><a href="">Nure-Onna</a></td>
+                    <td rowspan="2">Feral</td>
+                    <td>Poison Resistence</td>
+                    <td>4.1</td>
+                    <td>5.0</td>
+                    <td>6.2</td>
+                    <td>7.3</td>
+                    <td rowspan="2">4</td>
+                    <td rowspan="2">4</td>
+                </tr>
+                <tr>
+                    <td>Melee Damage vs. Unscathed Enemy</td>
+                    <td>1.5%</td>
+                    <td>2.0%</td>
+                    <td>2.6%</td>
+                    <td>3.1</td>
+                </tr>
+
+                <!-- Aberrant Soldier -->
+                <tr>
+                    <td rowspan="2"><a href="">Aberrant Soldier</a></td>
+                    <td rowspan="2">Brute</td>
+                    <td>Efficient Yokai Abilities (All)</td>
+                    <td>7.3%</td>
+                    <td>10.0%</td>
+                    <td>13.6%</td>
+                    <td>16.9%</td>
+                    <td rowspan="2">4</td>
+                    <td rowspan="2">3</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Timely Guard)</td>
+                    <td>1.0</td>
+                    <td>1.5</td>
+                    <td>2.1</td>
+                    <td>2.6</td>
+                </tr>
+
+                <!-- Toxic Slime -->
+                <tr>
+                    <td rowspan="2"><a href="">Toxic Slime</a></td>
+                    <td rowspan="2">Phantom</td>
+                    <td>Poison Resistence</td>
+                    <td>4.1</td>
+                    <td>5.0</td>
+                    <td>6.2</td>
+                    <td>7.3</td>
+                    <td rowspan="2">5</td>
+                    <td rowspan="2">4</td>
+                </tr>
+                <tr>
+                    <td>Poison Accumulation (Enemy)</td>
+                    <td>8.2%</td>
+                    <td>10.0%</td>
+                    <td>13.6%</td>
+                    <td>16.9%</td>
+                </tr>
+
+                <!-- Yatsu-No-Kami -->
+                <tr>
+                    <td rowspan="2"><a href="">Yatsu-No-Kami (Boss)</a></td>
+                    <td rowspan="2">Phantom</td>
+                    <td>Melee Damage vs. Poisoned Enemy</td>
+                    <td>15.8%</td>
+                    <td>17.0%</td>
+                    <td>19.4%</td>
+                    <td>21.6%</td>
+                    <td rowspan="2">10</td>
+                    <td rowspan="2">8</td>
+                </tr>
+                <tr>
+                    <td>Anima Charge</td>
+                    <td>3.4%</td>
+                    <td>4.0%</td>
+                    <td>5.2%</td>
+                    <td>6.3</td>
+                </tr>
+
+                <!-- Yamanba -->
+                <tr>
+                    <td rowspan="2"><a href="">Yamanba</a></td>
+                    <td rowspan="2">Feral</td>
+                    <td>Movement Speed (Yokai Shift)</td>
+                    <td>5.1%</td>
+                    <td>6.0%</td>
+                    <td>7.2%</td>
+                    <td>8.3%</td>
+                    <td rowspan="2">6</td>
+                    <td rowspan="2">4</td>
+                </tr>
+                <tr>
+                    <td>Grapple Damage</td>
+                    <td>3.1%</td>
+                    <td>4.0%</td>
+                    <td>5.2%</td>
+                    <td>6.3</td>
+                </tr>
+
+                <!-- One-Eyed Oni -->
+                <tr>
+                    <td rowspan="2"><a href="">One-Eyed Oni</a></td>
+                    <td rowspan="2">Brute</td>
+                    <td>Strong Attack Damage</td>
+                    <td>1.6%</td>
+                    <td>2.0%</td>
+                    <td>2.6%</td>
+                    <td>3.1%</td>
+                    <td rowspan="2">7</td>
+                    <td rowspan="2">6</td>
+                </tr>
+                <tr>
+                    <td>Break</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+
+                <!-- Karasu Tengu -->
+                <tr>
+                    <td rowspan="2"><a href="">Karasu Tengu</a></td>
+                    <td rowspan="2">Feral</td>
+                    <td>Anima</td>
+                    <td>0.7</td>
+                    <td>1.0</td>
+                    <td>1.3</td>
+                    <td>1.6</td>
+                    <td rowspan="2">9</td>
+                    <td rowspan="2">4</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Onmyo Magic Hit)</td>
+                    <td>D</td>
+                    <td>C</td>
+                    <td>B</td>
+                    <td>A</td>
+                </tr>
+
+                <!-- Waira -->
+                <tr>
+                    <td rowspan="2"><a href="">Waira</a></td>
+                    <td rowspan="2">Phantom</td>
+                    <td>Melee Damage (Dark Realm)</td>
+                    <td>2.1%</td>
+                    <td>2.5%</td>
+                    <td>3.1%</td>
+                    <td>3.6%</td>
+                    <td rowspan="2">8</td>
+                    <td rowspan="2">5</td>
+                </tr>
+                <tr>
+                    <td>Other Realm Resistence</td>
+                    <td>1.6</td>
+                    <td>2.0</td>
+                    <td>2.6</td>
+                    <td>3.1</td>
+                </tr>
+
+                <!-- Karakasa Umbrella -->
+                <tr>
+                    <td rowspan="2"><a href="">Karakasa Umbrella</a></td>
+                    <td rowspan="2">Feral</td>
+                    <td>Water Resistence</td>
+                    <td>4.2%</td>
+                    <td>5.0%</td>
+                    <td>6.2%</td>
+                    <td>7.3%</td>
+                    <td rowspan="2">3</td>
+                    <td rowspan="2">4</td>
+                </tr>
+                <tr>
+                    <td>Paralysis Accumulation (Enemy)</td>
+                    <td>8.4%</td>
+                    <td>10.0%</td>
+                    <td>12.4%</td>
+                    <td>14.6%</td>
+                </tr>
+
+                <!-- Lesser Umi-Bozu -->
+                <tr>
+                    <td rowspan="2"><a href="">Lesser Umi-Bozu</a></td>
+                    <td rowspan="2">Phantom</td>
+                    <td>Water Damage</td>
+                    <td>5.2%</td>
+                    <td>7.0%</td>
+                    <td>9.4%</td>
+                    <td>11.6%</td>
+                    <td rowspan="2">5</td>
+                    <td rowspan="2">3</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Enemy Saturated)</td>
+                    <td>C+</td>
+                    <td>B</td>
+                    <td>A-</td>
+                    <td>A+</td>
+                </tr>
+
+                <!-- Skeleton Warrior -->
+                <tr>
+                    <td rowspan="2"><a href="">Skeleton Warrior</a></td>
+                    <td rowspan="2">Phantom</td>
+                    <td>Anima Bonus (Ranged Weapon Hit)</td>
+                    <td>C</td>
+                    <td>B</td>
+                    <td>A</td>
+                    <td>AA</td>
+                    <td rowspan="2">6</td>
+                    <td rowspan="2">4</td>
+                </tr>
+                <tr>
+                    <td>Auto-Grave Recovery</td>
+                    <td>10.5%</td>
+                    <td>15.0%</td>
+                    <td>21.0%</td>
+                    <td>26.5%</td>
+                </tr>
+
+                <!-- Kamaitachi -->
+                <tr>
+                    <td rowspan="2"><a href="">Kamaitachi (Boss)</a></td>
+                    <td rowspan="2">Feral</td>
+                    <td>Quick Attack Damage</td>
+                    <td>1.0%</td>
+                    <td>1.2%</td>
+                    <td>1.4%</td>
+                    <td>3.2%</td>
+                    <td rowspan="2">10</td>
+                    <td rowspan="2">7</td>
+                </tr>
+                <tr>
+                    <td>Dash Ki Consumption</td>
+                    <td>-1.0%</td>
+                    <td>-1.2%</td>
+                    <td>-1.4%</td>
+                    <td>-3.2%</td>
+                </tr>
+
+                <!-- Koroka -->
+                <tr>
+                    <td rowspan="2"><a href="">Koroka</a></td>
+                    <td rowspan="2">Phantom</td>
+                    <td>Fire Damage</td>
+                    <td>5.4%</td>
+                    <td>7.0%</td>
+                    <td>9.4%</td>
+                    <td>11.6%</td>
+                    <td rowspan="2">7</td>
+                    <td rowspan="2">4</td>
+                </tr>
+                <tr>
+                    <td>Stealth</td>
+                    <td>D</td>
+                    <td>C</td>
+                    <td>B</td>
+                    <td>A</td>
+                </tr>
+
+                <!-- Dweller -->
+                <tr>
+                    <td rowspan="2"><a href="">Dweller</a></td>
+                    <td rowspan="2">Feral</td>
+                    <td>Paralysis Resistence</td>
+                    <td>4.1</td>
+                    <td>5.0</td>
+                    <td>6.2</td>
+                    <td>7.3</td>
+                    <td rowspan="2">5</td>
+                    <td rowspan="2">3</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Grapple)</td>
+                    <td>1.2</td>
+                    <td>1.3</td>
+                    <td>1.4</td>
+                    <td>1.5</td>
+                </tr>
+
+                <!-- Rokurokubi -->
+                <tr>
+                    <td rowspan="2"><a href="">Rokurokubi</a></td>
+                    <td rowspan="2">Phantom</td>
+                    <td>Anima Bonus (Scorched Enemy)</td>
+                    <td>C+</td>
+                    <td>B</td>
+                    <td>A</td>
+                    <td>A+</td>
+                    <td rowspan="2">6</td>
+                    <td rowspan="2">4</td>
+                </tr>
+                <tr>
+                    <td>Yokai Ability Damage (Poisoned Enemy)</td>
+                    <td>16.0%</td>
+                    <td>20.0%</td>
+                    <td>26.0%</td>
+                    <td>31.5%</td>
+                </tr>
+
+                <!-- Onryoki -->
+                <tr>
+                    <td rowspan="2"><a href="">Onryoki (Boss)</a></td>
+                    <td rowspan="2">Brute</td>
+                    <td>Anima Bonus (Damage Taken)</td>
+                    <td>C</td>
+                    <td>B</td>
+                    <td>A</td>
+                    <td>AA</td>
+                    <td rowspan="2">9</td>
+                    <td rowspan="2">6</td>
+                </tr>
+                <tr>
+                    <td>Damage Taken (Mid-Attack)</td>
+                    <td>-6.5%</td>
+                    <td>-10.0%</td>
+                    <td>-16.0%</td>
+                    <td>-21.5%</td>
+                </tr>
+
+                <!-- Mitsume Yazura -->
+                <tr>
+                    <td rowspan="2"><a href="">Mitsume Yazura</a></td>
+                    <td rowspan="2">Brute</td>
+                    <td>Enemy Sensor</td>
+                    <td>null</td>
+                    <td>null</td>
+                    <td>null</td>
+                    <td>null</td>
+                    <td rowspan="2">7</td>
+                    <td rowspan="2">4</td>
+                </tr>
+                <tr>
+                    <td>Anima Charge (Critical)</td>
+                    <td>9.4%</td>
+                    <td>11.0%</td>
+                    <td>13.4%</td>
+                    <td>15.6%</td>
+                </tr>
+
+                <!-- Biwa Boku-Boku -->
+                <tr>
+                    <td rowspan="2"><a href="">Biwa Boku-Boku</a></td>
+                    <td rowspan="2">Phantom</td>
+                    <td>Damage vs. Revenants</td>
+                    <td>4.1%</td>
+                    <td>5.0%</td>
+                    <td>6.2%</td>
+                    <td>7.3</td>
+                    <td rowspan="2">4</td>
+                    <td rowspan="2">-</td>
+                </tr>
+                <tr>
+                    <td>Soul Core Drop Rate</td>
+                    <td>1.0%</td>
+                    <td>1.5%</td>
+                    <td>2.1%</td>
+                    <td>2.6%</td>
+                </tr>
+
+                <!-- Tatarimokke -->
+                <tr>
+                    <td rowspan="2"><a href="">Tatarimokke (Boss)</a></td>
+                    <td rowspan="2">Phantom</td>
+                    <td>Yokai Ability Damage (Corrupted Enemy)</td>
+                    <td>17.0%</td>
+                    <td>20.0%</td>
+                    <td>26.0%</td>
+                    <td>31.5%</td>
+                    <td rowspan="2">9</td>
+                    <td rowspan="2">5</td>
+                </tr>
+                <tr>
+                    <td>Melee Damage (Dark Realm)</td>
+                    <td>2.2%</td>
+                    <td>2.5%</td>
+                    <td>3.1%</td>
+                    <td>3.6%</td>
+                </tr>
+
+                <!-- Flying Bolt -->
+                <tr>
+                    <td rowspan="2"><a href="">Flying Bolt</a></td>
+                    <td rowspan="2">Phantom</td>
+                    <td>Anima Bonus (Ranged Weapon Hit)</td>
+                    <td>C</td>
+                    <td>B</td>
+                    <td>A</td>
+                    <td>AA</td>
+                    <td rowspan="2">6</td>
+                    <td rowspan="2">4</td>
+                </tr>
+                <tr>
+                    <td>Reduced Movement (Ranged Weapon Hit)</td>
+                    <td>26.6%</td>
+                    <td>33.0%</td>
+                    <td>42.6%</td>
+                    <td>51.4%</td>
+                </tr>
+
+                <!-- Namahage -->
+                <tr>
+                    <td rowspan="2"><a href="">Namahage</a></td>
+                    <td rowspan="2">Brute</td>
+                    <td>Melee Damage vs. Zero-Ki Enemy</td>
+                    <td>5.2%</td>
+                    <td>6.0%</td>
+                    <td>7.2%</td>
+                    <td>8.3%</td>
+                    <td rowspan="2">7</td>
+                    <td rowspan="2">5</td>
+                </tr>
+                <tr>
+                    <td>Defense (Yokai Shift)</td>
+                    <td>32</td>
+                    <td>40</td>
+                    <td>52</td>
+                    <td>63</td>
+                </tr>
+
+                <!-- Tesso -->
+                <tr>
+                    <td rowspan="2"><a href="">Tesso</a></td>
+                    <td rowspan="2">Feral</td>
+                    <td>Active Skill Ki Damage</td>
+                    <td>1.0%</td>
+                    <td>1.2%</td>
+                    <td>1.4%</td>
+                    <td>2.8%</td>
+                    <td rowspan="2">5</td>
+                    <td rowspan="2">3</td>
+                </tr>
+                <tr>
+                    <td>Backstab Damage</td>
+                    <td>1.0%</td>
+                    <td>1.2%</td>
+                    <td>1.4%</td>
+                    <td>3.2%</td>
+                </tr>
+
+                <!-- Ubume -->
+                <tr>
+                    <td rowspan="2"><a href="">Ubume</a></td>
+                    <td rowspan="2">Phantom</td>
+                    <td>Strong Attack Ki Damage</td>
+                    <td>1.0%</td>
+                    <td>1.2%</td>
+                    <td>1.4%</td>
+                    <td>3.2%</td>
+                    <td rowspan="2">4</td>
+                    <td rowspan="2">4</td>
+                </tr>
+                <tr>
+                    <td>Amrita Earned (Yokai Shift)</td>
+                    <td>7.1%</td>
+                    <td>8.0%</td>
+                    <td>9.2%</td>
+                    <td>10.3%</td>
+                </tr>
+
+                <!-- Onyudo -->
+                <tr>
+                    <td rowspan="2"><a href="">Onyudo</a></td>
+                    <td rowspan="2">Brute</td>
+                    <td>Anima Bonus (Elemental Attack)</td>
+                    <td>C</td>
+                    <td>B</td>
+                    <td>A</td>
+                    <td>AA</td>
+                    <td rowspan="2">6</td>
+                    <td rowspan="2">5</td>
+                </tr>
+                <tr>
+                    <td>Elemental Damage Taken</td>
+                    <td>-2.1%</td>
+                    <td>-2.5%</td>
+                    <td>-3.1</td>
+                    <td>-3.6%</td>
+                </tr>
+
+                <!-- Gyuki -->
+                <tr>
+                    <td rowspan="2"><a href="">Gyuki (Boss)</a></td>
+                    <td rowspan="2">Brute</td>
+                    <td>Anima Bonus (Poisoned Enemy)</td>
+                    <td>C+</td>
+                    <td>B</td>
+                    <td>A-</td>
+                    <td>A+</td>
+                    <td rowspan="2">10</td>
+                    <td rowspan="2">7</td>
+                </tr>
+                <tr>
+                    <td>Melee Damage vs. Saturated Enemy</td>
+                    <td>10.8%</td>
+                    <td>12.0%</td>
+                    <td>14.4%</td>
+                    <td>16.6%</td>
+                </tr>
+
+                <!-- Wheelmonk -->
+                <tr>
+                    <td rowspan="2"><a href="">Wheelmonk</a></td>
+                    <td rowspan="2">Feral</td>
+                    <td>Anima Bonus (Enemy Scorched)</td>
+                    <td>C+</td>
+                    <td>B</td>
+                    <td>A-</td>
+                    <td>A+</td>
+                    <td rowspan="2">4</td>
+                    <td rowspan="2">5</td>
+                </tr>
+                <tr>
+                    <td>Dash Ki Consumption</td>
+                    <td>-1.0%</td>
+                    <td>-1.2%</td>
+                    <td>-1.4%</td>
+                    <td>-3.2%</td>
+                </tr>
+
+                <!-- Kasha -->
+                <tr>
+                    <td rowspan="2"><a href="">Kasha (Boss)</a></td>
+                    <td rowspan="2">Feral</td>
+                    <td>Life Drain (Yokai Ability Hit)</td>
+                    <td>B+</td>
+                    <td>A</td>
+                    <td>AA-</td>
+                    <td>AA+</td>
+                    <td rowspan="2">10</td>
+                    <td rowspan="2">7</td>
+                </tr>
+                <tr>
+                    <td>Faster Movement (Amrita Absorption)</td>
+                    <td>null</td>
+                    <td>null</td>
+                    <td>null</td>
+                    <td>null</td>
+                </tr>
+
+                <!-- Ryomen Sukuna -->
+                <tr>
+                    <td rowspan="2"><a href="">Ryomen Sukuna (Boss)</a></td>
+                    <td rowspan="2">Brute</td>
+                    <td>Anima Bonus (Enemy Confused)</td>
+                    <td>B</td>
+                    <td>A-</td>
+                    <td>A+</td>
+                    <td>AA</td>
+                    <td rowspan="2">10</td>
+                    <td rowspan="2">8</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Onmyo Magic Hit)</td>
+                    <td>B+</td>
+                    <td>A</td>
+                    <td>AA-</td>
+                    <td>AA+</td>
+                </tr>
+
+                <!-- Daidara Bocchi -->
+                <tr>
+                    <td rowspan="2"><a href="">Daidara Bocchi (Boss)</a></td>
+                    <td rowspan="2">Brute</td>
+                    <td>Life</td>
+                    <td>120</td>
+                    <td>150</td>
+                    <td>210</td>
+                    <td>265</td>
+                    <td rowspan="2">10</td>
+                    <td rowspan="2">6</td>
+                </tr>
+                <tr>
+                    <td>Toughness</td>
+                    <td>4</td>
+                    <td>6</td>
+                    <td>8</td>
+                    <td>10</td>
+                </tr>
+
+                <!-- Shuten Doji -->
+                <tr>
+                    <td rowspan="2"><a href="">Shuten Doji (Boss)</a></td>
+                    <td rowspan="2">Brute</td>
+                    <td>Increased Defense (Amrita Absorption)</td>
+                    <td>null</td>
+                    <td>null</td>
+                    <td>null</td>
+                    <td>null</td>
+                    <td rowspan="2">11</td>
+                    <td rowspan="2">5</td>
+                </tr>
+                <tr>
+                    <td>Break</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                </tr>
+
+                <!-- Magatsu Warrior -->
+                <tr>
+                    <td rowspan="2"><a href="">Magatsu Warrior</a></td>
+                    <td rowspan="2">Brute</td>
+                    <td>Active Skill Damage</td>
+                    <td>1.6%</td>
+                    <td>2.0%</td>
+                    <td>2.6%</td>
+                    <td>3.1%</td>
+                    <td rowspan="2">9</td>
+                    <td rowspan="2">6</td>
+                </tr>
+                <tr>
+                    <td>Anima Charge Bonus (Cumulative Damage)</td>
+                    <td>C</td>
+                    <td>B</td>
+                    <td>A</td>
+                    <td>AA</td>
+                </tr>
+
+                <!-- Lady Osakabe -->
+                <tr>
+                    <td rowspan="2"><a href="">Lady Osakabe (Boss)</a></td>
+                    <td rowspan="2">Phantom</td>
+                    <td>Damage Taken</td>
+                    <td>-0.7%</td>
+                    <td>-1.1%</td>
+                    <td>-1.8%</td>
+                    <td>-2.4%</td>
+                    <td rowspan="2">10</td>
+                    <td rowspan="2">7</td>
+                </tr>
+                <tr>
+                    <td>Anima Charge (Dark Realm)</td>
+                    <td>8.4%</td>
+                    <td>9.0%</td>
+                    <td>10.2%</td>
+                    <td>11.3%</td>
+                </tr>
+
+                <!-- Otakemaru -->
+                <tr>
+                    <td rowspan="2"><a href="">Otakemaru (Boss)</a></td>
+                    <td rowspan="2">Phantom</td>
+                    <td>Anima</td>
+                    <td>0.8</td>
+                    <td>1.0</td>
+                    <td>1.3</td>
+                    <td>1.6</td>
+                    <td rowspan="2">11</td>
+                    <td rowspan="2">10</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Confused Enemy)</td>
+                    <td>B</td>
+                    <td>A-</td>
+                    <td>A+</td>
+                    <td>AA</td>
+                </tr>
+
+                <!-- Kodama -->
+                <tr>
+                    <td rowspan="2"><a href="">Kodama</a></td>
+                    <td rowspan="2">Phantom</td>
+                    <td>Elixir Efficacy</td>
+                    <td>4.2%</td>
+                    <td>5.0%</td>
+                    <td>6.2%</td>
+                    <td>7.3%</td>
+                    <td rowspan="2">3</td>
+                    <td rowspan="2">3</td>
+                </tr>
+                <tr>
+                    <td>Enhanced Kodama Blessings</td>
+                    <td>10%</td>
+                    <td>12%</td>
+                    <td>14%</td>
+                    <td>16%</td>
+                </tr>
+
+                <!-- Scampuss -->
+                <tr>
+                    <td rowspan="2"><a href="">Scampuss</a></td>
+                    <td rowspan="2">Feral</td>
+                    <td>Anima Charge (Enhanced)</td>
+                    <td>4.2%</td>
+                    <td>5.0%</td>
+                    <td>6.2%</td>
+                    <td>7.3%</td>
+                    <td rowspan="2">2</td>
+                    <td rowspan="2">4</td>
+                </tr>
+                <tr>
+                    <td>Scampuss Escort Duration</td>
+                    <td>16.0%</td>
+                    <td>20.0%</td>
+                    <td>26.0%</td>
+                    <td>31.5%</td>
+                </tr>
+
+                <!-- Infernal Oni-Bi -->
+                <tr>
+                    <td rowspan="2"><a href="">Infernal Oni-Bi</a></td>
+                    <td rowspan="2">Phantom</td>
+                    <td>Elemental Damage</td>
+                    <td>4.1%</td>
+                    <td>5.0%</td>
+                    <td>6.2%</td>
+                    <td>7.3%</td>
+                    <td rowspan="2">4</td>
+                    <td rowspan="2">4</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Elemental Attack)</td>
+                    <td>C</td>
+                    <td>B</td>
+                    <td>A</td>
+                    <td>AA</td>
+                </tr>
+
+                <!-- Maelstrom Oni-Bi -->
+                <tr>
+                    <td rowspan="2"><a href="">Maelstrom Oni-Bi</a></td>
+                    <td rowspan="2">Phantom</td>
+                    <td>Elemental Damage</td>
+                    <td>4.1%</td>
+                    <td>5.0%</td>
+                    <td>6.2%</td>
+                    <td>7.3%</td>
+                    <td rowspan="2">4</td>
+                    <td rowspan="2">4</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Elemental Attack)</td>
+                    <td>C</td>
+                    <td>B</td>
+                    <td>A</td>
+                    <td>AA</td>
+                </tr>
+
+                <!-- Thunderstorm Oni-Bi -->
+                <tr>
+                    <td rowspan="2"><a href="">Thunderstorm Oni-Bi</a></td>
+                    <td rowspan="2">Phantom</td>
+                    <td>Elemental Damage</td>
+                    <td>4.1%</td>
+                    <td>5.0%</td>
+                    <td>6.2%</td>
+                    <td>7.3%</td>
+                    <td rowspan="2">4</td>
+                    <td rowspan="2">4</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Elemental Attack)</td>
+                    <td>C</td>
+                    <td>B</td>
+                    <td>A</td>
+                    <td>AA</td>
+                </tr>
+
+                <!-- Mortal Soul Cores -->
+                <tr>
+                    <td rowspan="2"><a href="">Mortal Soul Cores</a></td>
+                    <td rowspan="2">?</td>
+                    <td>?</td>
+                    <td>?</td>
+                    <td>?</td>
+                    <td>?</td>
+                    <td>?</td>
+                    <td rowspan="2">-</td>
+                    <td rowspan="2">-</td>
+                </tr>
+                <tr>
+                    <td>?</td>
+                    <td>?</td>
+                    <td>?</td>
+                    <td>?</td>
+                    <td>?</td>
+                </tr>
             </table>
         </div>
-        
+    </div>
+
+    <!-- Tengu's Desciple (DLC 1) Soul Cores -->
+    <div class="jumbotron">
+        <div class="container-fluid" style="text-align: center; margin-top: -2.0em;">
+            <h3 id="dlc_1">Tengu's Desciple (DLC 1) Soul Cores</h3>
+        </div>
+        <br>
+
+        <div class="container-fluid">
+            <table class="center">
+                <!-- Header -->
+                <tr>
+                    <th>Yokai Soul Core</th>
+                    <th>Soul Core Type</th>
+                    <th>Special Effects</th>
+                    <th>Base Rank 1-4</th>
+                    <th>Rank 9</th>
+                    <th>Rank 20</th>
+                    <th>Rank 30</th>
+                    <th>Attunement Cost</th>
+                    <th>Yokai Ability Cost</th>
+                </tr>
+
+                <!-- Nue -->
+                <tr>
+                    <td rowspan="2"><a href="">Nue (Boss)</a></td>
+                    <td rowspan="2">Phantom</td>
+                    <td>Lightning Damage</td>
+                    <td>5.8%</td>
+                    <td>7.0%</td>
+                    <td>9.4%</td>
+                    <td>11.6%</td>
+                    <td rowspan="2">9</td>
+                    <td rowspan="2">8</td>
+                </tr>
+                <tr>
+                    <td>Shock Accumulation (Enemy)</td>
+                    <td>8.8%</td>
+                    <td>10.0%</td>
+                    <td>12.4%</td>
+                    <td>14.6%</td>
+                </tr>
+
+                <!-- Kiryoki -->
+                <tr>
+                    <td rowspan="2"><a href="">Kiryoki</a></td>
+                    <td rowspan="2">Feral</td>
+                    <td>Active Skill Damage</td>
+                    <td>1.6%</td>
+                    <td>2.0%</td>
+                    <td>2.6%</td>
+                    <td>3.1%</td>
+                    <td rowspan="2">6</td>
+                    <td rowspan="2">5</td>
+                </tr>
+                <tr>
+                    <td>Extended Elemental Weapon</td>
+                    <td>8.3%</td>
+                    <td>9.5%</td>
+                    <td>11.3%</td>
+                    <td>12.9%</td>
+                </tr>
+                
+                <!-- Bakegani -->
+                <tr>
+                    <td rowspan="2"><a href="">Bakegani</a></td>
+                    <td rowspan="2">Brute</td>
+                    <td>Damage Taken</td>
+                    <td>-0.5%</td>
+                    <td>-1.1%</td>
+                    <td>-1.8%</td>
+                    <td>-2.4%</td>
+                    <td rowspan="2">4</td>
+                    <td rowspan="2">4</td>
+                </tr>
+                <tr>
+                    <td>Block</td>
+                    <td>5</td>
+                    <td>7</td>
+                    <td>9</td>
+                    <td>11</td>
+                </tr>
+
+                <!-- Seto Taisho (Benkei) -->
+                <tr>
+                    <td rowspan="2"><a href="">Seto Taisho | Benkei (Boss)</a></td>
+                    <td rowspan="2">Brute</td>
+                    <td>Toughness</td>
+                    <td>4</td>
+                    <td>6</td>
+                    <td>9</td>
+                    <td>12</td>
+                    <td rowspan="2">5</td>
+                    <td rowspan="2">6</td>
+                </tr>
+                <tr>
+                    <td>Equipment Drop Rate</td>
+                    <td>2.9%</td>
+                    <td>3.5%</td>
+                    <td>4.7%</td>
+                    <td>5.8%</td>
+                </tr>
+
+                <!-- Nuppeppo -->
+                <tr>
+                    <td rowspan="2"><a href="">Nuppeppo</a></td>
+                    <td rowspan="2">Feral</td>
+                    <td>Life</td>
+                    <td>110</td>
+                    <td>150</td>
+                    <td>210</td>
+                    <td>265</td>
+                    <td rowspan="2">5</td>
+                    <td rowspan="2">6</td>
+                </tr>
+                <tr>
+                    <td>Life Recovery (Amrita Absorption)</td>
+                    <td>10</td>
+                    <td>14</td>
+                    <td>18</td>
+                    <td>23</td>
+                </tr>
+
+                <!-- Uminyudo -->
+                <tr>
+                    <td rowspan="2"><a href="">Uminyudo (Boss)</a></td>
+                    <td rowspan="2">Phantom</td>
+                    <td>Anima Bonus (Saturated Enemy)</td>
+                    <td>B-</td>
+                    <td>B+</td>
+                    <td>A</td>
+                    <td>AA-</td>
+                    <td rowspan="2">10</td>
+                    <td rowspan="2">9</td>
+                </tr>
+                <tr>
+                    <td>Life Drain (Lightning Attack)</td>
+                    <td>D</td>
+                    <td>C-</td>
+                    <td>B-</td>
+                    <td>A-</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- Darkness In The Capital (DLC 2) Soul Cores -->
+    <div class="jumbotron">
+        <div class="container-fluid" style="text-align: center; margin-top: -2.0em;">
+            <h3 id="dlc_2">Darkness In The Capital (DLC 2) Soul Cores</h3>
+        </div>
+        <br>
+
+        <div class="container-fluid">
+            <table class="center">
+                <!-- Header -->
+                <tr>
+                    <th>Yokai Soul Core</th>
+                    <th>Soul Core Type</th>
+                    <th>Special Effects</th>
+                    <th>Base Rank 1-4</th>
+                    <th>Rank 9</th>
+                    <th>Rank 20</th>
+                    <th>Rank 30</th>
+                    <th>Attunement Cost</th>
+                    <th>Yokai Ability Cost</th>
+                </tr>
+
+                <!-- Giant Toad -->
+                <tr>
+                    <td rowspan="2"><a href="">Giant Toad (Boss)</a></td>
+                    <td rowspan="2">Brute</td>
+                    <td>Bomb Damage</td>
+                    <td>3.4%</td>
+                    <td>4.0%</td>
+                    <td>5.2%</td>
+                    <td>6.3%</td>
+                    <td rowspan="2">8</td>
+                    <td rowspan="2">7</td>
+                </tr>
+                <tr>
+                    <td>Untouched Ninjutsu</td>
+                    <td>1.2%</td>
+                    <td>1.6%</td>
+                    <td>2.3%</td>
+                    <td>2.9%</td>
+                </tr>
+
+                <!-- White Tiger -->
+                <tr>
+                    <td rowspan="2"><a href="">White Tiger (Boss)</a></td>
+                    <td rowspan="2">Feral</td>
+                    <td>Anima Bonus (Enemy Purified)</td>
+                    <td>C+</td>
+                    <td>B</td>
+                    <td>A-</td>
+                    <td>A+</td>
+                    <td rowspan="2">8</td>
+                    <td rowspan="2">7</td>
+                </tr>
+                <tr>
+                    <td>Purified Accumulation (Enemy)</td>
+                    <td>8.8%</td>
+                    <td>10.0%</td>
+                    <td>12.4%</td>
+                    <td>14.6%</td>
+                </tr>
+
+                <!-- Oboroguruma -->
+                <tr>
+                    <td rowspan="2"><a href="">Oboroguruma</a></td>
+                    <td rowspan="2">Feral</td>
+                    <td>Charge Attack Boost</td>
+                    <td>2.1%</td>
+                    <td>2.5%</td>
+                    <td>3.1%</td>
+                    <td>3.6%</td>
+                    <td rowspan="2">6</td>
+                    <td rowspan="2">4</td>
+                </tr>
+                <tr>
+                    <td>Amrita Earned</td>
+                    <td>2.1%</td>
+                    <td>2.5%</td>
+                    <td>3.1%</td>
+                    <td>3.6%</td>
+                </tr>
+
+                <!-- Lightning Gods of Yomi -->
+                <tr>
+                    <td rowspan="2"><a href="">Lightning Gods of Yomi (Boss)</a></td>
+                    <td rowspan="2">Phantom</td>
+                    <td>Melee Damage vs. Electrified Enemy</td>
+                    <td>3.4%</td>
+                    <td>4.0%</td>
+                    <td>5.2%</td>
+                    <td>6.3%</td>
+                    <td rowspan="2">9</td>
+                    <td rowspan="2">7</td>
+                </tr>
+                <tr>
+                    <td>Onmyo Magic Power</td>
+                    <td>5</td>
+                    <td>8</td>
+                    <td>14</td>
+                    <td>19</td>
+                </tr>
+
+                <!-- Hellish Hag -->
+                <tr>
+                    <td rowspan="2"><a href="">Hellish Hag</a></td>
+                    <td rowspan="2">Feral</td>
+                    <td>Life Recovery (Amrita Absorption)</td>
+                    <td>10</td>
+                    <td>14</td>
+                    <td>18</td>
+                    <td>23</td>
+                    <td rowspan="2">6</td>
+                    <td rowspan="2">4</td>
+                </tr>
+                <tr>
+                    <td>Dash Speed</td>
+                    <td>3.2%</td>
+                    <td>4.0%</td>
+                    <td>5.2%</td>
+                    <td>6.3%</td>
+                </tr>
+
+                <!-- Tsuchigumo -->
+                <tr>
+                    <td rowspan="2"><a href="">Tsuchigumo (Boss)</a></td>
+                    <td rowspan="2">Brute</td>
+                    <td>Active Skill Ki Damage</td>
+                    <td>2.2%</td>
+                    <td>2.7%</td>
+                    <td>3.5%</td>
+                    <td>4.3%</td>
+                    <td rowspan="2">8</td>
+                    <td rowspan="2">8</td>
+                </tr>
+                <tr>
+                    <td>Dodge Ki Consumption</td>
+                    <td>-1.6%</td>
+                    <td>-1.9%</td>
+                    <td>-2.5%</td>
+                    <td>-3.0%</td>
+                </tr>
+
+                <!-- Yasha -->
+                <tr>
+                    <td rowspan="2"><a href="">Yasha</a></td>
+                    <td rowspan="2">Feral</td>
+                    <td>Active Skill Ki Consumption</td>
+                    <td>-2.2%</td>
+                    <td>-2.7%</td>
+                    <td>-3.5%</td>
+                    <td>-4.3%</td>
+                    <td rowspan="2">7</td>
+                    <td rowspan="2">6</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Water Attack)</td>
+                    <td>D+</td>
+                    <td>C</td>
+                    <td>B-</td>
+                    <td>B+</td>
+                </tr>
+
+                <!-- Underworld Soldier -->
+                <tr>
+                    <td rowspan="2"><a href="">Underworld Soldier</a></td>
+                    <td rowspan="2">Brute</td>
+                    <td>Anima Bonus (Grapple)</td>
+                    <td>1.1</td>
+                    <td>1.7</td>
+                    <td>2.5</td>
+                    <td>3.3</td>
+                    <td rowspan="2">6</td>
+                    <td rowspan="2">5</td>
+                </tr>
+                <tr>
+                    <td>Melee Damage (Dark Realm)</td>
+                    <td>2.1%</td>
+                    <td>2.7%</td>
+                    <td>3.5%</td>
+                    <td>4.3%</td>
+                </tr>
+
+                <!-- Infernal Fox -->
+                <tr>
+                    <td rowspan="2"><a href="">Infernal Fox</a></td>
+                    <td rowspan="2">Phantom</td>
+                    <td>Elemental Weapon Damage</td>
+                    <td>1.0%</td>
+                    <td>1.5%</td>
+                    <td>2.1%</td>
+                    <td>2.6%</td>
+                    <td rowspan="2">5</td>
+                    <td rowspan="2">3</td>
+                </tr>
+                <tr>
+                    <td>Life Drain (Fire Attack)</td>
+                    <td>D-</td>
+                    <td>C-</td>
+                    <td>B-</td>
+                    <td>A-</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- The First Samurai (DLC 3) Soul Cores -->
+    <div class="jumbotron">
+        <div class="container-fluid" style="text-align: center; margin-top: -2.0em;">
+            <h3 id="dlc_3">The First Samurai (DLC 3) Soul Cores</h3>
+        </div>
+        <br>
+
+        <div class="container-fluid">
+            <table class="center">
+                <!-- Header -->
+                <tr>
+                    <th>Yokai Soul Core</th>
+                    <th>Soul Core Type</th>
+                    <th>Special Effects</th>
+                    <th>Base Rank 1-4</th>
+                    <th>Rank 9</th>
+                    <th>Rank 20</th>
+                    <th>Rank 30</th>
+                    <th>Attunement Cost</th>
+                    <th>Yokai Ability Cost</th>
+                </tr>
+
+                <!-- Maelstrom Fox -->
+                <tr>
+                    <td rowspan="2"><a href="">Maelstrom Fox</a></td>
+                    <td rowspan="2">Phantom</td>
+                    <td>Elemental Weapon Damage</td>
+                    <td>1.0%</td>
+                    <td>1.5%</td>
+                    <td>2.1%</td>
+                    <td>2.6%</td>
+                    <td rowspan="2">5</td>
+                    <td rowspan="2">3</td>
+                </tr>
+                <tr>
+                    <td>Life Drain (Water Attack)</td>
+                    <td>D-</td>
+                    <td>C-</td>
+                    <td>B-</td>
+                    <td>A-</td>
+                </tr>
+
+                <!-- Thunderstorm Fox -->
+                <tr>
+                    <td rowspan="2"><a href="">Thunderstorm Fox</a></td>
+                    <td rowspan="2">Phantom</td>
+                    <td>Elemental Weapon Damage</td>
+                    <td>1.0%</td>
+                    <td>1.5%</td>
+                    <td>2.1%</td>
+                    <td>2.6%</td>
+                    <td rowspan="2">5</td>
+                    <td rowspan="2">3</td>
+                </tr>
+                <tr>
+                    <td>Life Drain (Lightning Attack)</td>
+                    <td>D-</td>
+                    <td>C-</td>
+                    <td>B-</td>
+                    <td>A-</td>
+                </tr>
+
+                <!-- Harinobo -->
+                <tr>
+                    <td rowspan="2"><a href="">Harinobo</a></td>
+                    <td rowspan="2">Brute</td>
+                    <td>Thrust Damage</td>
+                    <td>1.5%</td>
+                    <td>2.0%</td>
+                    <td>2.6%</td>
+                    <td>3.1%</td>
+                    <td rowspan="2">5</td>
+                    <td rowspan="2">4</td>
+                </tr>
+                <tr>
+                    <td>Increased Attack (Enemy Killed)</td>
+                    <td>16.5%</td>
+                    <td>30.0%</td>
+                    <td>48.0%</td>
+                    <td>64.5%</td>
+                </tr>
+
+                <!-- Ancient Nyotengu -->
+                <tr>
+                    <td rowspan="2"><a href="">Ancient Nyotengu (Boss)</a></td>
+                    <td rowspan="2">Feral</td>
+                    <td>Untouched Tengu's Fan</td>
+                    <td>49.4%</td>
+                    <td>51.5%</td>
+                    <td>55.7%</td>
+                    <td>59.5%</td>
+                    <td rowspan="2">8</td>
+                    <td rowspan="2">7</td>
+                </tr>
+                <tr>
+                    <td>Anima Bonus (Ranged Hit)</td>
+                    <td>D+</td>
+                    <td>C</td>
+                    <td>B-</td>
+                    <td>B+</td>
+                </tr>
+
+                <!-- Tate Eboshi -->
+                <tr>
+                    <td rowspan="2"><a href="">Tate Eboshi (Boss)</a></td>
+                    <td rowspan="2">Feral</td>
+                    <td>Increased Attack (Amrita Absorption)</td>
+                    <td>null</td>
+                    <td>null</td>
+                    <td>null</td>
+                    <td>null</td>
+                    <td rowspan="2">9</td>
+                    <td rowspan="2">8</td>
+                </tr>
+                <tr>
+                    <td>Amrita Earned (Yokai Shift)</td>
+                    <td>7.8%</td>
+                    <td>9.0%</td>
+                    <td>11.4%</td>
+                    <td>13.6%</td>
+                </tr>
+
+                <!-- Itsumade -->
+                <tr>
+                    <td rowspan="2"><a href="">Itsumade</a></td>
+                    <td rowspan="2">Phantom</td>
+                    <td>Anima Bonus (Purification)</td>
+                    <td>0.3</td>
+                    <td>0.7</td>
+                    <td>1.1</td>
+                    <td>1.6</td>
+                    <td rowspan="2">7</td>
+                    <td rowspan="2">8</td>
+                </tr>
+                <tr>
+                    <td>Corrupted Accumulation (Enemy)</td>
+                    <td>8.4%</td>
+                    <td>10.0%</td>
+                    <td>12.4%</td>
+                    <td>14.6%</td>
+                </tr>
+
+                <!-- Konaki-Jiji -->
+                <tr>
+                    <td rowspan="2"><a href="">Konaki-Jiji</a></td>
+                    <td rowspan="2">Brute</td>
+                    <td>Damage Bonus (Equipment Weight)</td>
+                    <td>D+</td>
+                    <td>C</td>
+                    <td>B-</td>
+                    <td>B+</td>
+                    <td rowspan="2">5</td>
+                    <td rowspan="2">5</td>
+                </tr>
+                <tr>
+                    <td>Increased Defense (Winded Enemy)</td>
+                    <td>null</td>
+                    <td>null</td>
+                    <td>null</td>
+                    <td>null</td>
+                </tr>
+
+                <!-- Kinki -->
+                <tr>
+                    <td rowspan="2"><a href="">Kinki</a></td>
+                    <td rowspan="2">Brute</td>
+                    <td>Bare-Handed Attack Damage</td>
+                    <td>17.7%</td>
+                    <td>24.0%</td>
+                    <td>34.8%</td>
+                    <td>44.7%</td>
+                    <td rowspan="2">6</td>
+                    <td rowspan="2">7</td>
+                </tr>
+                <tr>
+                    <td>Damage Taken</td>
+                    <td>-0.6%</td>
+                    <td>-1.1%</td>
+                    <td>-1.9%</td>
+                    <td>-2.7%</td>
+                </tr>
+
+                <!-- Fuki -->
+                <tr>
+                    <td rowspan="2"><a href="">Fuki</a></td>
+                    <td rowspan="2">Feral</td>
+                    <td>Ranged Damage</td>
+                    <td>1.8%</td>
+                    <td>2.7%</td>
+                    <td>4.1%</td>
+                    <td>5.4%</td>
+                    <td rowspan="2">6</td>
+                    <td rowspan="2">6</td>
+                </tr>
+                <tr>
+                    <td>Dash Ki Consumption</td>
+                    <td>-2.8%</td>
+                    <td>-3.5%</td>
+                    <td>-4.7%</td>
+                    <td>-5.8%</td>
+                </tr>
+
+                <!-- Suiki -->
+                <tr>
+                    <td rowspan="2"><a href="">Suiki</a></td>
+                    <td rowspan="2">Phantom</td>
+                    <td>Anima Bonus (Enemy Saturated)</td>
+                    <td>C+</td>
+                    <td>B</td>
+                    <td>A-</td>
+                    <td>A+</td>
+                    <td rowspan="2">6</td>
+                    <td rowspan="2">5</td>
+                </tr>
+                <tr>
+                    <td>Anima Charge (Yokai Shift)</td>
+                    <td>9.6%</td>
+                    <td>11.0%</td>
+                    <td>13.4%</td>
+                    <td>15.6%</td>
+                </tr>
+
+                <!-- Ongyoki -->
+                <tr>
+                    <td rowspan="2"><a href="">Ongyoki</a></td>
+                    <td rowspan="2">Phantom</td>
+                    <td>Stealth</td>
+                    <td>A</td>
+                    <td>AA-</td>
+                    <td>AA+</td>
+                    <td>AAA</td>
+                    <td rowspan="2">6</td>
+                    <td rowspan="2">4</td>
+                </tr>
+                <tr>
+                    <td>Backstab Damage</td>
+                    <td>1.7%</td>
+                    <td>2.2%</td>
+                    <td>3.0%</td>
+                    <td>3.8%</td>
+                </tr>
+
+                <!-- Nightmare Bringer -->
+                <tr>
+                    <td rowspan="2"><a href="">Nightmare Bringer (Boss)</a></td>
+                    <td rowspan="2">Brute</td>
+                    <td>Melee Damage vs. Corrupted Enemy</td>
+                    <td>10.8%</td>
+                    <td>12.0%</td>
+                    <td>14.4%</td>
+                    <td>16.6%</td>
+                    <td rowspan="2">10</td>
+                    <td rowspan="2">10</td>
+                </tr>
+                <tr>
+                    <td>Anima Charge (Awakened Weapon)</td>
+                    <td>7.0%</td>
+                    <td>10.0%</td>
+                    <td>16.0%</td>
+                    <td>21.5%</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- Credits -->
+    <div class="jumbotron">
+        <div class="container-fluid" style="text-align: center; margin-top: -2.0em;">
+            <h3 id="credits">Credits:</h3>
+        </div>
+
+        <p><b>Nioh 2 Soul Core List and Rollable Stats Table (Complete Edition):</b> Ocean Machine. <br>
+            Additional Information: LOLSAN, dwbl, neverhere, Peter, KitPes, and Lynch <br>
+            <a href="https://docs.google.com/spreadsheets/d/1Nc2wvXZHrOqf_IvHWlPiFI4CJ_p1fFtFnKUJlxYllls/edit#gid=488141566">Link to Document</a>
+        </p>
+        <br>
+
+        <p><b>Nioh Community Discord Server: </b>
+            <a href="https://discord.gg/pAH5U9mRBj">Link to Discord Server</a>
+        </p>
     </div>
 
     <!-- Back to Top Button -->
@@ -168,6 +1737,36 @@
 
 
     <!-- Local JavaScript Functions -->
+    <script>
+        function base_game() {
+            var elmnt = document.getElementById("base_game");
+            elmnt.scrollIntoView();
+            window.scrollBy(0, -75);
+        }
+
+        function dlc_1() {
+            var elmnt = document.getElementById("dlc_1");
+            elmnt.scrollIntoView();
+            window.scrollBy(0, -75);
+        }
+
+        function dlc_2() {
+            var elmnt = document.getElementById("dlc_2");
+            elmnt.scrollIntoView();
+            window.scrollBy(0, -75);
+        }
+
+        function dlc_3() {
+            var elmnt = document.getElementById("dlc_3");
+            elmnt.scrollIntoView();
+            window.scrollBy(0, -75);
+        }
+
+        function credits() {
+            var elmnt = document.getElementById("credits");
+            elmnt.scrollIntoView();
+        }
+    </script>
 
 
     <!-- Adding JavaScript, JQuery, and Bootstrap.js Scripts -->
@@ -180,5 +1779,6 @@
 
 <!-- TODO -->
 <!--
-
+    - Add images of the Soul Core Types as Icons (Brute, Phantom, Feral).
+    - Add Links to the Individual Soul Core pages (the href is blank, but already there for each Yokai Soul Core). 
 -->
