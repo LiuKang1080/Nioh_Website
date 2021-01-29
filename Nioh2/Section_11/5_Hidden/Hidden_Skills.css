@@ -30,3 +30,12 @@ th, td {
     border-collapse: collapse;
     text-align: center;
 }
+
+#back_to_top_button {
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: 16px; 
+}
