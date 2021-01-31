@@ -17,6 +17,11 @@ Styling Sheet for Misc_ST.html
     margin-right: 6.0em;
 }
 
+p {
+    margin-top: -0.75em;
+    font-size: 16.5px;
+}
+
 table {
     border: 1px solid black;
     border-collapse: collapse;
