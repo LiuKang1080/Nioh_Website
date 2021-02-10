@@ -1,0 +1,79 @@
+Section 3 TODO
+
+Bosses [Button]:
+- List all of the Bosses in the base game and all DLCs
+- Base Game Bosses:
+    - Gozuki
+    - Mezuki
+    - Enenra
+    - Yatsu-no-Kami
+    - Imagawa Yoshimoto
+    - Kamaitachi
+    - Onryoki
+    - Saito Yoshitatsu
+    - Hachisuka Koroku
+    - Shibata Katsuie
+    - Tatarimokke
+    - Obsidian Samurai
+    - Magara Naotaka
+    - Honda Tadakatsu
+    - Azai Nagamasa
+    - Oda Nobunaga
+    - Saika Magoichi
+    - Gyuki
+    - Kasha
+    - Ryomen Sukuna
+    - Maeda Toshiie
+    - Oni Shibata Katsuie
+    - Tokichiro
+    - Daidara Bocchi
+    - Shuten Doji
+    - lady Osakabe
+    - Maeda Keiji
+    - Oni Tokichiro
+    - Kashin Koji
+    - William
+    - Matsunaga Hisahide
+    - Otakemaru
+
+- Tengu's Desciple (DLC 1) Bosses:
+    - Benkei (Seto Taisho)
+    - Uminyudo
+    - Minamoto no Yoshitsune
+    - Taira no Kagekiyo
+    - Nue
+
+- Darkness In The Capital (DLC 2) Bosses:
+    - Minamoto no Yorimitsu
+    - Tsuchigumo
+    - White Tiger
+    - Ashiya Doman
+    - Lightning God of Yomi
+    - Ancient Shuten Doji
+    - Giant Toad
+    - Ren Hayabusa
+
+    Minamoto no Yorimitsu's 4 Great Warriors:
+        - Watanabe no Tsuna
+        - Sakata Kintoki
+        - Usui no Sadamitsu
+        - Urabe no Suetake
+
+- The First Samurai (DLC 3) Bosses:
+    - Ancient Otakemaru
+    - Tate Eboshi
+    - Nightmare Bringer
+    - Ancient Nyotengu
+    - Fujiwara no Chikata
+    - Kukai
+
+- Dojo Bosses:
+    - Tsukahara Bokuden
+    - Akishage Yoshiteru (Dual Swords)
+    - Hattori Hanzo (Spear, Tonfa, Ninjutsu)
+    - Kato Danzo (Ninjutsu)
+    - Sakata Kintoki (Axe, Hatchets)
+    - Mumyo (Switchglave)
+    - Shisenin Kosen (Odachi, Kusarigama, Sword)
+
+Enemies [Button]:
