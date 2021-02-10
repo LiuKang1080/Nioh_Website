@@ -28,15 +28,15 @@ Bosses [Button]:
     - Tokichiro
     - Daidara Bocchi
     - Shuten Doji
-    - lady Osakabe
+    - Lady Osakabe
     - Maeda Keiji
+    - Matsunaga Hisahide
     - Oni Tokichiro
     - Kashin Koji
     - William
-    - Matsunaga Hisahide
     - Otakemaru
 
-- Tengu's Desciple (DLC 1) Bosses:
+- The Tengu's Desciple (DLC 1) Bosses:
     - Benkei (Seto Taisho)
     - Uminyudo
     - Minamoto no Yoshitsune
