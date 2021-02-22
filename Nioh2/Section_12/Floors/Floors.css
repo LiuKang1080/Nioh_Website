@@ -8,7 +8,34 @@ Styling Sheet for Floors.html
     text-align: center;
 }
 
+#table_of_contents {
+    margin-left: 6.0em;
+}
+
 .jumbotron {
     margin-left: 6.0em;
     margin-right: 6.0em;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#back_to_top_button {
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: 16px; 
 }
