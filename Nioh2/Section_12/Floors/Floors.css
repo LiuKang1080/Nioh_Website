@@ -1,3 +1,14 @@
 /*
 Styling Sheet for Floors.html 
 */
+
+
+#title_text {
+    margin-top: 0.5em;
+    text-align: center;
+}
+
+.jumbotron {
+    margin-left: 6.0em;
+    margin-right: 6.0em;
+}
