@@ -1,0 +1,21 @@
+Section 12: The Underworld / The Depths of the Underworld
+
+Graces [Button]:
+    - List of graces specific to Dream of the Wise
+    - List of graces specific to Dream of the Nioh
+    - List of graces specific to The Underworld
+    - List of graces specific to The Depths of the Underworld
+    - Getting specific graces by farming and leaving on the proper floor
+
+Floors of the underworld [Button]:
+    1 - Mezuki
+    2 - 
+
+Depths of the Underworld [Button]:
+    - Floors 1 - 30
+    - Rotation of the bosses / levels in the Depths. Predict the roation if possible
+    - Scrolls of the Damned
+    
+Lapis Lazuli [Button]
+    - Farming Lapis Lazuli
+    - Full Table where you spend the Lapis Lazuli
