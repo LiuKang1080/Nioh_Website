@@ -1,6 +1,7 @@
 Section 12: The Underworld / The Depths of the Underworld
 
 Graces [Button]:
+    - List of graces specific to Dream of the Demon
     - List of graces specific to Dream of the Wise
     - List of graces specific to Dream of the Nioh
     - List of graces specific to The Underworld
