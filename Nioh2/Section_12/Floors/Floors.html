@@ -83,6 +83,7 @@
     <!-- Table of Contents -->
     <div id="table_of_contents">
         <h3 style="margin-bottom: -0.5em;">Table of Contents:</h3><br>
+        <a href="javascript: floor_list()">Underworld Crucible Boss List</a><br>
         <a href="javascript: credits()">Credits</a><br>
     </div>
     <br>
@@ -140,7 +141,7 @@
     <!-- Floor Table -->
     <div class="jumbotron">
         <div class="container-fluid" style="text-align: center; margin-top: -2.0em;">
-            <h3 id="">Underworld Floor Crucible Boss List</h3>
+            <h3 id="floor_list">Underworld Floor Crucible Boss List</h3>
         </div>
         <br>
 
@@ -618,6 +619,12 @@
 
     <!-- Local JavaScript Functions -->
     <script>
+        function floor_list() {
+            var elmnt = document.getElementById("floor_list");
+            elmnt.scrollIntoView();
+            window.scrollBy(0, -25);
+        }
+
         function credits() {
             var elmnt = document.getElementById("credits");
             elmnt.scrollIntoView();
