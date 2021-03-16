@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nioh 2: Farming Ethereal Soul Cores</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- Navbar CSS -->
+    <!-- <link rel="stylesheet" href="/navbar.css"> -->
+    <link rel="stylesheet" href="https://liukang1080.github.io/Nioh_Website/navbar.css">
+    
+    <!-- Local CSS Link | Proper Path Link-->
+    <link rel="stylesheet" href="../4_Farming_Cores/Farming_Cores.css">
+    <!-- <link rel="stylesheet" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_7/4_Farming_Cores/Farming_Cores.html"> -->
+</head>
+<body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <!-- Home Button -->
+            <div class="btn-group" id="navbar_links">
+                <a class="navbar-brand" href="https://liukang1080.github.io/Nioh_Website/">Home</a>
+            </div>
+            
+            <!-- Nioh 1 Dropdown -->
+            <div class="btn-group" id="navbar_links">
+                <a class="navbar-brand dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   <img src="https://liukang1080.github.io/Nioh_Website/Home_Page_Images/Nioh_logo.png" id="nioh1_logo" width="37" height="37" class="d-inline-block align-top" alt="">Nioh 1
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Nioh1_Index.html">Nioh 1 Home</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_1/Section1_Index.html">Settings / Gameplay</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_2/Section2_Index.html">Missions</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_3/Section3_Index.html">Bosses / Enemies</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_4/Section4_Index.html">Guardian Spirits</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_5/Section5_Index.html">Characters</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_6/Section6_Index.html">Weapons / Skill Tree</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_7/Section7_Index.html">Stats / Statuses</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_8/Section8_Index.html">Items</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_9/Section9_Index.html">Blacksmith</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_10/Section10_Index.html">Smithing Texts</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_11/Section11_Index.html">The Abyss</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_12/Section12_Index.html">Builds</a>
+                </div>
+            </div>
+
+            <!-- Nioh 2 dropdown -->
+            <div class="btn-group" id="navbar_links">
+                 <a class="navbar-brand dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="https://liukang1080.github.io/Nioh_Website/Home_Page_Images/Nioh2_logo.png" width="35" height="35" class="d-inline-block align-top" alt="">Nioh 2
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Nioh2_Index.html">Nioh 2 Home</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_1/Section1_Index.html">Settings / Gameplay</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_2/Section2_Index.html">Missions</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_3/Section3_Index.html">Bosses / Enemies</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_4/Section4_Index.html">Guardian Spirits</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_5/Section5_Index.html">Characters</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_6/Section6_Index.html">Skills / Skill Tree</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_7/Section7_Index.html">Soul Cores</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_8/Section8_Index.html">Stats / Statuses</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_9/Section9_Index.html">Items</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_10/Section10_Index.html">Blacksmith</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_11/Section11_Index.html">Smithing Texts / Hidden Skills</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_12/Section12_Index.html">The Underworld</a>
+                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_13/Section13_Index.html">Builds</a>
+                </div>
+            </div>
+
+            <!-- Credits -->
+            <div class="btn-group" id="navbar_links">
+                <a class="navbar-brand" href="https://liukang1080.github.io/Nioh_Website/Credits.html">Credits</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Title Text -->
+    <h2 id="title_text">Locations for Farming Ethereal Soul Cores</h2>
+    <hr>
+
+    <!-- Table of Contents -->
+    <div id="table_of_contents">
+        <h3 style="margin-bottom: -0.5em;">Table of Contents:</h3><br>
+        <a href="javascript: credits()">Credits</a><br>
+    </div>
+    <br>
+
+    <div class="jumbotron">
+        <div class="container-fluid" style="text-align: center; margin-top: -2.0em;">
+            <h3>How to read table</h3>
+        </div>
+        <br>
+
+        <p>
+            <b style="color: darkred;">(R)</b> = The specific enemy respawns in the Dark Realm. All of the levels are on Dream of
+            the Nioh difficulty, or are in the Underworld.
+        </p>
+    </div>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+        <div class="container-fluid" style="text-align: center; margin-top: -2.0em;">
+            <h3>Location of Ethereal Soul Cores Table</h3>
+        </div>
+        <br>
+
+        <!-- Farming Locations Table -->
+        <div class="container-fluid">
+            <table>
+                <tr>
+                    <th>Soul Core Name</th>
+                    <th>Location</th>
+                </tr>
+
+                <tr>
+                    <td>Gaki</td>
+                    <td>The Fire God's Magatama <b>(R)</b>, 
+                        Floor 3 <b>(R)</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Enki</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Yoki</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Gozuki</td>
+                    <td>The Village of the Cursed Blossoms</td>
+                </tr>
+                <tr>
+                    <td>Mezuki</td>
+                    <td>Floor 1</td>
+                </tr>
+                <tr>
+                    <td>Ippon-Datara</td>
+                    <td>The Search <b>(R)</b></td>
+                </tr>
+                <tr>
+                    <td>Kappa</td>
+                    <td>Mountain of the Dark Lord (Twilight Mission) <b>(R)</b></td>
+                </tr>
+                <tr>
+                    <td>Nurikabe</td>
+                    <td>The Viper & the Butterfly, 
+                        Floor 6
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mujina</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Enenra</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Nure-Onna</td>
+                    <td>The Fire God's Magatama <b>(R)</b>, 
+                        The Search <b>(R)</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Aberran Soldier</td>
+                    <td>Ruin Draws Near (Last Shrine), 
+                        Floor 24 <b>(R)</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Toxic Slime</td>
+                    <td>An Error in Calculation, 
+                        Floor 16
+                    </td>
+                </tr>
+                <tr>
+                    <td>Yatsu-no-Kami</td>
+                    <td>Calamity's Pulse</td>
+                </tr>
+                <tr>
+                    <td>Yamanba</td>
+                    <td>Mystery of the Rashomon (2nd Shrine) (Twilight Mission), 
+                        Floor 33
+                    </td>
+                </tr>
+                <tr>
+                    <td>One-Eyed Oni</td>
+                    <td>A Way Out (Last Shrine)</td>
+                </tr>
+                <tr>
+                    <td>Karasu Tengu</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Waira</td>
+                    <td>Floor 3 <b>(R)</b></td>
+                </tr>
+                <tr>
+                    <td>Karakasa Umbrella</td>
+                    <td>Traces of a Raging Blaze (2nd Shrine) (Twilight Mission) <b>(R)</b></td>
+                </tr>
+                <tr>
+                    <td>Lesser Umi-Bozu</td>
+                    <td>A Strong Bond (last Shrine) <b>(R)</b></td>
+                </tr>
+                <tr>
+                    <td>Skeleton Warrior</td>
+                    <td>The Fire God's Magatama <b>(R)</b>, 
+                        Floor 3 <b>(R)</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Kamaitachi</td>
+                    <td>Floor 13</td>
+                </tr>
+                <tr>
+                    <td>Koroka</td>
+                    <td>Prevading Waters, Ruin Draws Near (Last Shrine), 
+                        Floor 15
+                    </td>
+                </tr>
+                <tr>
+                    <td>Dweller</td>
+                    <td>Traces of a Raging Blaze (Last Shrine) (Twilight Mission), 
+                        Floor 20 <b>(R)</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Rokurokubi</td>
+                    <td>Mountain of the Dark Lord (2nd Shrine) (Twilight Mission) <b>(R)</b>, 
+                        Floor 24 <b>(R)</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mitsume</td>
+                    <td>Floor 22 <b>(R)</b></td>
+                </tr>
+                <tr>
+                    <td>Biwa Boku-Boku</td>
+                    <td>The High Spirited Demon (2nd Shrine), Floor 15 <b>(R)</b></td>
+                </tr>
+                <tr>
+                    <td>Flying Bolt</td>
+                    <td>The Hollow Fortress (2nd Shrine) <b>(R)</b></td>
+                </tr>
+                <tr>
+                    <td>Namahage</td>
+                    <td>The Cursed Castle Ruins (Twilight Mission) <b>(R)</b></td>
+                </tr>
+                <tr>
+                    <td>Tesso</td>
+                    <td>Floor 20 <b>(R)</b></td>
+                </tr>
+                <tr>
+                    <td>Ubume</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Onyudo</td>
+                    <td>Ruin Draws Near (Last Shrine)</td>
+                </tr>
+                <tr>
+                    <td>Wheelmonk</td>
+                    <td>Floor 24 <b>(R)</b></td>
+                </tr>
+                <tr>
+                    <td>Kasha</td>
+                    <td>Floor 21, Floor 79</td>
+                </tr>
+                <tr>
+                    <td>Shuten Doji</td>
+                    <td>The Revelry Ends</td>
+                </tr>
+                <tr>
+                    <td>Magatsu Warrior</td>
+                    <td>The Golden Castle (Last Shrine)</td>
+                </tr>
+                <tr>
+                    <td>Otakemaru</td>
+                    <td>Floor 30</td>
+                </tr>
+                <tr>
+                    <td>Infernal Oni-Bi</td>
+                    <td>Abduction</td>
+                </tr>
+                <tr>
+                    <td>Maelstorm Oni-Bi</td>
+                    <td>Abduction</td>
+                </tr>
+                <tr>
+                    <td>Thunderstorm Oni-Bi</td>
+                    <td>Abduction, Prevading Waters (2nd Shrine)</td>
+                </tr>
+                <tr>
+                    <td>Mortal Soul Core</td>
+                    <td>Brother's Blade, Triple Magara Picture Scrolls</td>
+                </tr>
+                <tr>
+                    <td>Kiryoki</td>
+                    <td>The Bewitching Tower <b>(R)</b>, 
+                        Floor 4
+                    </td>
+                </tr>
+                <tr>
+                    <td>Bakegani</td>
+                    <td>The Viper's Sanctum (2nd Shrine)</td>
+                </tr>
+                <tr>
+                    <td>Seto Taisho</td>
+                    <td>Soul of the Warrior Monk</td>
+                </tr>
+                <tr>
+                    <td>Nuppeppo</td>
+                    <td>Floor 8, Floor 16</td>
+                </tr>
+                <tr>
+                    <td>Oboroguruma</td>
+                    <td>Floor 15 <b>(R)</b></td>
+                </tr>
+                <tr>
+                    <td>Hellish Hag</td>
+                    <td>The Village of the Cursed Blossoms <b>(R)</b>, 
+                        Floor 10 <b>(R)</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Yasha (???)</td>
+                    <td>The Village of the Cursed Blossoms (Last Shrine) (is it a Yasha or a Suiki ???)</td>
+                </tr>
+                <tr>
+                    <td>Underworld Soldier</td>
+                    <td>Mountain of the Dark Lord (2nd Shrine) (Twilight Mission) <b>(R)</b></td>
+                </tr>
+                <tr>
+                    <td>Infernal Fox</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maelstrom Fox</td>
+                    <td>Floor 10 <b>(R)</b></td>
+                </tr>
+                <tr>
+                    <td>Thunderstorm Fox</td>
+                    <td>The Golden Castle (last Shrine) <b>(R)</b>, 
+                        Floor 12 <b>(R)</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Harinobo</td>
+                    <td>The Viper's Sanctum</td>
+                </tr>
+                <tr>
+                    <td>Itsumade</td>
+                    <td>The Violet Cherry Blossoms (Twilight Mission), 
+                        Floor 63
+                    </td>
+                </tr>
+                <tr>
+                    <td>Konaki-Jiji</td>
+                    <td>The Violet Cherry Blossoms (Twilight Mission), 
+                        Floor 26 <b>(R)</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Kinki</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Fuki</td>
+                    <td>Bird In A Cage (2nd Shrine)</td>
+                </tr>
+                <tr>
+                    <td>Suiki</td>
+                    <td>The High-Spirited Demon (2nd Shrine)</td>
+                </tr>
+                <tr>
+                    <td>Ongyoki</td>
+                    <td>A Song to Calm the Storm (2nd Shrine), 
+                        Floor 76
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nightmare Bringer</td>
+                    <td>A Familiar Glow</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- Credits -->
+    <div class="jumbotron">
+        <div class="container-fluid" style="text-align: center; margin-top: -2.0em;">
+            <h3 id="credits">Credits:</h3>
+        </div>
+
+        <p><strong>Ethereal Soul Core Farming: </strong> neverhere, LOLSAN, Sir Varg, Vikaluka <br> 
+            <a href="https://docs.google.com/spreadsheets/d/1-JY2PLuSO9SEe8Cnvri7LkNMmfP5R2XL_eJoIzv3XbA/edit#gid=0">Link to Document</a>
+        </p>
+
+        <p><strong>Nioh Community Discord Server: </strong>
+            <a href="https://discord.gg/pAH5U9mRBj">Link to Discord Server</a>
+        </p>
+    </div>
+
+    <!-- Back to Top Button -->
+    <div id="back_to_top_button" class="btn-group">
+        <a type="button" class="btn btn-warning" href="#">Top</a>
+    </div>
+
+
+    <!-- Local JavaScript Functions -->
+    <script>
+        function credits() {
+            var elmnt = document.getElementById("credits");
+            elmnt.scrollIntoView();
+        }
+    </script>
+
+
+    <!-- Adding JavaScript, JQuery, and Bootstrap.js Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+<!-- TODO -->
+<!-- 
+
+-->
