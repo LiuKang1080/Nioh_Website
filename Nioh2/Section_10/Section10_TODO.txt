@@ -1,0 +1,25 @@
+Section 10: The Blacksmith
+
+Blacksmith Basics [Button]:
+    - Who is the blacksmith
+    - How to unlock the blacksmith
+    - Unlocking Muramasa
+
+Blacksmith Patronage Points [Button]:
+    - How to unlock the Patronage table
+    - How get Patronage Points
+    - Full Patronage Table
+
+Temper Table - Melee [Button]
+
+Temper Table - Ranged [Button]
+
+Temper Table - Accessories [Button]
+
+Temper Table - Helmet [Button]
+
+Temper Table - Gloves [Button]
+
+Temper Table - Waist [Button]
+
+Temper Table - Boots [Button]
