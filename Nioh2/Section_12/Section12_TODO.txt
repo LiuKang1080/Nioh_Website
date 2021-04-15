@@ -1,14 +1,15 @@
 Section 12: The Underworld / The Depths of the Underworld
 
-Graces [Button]:
-    - List of graces specific to Dream of the Demon
-    - List of graces specific to Dream of the Wise
-    - List of graces specific to Dream of the Nioh
-    - List of graces specific to The Underworld
-    - List of graces specific to The Depths of the Underworld
-    - Getting specific graces by farming and leaving on the proper floor
+[Done] Graces [Button]:
+    - [Done] List of graces that are available in Dream of the Samurai - Dream of the Strong
+    - [Done] List of graces specific to Dream of the Demon
+    - [Done] List of graces specific to Dream of the Wise
+    - [Done] List of graces specific to Dream of the Nioh
+    - [Done] List of graces specific to The Underworld
+    - [Done] List of graces specific to The Depths of the Underworld
+    - [Done] Getting specific graces by farming and leaving on the proper floor
 
-Floors of the underworld [Button]:
+[Done] Floors of the underworld [Button]:
     1 - Mezuki
     2 - Honda Tadakatsu
     3 - Tatarimokke
@@ -123,6 +124,7 @@ Depths of the Underworld [Button]:
     - Rotation of the bosses / levels in the Depths. Predict the roation if possible
     - Scrolls of the Damned
     
-Lapis Lazuli [Button]
-    - Farming Lapis Lazuli
-    - Full Blessings of the Departed table
+[Done] Lapis Lazuli [Button]
+    - [Done] Farming Lapis Lazuli
+    - [Done] Full Blessings of the Departed Table
+    - [Done] The number of Lapis required to max out the entire Blessings of the Departed Table
