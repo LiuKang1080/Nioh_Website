@@ -7,3 +7,13 @@ Styling Sheet for Section11_Index.html
     margin-top: 0.5em;
     text-align: center;
 }
+
+#table_of_contents {
+    margin-left: 6.0em;
+}
+
+.jumbotron {
+    margin-left: 6.0em;
+    margin-right: 6.0em;
+}
+
