@@ -88,7 +88,7 @@
         <a href="javascript: samurai()">Dream of the Samurai - Dream of the Strong Stats</a><br>
         <a href="javascript: demon()">Dream of the Demon - Dream of the Wise Stats</a><br>
         <a href="javascript: nioh()">Dream of the Nioh Stats</a><br>
-        <a href="javascript: ">Restricted Temper Pools</a><br>
+        <a href="javascript: restricted()">Restricted Temper Pools</a><br>
         <a href="javascript: credits()">Credits</a><br>
     </div>
     <br>
@@ -802,6 +802,12 @@
 
         function nioh() {
             var elmnt = document.getElementById("nioh");
+            elmnt.scrollIntoView();
+            window.scrollBy(0, -25);
+        }
+
+        function restricted() {
+            var elmnt = document.getElementById("restricted");
             elmnt.scrollIntoView();
             window.scrollBy(0, -25);
         }
