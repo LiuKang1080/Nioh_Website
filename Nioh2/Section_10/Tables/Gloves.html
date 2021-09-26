@@ -78,7 +78,110 @@
         </div>
     </nav>
 
-    <h3>Temper Table - Gloves</h3>
+    <!-- Title Text -->
+    <h2 id="title_text">Temper Table - Gloves</h2>
+    <hr>
+
+    <!-- Table of Contents -->
+    <div id="table_of_contents">
+        <h3 style="margin-bottom: -0.5em;">Table of Contents:</h3><br>
+        <a href="javascript: standard()">Standard Gear Attributes </a><br>
+        <a href="javascript: ethereal()">Ethereal Gear Only Attributes</a><br>
+        <a href="javascript: nioh()">Dream of the Nioh Starred Stats</a><br>
+        <a href="javascript: credits()">Credits</a><br>
+    </div>
+    <br>
+
+    <!-- Jumbotron -->
+    <!-- Standard Gear Attributes -->
+    <div class="jumbotron">
+        <div class="container-fluid" style="text-align: center; margin-top: -2.0em;">
+            <h3 id="standard">Standard Gear Attributes</h3>
+        </div>
+        <br>
+
+        <!-- Attributes -->
+        <div class="container-fluid">
+            <table>
+                <!-- Header -->
+                <tr>
+                    <th rowspan="2">Attribute Type</th>
+                    <th rowspan="2">Attribute</th>
+                    <th colspan="2">Familiarity</th>
+                    <th rowspan="2">Possible Inheritable?</th>
+                </tr>
+                <tr>
+                    <td><b>0</b></td>
+                    <td><b>999</b></td>
+                </tr>
+
+                <!-- Power -->
+                <tr>
+                    <td rowspan="2"><b>Jutsu Power</b></td>
+                    <td>Ninjutsu Power</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>Onmyo Magic Power</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>Yes</td>
+                </tr>
+
+
+
+            </table>
+        </div>
+    </div>
+
+    <!-- Credits -->
+    <div class="jumbotron">
+        <div class="container-fluid" style="text-align: center; margin-top: -2.0em;">
+            <h3 id="credits">Credits:</h3>
+        </div>
+
+        <p><b>Nioh 2: Build Bible</b> - OceanMachine:
+            <a href="https://docs.google.com/spreadsheets/d/1A-uFgSck8pU5NOLh2OVpK_V5-AVfDW42wuiumuf7tlE/edit#gid=2119503531">Link to Nioh 2: Build Bible</a>
+        </p>
+
+        <p><b>Nioh Community Discord Server: </b>
+            <a href="https://discord.gg/pAH5U9mRBj">Link to Discord Server</a>
+        </p>
+    </div>
+
+    <!-- Back to Top Button -->
+    <div id="back_to_top_button" class="btn-group">
+        <a type="button" class="btn btn-warning" href="#">Top</a>
+    </div>
+
+
+    <!-- Local JavaScript Functions -->
+    <script>
+        function standard() {
+            var elmnt = document.getElementById("standard");
+            elmnt.scrollIntoView();
+            window.scrollBy(0, -25);
+        }
+
+        function ethereal() {
+            var elmnt = document.getElementById("ethereal");
+            elmnt.scrollIntoView();
+            window.scrollBy(0, -25);
+        }
+
+        function nioh() {
+            var elmnt = document.getElementById("nioh");
+            elmnt.scrollIntoView();
+            window.scrollBy(0, -25);
+        }
+
+        function credits() {
+            var elmnt = document.getElementById("credits");
+            elmnt.scrollIntoView();
+        }
+    </script>
 
 
     <!-- Adding JavaScript, JQuery, and Bootstrap.js Scripts -->
@@ -91,5 +194,5 @@
 
 <!-- TODO -->
 <!-- 
-
+    - Add the official starred icon to each of the stats in the Dream of the Nioh Starred Stats table.
 -->
