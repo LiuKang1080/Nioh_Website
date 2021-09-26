@@ -267,6 +267,11 @@
 
         <!-- Ethereal Only Attributes -->
         <div class="container-fluid">
+            <div class="container-fluid" style="text-align: center;">
+                <h3 id="ethereal">Ethereal Gear Only Attributes</h3>
+            </div>
+            <br>
+
             <table>
                 <!-- Header -->
                 <tr>
@@ -282,38 +287,123 @@
 
                 <!-- Damage -->
                 <tr>
-                    <td rowspan="13"></td>
+                    <td rowspan="13"><b>Damage</b></td>
+                    <td>Melee Damage (Light Armor)</td>
+                    <td>3.9%</td>
+                    <td>4.9%</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Melee Damage (Medium Armor)</td>
+                    <td>3.4%</td>
+                    <td>4.4%</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Melee Damage (Heavy Armor)</td>
+                    <td>2.9%</td>
+                    <td>3.9%</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Melee Damage (Unscathed) (Light Armor)</td>
+                    <td>6.9%</td>
+                    <td>7.9%</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Melee Damage (Unscathed) (Medium Armor)</td>
+                    <td>5.9%</td>
+                    <td>7.9%</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Melee Damage (Unscathed) (Heavy Armor)</td>
+                    <td>4.9%</td>
+                    <td>5.9%</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Melee Damage (Critical) (Light Armor)</td>
+                    <td>7.9%</td>
+                    <td>8.9%</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Melee Damage (Critical) (Medium Armor)</td>
+                    <td>6.9%</td>
+                    <td>7.9%</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Melee Damage (Critical) (Heavy Armor)</td>
+                    <td>5.9%</td>
+                    <td>6.9%</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Active Skill Damage (Light Armor)</td>
+                    <td>5.9%</td>
+                    <td>6.9%</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Active Skill Damage (Medium Armor)</td>
+                    <td>4.9%</td>
+                    <td>5.9%</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Active Skill Damage (Heavy Armor)</td>
+                    <td>3.9%</td>
+                    <td>4.9%</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Elemental Weapon Damage</td>
+                    <td>3.9%</td>
+                    <td>4.9%</td>
+                    <td>No</td>
                 </tr>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                <!-- Ki Damage -->
+                <tr>
+                    <td rowspan="6"><b>Ki Damage</b></td>
+                    <td>Melee Ki Damage (Light Armor)</td>
+                    <td>2.9%</td>
+                    <td>3.9%</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Melee Ki Damage (Medium Armor)</td>
+                    <td>3.9%</td>
+                    <td>4.9%</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Melee Ki Damage (Heavy Armor)</td>
+                    <td>2.9%</td>
+                    <td>3.9%</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Active Skill Ki Damage (Light Armor)</td>
+                    <td>4.9%</td>
+                    <td>5.9%</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Active Skill Ki Damage (Medium Armor)</td>
+                    <td>5.9%</td>
+                    <td>6.9%</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Active Skill Ki Damage (Heavy Armor)</td>
+                    <td>4.9%</td>
+                    <td>5.9%</td>
+                    <td>No</td>
+                </tr>
             </table>
         </div>
     </div>
@@ -343,6 +433,12 @@
     <script>
         function standard() {
             var elmnt = document.getElementById("standard");
+            elmnt.scrollIntoView();
+            window.scrollBy(0, -25);
+        }
+
+        function ethereal() {
+            var elmnt = document.getElementById("ethereal");
             elmnt.scrollIntoView();
             window.scrollBy(0, -25);
         }
