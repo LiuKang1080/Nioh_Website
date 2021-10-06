@@ -339,6 +339,72 @@
         </table>
     </div>
 
+    <div class="jumbotron">
+        <div class="container-fluid" style="text-align: center; margin-top: -2.0em;">
+            <h3 id="starred">Starred Stats</h3>
+        </div>
+        <br>
+
+        <table>
+            <!-- Header -->
+            <tr>
+                <th rowspan="2">Attribute Type</th>
+                <th rowspan="2">Attribute</th>
+                <th colspan="2">Familiarity</th>
+                <th rowspan="2">Possible Inheritable?</th>
+            </tr>
+            <tr>
+                <td><b>0</b></td>
+                <td><b>999</b></td>
+            </tr>
+
+            <!-- No Conflict -->
+            <tr>
+                <td rowspan="7"><b>No Conflict</b></td>
+                <td>Item Drop Rate</td>
+                <td>7.1% - 8.0%</td>
+                <td>9.1% - 10.0%</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Amrita Earned</td>
+                <td>7.1% - 8.0%</td>
+                <td>9.1% - 10.0%</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Gold Earned</td>
+                <td>17.1% - 18.0%</td>
+                <td>19.1% - 20.0%</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Stalwart <b>(Aiming Ranged Weapon)</b></td>
+                <td>-</td>
+                <td>-</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Auto-Target Weak Point</td>
+                <td>-</td>
+                <td>-</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Grace Inheritance <b>(Soul Match)</b></td>
+                <td>-</td>
+                <td>-</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Rarity Inheritance <b>(Soul Match)</b></td>
+                <td>-</td>
+                <td>-</td>
+                <td>No</td>
+            </tr>
+        </table>
+    </div>
+
     <!-- Credits -->
     <div class="jumbotron">
         <div class="container-fluid" style="text-align: center; margin-top: -2.0em;">
@@ -371,7 +437,6 @@
         function starred() {
             var elmnt = document.getElementById("starred");
             elmnt.scrollIntoView();
-            window.scrollBy(0, -25);
         }
 
         function credits() {
