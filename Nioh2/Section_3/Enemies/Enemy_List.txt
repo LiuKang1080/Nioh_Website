@@ -5,8 +5,7 @@ Base Game Enemies:
     - Yoki
     - Enki
     - Ippon-Datara
-    - Kappa
-    - Red Kappa
+    - Kappa / Red Kappa
     - Dweller
     - Nurikabe
     - Oni-bi (Fire / Lightning / Water)
@@ -23,8 +22,7 @@ Base Game Enemies:
     - Biwa Boku-boku
     - Mujina
     - One-eyed Imp
-    - One-eyed Oni
-    - Snowclops
+    - One-eyed Oni / Snowclops
     - Onyudo (Fire / Lightning)
     - Wheel Monk
     - Flying Bolt
