@@ -1,0 +1,67 @@
+Nioh 2 Enemy List
+
+Base Game Enemies:
+    - Gaki (Small and Giant)
+    - Yoki
+    - Enki
+    - Ippon-Datara
+    - Kappa
+    - Red Kappa
+    - Dweller
+    - Nurikabe
+    - Oni-bi (Fire / Lightning / Water)
+    - Skeleton Warrior (Spear / Sword)
+    - Yamanba
+    - Waira
+    - Mitsume Yazura
+    - Nure-Onna
+    - Toxic Slime
+    - Lesser Umi-bozu
+    - Aberrant Soldier
+    - Karakasa Umbrella
+    - Magatsu Warrior
+    - Biwa Boku-boku
+    - Mujina
+    - One-eyed Imp
+    - One-eyed Oni
+    - Snowclops
+    - Onyudo (Fire / Lightning)
+    - Wheel Monk
+    - Flying Bolt
+    - Karasu Tengu
+    - Rokurokubi
+    - Koroka
+    - Ubume
+    - Tesso
+    - Spider (Small and Giant)
+    - Namahage
+
+    Human Enemies:
+    - Foot Soldier
+    - Captains / Generals
+    - Dogs
+    - Sohaya Warrior
+    - Saika Clan Warrior
+    - Ninja
+    - Onmyo Mages
+
+The Tengu's Desciple (DLC 1) Enemies:
+    - Kiryoki
+    - Nuppeppo
+    - Bakegani (Small and Giant)
+
+Darkness In The Capital (DLC 2) Enemies:
+    - Underworld Soldier
+    - Hellish Hag
+    - Yasha
+    - Oboroguruma
+    - Fox Spirit
+
+The First Samurai (DLC 3) Enemies:
+    - Itsumade
+    - Konaki-Jiji
+    - Kinki
+    - Fuki
+    - Suiki
+    - Ongyoki
+    - Harinobo
