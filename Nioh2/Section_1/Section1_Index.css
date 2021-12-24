@@ -1,3 +1,22 @@
 /* 
 Styling Sheet for Nioh 2: Section1_Index.html 
 */
+
+
+#title_text {
+    margin-top: 0.5em;
+    text-align: center;
+}
+
+.btn-group {
+    text-align: center;
+    width: 177px;
+    font-size: 16px;
+    margin-right: 0.10em;
+    margin-left: 0.10em;
+    margin-top: 0.25em;
+}
+
+#complete_button_group {
+    margin-top: 20em;
+}
