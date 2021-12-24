@@ -96,11 +96,12 @@ Nioh 2 - Section 1: Settings / Basic Controls
         - Elemental Overwrites
         - Element transfer to different weapons (skill).
 
-    [Button] Weight Percentages:
-        - Weight percent for A agility.
-        - Weight percent for B agility.
-        - Weight percent for C agility.
-        - Weight percent for D agility.
+    [Button] Weight / Agility:
+        Weight Percentages:
+            - Weight percent for A agility.
+            - Weight percent for B agility.
+            - Weight percent for C agility.
+            - Weight percent for D agility.
 
         Animations for each tier of agility:
             - Dash Ki consumption for each tier.

@@ -10,12 +10,11 @@ Gameplay Mechanics
     - Yokai Shift
     - Anima / Soul Cores
     - Elemental Damage
-    - Weight and Agility
+    - Weight / Agility
     - Stone of Penance
     - Kodama / Sudama / Scampuss
     - Misc. Mechanics
     - Starting Recommendations
-
 
 Revenant Mechanics
 
