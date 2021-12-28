@@ -9,6 +9,7 @@ Gameplay Mechanics
     - Blocking / Parrying
     - Yokai Shift
     - Anima / Soul Cores
+    
     - Elemental Damage
     - Weight / Agility
     - Stone of Penance
