@@ -1,2 +1,28 @@
 /* Style Sheet for test.html */
 
+
+/* Box Model hack */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 4rem;
+    
+    /* Google Fonts */
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+
+    background-color: rgba(52,58,64,255);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
