@@ -8,21 +8,67 @@
     padding: 0;
 }
 
-nav {
+nav a {
     display: flex;
-    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    min-height: 4rem;
+    height: 5rem;    
     
     /* Google Fonts */
     font-family: 'Roboto', sans-serif;
-    font-size: 1.25rem;
-
-    background-color: rgba(52,58,64,255);
-}
-
-a {
-    text-decoration: none;
+    
+    background: rgba(52, 58, 64, 255);
     color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
 }
+
+#nioh2-logo {
+    width: 12%;
+    height: auto;
+}
+
+nav a:hover {
+    background: rgb(208, 211, 212);
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+nav li:hover .submenu-1 > li {
+    display: block;
+    flex-direction: column;
+    top: 0px;
+}
+
+.submenu-1 a {
+    height: 2.7rem;
+}
+
+.submenu-1 li {
+    display: none;
+    position: relative;
+    top: 0px;
+}
+
+.submenu-1 {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+
+    
+}
+
+
