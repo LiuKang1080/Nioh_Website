@@ -1,4 +1,4 @@
-/* Style Sheet for test.html */
+/* Styling Sheet for test.html */
 
 
 /* Box Model hack */
@@ -8,67 +8,47 @@
     padding: 0;
 }
 
-nav a {
+nav {
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    height: 5rem;    
+    gap: 1em;
+    min-height: 4rem;
     
     /* Google Fonts */
     font-family: 'Roboto', sans-serif;
-    
-    background: rgba(52, 58, 64, 255);
-    color: white;
-    text-decoration: none;
     font-size: 1.25rem;
+
+    background-color: rgba(52,58,64,255);
 }
 
-#nioh2-logo {
-    width: 12%;
+.container-flex-row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-flex-row > img {
+    width: 32%;
     height: auto;
 }
 
-nav a:hover {
-    background: rgb(208, 211, 212);
-    color: black;
+/* overwrite the max-width on the flex container */
+.container-flex-row {
+    max-width: 200px;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
+.nav-links {
+    text-decoration: none;
+    color: white;
 }
 
-nav li {
-    width: 100%;
-    text-align: center;
-    position: relative;
+#nav-home-link {
+    margin-right: 1em;
 }
 
-nav li:hover .submenu-1 > li {
-    display: block;
-    flex-direction: column;
-    top: 0px;
+#nav-credit-link {
+    margin-left: 1em;
 }
-
-.submenu-1 a {
-    height: 2.7rem;
-}
-
-.submenu-1 li {
-    display: none;
-    position: relative;
-    top: 0px;
-}
-
-.submenu-1 {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    width: 100%;
-
-    
-}
-
-
