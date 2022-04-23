@@ -28,16 +28,12 @@ nav {
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
+    max-width: 200px;
 }
 
 .container-flex-row > img {
     width: 32%;
     height: auto;
-}
-
-/* overwrite the max-width on the flex container */
-.container-flex-row {
-    max-width: 200px;
 }
 
 .nav-links {
