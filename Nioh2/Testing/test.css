@@ -13,7 +13,7 @@ nav {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    gap: 1em;
+    gap: 3em;
     min-height: 4rem;
     
     /* Google Fonts */
@@ -29,22 +29,11 @@ nav {
     justify-content: center;
     align-items: center;
     max-width: 200px;
-}
-
-.container-flex-row > img {
-    width: 32%;
-    height: auto;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 .nav-links {
     text-decoration: none;
     color: white;
-}
-
-#nav-home-link {
-    margin-right: 1em;
-}
-
-#nav-credit-link {
-    margin-left: 1em;
 }

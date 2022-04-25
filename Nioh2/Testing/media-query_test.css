@@ -1,0 +1,13 @@
+@media screen and (min-width: 350px) and (max-width: 450px) {
+    #nav-home-link {
+        margin-left: 1em;
+    }
+
+    #nav-credit-link {
+        margin-right: 1em;
+    }
+
+    .container-flex-row {
+        padding-top: 0;
+    }
+}
