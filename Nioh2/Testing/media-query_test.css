@@ -1,13 +1,19 @@
 @media screen and (min-width: 350px) and (max-width: 450px) {
+    nav {
+        display: flex;
+        flex-flow: column;
+        gap: 1em;
+    };
+    
     #nav-home-link {
-        margin-left: 1em;
+        order: 1;
     }
 
     #nav-credit-link {
-        margin-right: 1em;
+        order: 2;
     }
 
     .container-flex-row {
-        padding-top: 0;
+        order: 3;
     }
 }
