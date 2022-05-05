@@ -1,0 +1,28 @@
+/* Styling sheet for index_test.html */
+
+
+body {
+    background-image: url("https://raw.githubusercontent.com/LiuKang1080/Nioh_Website/master/Nioh2/Index_Images/Index_Background_Image.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container-fluid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.btn-group {
+    /* sizing / positioning */
+    width: 180px;
+    max-width: 190px;
+    
+    /* general */
+    text-align: center;
+}
+
+.btn-warning {
+    font-size: 16px;
+}
