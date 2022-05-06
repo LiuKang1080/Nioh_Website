@@ -21,7 +21,6 @@ body {
 .btn-group {
     /* sizing / positioning */
     width: 190px;
-    max-width: 200px;
     
     /* general */
     text-align: center;
