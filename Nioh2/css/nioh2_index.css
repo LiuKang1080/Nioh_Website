@@ -3,6 +3,7 @@
 
 body {
     background-image: url("https://liukang1080.github.io/Nioh_Website/Nioh2/img/index_background_image.jpg");
+    /* background-image: url(../img/index_background_image.jpg); */
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
