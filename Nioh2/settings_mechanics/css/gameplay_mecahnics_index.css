@@ -1,0 +1,11 @@
+/* Styling sheet for gameplay_mechanics_index.html */
+
+
+.btn-group {
+    /* sizing / positioning */
+    width: 250px;
+    height: 40px;
+
+    /* general */
+    text-align: center;
+}
