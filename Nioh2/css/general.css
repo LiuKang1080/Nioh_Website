@@ -95,6 +95,11 @@ Div / Section / Jumbotron CSS
     margin-bottom: 1em;
 }
 
+.jumbotron p {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
 .jumbotron-credits {
     align-items: flex-start;
 }

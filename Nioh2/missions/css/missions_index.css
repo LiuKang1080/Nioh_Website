@@ -1,0 +1,11 @@
+/* Styling sheet for missions_index.html */
+
+
+.btn-group {
+    /* sizing / positioning */
+    width: 225px;
+    height: 40px;
+
+    /* general */
+    text-align: center;
+}

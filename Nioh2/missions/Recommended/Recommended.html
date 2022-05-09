@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clans / Clan Mechanics</title>
+    <!-- 
+    ========== ========== ==========  
+    Bootstrap CSS
+    ========== ========== ==========
+    -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- 
+    ========== ========== ==========   
+    Google Fonts 
+    ========== ========== ==========
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+
+    <!-- 
+    ========== ========== ==========
+    General CSS
+    ========== ========== ==========
+    -->
+    <!-- Navbar -->
+    <!-- Absolute Path | Relative Path -->
+    <link rel="stylesheet" type="text/css" href="https://liukang1080.github.io/Nioh_Website/Nioh2/css/navbar.css">
+    <!-- <link rel="stylesheet" href="../css/navbar.css"> -->
+    
+    <!-- Navbar Media Query -->
+    <!-- Absolute Path | Relative Path -->
+    <link rel="stylesheet" type="text/css" href="https://liukang1080.github.io/Nioh_Website/Nioh2/css/media-query_navbar.css">
+    <!-- <link rel="stylesheet" href="../css/media-query_navbar.css"> -->
+
+    <!-- General CSS -->
+    <!-- Absolute Path | Relative Path -->
+    <link rel="stylesheet" type="text/css" href="https://liukang1080.github.io/Nioh_Website/Nioh2/css/general.css">
+    <!-- <link rel="stylesheet" href="../css/general.css"> -->
+
+    <!-- 
+    ========== ========== ==========
+    Local CSS
+    ========== ========== ==========
+    -->
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <!-- Home Button -->
+        <a class="nav-links" id="nav-home-link" href="#">Home</a>
+    
+        <!-- Nioh 2 Dropdown Menu -->
+        <div class="container-flex-row">
+            <img src="https://liukang1080.github.io/Nioh_Website/Nioh2/img/Nioh2_logo_small.png" alt="Nioh 2 Logo">
+            <a class="dropdown-toggle nav-links" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nioh 2</a>
+            <!-- Dropdown Content -->
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_1/Section1_Index.html">Settings / Gameplay</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_2/Section2_Index.html">Missions</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_3/Section3_Index.html">Bosses / Enemies</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_4/Section4_Index.html">Guardian Spirits</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_5/Section5_Index.html">Characters</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_6/Section6_Index.html">Skills / Skill Trees</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_7/Section7_Index.html">Soul Cores</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_8/Section8_Index.html">Stats / Statuses</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_9/Section9_Index.html">Items</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_10/Section10_Index.html">Blacksmith</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_11/Section11_Index.html">Demon Parade Picture Scrolls</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_12/Section12_Index.html">Smithing Texts / Hidden Skills</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_13/Section13_Index.html">The Underworld</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_14/Section14_Index.html">Builds</a></li>
+            </ul>
+        </div>
+        
+        <!-- Credits -->
+        <a class="nav-links" id="#nav-credit-link" href="">Credits</a>
+    </nav>
+
+    <!-- Title Text -->
+    <div class="title-text">
+        <h2>Recommended Missions to reach the next Difficulty</h2>
+    </div>
+    <hr>
+
+    <!-- Table of Contents -->
+    <div class="table-of-contents">
+        <section>
+            <h3>Table of Contents:</h3>
+            <ol>
+                <li><a class="table-of-contents-links" href="javascript: region1()">Awakening Region (1st Region)</a></li>
+                <li><a class="table-of-contents-links" href="javascript: region2()">Soaring Region (2nd Region)</a></li>
+                <li><a class="table-of-contents-links" href="javascript: region3()">Shadow Region (3rd Region)</a></li>
+                <li><a class="table-of-contents-links" href="javascript: region4()">Dawn Region (4th Region)</a></li>
+                <li><a class="table-of-contents-links" href="javascript: region5()">Twilight Region (5th Region)</a></li>
+                <li><a class="table-of-contents-links" href="javascript: region6()">Dream Region (6th Region)</a></li>
+                <li><a class="table-of-contents-links" href="javascript: region7()">Afterglow Region (7th Region)</a></li>
+                <li><a class="table-of-contents-links" href="javascript: credits()">Credits</a></li>
+            </ol>
+        </section>
+    </div>
+    <br>
+
+    <!-- Description -->
+    <section class="container-fluid">
+        <div class="jumbotron">
+            <p>
+                Below is a recommended list of missions to complete, seperated by each reagion. The goal here is to complete as
+                few missions as possible, as fast as possilbe so that the Last region is unlocked. Completing
+                <span class="italics-text bold-text">In The Eye of the Beholder</span> mission unlocks the next difficulty. We
+                want to select short and fast missions. Generally these missions will be gauntlet style / linear missions. If we
+                can acquire Locks of Hair, or other very important items during these short missions then that would be optimal,
+                but we will generally not go out of our way to get these items. We can always come back later and acquire the
+                Locks of Hair, or the other very important items. Remember that the goal here is to get to the next difficulty as
+                fast as possible. 
+            </p>
+        </div>
+    </section>
+
+    <!-- Awakening Region -->
+    <section class="container-fluid">
+        <div class="jumbotron">
+            <h3 id="region1">Awakening Region (1st Region):</h3>
+            <p>
+                It's is generally recommended that we complete the entire first region. This will give us enough time / opportunity
+                to soul match and level up quite a bit. 
+            </p>
+
+            <h4><a href="">Village of the Cursed Blossoms</a></h4>
+            <h4><a href="">The Forest Veiled in Darkness</a></h4>
+            <h4><a href="">A Voice in the Twilight</a></h4>
+            <h4><a href="">The Search</a></h4>
+            <h4><a href="">The Greedy Hunter</a></h4>
+            <h4><a href="">The Beast Born of Smoke and Flames</a> (Potentially Skip)</h4>
+            <h4><a href="">A Favor for the Blacksmith</a></h4>
+            <h4><a href="">Dark Omens</a></h4>
+            <h4><a href="">The Viper's Sanctum</a> (Potentially Skip)</h4>
+        </div>
+    </section>
+
+    <!-- Soaring Region -->
+    <section class="container-fluid">
+        <div class="jumbotron">
+            <h3 id="region2">Soaring Region (2nd Region):</h3>
+
+            <h4><a href="">An End to Seclusion</a></h4>
+            <h4><a href="">Hidetatsu's Dying Wish</a></h4>
+            <h4><a href="">The Viper and the Butterfly</a> (Potentially Skip)</h4>
+            <h4><a href="">An Error in Calculation</a></h4>
+            <h4><a href="">The Fire God's Magatama</a> (Potentially Skip)</h4>
+            <h4><a href="">A Hot-Blooded Howl</a> (Potentially Skip)</h4>
+        </div>
+    </section>
+
+    <!-- Shadow Region -->
+    <section class="container-fluid">
+        <div class="jumbotron">
+            <h3 id="region3">Shadow Region (3rd Region):</h3>
+            
+            <h4><a href="">The Golden Nation</a></h4>
+            <h4><a href="">Learning a Lession</a></h4>
+            <h4><a href="">Lingering Snow and Crimson Tracks</a> (Potentially Skip)</h4>
+            <h4><a href="">Immovable</a> (Potentially Skip)</h4>
+            <h4><a href="">The Shrine of Oaths</a></h4>
+            <h4><a href="">The Fallen Star</a> (Potentially Skip)</h4>
+            <h4><a href="">The Tiger Approaches</a></h4>
+        </div>
+    </section>
+
+    <!-- Dawn Region -->
+    <section class="container-fluid">
+        <div class="jumbotron">
+            <h3 id="region4">Dawn Region (4th Region):</h3>
+
+            <h4><a href="">The Aberrant Mage</a></h4>
+            <h4><a href="">Abduction</a></h4>
+            <h4><a href="">The Warrior</a></h4>
+            <h4><a href="">The Burning Sky</a> (Potentially Skip)</h4>
+            <h4><a href="">The Missing Gun</a> (Potentially Skip)</h4>
+        </div>
+    </section>
+
+    <!-- Twilight Region -->
+    <section class="container-fluid">
+        <div class="jumbotron">
+            <h3 id="region5">Twilight Region (5th Region):</h3>
+
+            <h4><a href="">Stray Cats</a></h4>
+            <h4><a href="">A Message From the Deceased</a></h4>
+            <h4><a href="">Scattered Fragments</a></h4>
+            <h4><a href="">Calling on the Fire God</a></h4>
+        </div>
+    </section>
+
+    <!-- Dream Region -->
+    <section class="container-fluid">
+        <div class="jumbotron">
+            <h3 id="region6">Dream Region (6th Region):</h3>
+
+            <h4><a href="">The Bravest of the Brave</a></h4>
+            <h4><a href="">The Roaming Artisan</a></h4>
+        </div>
+    </section>
+
+    <!-- Afterglow Region -->
+    <section class="container-fluid">
+        <div class="jumbotron">
+            <h3 id="region7">Afterglow Region (7th Region):</h3>
+            <p>
+                Right before we face Otakemaru in the mission <span class="italics-text bold-text">In the Eye of the Beholder</span>,
+                we can level up and soul match our weapons. We can play the mission 
+                <span class="italics-text bold-text">Dawn of Hope</span> to farm the gear to make the Otakemaru fight a little
+                bit easier. The gauntlet section with the Magatsu Warrior can be challenging, especially on the higher
+                difficulties. Use William's AI! Remember that we're here to farm enough materials to soul match that last bit. We
+                actually do not need to fully complete the mission.
+            </p>
+
+            <h4><a href="">Dawn of Hope</a> (Potentially Skip)</h4>
+            <h4><a href="">In the Eye of the Beholder</a> (!!! <span class="bold-text">REQUIRED</span> to move onto the next difficulty !!!)</h4>
+        </div>
+    </section>
+
+    <!-- Credits -->
+    <section class="container-fluid">
+        <div class="jumbotron jumbotron-credits">
+            <h3 id="credits">Credits:</h3>
+
+            <p>
+                <span class="bold-text">Credits:</span> LiuKang1080, FloorGeneral, DumChickenBiryani, DuppyConQR
+            </p>
+
+            <p>
+                <span class="bold-text">Nioh Community Discord Server:</span>
+                <a href="https://discord.gg/pAH5U9mRBj">Link to Discord Server</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Back to top button -->
+    <a id="back-to-top-button" href="#">Top</a>
+
+
+    <!-- JavaScript and Bootstrap.js Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Local JavaScript -->
+    <!-- <script type="text/javascript" src="https://liukang1080.github.io/Nioh_Website/Nioh2/missions/recommended/js/recommended.js"></script> -->
+    <script type="text/javascript" src="./js/recommended.js"></script>
+
+</body>
+</html>
+
+<!-- TODO -->
+<!-- 
+
+-->
