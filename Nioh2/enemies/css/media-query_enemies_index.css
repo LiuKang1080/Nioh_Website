@@ -1,0 +1,22 @@
+/* Media Queries for enemies_index.css */
+
+
+@media screen and (min-width: 350px) and (max-width: 400px) {
+    #first-section {
+        margin-top: 2.5em;
+    }
+    
+    .btn-group {
+        /* sizing / positioning */
+        width: 300px;
+        height: 2.75em;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+    .btn-group {
+        /* sizing / positioning */
+        width: 325px;
+        height: 2.75em;
+    }
+}
