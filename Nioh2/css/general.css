@@ -128,6 +128,15 @@ th, td {
     font-size: 1.25rem;
 }
 
+.sort-button {
+    padding: 0.75em 1.5em;
+    margin-bottom: 1em;
+
+    background-color: rgba(255, 193, 7, 255);
+    color: black;
+    border-radius: 0.5em;
+}
+
 /* 
 ========== ========== ========== ========== ==========
 Back to top button CSS 

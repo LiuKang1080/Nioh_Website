@@ -43,3 +43,30 @@ function scrollFunction() {
         back_to_top.style.display = "none";
     }
 }
+
+/*
+========== ========== ========== ========== ==========
+Sort Table Function
+========== ========== ========== ========== ==========
+*/
+document.querySelector("#sort-button-1").addEventListener("click", sort_table);
+
+function sort_table(event) {
+    let class_name = (event.target.className).split(" ")[1];
+    console.log(class_name);
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
