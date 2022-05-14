@@ -16,6 +16,7 @@ Base Game Bosses:
     - Magara Naotaka
     - Honda Tadakatsu
     - Azai Nagamasa
+    - Saito Toshimitsu
     - Oda Nobunaga
     - Saika Magoichi
     - Gyuki
