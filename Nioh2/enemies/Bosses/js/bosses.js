@@ -59,6 +59,9 @@ Sort Table Function
 ========== ========== ========== ========== ==========
 */
 document.querySelector("#sort-button-1").addEventListener("click", sort_table);
+document.querySelector("#sort-button-2").addEventListener("click", sort_table);
+document.querySelector("#sort-button-3").addEventListener("click", sort_table);
+document.querySelector("#sort-button-4").addEventListener("click", sort_table);
 
 
 function sort_table(event) {
@@ -102,7 +105,7 @@ function sort_table(event) {
             }
         }
 
-        // if a switch has been marked, we make the switch and mark that the switch has been done
+        // if should_switch has been marked, we swap the rows, and then mark switching to true
         if (should_switch) {
             rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
 
@@ -112,17 +115,18 @@ function sort_table(event) {
     }
 }
 
-
 /*
 ========== ========== ========== ========== ==========
 Refresh Window Function
 ========== ========== ========== ========== ==========
 */
 document.querySelector("#refresh-button-1").addEventListener("click", refresh_location);
+document.querySelector("#refresh-button-2").addEventListener("click", refresh_location);
+document.querySelector("#refresh-button-3").addEventListener("click", refresh_location);
+document.querySelector("#refresh-button-4").addEventListener("click", refresh_location);
 
 
 function refresh_location() {
     // refresh the window at the current location
     window.location.reload();
 }
-

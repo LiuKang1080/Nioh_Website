@@ -1,5 +1,6 @@
 /* JavaScript for yokai_enemies.html */
 
+
 /* 
 ========== ========== ========== ========== ==========
 Table of Contents JavaScript 
@@ -99,7 +100,7 @@ function sort_table(event) {
             }
         }
 
-        // if a switch has been marked, we make the switch and mark that the switch has been done
+        // if should_switch has been marked, we swap the rows, and then mark switching to true
         if (should_switch) {
             rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
 
