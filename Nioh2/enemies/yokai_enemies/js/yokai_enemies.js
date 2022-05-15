@@ -108,3 +108,19 @@ function sort_table(event) {
         }
     }
 }
+
+/*
+========== ========== ========== ========== ==========
+Refresh Window Function
+========== ========== ========== ========== ==========
+*/
+document.querySelector("#refresh-button-1").addEventListener("click", refresh_location);
+document.querySelector("#refresh-button-2").addEventListener("click", refresh_location);
+document.querySelector("#refresh-button-3").addEventListener("click", refresh_location);
+document.querySelector("#refresh-button-4").addEventListener("click", refresh_location);
+
+
+function refresh_location() {
+    // refresh the window at the current location
+    window.location.reload();
+}
