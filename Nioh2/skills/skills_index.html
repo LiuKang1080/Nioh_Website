@@ -37,13 +37,15 @@
 
     <!-- General CSS -->
     <link rel="stylesheet" type="text/css" href="https://liukang1080.github.io/Nioh_Website/Nioh2/css/general.css">
-    <!-- <link rel="stylesheet" type="text/css" href="../../css/general.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="../css/general.css"> -->
 
     <!--
     ========== ========== ==========
     Local CSS
     ========== ========== ==========
     -->
+    <link rel="stylesheet" type="text/css" href="https://liukang1080.github.io/Nioh_Website/Nioh2/skills/css/skills_index.html">
+    <!-- <link rel="stylesheet" type="text/css" href="./css/skills_index.css"> -->
 </head>
 <body>
     <!-- Navbar -->
@@ -84,17 +86,275 @@
     </div>
     <hr>
 
+    <!-- Table of Contents -->
+    <div class="table-of-contents">
+        <section>
+            <h3>Table of Contents:</h3>
+            <ol>
+                <li><a class="table-of-contents-links" href="javascript: stat_scaling()">Weapon Stat Scaling</a></li>
+                <li><a class="table-of-contents-links" href="javascript: skill_trees()">Weapon Skills / Skill Trees</a></li>
+                <li><a class="table-of-contents-links" href="javascript: ">Credits</a></li>
+            </ol>
+        </section>
+    </div>
+    <br>
+
     <!-- Description -->
     <section class="container-fluid">
         <div class="jumbotron">
             <h3>Description</h3>
 
             <p>
-                <span class="bold-text">Acquiring Skill points:</span> 
+                <span class="bold-text">Checking proficiency points: </span> You can always check your current proficiency on Samurai,
+                Shiftling, Onmyo, Ninjutsu, and Weapon Trees by: Pressing Start
+                <span class="unicode">&#10230;</span> Status <span class="unicode">&#10230;</span> RB.
+                <br>
+
+                <span class="bold-text">Acquiring Skill points:</span> You gain Weapon, Onmyo, and Ninjutsu Skill Points by
+                reaching the next level in proficiency for that Weapon or Jutsu. You gain Weapon or Jutsu proficiency by using
+                the Weapon or Jutsu in combat. Proficiency gained is based on the number of <span class="bold-text italics-text">HITS</span>
+                , not the output of damage!
+                <br><br>
+
+                <span class="bold-text">Maximum Shiftling Level: 90</span> - (59,000,000) Proficiency Points.
+                <br>
+                <span class="bold-text">Maximum Ninjutsu & Onmyo Magic Level: 70</span> - (26,000,000) Proficiency Points.
+                <br>
+                <span class="bold-text">Maximum Melee Weapon Level: 60</span> - (11,000,000) Proficiency Points.
             </p>
             <p>
-                Below is the list of the Weapons' Skills and their Skills Trees.
+                Below is the Weapon Stat Scaling Table followed by the list of the Weapons' Skills and their Skills Trees.
             </p>
+        </div>
+    </section>
+
+    <!-- Weapon Stat Scaling Table-->
+    <section class="container-fluid">
+        <div class="jumbotron">
+            <h3 id="stat-scaling">Weapon Stat Scaling</h3>
+
+            <table>
+                <!-- Header -->
+                <tr>
+                    <th colspan="3">Weapon Scaling</th>
+                    <th colspan="3">Stat</th>
+                </tr>
+                <tr>
+                    <th>Weapon</th>
+                    <th>Subtype</th>
+                    <th>Damage Type</th>
+                    <th>Primary</th>
+                    <th>Secondary</th>
+                    <th>Tertiary</th>
+                </tr>
+
+                <!-- Sword -->
+                <tr>
+                    <td rowspan="2"><span class="bold-text">Sword</span></td>
+                    <td>Tachi</td>
+                    <td>Slashing</td>
+                    <td>Heart</td>
+                    <td>Skill</td>
+                    <td>Strength</td>
+                </tr>
+                <tr>
+                    <td>Uchigatana</td>
+                    <td>Slashing</td>
+                    <td>Heart</td>
+                    <td colspan="2">Strength / Skill</td>
+                </tr>
+
+                <!-- Dual Swords -->
+                <tr>
+                    <td><span class="bold-text">Dual Swords</span></td>
+                    <td> - </td>
+                    <td>Slashing</td>
+                    <td>Skill</td>
+                    <td>Heart</td>
+                    <td>Strength</td>
+                </tr>
+
+                <!-- Spear -->
+                <tr>
+                    <td rowspan="2"><span class="bold-text">Spear</span></td>
+                    <td>Spear</td>
+                    <td>Slashing</td>
+                    <td>Constitution</td>
+                    <td colspan="2">Strength / Skill</td>
+                </tr>
+                <tr>
+                    <td>Cross Spear</td>
+                    <td>Slashing</td>
+                    <td>Constitution</td>
+                    <td colspan="2">Strength / Skill</td>
+                </tr>
+
+                <!-- Axe -->
+                <tr>
+                    <td rowspan="2"><span class="bold-text">Axe</span></td>
+                    <td>Axe</td>
+                    <td>Slashing</td>
+                    <td>Stamina</td>
+                    <td>Courage</td>
+                    <td>Strength</td>
+                </tr>
+                <tr>
+                    <td>Hammer</td>
+                    <td>Striking</td>
+                    <td>Stamina</td>
+                    <td>Constitution</td>
+                    <td>Courage</td>
+                </tr>
+
+                <!-- Kusarigama -->
+                <tr>
+                    <td><span class="bold-text">Kusarigama</span></td>
+                    <td> - </td>
+                    <td>Slashing</td>
+                    <td>Dexterity</td>
+                    <td>Skill</td>
+                    <td>Strength</td>
+                </tr>
+
+                <!-- Odachi -->
+                <tr>
+                    <td rowspan="2"><span class="bold-text">Odachi</span></td>
+                    <td>Type 1</td>
+                    <td>Slashing</td>
+                    <td>Strength</td>
+                    <td>Stamina</td>
+                    <td>Heart</td>
+                </tr>
+                <tr>
+                    <td>Type 2</td>
+                    <td>Slashing</td>
+                    <td>Strength</td>
+                    <td colspan="2">Stamina / Heart</td>
+                </tr>
+
+                <!-- Tonfa -->
+                <tr>
+                    <td><span class="bold-text">Tonfa</span></td>
+                    <td> - </td>
+                    <td>Striking</td>
+                    <td>Courage</td>
+                    <td>Constitution</td>
+                    <td>Dexterity</td>
+                </tr>
+
+                <!-- Hatchets -->
+                <tr>
+                    <td><span class="bold-text">Hatchets</span></td>
+                    <td> - </td>
+                    <td>Slashing</td>
+                    <td>Skill</td>
+                    <td>Courage</td>
+                    <td>Magic</td>
+                </tr>
+
+                <!-- Switchglave -->
+                <tr>
+                    <td><span class="bold-text">Switchglave</span></td>
+                    <td> - </td>
+                    <td>Slashing</td>
+                    <td>Magic</td>
+                    <td colspan="2">Skill / Constitution</td>
+                </tr>
+
+                <!-- Splitstaff -->
+                <tr>
+                    <td><span class="bold-text">Splitstaff</span></td>
+                    <td> - </td>
+                    <td>Striking</td>
+                    <td>Magic</td>
+                    <td>Courage</td>
+                    <td>Strength</td>
+                </tr>
+
+                <!-- Fists -->
+                <tr>
+                    <td rowspan="2"><span class="bold-text">Fists</span></td>
+                    <td>Fists</td>
+                    <td>Striking</td>
+                    <td>Strength</td>
+                    <td>Dexterity</td>
+                    <td>Heart</td>
+                </tr>
+                <tr>
+                    <td>Claws</td>
+                    <td>Slashing</td>
+                    <td>Strength</td>
+                    <td>Dexterity</td>
+                    <td>Heart</td>
+                </tr>
+            </table>
+            <hr>
+
+            <p class="table-paragraph">
+                Slashing Weapons do normal Damage and normal Ki Damage. Striking Weapons do -20% Damage and +20% Ki Damage 
+                compared to Slashing Weapons.
+                <br>
+                If a Weapon does not have a tertiary stat, it cannot be remodelled to have A- / A- scaling.
+            </p>
+        </div>
+    </section>
+
+    <section class="container-fluid">
+        <div class="jumbotron">
+            <h3 id="skill-trees">Weapon Skills / Skill Trees</h3>
+
+            <table>
+                <!-- Header -->
+                <tr>
+                    <th>Weapon</th>
+                </tr>
+
+                <tr>
+                    <td><a class="table-link" href="">Samurai Skill Tree</a></td>
+                </tr>
+                <tr>
+                    <td><a class="table-link" href="">Shiftling Skill Tree</a></td>
+                </tr>
+                <tr>
+                    <td><a class="table-link" href="">Ninjutsu Skill Tree</a></td>
+                </tr>
+                <tr>
+                    <td><a class="table-link" href="">Onmyo Magic Skill Tree</a></td>
+                </tr>
+                <tr>
+                    <td><a class="table-link" href="">Sword</a></td>
+                </tr>
+                <tr>
+                    <td><a class="table-link" href="">Dual Swords</a></td>
+                </tr>
+                <tr>
+                    <td><a class="table-link" href="">Spear</a></td>
+                </tr>
+                <tr>
+                    <td><a class="table-link" href="">Axe</a></td>
+                </tr>
+                <tr>
+                    <td><a class="table-link" href="">Kusarigama</a></td>
+                </tr>
+                <tr>
+                    <td><a class="table-link" href="">Odachi</a></td>
+                </tr>
+                <tr>
+                    <td><a class="table-link" href="">Tonfa</a></td>
+                </tr>
+                <tr>
+                    <td><a class="table-link" href="">Hatchets</a></td>
+                </tr>
+                <tr>
+                    <td><a class="table-link" href="">Switchglave</a></td>
+                </tr>
+                <tr>
+                    <td><a class="table-link" href="">Splitstaff</a></td>
+                </tr>
+                <tr>
+                    <td><a class="table-link" href="">Fists</a></td>
+                </tr>
+            </table>
         </div>
     </section>
 
@@ -104,7 +364,7 @@
             <h3 id="credits">Credits:</h3>
 
             <p>
-                <span class="bold-text">Credits:</span> LiuKang1080
+                <span class="bold-text">Credits:</span> LiuKang1080, FatValentine, Basara
             </p>
 
             <p>
@@ -121,6 +381,8 @@
     <!-- JavaScript and Bootstrap.js Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!-- Local JavaScript -->
+    <script type="text/javascript" src="https://liukang1080.github.io/Nioh_Website/Nioh2/skills/js/skills_index.js"></script>
+    <!-- <script type="text/javascript" src="./js/skills_index.js"></script> -->
 
 </body>
 </html>
