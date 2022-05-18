@@ -89,7 +89,7 @@ Div / Section / Jumbotron CSS
     align-items: center;
 
     /* general */
-    background-color: rgba(248,249,250,255);
+    background-color: rgba(248, 249, 250, 255);
     border-radius: 0.3rem;
     padding: 1em;
 }
@@ -157,7 +157,7 @@ Back to top button CSS
 
     text-align: center;
     font-size: 16px;
-    background-color: rgba(255,193,7,255);
+    background-color: rgba(255, 193, 7, 255);
     color: black;
     border-radius: 0.25em;
 }
