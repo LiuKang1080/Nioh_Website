@@ -2,108 +2,109 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Individual Soul Core Attribute Table</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!--
+    ========== ========== ==========
+    Bootstrap CSS
+    ========== ========== ==========
+    -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--
+    ========== ========== ==========
+    Google Fonts 
+    ========== ========== ==========
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!--
+    ========== ========== ==========
+    General CSS
+    ========== ========== ==========
+    -->
+    <!-- Navbar -->
+    <!-- Absolute Path | Relative Path -->
+    <link rel="stylesheet" type="text/css" href="https://liukang1080.github.io/Nioh_Website/Nioh2/css/navbar.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../../css/navbar.css"> -->
     
-    <!-- Navbar CSS -->
-    <!-- <link rel="stylesheet" href="/navbar.css"> -->
-    <link rel="stylesheet" href="https://liukang1080.github.io/Nioh_Website/navbar.css">
-    
-    <!-- Local CSS Link | Proper Path Link-->
-    <link rel="stylesheet" href="../3_Core_Tables/Attribute_Table.css">
-    <!-- <link rel="stylesheet" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_7/3_Core_Tables/Attribute_Table.css"> -->
+    <!-- Navbar Media Query -->
+    <link rel="stylesheet" type="text/css" href="https://liukang1080.github.io/Nioh_Website/Nioh2/css/media-query_navbar.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../../css/media-query_navbar.css"> -->
+
+    <!-- General CSS -->
+    <link rel="stylesheet" type="text/css" href="https://liukang1080.github.io/Nioh_Website/Nioh2/css/general.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../../css/general.css"> -->
+
+    <!--
+    ========== ========== ==========
+    Local CSS
+    ========== ========== ==========
+    -->
 </head>
 <body>
-    <!-- NavBar -->
-    <nav class="navbar navbar-dark bg-dark">
-        <div class="container">
-            <!-- Home Button -->
-            <div class="btn-group" id="navbar_links">
-                <a class="navbar-brand" href="https://liukang1080.github.io/Nioh_Website/">Home</a>
-            </div>
-            
-            <!-- Nioh 1 Dropdown -->
-            <div class="btn-group" id="navbar_links">
-                <a class="navbar-brand dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                   <img src="https://liukang1080.github.io/Nioh_Website/Home_Page_Images/Nioh_logo.png" id="nioh1_logo" width="37" height="37" class="d-inline-block align-top" alt="">Nioh 1
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Nioh1_Index.html">Nioh 1 Home</a>
-                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_1/Section1_Index.html">Settings / Gameplay</a>
-                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_2/Section2_Index.html">Missions</a>
-                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_3/Section3_Index.html">Bosses / Enemies</a>
-                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_4/Section4_Index.html">Guardian Spirits</a>
-                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_5/Section5_Index.html">Characters</a>
-                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_6/Section6_Index.html">Weapons / Skill Tree</a>
-                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_7/Section7_Index.html">Stats / Statuses</a>
-                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_8/Section8_Index.html">Items</a>
-                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_9/Section9_Index.html">Blacksmith</a>
-                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_10/Section10_Index.html">Smithing Texts</a>
-                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_11/Section11_Index.html">The Abyss</a>
-                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh1/Section_12/Section12_Index.html">Builds</a>
-                </div>
-            </div>
-
-            <!-- Nioh 2 dropdown -->
-            <div class="btn-group" id="navbar_links">
-                 <a class="navbar-brand dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img src="https://liukang1080.github.io/Nioh_Website/Home_Page_Images/Nioh2_logo.png" width="35" height="35" class="d-inline-block align-top" alt="">Nioh 2
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Nioh2_Index.html">Nioh 2 Home</a>
-                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_1/Section1_Index.html">Settings / Gameplay</a>
-                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_2/Section2_Index.html">Missions</a>
-                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_3/Section3_Index.html">Bosses / Enemies</a>
-                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_4/Section4_Index.html">Guardian Spirits</a>
-                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_5/Section5_Index.html">Characters</a>
-                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_6/Section6_Index.html">Skills / Skill Tree</a>
-                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_7/Section7_Index.html">Soul Cores</a>
-                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_8/Section8_Index.html">Stats / Statuses</a>
-                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_9/Section9_Index.html">Items</a>
-                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_10/Section10_Index.html">Blacksmith</a>
-                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_11/Section11_Index.html">Demon Parade Picture Scrolls</a>
-                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_12/Section12_Index.html">Smithing Texts / Hidden Skills</a>
-                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_13/Section13_Index.html">The Underworld</a>
-                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_14/Section14_Index.html">Builds</a>
-                    <a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_15/Section15_Index.html">Character Creation Codes</a>
-                </div>
-            </div>
-
-            <!-- Credits -->
-            <div class="btn-group" id="navbar_links">
-                <a class="navbar-brand" href="https://liukang1080.github.io/Nioh_Website/Credits.html">Credits</a>
-            </div>
+    <!-- Navbar -->
+    <nav>
+        <!-- Home Button -->
+        <a class="nav-links" id="nav-home-link" href="#">Home</a>
+    
+        <!-- Nioh 2 Dropdown Menu -->
+        <div class="container-flex-row">
+            <img src="https://liukang1080.github.io/Nioh_Website/Nioh2/img/Nioh2_logo_small.png" alt="Nioh 2 Logo">
+            <a class="dropdown-toggle nav-links" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nioh 2</a>
+            <!-- Dropdown Content -->
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_1/Section1_Index.html">Settings / Gameplay</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_2/Section2_Index.html">Missions</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_3/Section3_Index.html">Bosses / Enemies</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_4/Section4_Index.html">Guardian Spirits</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_5/Section5_Index.html">Characters</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_6/Section6_Index.html">Skills / Skill Trees</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_7/Section7_Index.html">Soul Cores</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_8/Section8_Index.html">Stats / Statuses</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_9/Section9_Index.html">Items</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_10/Section10_Index.html">Blacksmith</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_11/Section11_Index.html">Demon Parade Picture Scrolls</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_12/Section12_Index.html">Smithing Texts / Hidden Skills</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_13/Section13_Index.html">The Underworld</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_14/Section14_Index.html">Builds</a></li>
+            </ul>
         </div>
+        
+        <!-- Credits -->
+        <a class="nav-links" id="#nav-credit-link" href="">Credits</a>
     </nav>
 
     <!-- Title Text -->
-    <h2 id="title_text">Individual Soul Core Attribute Table</h2>
+    <div class="title-text">
+        <h2>Individual Soul Core Attribute Table</h2>
+    </div>
     <hr>
 
     <!-- Table of Contents -->
-    <div id="table_of_contents">
-        <h3 style="margin-bottom: -0.5em;">Table of Contents:</h3><br>
-        <a href="javascript: base_game()">Base Game Soul Cores</a><br>
-        <a href="javascript: dlc_1()">Tengu's Desciple (DLC 1) Soul Cores</a><br>
-        <a href="javascript: dlc_2()">Darkness In The Capital (DLC 2) Soul Cores</a><br>
-        <a href="javascript: dlc_3()">The First Samurai (DLC 3) Soul Cores</a><br>
-        <a href="javascript: credits()">Credits</a><br>
+    <div class="table-of-contents">
+        <section>
+            <h3>Table of Contents:</h3>
+            <ol>
+                <li><a class="table-of-contents-links" href="javascript: base()">Base Game Soul Core Attribute Table</a></li>
+                <li><a class="table-of-contents-links" href="javascript: dlc1()">The Tengu's Desciple (DLC 1) Soul Core Attribute Table</a></li>
+                <li><a class="table-of-contents-links" href="javascript: dlc2()">Darkness In The Capital (DLC 2) Soul Core Attribute Table</a></li>
+                <li><a class="table-of-contents-links" href="javascript: dlc3()">The First Samurai (DLC 3) Soul Core Attribute Table</a></li>
+                <li><a class="table-of-contents-links" href="javascript: credits()">Credits</a></li>
+            </ol>
+        </section>
     </div>
     <br>
 
-    <!-- Jumbotron -->
-    <!-- Base Game Soul Cores -->
-    <div class="jumbotron">
-        <div class="container-fluid" style="text-align: center; margin-top: -2.0em;">
-            <h3 id="base_game">Base Game Soul Cores</h3>
-        </div>
-        <br>
+    <!-- Base Game Soul Core Attributes -->
+    <section class="container-fluid">
+        <div class="jumbotron">
+            <h3 id="base">Base Game Yokai Enemies</h3>
 
-        <!-- <tr>=row, <th>=header, <td>=individual cell -->
-        <div class="container-fluid">
-            <table class="center">
+            <table>
                 <!-- Header -->
                 <tr>
                     <th>Yokai Soul Core</th>
@@ -117,10 +118,10 @@
                     <th>Yokai Ability Cost</th>
                     <th>Transformation Invincibility? (Avoids Grab Attacks)</th>
                 </tr>
-                
+
                 <!-- Gaki -->
                 <tr>
-                    <td rowspan="2"><a href=""><b>Gaki</b></a></td>
+                    <td rowspan="2"><a class="table-link" href="">Gaki</a></td>
                     <td rowspan="2">Brute</td>
                     <td>Anima Charge (Dark Realm)</td>
                     <td>8.1%</td>
@@ -180,7 +181,7 @@
                     <td>52</td>
                     <td>63</td>
                 </tr>
-                
+
                 <!-- Gozuki -->
                 <tr>
                     <td rowspan="2"><a href=""><b>Gozuki (Boss)</b></a></td>
@@ -1148,17 +1149,13 @@
                 </tr>
             </table>
         </div>
-    </div>
+    </section>
 
-    <!-- Tengu's Desciple (DLC 1) Soul Cores -->
-    <div class="jumbotron">
-        <div class="container-fluid" style="text-align: center; margin-top: -2.0em;">
-            <h3 id="dlc_1">Tengu's Desciple (DLC 1) Soul Cores</h3>
-        </div>
-        <br>
+    <Section class="container-fluid">
+        <div class="jumbotron">
+            <h3 id="dlc1">The Tengu's Desciple (DLC 1) Enemies</h3>
 
-        <div class="container-fluid">
-            <table class="center">
+            <table>
                 <!-- Header -->
                 <tr>
                     <th>Yokai Soul Core</th>
@@ -1173,694 +1170,74 @@
                     <th>Transformation Invincibility? (Avoids Grab Attacks)</th>
                 </tr>
 
-                <!-- Nue -->
-                <tr>
-                    <td rowspan="2"><a href=""><b>Nue (Boss)</b></a></td>
-                    <td rowspan="2">Phantom</td>
-                    <td>Lightning Damage</td>
-                    <td>5.8%</td>
-                    <td>7.0%</td>
-                    <td>9.4%</td>
-                    <td>11.6%</td>
-                    <td rowspan="2">9</td>
-                    <td rowspan="2">8</td>
-                    <td rowspan="2">Yes</td>
-                </tr>
-                <tr>
-                    <td>Shock Accumulation (Enemy)</td>
-                    <td>8.8%</td>
-                    <td>10.0%</td>
-                    <td>12.4%</td>
-                    <td>14.6%</td>
-                </tr>
-
-                <!-- Kiryoki -->
-                <tr>
-                    <td rowspan="2"><a href=""><b>Kiryoki</b></a></td>
-                    <td rowspan="2">Feral</td>
-                    <td>Active Skill Damage</td>
-                    <td>1.6%</td>
-                    <td>2.0%</td>
-                    <td>2.6%</td>
-                    <td>3.1%</td>
-                    <td rowspan="2">6</td>
-                    <td rowspan="2">5</td>
-                    <td rowspan="2">Yes</td>
-                </tr>
-                <tr>
-                    <td>Extended Elemental Weapon</td>
-                    <td>8.3%</td>
-                    <td>9.5%</td>
-                    <td>11.3%</td>
-                    <td>12.9%</td>
-                </tr>
                 
-                <!-- Bakegani -->
-                <tr>
-                    <td rowspan="2"><a href=""><b>Bakegani</b></a></td>
-                    <td rowspan="2">Brute</td>
-                    <td>Damage Taken</td>
-                    <td>-0.5%</td>
-                    <td>-1.1%</td>
-                    <td>-1.8%</td>
-                    <td>-2.4%</td>
-                    <td rowspan="2">4</td>
-                    <td rowspan="2">4</td>
-                    <td rowspan="2">Yes</td>
-                </tr>
-                <tr>
-                    <td>Block</td>
-                    <td>5</td>
-                    <td>7</td>
-                    <td>9</td>
-                    <td>11</td>
-                </tr>
 
-                <!-- Seto Taisho (Benkei) -->
-                <tr>
-                    <td rowspan="2"><a href=""><b>Seto Taisho | Benkei (Boss)</b></a></td>
-                    <td rowspan="2">Brute</td>
-                    <td>Toughness</td>
-                    <td>4</td>
-                    <td>6</td>
-                    <td>9</td>
-                    <td>12</td>
-                    <td rowspan="2">5</td>
-                    <td rowspan="2">6</td>
-                    <td rowspan="2">No</td>
-                </tr>
-                <tr>
-                    <td>Equipment Drop Rate</td>
-                    <td>2.9%</td>
-                    <td>3.5%</td>
-                    <td>4.7%</td>
-                    <td>5.8%</td>
-                </tr>
 
-                <!-- Nuppeppo -->
-                <tr>
-                    <td rowspan="2"><a href=""><b>Nuppeppo</b></a></td>
-                    <td rowspan="2">Feral</td>
-                    <td>Life</td>
-                    <td>110</td>
-                    <td>150</td>
-                    <td>210</td>
-                    <td>265</td>
-                    <td rowspan="2">5</td>
-                    <td rowspan="2">6</td>
-                    <td rowspan="2">Yes</td>
-                </tr>
-                <tr>
-                    <td>Life Recovery (Amrita Absorption)</td>
-                    <td>10</td>
-                    <td>14</td>
-                    <td>18</td>
-                    <td>23</td>
-                </tr>
 
-                <!-- Uminyudo -->
-                <tr>
-                    <td rowspan="2"><a href=""><b>Uminyudo (Boss)</b></a></td>
-                    <td rowspan="2">Phantom</td>
-                    <td>Anima Bonus (Saturated Enemy)</td>
-                    <td>B-</td>
-                    <td>B+</td>
-                    <td>A</td>
-                    <td>AA-</td>
-                    <td rowspan="2">10</td>
-                    <td rowspan="2">9</td>
-                    <td rowspan="2">Yes</td>
-                </tr>
-                <tr>
-                    <td>Life Drain (Lightning Attack)</td>
-                    <td>D</td>
-                    <td>C-</td>
-                    <td>B-</td>
-                    <td>A-</td>
-                </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </table>
         </div>
-    </div>
-
-    <!-- Darkness In The Capital (DLC 2) Soul Cores -->
-    <div class="jumbotron">
-        <div class="container-fluid" style="text-align: center; margin-top: -2.0em;">
-            <h3 id="dlc_2">Darkness In The Capital (DLC 2) Soul Cores</h3>
-        </div>
-        <br>
-
-        <div class="container-fluid">
-            <table class="center">
-                <!-- Header -->
-                <tr>
-                    <th>Yokai Soul Core</th>
-                    <th>Soul Core Type</th>
-                    <th>Special Effects</th>
-                    <th>Base Rank 1-4</th>
-                    <th>Rank 9</th>
-                    <th>Rank 20</th>
-                    <th>Rank 30</th>
-                    <th>Attunement Cost</th>
-                    <th>Yokai Ability Cost</th>
-                    <th>Transformation Invincibility? (Avoids Grab Attacks)</th>
-                </tr>
-
-                <!-- Giant Toad -->
-                <tr>
-                    <td rowspan="2"><a href=""><b>Giant Toad (Boss)</b></a></td>
-                    <td rowspan="2">Brute</td>
-                    <td>Bomb Damage</td>
-                    <td>3.4%</td>
-                    <td>4.0%</td>
-                    <td>5.2%</td>
-                    <td>6.3%</td>
-                    <td rowspan="2">8</td>
-                    <td rowspan="2">7</td>
-                    <td rowspan="2">Yes</td>
-                </tr>
-                <tr>
-                    <td>Untouched Ninjutsu</td>
-                    <td>1.2%</td>
-                    <td>1.6%</td>
-                    <td>2.3%</td>
-                    <td>2.9%</td>
-                </tr>
-
-                <!-- White Tiger -->
-                <tr>
-                    <td rowspan="2"><a href=""><b>White Tiger (Boss)</b></a></td>
-                    <td rowspan="2">Feral</td>
-                    <td>Anima Bonus (Enemy Purified)</td>
-                    <td>C+</td>
-                    <td>B</td>
-                    <td>A-</td>
-                    <td>A+</td>
-                    <td rowspan="2">8</td>
-                    <td rowspan="2">7</td>
-                    <td rowspan="2">Yes</td>
-                </tr>
-                <tr>
-                    <td>Purified Accumulation (Enemy)</td>
-                    <td>8.8%</td>
-                    <td>10.0%</td>
-                    <td>12.4%</td>
-                    <td>14.6%</td>
-                </tr>
-
-                <!-- Oboroguruma -->
-                <tr>
-                    <td rowspan="2"><a href=""><b>Oboroguruma</b></a></td>
-                    <td rowspan="2">Feral</td>
-                    <td>Charge Attack Boost</td>
-                    <td>2.1%</td>
-                    <td>2.5%</td>
-                    <td>3.1%</td>
-                    <td>3.6%</td>
-                    <td rowspan="2">6</td>
-                    <td rowspan="2">4</td>
-                    <td rowspan="2">Yes</td>
-                </tr>
-                <tr>
-                    <td>Amrita Earned</td>
-                    <td>2.1%</td>
-                    <td>2.5%</td>
-                    <td>3.1%</td>
-                    <td>3.6%</td>
-                </tr>
-
-                <!-- Lightning Gods of Yomi -->
-                <tr>
-                    <td rowspan="2"><a href=""><b>Lightning Gods of Yomi (Boss)</b></a></td>
-                    <td rowspan="2">Phantom</td>
-                    <td>Melee Damage vs. Electrified Enemy</td>
-                    <td>3.4%</td>
-                    <td>4.0%</td>
-                    <td>5.2%</td>
-                    <td>6.3%</td>
-                    <td rowspan="2">9</td>
-                    <td rowspan="2">7</td>
-                    <td rowspan="2">Yes</td>
-                </tr>
-                <tr>
-                    <td>Onmyo Magic Power</td>
-                    <td>5</td>
-                    <td>8</td>
-                    <td>14</td>
-                    <td>19</td>
-                </tr>
-
-                <!-- Hellish Hag -->
-                <tr>
-                    <td rowspan="2"><a href=""><b>Hellish Hag</b></a></td>
-                    <td rowspan="2">Feral</td>
-                    <td>Life Recovery (Amrita Absorption)</td>
-                    <td>10</td>
-                    <td>14</td>
-                    <td>18</td>
-                    <td>23</td>
-                    <td rowspan="2">6</td>
-                    <td rowspan="2">4</td>
-                    <td rowspan="2">Yes</td>
-                </tr>
-                <tr>
-                    <td>Dash Speed</td>
-                    <td>3.2%</td>
-                    <td>4.0%</td>
-                    <td>5.2%</td>
-                    <td>6.3%</td>
-                </tr>
-
-                <!-- Tsuchigumo -->
-                <tr>
-                    <td rowspan="2"><a href=""><b>Tsuchigumo (Boss)</b></a></td>
-                    <td rowspan="2">Brute</td>
-                    <td>Active Skill Ki Damage</td>
-                    <td>2.2%</td>
-                    <td>2.7%</td>
-                    <td>3.5%</td>
-                    <td>4.3%</td>
-                    <td rowspan="2">8</td>
-                    <td rowspan="2">8</td>
-                    <td rowspan="2">Yes</td>
-                </tr>
-                <tr>
-                    <td>Dodge Ki Consumption</td>
-                    <td>-1.6%</td>
-                    <td>-1.9%</td>
-                    <td>-2.5%</td>
-                    <td>-3.0%</td>
-                </tr>
-
-                <!-- Yasha -->
-                <tr>
-                    <td rowspan="2"><a href=""><b>Yasha</b></a></td>
-                    <td rowspan="2">Feral</td>
-                    <td>Active Skill Ki Consumption</td>
-                    <td>-2.2%</td>
-                    <td>-2.7%</td>
-                    <td>-3.5%</td>
-                    <td>-4.3%</td>
-                    <td rowspan="2">7</td>
-                    <td rowspan="2">6</td>
-                    <td rowspan="2">No</td>
-                </tr>
-                <tr>
-                    <td>Anima Bonus (Water Attack)</td>
-                    <td>D+</td>
-                    <td>C</td>
-                    <td>B-</td>
-                    <td>B+</td>
-                </tr>
-
-                <!-- Underworld Soldier -->
-                <tr>
-                    <td rowspan="2"><a href=""><b>Underworld Soldier</b></a></td>
-                    <td rowspan="2">Brute</td>
-                    <td>Anima Bonus (Grapple)</td>
-                    <td>1.1</td>
-                    <td>1.7</td>
-                    <td>2.5</td>
-                    <td>3.3</td>
-                    <td rowspan="2">6</td>
-                    <td rowspan="2">5</td>
-                    <td rowspan="2">Yes</td>
-                </tr>
-                <tr>
-                    <td>Melee Damage (Dark Realm)</td>
-                    <td>2.1%</td>
-                    <td>2.7%</td>
-                    <td>3.5%</td>
-                    <td>4.3%</td>
-                </tr>
-
-                <!-- Infernal Fox -->
-                <tr>
-                    <td rowspan="2"><a href=""><b>Infernal Fox</b></a></td>
-                    <td rowspan="2">Phantom</td>
-                    <td>Elemental Weapon Damage</td>
-                    <td>1.0%</td>
-                    <td>1.5%</td>
-                    <td>2.1%</td>
-                    <td>2.6%</td>
-                    <td rowspan="2">5</td>
-                    <td rowspan="2">3</td>
-                    <td rowspan="2">No</td>
-                </tr>
-                <tr>
-                    <td>Life Drain (Fire Attack)</td>
-                    <td>D-</td>
-                    <td>C-</td>
-                    <td>B-</td>
-                    <td>A-</td>
-                </tr>
-            </table>
-        </div>
-    </div>
-
-    <!-- The First Samurai (DLC 3) Soul Cores -->
-    <div class="jumbotron">
-        <div class="container-fluid" style="text-align: center; margin-top: -2.0em;">
-            <h3 id="dlc_3">The First Samurai (DLC 3) Soul Cores</h3>
-        </div>
-        <br>
-
-        <div class="container-fluid">
-            <table class="center">
-                <!-- Header -->
-                <tr>
-                    <th>Yokai Soul Core</th>
-                    <th>Soul Core Type</th>
-                    <th>Special Effects</th>
-                    <th>Base Rank 1-4</th>
-                    <th>Rank 9</th>
-                    <th>Rank 20</th>
-                    <th>Rank 30</th>
-                    <th>Attunement Cost</th>
-                    <th>Yokai Ability Cost</th>
-                    <th>Transformation Invincibility? (Avoids Grab Attacks)</th>
-                </tr>
-
-                <!-- Maelstrom Fox -->
-                <tr>
-                    <td rowspan="2"><a href=""><b>Maelstrom Fox</b></a></td>
-                    <td rowspan="2">Phantom</td>
-                    <td>Elemental Weapon Damage</td>
-                    <td>1.0%</td>
-                    <td>1.5%</td>
-                    <td>2.1%</td>
-                    <td>2.6%</td>
-                    <td rowspan="2">5</td>
-                    <td rowspan="2">3</td>
-                    <td rowspan="2">No</td>
-                </tr>
-                <tr>
-                    <td>Life Drain (Water Attack)</td>
-                    <td>D-</td>
-                    <td>C-</td>
-                    <td>B-</td>
-                    <td>A-</td>
-                </tr>
-
-                <!-- Thunderstorm Fox -->
-                <tr>
-                    <td rowspan="2"><a href=""><b>Thunderstorm Fox</b></a></td>
-                    <td rowspan="2">Phantom</td>
-                    <td>Elemental Weapon Damage</td>
-                    <td>1.0%</td>
-                    <td>1.5%</td>
-                    <td>2.1%</td>
-                    <td>2.6%</td>
-                    <td rowspan="2">5</td>
-                    <td rowspan="2">3</td>
-                    <td rowspan="2">No</td>
-                </tr>
-                <tr>
-                    <td>Life Drain (Lightning Attack)</td>
-                    <td>D-</td>
-                    <td>C-</td>
-                    <td>B-</td>
-                    <td>A-</td>
-                </tr>
-
-                <!-- Harinobo -->
-                <tr>
-                    <td rowspan="2"><a href=""><b>Harinobo</b></a></td>
-                    <td rowspan="2">Brute</td>
-                    <td>Thrust Damage</td>
-                    <td>1.5%</td>
-                    <td>2.0%</td>
-                    <td>2.6%</td>
-                    <td>3.1%</td>
-                    <td rowspan="2">5</td>
-                    <td rowspan="2">4</td>
-                    <td rowspan="2">Yes</td>
-                </tr>
-                <tr>
-                    <td>Increased Attack (Enemy Killed)</td>
-                    <td>16.5%</td>
-                    <td>30.0%</td>
-                    <td>48.0%</td>
-                    <td>64.5%</td>
-                </tr>
-
-                <!-- Ancient Nyotengu -->
-                <tr>
-                    <td rowspan="2"><a href=""><b>Ancient Nyotengu (Boss)</b></a></td>
-                    <td rowspan="2">Feral</td>
-                    <td>Untouched Tengu's Fan</td>
-                    <td>49.4%</td>
-                    <td>51.5%</td>
-                    <td>55.7%</td>
-                    <td>59.5%</td>
-                    <td rowspan="2">8</td>
-                    <td rowspan="2">7</td>
-                    <td rowspan="2">No</td>
-                </tr>
-                <tr>
-                    <td>Anima Bonus (Ranged Hit)</td>
-                    <td>D+</td>
-                    <td>C</td>
-                    <td>B-</td>
-                    <td>B+</td>
-                </tr>
-
-                <!-- Tate Eboshi -->
-                <tr>
-                    <td rowspan="2"><a href=""><b>Tate Eboshi (Boss)</b></a></td>
-                    <td rowspan="2">Feral</td>
-                    <td>Increased Attack (Amrita Absorption)</td>
-                    <td>null</td>
-                    <td>null</td>
-                    <td>null</td>
-                    <td>null</td>
-                    <td rowspan="2">9</td>
-                    <td rowspan="2">8</td>
-                    <td rowspan="2">Yes</td>
-                </tr>
-                <tr>
-                    <td>Amrita Earned (Yokai Shift)</td>
-                    <td>7.8%</td>
-                    <td>9.0%</td>
-                    <td>11.4%</td>
-                    <td>13.6%</td>
-                </tr>
-
-                <!-- Itsumade -->
-                <tr>
-                    <td rowspan="2"><a href=""><b>Itsumade</b></a></td>
-                    <td rowspan="2">Phantom</td>
-                    <td>Anima Bonus (Purification)</td>
-                    <td>0.3</td>
-                    <td>0.7</td>
-                    <td>1.1</td>
-                    <td>1.6</td>
-                    <td rowspan="2">7</td>
-                    <td rowspan="2">8</td>
-                    <td rowspan="2">Yes</td>
-                </tr>
-                <tr>
-                    <td>Corrupted Accumulation (Enemy)</td>
-                    <td>8.4%</td>
-                    <td>10.0%</td>
-                    <td>12.4%</td>
-                    <td>14.6%</td>
-                </tr>
-
-                <!-- Konaki-Jiji -->
-                <tr>
-                    <td rowspan="2"><a href=""><b>Konaki-Jiji</b></a></td>
-                    <td rowspan="2">Brute</td>
-                    <td>Damage Bonus (Equipment Weight)</td>
-                    <td>D+</td>
-                    <td>C</td>
-                    <td>B-</td>
-                    <td>B+</td>
-                    <td rowspan="2">5</td>
-                    <td rowspan="2">5</td>
-                    <td rowspan="2">Yes</td>
-                </tr>
-                <tr>
-                    <td>Increased Defense (Winded Enemy)</td>
-                    <td>null</td>
-                    <td>null</td>
-                    <td>null</td>
-                    <td>null</td>
-                </tr>
-
-                <!-- Kinki -->
-                <tr>
-                    <td rowspan="2"><a href=""><b>Kinki</b></a></td>
-                    <td rowspan="2">Brute</td>
-                    <td>Bare-Handed Attack Damage</td>
-                    <td>17.7%</td>
-                    <td>24.0%</td>
-                    <td>34.8%</td>
-                    <td>44.7%</td>
-                    <td rowspan="2">6</td>
-                    <td rowspan="2">7</td>
-                    <td rowspan="2">Yes</td>
-                </tr>
-                <tr>
-                    <td>Damage Taken</td>
-                    <td>-0.6%</td>
-                    <td>-1.1%</td>
-                    <td>-1.9%</td>
-                    <td>-2.7%</td>
-                </tr>
-
-                <!-- Fuki -->
-                <tr>
-                    <td rowspan="2"><a href=""><b>Fuki</b></a></td>
-                    <td rowspan="2">Feral</td>
-                    <td>Ranged Damage</td>
-                    <td>1.8%</td>
-                    <td>2.7%</td>
-                    <td>4.1%</td>
-                    <td>5.4%</td>
-                    <td rowspan="2">6</td>
-                    <td rowspan="2">6</td>
-                    <td rowspan="2">Yes</td>
-                </tr>
-                <tr>
-                    <td>Dash Ki Consumption</td>
-                    <td>-2.8%</td>
-                    <td>-3.5%</td>
-                    <td>-4.7%</td>
-                    <td>-5.8%</td>
-                </tr>
-
-                <!-- Suiki -->
-                <tr>
-                    <td rowspan="2"><a href=""><b>Suiki</b></a></td>
-                    <td rowspan="2">Phantom</td>
-                    <td>Anima Bonus (Enemy Saturated)</td>
-                    <td>C+</td>
-                    <td>B</td>
-                    <td>A-</td>
-                    <td>A+</td>
-                    <td rowspan="2">6</td>
-                    <td rowspan="2">5</td>
-                    <td rowspan="2">Yes</td>
-                </tr>
-                <tr>
-                    <td>Anima Charge (Yokai Shift)</td>
-                    <td>9.6%</td>
-                    <td>11.0%</td>
-                    <td>13.4%</td>
-                    <td>15.6%</td>
-                </tr>
-
-                <!-- Ongyoki -->
-                <tr>
-                    <td rowspan="2"><a href=""><b>Ongyoki</b></a></td>
-                    <td rowspan="2">Phantom</td>
-                    <td>Stealth</td>
-                    <td>A</td>
-                    <td>AA-</td>
-                    <td>AA+</td>
-                    <td>AAA</td>
-                    <td rowspan="2">6</td>
-                    <td rowspan="2">4</td>
-                    <td rowspan="2">Yes</td>
-                </tr>
-                <tr>
-                    <td>Backstab Damage</td>
-                    <td>1.7%</td>
-                    <td>2.2%</td>
-                    <td>3.0%</td>
-                    <td>3.8%</td>
-                </tr>
-
-                <!-- Nightmare Bringer -->
-                <tr>
-                    <td rowspan="2"><a href=""><b>Nightmare Bringer (Boss)</b></a></td>
-                    <td rowspan="2">Brute</td>
-                    <td>Melee Damage vs. Corrupted Enemy</td>
-                    <td>10.8%</td>
-                    <td>12.0%</td>
-                    <td>14.4%</td>
-                    <td>16.6%</td>
-                    <td rowspan="2">10</td>
-                    <td rowspan="2">10</td>
-                    <td rowspan="2">No</td>
-                </tr>
-                <tr>
-                    <td>Anima Charge (Awakened Weapon)</td>
-                    <td>7.0%</td>
-                    <td>10.0%</td>
-                    <td>16.0%</td>
-                    <td>21.5%</td>
-                </tr>
-            </table>
-        </div>
-    </div>
+    </Section>
 
     <!-- Credits -->
-    <div class="jumbotron">
-        <div class="container-fluid" style="text-align: center; margin-top: -2.0em;">
+    <section class="container-fluid">
+        <div class="jumbotron jumbotron-credits">
             <h3 id="credits">Credits:</h3>
+
+            <p>
+                <span class="bold-text">Credits:</span> LiuKang1080, PooferLlama
+            </p>
+
+            <p>
+                <span class="bold-text">Nioh Community Discord Server:</span>
+                <a href="https://discord.gg/pAH5U9mRBj">Link to Discord Server</a>
+            </p>
         </div>
+    </section>
 
-        <p><b>Nioh 2 Soul Core List and Rollable Stats Table (Complete Edition):</b> Ocean Machine. <br>
-            Additional Information: LOLSAN, dwbl, neverhere, Peter, KitPes, and Lynch <br>
-            <a href="https://docs.google.com/spreadsheets/d/1Nc2wvXZHrOqf_IvHWlPiFI4CJ_p1fFtFnKUJlxYllls/edit#gid=488141566">Link to Document</a>
-        </p>
-        <br>
-
-        <p><b>Nioh Community Discord Server: </b>
-            <a href="https://discord.gg/pAH5U9mRBj">Link to Discord Server</a>
-        </p>
-    </div>
-
-    <!-- Back to Top Button -->
-    <div id="back_to_top_button" class="btn-group">
-        <a type="button" class="btn btn-warning" href="#">Top</a>
-    </div>
+    <!-- Back to top button -->
+    <a id="back-to-top-button" href="#">Top</a>
 
 
-    <!-- Local JavaScript Functions -->
-    <script>
-        function base_game() {
-            var elmnt = document.getElementById("base_game");
-            elmnt.scrollIntoView();
-            window.scrollBy(0, -75);
-        }
-
-        function dlc_1() {
-            var elmnt = document.getElementById("dlc_1");
-            elmnt.scrollIntoView();
-            window.scrollBy(0, -75);
-        }
-
-        function dlc_2() {
-            var elmnt = document.getElementById("dlc_2");
-            elmnt.scrollIntoView();
-            window.scrollBy(0, -75);
-        }
-
-        function dlc_3() {
-            var elmnt = document.getElementById("dlc_3");
-            elmnt.scrollIntoView();
-            window.scrollBy(0, -75);
-        }
-
-        function credits() {
-            var elmnt = document.getElementById("credits");
-            elmnt.scrollIntoView();
-        }
-    </script>
-
-
-    <!-- Adding JavaScript, JQuery, and Bootstrap.js Scripts -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- JavaScript and Bootstrap.js Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Local JavaScript -->
+    <!-- <script type="text/javascript" src="https://liukang1080.github.io/Nioh_Website/Nioh2/soul_cores/core_tables/js/attribute_table.js"></script> -->
+    <script type="text/javascript" src="./js/attribute_table.js"></script>
 
 </body>
 </html>
 
 <!-- TODO -->
 <!--
-    - Add images of the Soul Core Types as Icons (Brute, Phantom, Feral).
-    - Add Links to the Individual Soul Core pages (the href is blank, but already there for each Yokai Soul Core). 
+
 -->
