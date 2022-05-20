@@ -22,6 +22,10 @@ ol, ul {
     font-weight: bold;
 }
 
+.red-text {
+    color: darkred;
+}
+
 .unicode {
     font-size: 1.25rem;
 }
