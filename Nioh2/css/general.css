@@ -30,6 +30,10 @@ ol, ul {
     font-size: 1.25rem;
 }
 
+hr {
+    width: 100%;
+}
+
 /* 
 ========== ========== ========== ========== ==========
 Title Text CSS 
@@ -110,6 +114,11 @@ Div / Section / Jumbotron CSS
 
 .jumbotron-credits {
     align-items: flex-start;
+}
+
+.section-text {
+    font-weight: bold;
+    color: rgba(44, 132, 253, 255);
 }
 
 /* 
