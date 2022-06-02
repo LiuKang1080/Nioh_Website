@@ -1,4 +1,4 @@
-/* JavaScript for accessories.html */
+/* JavaScript for gloves.html */
 
 
 /* 
@@ -6,23 +6,18 @@
 Table of Contents JavaScript 
 ========== ========== ========== ========== ==========
 */
-function samurai() {
-    let element = document.getElementById("samurai");
+function standard() {
+    let element = document.getElementById("standard");
     element.scrollIntoView();
 }
 
-function demon() {
-    let element = document.getElementById("demon");
+function ethereal() {
+    let element = document.getElementById("ethereal");
     element.scrollIntoView();
 }
 
 function nioh() {
     let element = document.getElementById("nioh");
-    element.scrollIntoView();
-}
-
-function restricted() {
-    let element = document.getElementById("restricted");
     element.scrollIntoView();
 }
 
