@@ -95,6 +95,7 @@ Div / Section / Jumbotron CSS
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    gap: 1em;
 
     /* general */
     background-color: rgba(248, 249, 250, 255);
@@ -127,7 +128,7 @@ Table CSS
 ========== ========== ========== ========== ==========
 */
 table {
-    border: 1px, solid, black;
+    border: 1px solid black;
     border-collapse: collapse;
     text-align: center;
     overflow-x: auto;
