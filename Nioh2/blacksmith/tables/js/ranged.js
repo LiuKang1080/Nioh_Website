@@ -11,13 +11,8 @@ function standard() {
     element.scrollIntoView();
 }
 
-function ethereal() {
-    let element = document.getElementById("ethereal");
-    element.scrollIntoView();
-}
-
-function nioh() {
-    let element = document.getElementById("nioh");
+function starred() {
+    let element = document.getElementById("starred");
     element.scrollIntoView();
 }
 
