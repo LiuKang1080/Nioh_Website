@@ -1,4 +1,4 @@
-/* JavaScript for gloves.html */
+/* JavaScript for waist.html */
 
 
 /* 
