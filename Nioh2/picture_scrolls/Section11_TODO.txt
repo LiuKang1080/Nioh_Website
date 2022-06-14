@@ -24,4 +24,3 @@ Ultimate ___ Attributes Table:
     - Ultimate Skill
     - Ultimate Dexterity
     - Ultimate Magic
-
