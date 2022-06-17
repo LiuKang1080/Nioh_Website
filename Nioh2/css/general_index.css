@@ -19,7 +19,8 @@ body {
 
 .btn-group {
     /* sizing / positioning */
-    width: 190px;
+    min-width: 225px;
+    min-height: 40px;
     
     /* general */
     text-align: center;
