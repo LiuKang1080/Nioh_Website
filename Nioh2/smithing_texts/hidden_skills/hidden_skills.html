@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidden Skills</title>
+    <!--
+    ========== ========== ==========
+    Bootstrap CSS
+    ========== ========== ==========
+    -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--
+    ========== ========== ==========
+    Google Fonts 
+    ========== ========== ==========
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!--
+    ========== ========== ==========
+    General CSS
+    ========== ========== ==========
+    -->
+    <!-- Navbar -->
+    <!-- Absolute Path | Relative Path -->
+    <link rel="stylesheet" type="text/css" href="https://liukang1080.github.io/Nioh_Website/Nioh2/css/navbar.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../../css/navbar.css"> -->
+    
+    <!-- Navbar Media Query -->
+    <link rel="stylesheet" type="text/css" href="https://liukang1080.github.io/Nioh_Website/Nioh2/css/media-query_navbar.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../../css/media-query_navbar.css"> -->
+
+    <!-- General CSS -->
+    <link rel="stylesheet" type="text/css" href="https://liukang1080.github.io/Nioh_Website/Nioh2/css/general.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../../css/general.css"> -->
+
+    <!--
+    ========== ========== ==========
+    Local CSS
+    ========== ========== ==========
+    -->
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <!-- Home Button -->
+        <a class="nav-links" id="nav-home-link" href="#">Home</a>
+
+        <!-- Nioh 2 Dropdown Menu -->
+        <div class="container-flex-row">
+            <img src="https://liukang1080.github.io/Nioh_Website/Nioh2/img/Nioh2_logo_small.png" alt="Nioh 2 Logo">
+            <a class="dropdown-toggle nav-links" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nioh 2</a>
+            <!-- Dropdown Content -->
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_1/Section1_Index.html">Settings / Gameplay</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_2/Section2_Index.html">Missions</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_3/Section3_Index.html">Bosses / Enemies</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_4/Section4_Index.html">Guardian Spirits</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_5/Section5_Index.html">Characters</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_6/Section6_Index.html">Skills / Skill Trees</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_7/Section7_Index.html">Soul Cores</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_8/Section8_Index.html">Stats / Statuses</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_9/Section9_Index.html">Items</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_10/Section10_Index.html">Blacksmith</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_11/Section11_Index.html">Demon Parade Picture Scrolls</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_12/Section12_Index.html">Smithing Texts / Hidden Skills</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_13/Section13_Index.html">The Underworld</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_14/Section14_Index.html">Builds</a></li>
+            </ul>
+        </div>
+
+        <!-- Credits -->
+        <a class="nav-links" id="#nav-credit-link" href="">Credits</a>
+    </nav>
+
+    <!-- Title Text -->
+    <div class="title-text">
+        <h2>Hidden Skills</h2>
+    </div>
+    <hr>
+
+    <!-- Table of Contents -->
+    <div class="table-of-contents">
+        <section>
+            <h3>Table of Contents:</h3>
+            <ol>
+                <li><a class="table-of-contents-links" href="javascript: weapon()">Hidden Weapon Skills</a></li>
+                <li><a class="table-of-contents-links" href="javascript: shiftling()">Hidden Shiftling Skills</a></li>
+                <li><a class="table-of-contents-links" href="javascript: ninjutsu()">Hidden Ninjutsu Skills</a></li>
+                <li><a class="table-of-contents-links" href="javascript: onmyo()">Hidden Onmyo Magic Skills</a></li>
+                <li><a class="table-of-contents-links" href="javascript: credits()">Credits</a></li>
+            </ol>
+        </section>
+    </div>
+    <br>
+
+    <!-- 
+    ========== ========== ==========
+    Mechanics of Hidden Skills
+    ========== ========== ==========
+    -->
+    <section class="container-fluid">
+        <div class="jumbotron">
+            <h3 class="section-text">Mechanics of "Art of Combat Skills" and "Hidden Skills"</h3>
+
+            <p>
+                Art of Combat / Hidden Skills behave the same as other Smithing Texts in terms of drop rate and drop mechanics.
+                Rather than unlocking armor or weapon pieces they unlock hidden Skills for the Weapons, Ninjutsu, Onmyo, and 
+                Shiftling trees.
+                <br>
+
+                Farming Methods / Acquiring Hidden Skills: While the drop rate for Hidden Skills has greatly incresed compared
+                to Nioh 1 we can still use certain buffs or builds designed to make farming these Hidden Skills easier. 
+                <br>
+                <br>
+
+                <span class="bold-text">How Luck affects Hidden Skills: Luck does NOT </span> affect the drop rate of Smithing 
+                Texts or Hidden Skills. Luck only affects the rarity of items that drop, NOT the chance of an item dropping. 
+                Buffs like Luck Bringer Talisman, and Soul Purge Talisman does not affect the Smithing Text or Hidden Skills 
+                drop rate. Tempering Luck+ attributes on armor, accessories, and Soul Cores also does not affect the Smithing 
+                Texts / Hidden Skills drop rate.
+                <br>
+                <br>
+
+                <span class="bold-text">How Item Drop Rate affects Hidden Skills: </span> Item Drop Rate buffs 
+                <span class="bold-text">DOES</span> affect Smithing Text and Hidden
+                Skills drop rate. There is no active buff that we can use to manually increase our IDR at will, but we can temper
+                on the attribute "Increase Item Drop Rate" onto the Weapon & Armor pieces, Accessories, and Soul Cores.
+            </p>
+        </div>
+    </section>
+
+    <!-- 
+    ========== ========== ==========
+    Hidden Weapon Skills
+    ========== ========== ==========
+    -->
+    <section class="container-fluid">
+        <div class="jumbotron">
+            <h3 class="section-text" id="weapon">Hidden Weapon Skills</h3>
+
+            <table>
+                <!-- Header -->
+                <tr>
+                    <th>Skill Name</th>
+                    <th>Enemy</th>
+                    <th>Mission</th>
+                    <th>Region</th>
+                    <th>Weapon Type</th>
+                </tr>
+
+                <tr>
+                    <td>Dragon Fang</td>
+                    <td>Saito Yoshitatsu</td>
+                    <td>The Hollow Fortress / The Point Of No Return</td>
+                    <td>Soaring</td>
+                    <td>Sword</td>
+                </tr>
+                <tr>
+                    <td>True And Through</td>
+                    <td>Azi Nagamasa</td>
+                    <td>Bird In A Cage / The Cursed Ruins (Twilight Mission)</td>
+                    <td>Shadow</td>
+                    <td>Sword</td>
+                </tr>
+                <tr>
+                    <td>Kurama Sword Dance</td>
+                    <td>Minamoto no Yoshitsune</td>
+                    <td>Eternal Rivals / Bond Of The Blade</td>
+                    <td>Tengu's Desciple (DLC 1)</td>
+                    <td>Sword</td>
+                </tr>
+                <tr>
+                    <td>Severing Spin</td>
+                    <td>Minamoto no Yorimitsu</td>
+                    <td>Suzune In The Flames</td>
+                    <td>Darkness In The Capital (DLC 2)</td>
+                    <td>Sword</td>
+                </tr>
+                <tr>
+                    <td>Izuna Drop</td>
+                    <td>Ren Hayabusa</td>
+                    <td>The Dragon Clan</td>
+                    <td>Darkness In The Capital (DLC 2)</td>
+                    <td>Sword / Fists</td>
+                </tr>
+                <tr>
+                    <td>Reverse Impact</td>
+                    <td>Fujiwara no Chikata</td>
+                    <td>A Spirit's Return</td>
+                    <td>The First Samurai (DLC 3)</td>
+                    <td>Sword</td>
+                </tr>
+                <tr>
+                    <td>Punish The Proud</td>
+                    <td>Imagawa Yoshimoto</td>
+                    <td>The Hidden Monsters of Okehazama / Imagawa Diehard</td>
+                    <td>Soaring</td>
+                    <td>Dual Swords</td>
+                </tr>
+                <tr>
+                    <td>Dragon Claw</td>
+                    <td>Saito Yoshitatsu</td>
+                    <td>The Hollow Fortress / The Point Of No Return</td>
+                    <td>Soaring / Shadow</td>
+                    <td>Dual Swords</td>
+                </tr>
+                <tr>
+                    <td>Ultimate Sign Of The Cross</td>
+                    <td>Tokichiro</td>
+                    <td>The Two Faces Of Hospitality / Cherry Blossom Viewing In Daigo</td>
+                    <td>Twilight</td>
+                    <td>Dual Swords</td>
+                </tr>
+                <tr>
+                    <td>Double-Headed Slice</td>
+                    <td>Tokichiro</td>
+                    <td>The Two Faces Of Hospitality / Cherry Blossom Viewing In Daigo</td>
+                    <td>Twilight</td>
+                    <td>Dual Swords</td>
+                </tr>
+                <tr>
+                    <td>Triple Threat</td>
+                    <td>Maeda Toshiie</td>
+                    <td>Mataza Of The Spear / Ruin Draws Near</td>
+                    <td>Dream / Twilight</td>
+                    <td>Spear</td>
+                </tr>
+                <tr>
+                    <td>Bracing Breeze</td>
+                    <td>Maeda Toshiie</td>
+                    <td>Mataza Of The Spear / Ruin Draws Near</td>
+                    <td>Dream / Twilight</td>
+                    <td>Spear</td>
+                </tr>
+                <tr>
+                    <td>Spirit Storm</td>
+                    <td>Obsidian Samurai</td>
+                    <td>A Formal Match</td>
+                    <td>Shadow</td>
+                    <td>Axe</td>
+                </tr>
+                <tr>
+                    <td>Water Drop</td>
+                    <td>Hachisuka Koroku</td>
+                    <td>The Shiftling's Wise Judgement / High-Spirited Demon / Japanese Heart, Yokai Smarts</td>
+                    <td>Soaring / Twilight</td>
+                    <td>Kusarigama</td>
+                </tr>
+                <tr>
+                    <td>Second Wind</td>
+                    <td>Hachisuka Koroku</td>
+                    <td>The Shiftling's Wise Judgement / High-Spirited Demon / Japanese Heart, Yokai Smarts</td>
+                    <td>Soaring / Twilight</td>
+                    <td>Kusarigama</td>
+                </tr>
+                <tr>
+                    <td>Swirling Snow</td>
+                    <td>Magara Naotaka</td>
+                    <td>Corpses and Ice / The Brother's Blades</td>
+                    <td>Shadow</td>
+                    <td>Odachi</td>
+                </tr>
+                <tr>
+                    <td>Dragon Horn</td>
+                    <td>Saito Yoshitatsu</td>
+                    <td>The Hollow Fortress / The Point Of No Return</td>
+                    <td>Soaring / Shadow</td>
+                    <td>Odachi</td>
+                </tr>
+                <tr>
+                    <td>Storm of Strikes</td>
+                    <td>Hattori Hanzo</td>
+                    <td>Like Lightning / Winds Of Ruin</td>
+                    <td>Dojo / Afterglow</td>
+                    <td>Tonfa</td>
+                </tr>
+                <tr>
+                    <td>Deadly Spiral</td>
+                    <td>Shibata Katsuie</td>
+                    <td>The Shiftling's Wise Judgement / Ruin Draws Near / Wave of Terror / Restless Spirits / Demon Scrolls</td>
+                    <td>Soaring / Dream / Afterglow / Twilight / Demon Scrolls</td>
+                    <td>Hatchets</td>
+                </tr>
+                <tr>
+                    <td>Windswept</td>
+                    <td>Imagawa Yoshimoto</td>
+                    <td>Hidden Monsters of Okehazama / Imagawa Diehard</td>
+                    <td>Soaring</td>
+                    <td>Switchglave</td>
+                </tr>
+                <tr>
+                    <td>Fleeting Edge</td>
+                    <td>Mumyo</td>
+                    <td>Sharp Eyes / Winds Of Ruin</td>
+                    <td>Dojo / Afterglow</td>
+                    <td>Switchglave</td>
+                </tr>
+                <tr>
+                    <td>Arc Of Chaos</td>
+                    <td>Tate Eboshi</td>
+                    <td>Dawn Of The Demon / Rivals Return / The Cradle Of The Demon (Twilight Mission)</td>
+                    <td>The First Samurai (DLC 3)</td>
+                    <td>Switchglave</td>
+                </tr>
+                <tr>
+                    <td>Roar Power</td>
+                    <td>Benkei</td>
+                    <td>A Song To Calm The Storm / Soul Of The Warrior Monk</td>
+                    <td>Tengu's Desciple (DLC 1)</td>
+                    <td>Splitstaff</td>
+                </tr>
+                <tr>
+                    <td>Tiger Claws</td>
+                    <td>Ren Hayabusa</td>
+                    <td>The Dragon Clan</td>
+                    <td>Darkness In The Capital (DLC 2)</td>
+                    <td>Fists</td>
+                </tr>
+                <tr>
+                    <td>Sacred Bird Cry</td>
+                    <td>Minamoto no Yoshitsune</td>
+                    <td>Eternal Rivals / Bond Of The Blade</td>
+                    <td>Tengu's Desciple (DLC 1)</td>
+                    <td>Any Weapon</td>
+                </tr>
+                <tr>
+                    <td>Sacred Bird Flight</td>
+                    <td>Minamoto no Yorimitsu</td>
+                    <td>Suzune In The Flames</td>
+                    <td>Darkness In The Capital (DLC 2)</td>
+                    <td>Any Weapon</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- 
+    ========== ========== ==========
+    Hidden Shiftling Skills
+    ========== ========== ==========
+    -->
+    <section class="container-fluid">
+        <div class="jumbotron">
+            <h3 class="section-text" id="shiftling">Hidden Shiftling Skills</h3>
+
+            <table>
+                <!-- Header -->
+                <tr>
+                    <th>Skill Name</th>
+                    <th>Enemy</th>
+                    <th>Mission</th>
+                    <th>Region</th>
+                    <th>Form Type</th>
+                </tr>
+
+                <tr>
+                    <td>Brutal Combustion</td>
+                    <td>Ancient Otakemaru / Nightmare Bringer</td>
+                    <td>Dawn Of The Demon / The Cradle Of The Demon (Twilight Mission) / A Familiar Glow</td>
+                    <td>The First Samurai (DLC 3)</td>
+                    <td>Brute</td>
+                </tr>
+                <tr>
+                    <td>Ferocious Gale</td>
+                    <td>Ancient Otakemaru / Nightmare Bringer</td>
+                    <td>Dawn Of The Demon / The Cradle Of The Demon (Twilight Mission) / A Familiar Glow</td>
+                    <td>The First Samurai (DLC 3)</td>
+                    <td>Feral</td>
+                </tr>
+                <tr>
+                    <td>Phantasmic Burst</td>
+                    <td>Ancient Otakemaru / Nightmare Bringer</td>
+                    <td>Dawn Of The Demon / The Cradle Of The Demon (Twilight Mission) / A Familiar Glow</td>
+                    <td>The First Samurai (DLC 3)</td>
+                    <td>Phantom</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- 
+    ========== ========== ==========
+    Hidden Ninjutsu Skills
+    ========== ========== ==========
+    -->
+    <section class="container-fluid">
+        <div class="jumbotron">
+            <h3 class="section-text" id="ninjutsu">Hidden Ninjutsu Skills</h3>
+
+            <table>
+                <!-- Header -->
+                <tr>
+                    <th>Skill Name</th>
+                    <th>Enemy</th>
+                    <th>Mission</th>
+                    <th>Region</th>
+                </tr>
+
+                <tr>
+                    <td>Flame Dragon</td>
+                    <td>Ren Hayabusa</td>
+                    <td>The Dragon Clan</td>
+                    <td>Darkness In The Capital (DLC 2)</td>
+                </tr>
+                <tr>
+                    <td>Umbral Bullet</td>
+                    <td>Ren Hayabusa</td>
+                    <td>The Dragon Clan</td>
+                    <td>Darkness In The Capital (DLC 2)</td>
+                </tr>
+                <tr>
+                    <td>Exorcist Blade</td>
+                    <td>Ren Hayabusa</td>
+                    <td>The Dragon Clan</td>
+                    <td>Darkness In The Capital (DLC 2)</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- 
+    ========== ========== ==========
+    Hidden Onmyo Magic Skills
+    ========== ========== ==========
+    -->
+    <section class="container-fluid">
+        <div class="jumbotron">
+            <h3 class="section-text" id="onmyo">Hidden Onmyo Magic Skills</h3>
+
+            <table>
+                <!-- Header -->
+                <tr>
+                    <th>Skill Name</th>
+                    <th>Enemy</th>
+                    <th>Mission</th>
+                    <th>Region</th>
+                </tr>
+
+                <tr>
+                    <td>Luminous Blade Talisman</td>
+                    <td>Ashiya Doman</td>
+                    <td>Palace Of The Damned / A Storm In The Underworld</td>
+                    <td>Darkness In The Capital (DLC 2)</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- Credits -->
+    <section class="container-fluid">
+        <div class="jumbotron jumbotron-credits">
+            <h3 id="credits">Credits:</h3>
+
+            <p>
+                <span class="bold-text">Credits:</span> LiuKang1080
+            </p>
+
+            <p>
+                <span class="bold-text">Nioh 2 Build Bible:</span> OceanMachine, u/Kaitsja - 
+                <a href="https://docs.google.com/spreadsheets/d/1A-uFgSck8pU5NOLh2OVpK_V5-AVfDW42wuiumuf7tlE/edit#gid=2119503531">Link to Nioh 2 Build Bible</a>
+            </p>
+
+            <p>
+                <span class="bold-text">Nioh Community Discord Server:</span>
+                <a href="https://discord.gg/pAH5U9mRBj">Link to Discord Server</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Back to top button -->
+    <a id="back-to-top-button" href="#">Top</a>
+
+
+    <!-- JavaScript and Bootstrap.js Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Local JavaScript -->
+    <!-- <script type="text/javascript" src="https://liukang1080.github.io/Nioh_Website/Nioh2/smithing_texts/hidden_skills/js/hidden_skills.js"></script> -->
+    <script type="text/javascript" src="./js/hidden_skills.js"></script>
+
+</body>
+</html>
+
+<!-- TODO -->
+<!--
+
+-->
