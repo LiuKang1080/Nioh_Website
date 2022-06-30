@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floors of the Underworld</title>
+    <!--
+    ========== ========== ==========
+    Bootstrap CSS
+    ========== ========== ==========
+    -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--
+    ========== ========== ==========
+    Google Fonts 
+    ========== ========== ==========
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!--
+    ========== ========== ==========
+    General CSS
+    ========== ========== ==========
+    -->
+    <!-- Navbar -->
+    <!-- Absolute Path | Relative Path -->
+    <link rel="stylesheet" type="text/css" href="https://liukang1080.github.io/Nioh_Website/Nioh2/css/navbar.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../../css/navbar.css"> -->
+    
+    <!-- Navbar Media Query -->
+    <link rel="stylesheet" type="text/css" href="https://liukang1080.github.io/Nioh_Website/Nioh2/css/media-query_navbar.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../../css/media-query_navbar.css"> -->
+
+    <!-- General CSS -->
+    <link rel="stylesheet" type="text/css" href="https://liukang1080.github.io/Nioh_Website/Nioh2/css/general.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../../css/general.css"> -->
+
+    <!--
+    ========== ========== ==========
+    Local CSS
+    ========== ========== ==========
+    -->
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <!-- Home Button -->
+        <a class="nav-links" id="nav-home-link" href="#">Home</a>
+
+        <!-- Nioh 2 Dropdown Menu -->
+        <div class="container-flex-row">
+            <img src="https://liukang1080.github.io/Nioh_Website/Nioh2/img/Nioh2_logo_small.png" alt="Nioh 2 Logo">
+            <a class="dropdown-toggle nav-links" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nioh 2</a>
+            <!-- Dropdown Content -->
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_1/Section1_Index.html">Settings / Gameplay</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_2/Section2_Index.html">Missions</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_3/Section3_Index.html">Bosses / Enemies</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_4/Section4_Index.html">Guardian Spirits</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_5/Section5_Index.html">Characters</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_6/Section6_Index.html">Skills / Skill Trees</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_7/Section7_Index.html">Soul Cores</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_8/Section8_Index.html">Stats / Statuses</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_9/Section9_Index.html">Items</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_10/Section10_Index.html">Blacksmith</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_11/Section11_Index.html">Demon Parade Picture Scrolls</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_12/Section12_Index.html">Smithing Texts / Hidden Skills</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_13/Section13_Index.html">The Underworld</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_14/Section14_Index.html">Builds</a></li>
+            </ul>
+        </div>
+
+        <!-- Credits -->
+        <a class="nav-links" id="#nav-credit-link" href="">Credits</a>
+    </nav>
+
+    <!-- Title Text -->
+    <div class="title-text">
+        <h2>Floors of the Underworld</h2>
+    </div>
+    <hr>
+
+    <!-- Table of Contents -->
+    <div class="table-of-contents">
+        <section>
+            <h3>Table of Contents:</h3>
+            <ol>
+                <li><a class="table-of-contents-links" href="javascript: floors()">Underworld Crucible Boss List</a></li>
+                <li><a class="table-of-contents-links" href="javascript: credits()">Credits</a></li>
+            </ol>
+        </section>
+    </div>
+    <br>
+
+    <!-- 
+    ========== ========== ==========
+    Layout of the Underworld
+    ========== ========== ==========
+    -->
+    <section class="container-fluid">
+        <div class="jumbotron">
+            <h3 class="section-text">Layout of each Floor of the Underworld</h3>
+
+            <p>
+                Each Strata or the Floor of the Underworld is comprised of 2 sections: 1) The Netherscape which contains various
+                enemies and 4 Jizo-Kodama; 2) The Crucible which contains the main boss of the Floor. Once spawned into the 
+                Netherscape the player can collect anywhere between 1 and 4 Jizo-Kodama. The player must collect at least 1 Jizo 
+                Kodama in order to move onto the Crucible. Once the player has collected at least 1 Jizo-Kodama a portal will 
+                appear at the location of where the player collected the Jizo-Kodama as well as a portal next to the Shrine. Once
+                the player is in the Crucible they cannot return back to the Netherscape. In order to go the next Floor of the 
+                Underworld the player must defeat the Boss in the Crucible. Below contains the full list of all of the Bosses on 
+                each Floor.
+            </p>
+        </div>
+    </section>
+
+    <!-- 
+    ========== ========== ==========
+    Farming For Graces
+    ========== ========== ==========
+    -->
+    <section class="container-fluid">
+        <div class="jumbotron">
+            <h3 class="section-text">Farming for specific Graces in the Underworld</h3>
+
+            <!-- Grace Pool 1 -->
+            <p>
+                <span class="bold-text">If Floor Number / 3 = 0.333 : </span>
+                Acala's Grace, Ame-no-Uzume's Grace, Grace of Kagutsuchi, Izanagi's Grace, Omoikane's Grace, Takeminakata's Grace
+                <br>
+
+                <span class="bold-text">Floors that this Grace pool appears on : </span>
+                1, 4, 7, 10, 13, 16, 19, 22, 25, 28, 31, 34, 37, 40, 43, 46, 49, 52, 55, 58, 61, 64, 67, 70, 73, 76, 79, 82, 85, 88, 
+                91, 94, 97, 100, 103, 106 
+            </p>
+            <hr>
+
+            <!-- Grace Pool 2 -->
+            <p>
+                <span class="bold-text">If Floor Number / 3 = .666 : </span>
+                Grace of Amaterasu, Grace of Owatatsumi, Izanami's Grace, Magatsuhi's Grace, Marici's Grace, Ninigi's Grace
+                <br>
+
+                <span class="bold-text">Floors that this Grace pool appears on : </span>
+                2, 5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68, 71, 74, 77, 80, 83, 86, 89, 
+                92, 95, 98, 101, 104, 107
+            </p>
+            <hr>
+
+            <!-- Grace Pool 3 -->
+            <p>
+                <span class="bold-text">If Floor Number / 3 = .000 : </span>
+                Grace of Futsunushi, Grace of Susano, Grace of Takemikazuchi, Grace of Tsukuyomi, Okoninushi's Grace, Sarutahiko's Grace
+                <br>
+
+                <span class="bold-text">Floors that this Grace pool appears on : </span>
+                3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78, 81, 84, 87, 90, 
+                93, 96, 99, 102, 105, 108
+            </p>
+        </div>
+    </section>
+
+    <!-- 
+    ========== ========== ==========
+    Floors of the Underworld
+    ========== ========== ==========
+    -->
+    <section class="container-fluid">
+        <div class="jumbotron">
+            <h3 class="section-text" id="floors">Underworld Floor Crucible Boss List</h3>
+
+            <table>
+                <!-- Header -->
+                <tr>
+                    <th>Floor Number</th>
+                    <th>Crucible Boss</th>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td><a href="" class="table-link">Mezuki</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href="" class="table-link">Honda Tadakatsu</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><a href="" class="table-link">Tatarimokke</a></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><a href="" class="table-link">Magara Naotaka</a></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><a href="" class="table-link">Imagawa Yoshimoto</a></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><a href="" class="table-link">Oni Shibata Katsuie</a></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td><a href="" class="table-link">Obsidian Samurai</a></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td><a href="" class="table-link">Onryoki</a></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td><a href="" class="table-link">Saito Toshimitsu</a></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td><a href="" class="table-link">Kashin Koji</a></td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td><a href="" class="table-link">Ryomen Sukuna</a></td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td><a href="" class="table-link">Hachisuka Koroku</a></td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td><a href="" class="table-link">Kamaitachi</a></td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td><a href="" class="table-link">Azai Nagamasa</a></td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td><a href="" class="table-link">Oda Nobunaga</a></td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td><a href="" class="table-link">Shuten Doji</a></td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td><a href="" class="table-link">Maeda Toshiie</a></td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td><a href="" class="table-link">Yatsu-no-Kami</a></td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td><a href="" class="table-link">William</a></td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td><a href="" class="table-link">Tokichiro (Dream)</a></td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td><a href="" class="table-link">Kasha</a></td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td><a href="" class="table-link">Saito Yoshitatsu</a></td>
+                </tr>
+                <tr>
+                    <td>23</td>
+                    <td><a href="" class="table-link">Magara Naotaka</a></td>
+                </tr>
+                <tr>
+                    <td>24</td>
+                    <td><a href="" class="table-link">Matsunaga Hishahide</a></td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td><a href="" class="table-link">Enenra</a></td>
+                </tr>
+                <tr>
+                    <td>26</td>
+                    <td><a href="" class="table-link">Saika Magoichi</a></td>
+                </tr>
+                <tr>
+                    <td>27</td>
+                    <td><a href="" class="table-link">Gozuki</a></td>
+                </tr>
+                <tr>
+                    <td>28</td>
+                    <td><a href="" class="table-link">Hachisuka Koroku</a></td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td><a href="" class="table-link">Tokichiro</a></td>
+                </tr>
+                <tr>
+                    <td>30</td>
+                    <td><a href="" class="table-link">Otakemaru</a></td>
+                </tr>
+                <tr>
+                    <td>31</td>
+                    <td><a href="" class="table-link">Tsuchigumo</a></td>
+                </tr>
+                <tr>
+                    <td>32</td>
+                    <td><a href="" class="table-link">Saito Toshimitsu</a></td>
+                </tr>
+                <tr>
+                    <td>33</td>
+                    <td><a href="" class="table-link">Giant Toad</a></td>
+                </tr>
+                <tr>
+                    <td>34</td>
+                    <td><a href="" class="table-link">Maeda Toshiie</a></td>
+                </tr>
+                <tr>
+                    <td>35</td>
+                    <td><a href="" class="table-link">Kasha</a></td>
+                </tr>
+                <tr>
+                    <td>36</td>
+                    <td><a href="" class="table-link">Tokichiro (Dream)</a></td>
+                </tr>
+                <tr>
+                    <td>37</td>
+                    <td><a href="" class="table-link">Nue</a></td>
+                </tr>
+                <tr>
+                    <td>38</td>
+                    <td><a href="" class="table-link">Oda Nobunaga</a></td>
+                </tr>
+                <tr>
+                    <td>39</td>
+                    <td><a href="" class="table-link">Benkei</a></td>
+                </tr>
+                <tr>
+                    <td>40</td>
+                    <td><a href="" class="table-link">White Tiger</a></td>
+                </tr>
+                <tr>
+                    <td>41</td>
+                    <td><a href="" class="table-link">Ashiya Doman</a></td>
+                </tr>
+                <tr>
+                    <td>42</td>
+                    <td><a href="" class="table-link">Oni Shibata Katsuie</a></td>
+                </tr>
+                <tr>
+                    <td>43</td>
+                    <td><a href="" class="table-link">Honda Tadakatsu</a></td>
+                </tr>
+                <tr>
+                    <td>44</td>
+                    <td><a href="" class="table-link">Tsuchigumo</a></td>
+                </tr>
+                <tr>
+                    <td>45</td>
+                    <td><a href="" class="table-link">Kashin Koji</a></td>
+                </tr>
+                <tr>
+                    <td>46</td>
+                    <td><a href="" class="table-link">Lightning Gods of Yomi</a></td>
+                </tr>
+                <tr>
+                    <td>47</td>
+                    <td><a href="" class="table-link">Imagawa Yoshimoto</a></td>
+                </tr>
+                <tr>
+                    <td>48</td>
+                    <td><a href="" class="table-link">Minamoto no Yoshitsune</a></td>
+                </tr>
+                <tr>
+                    <td>49</td>
+                    <td><a href="" class="table-link">Minamoto no Yorimitsu</a></td>
+                </tr>
+                <tr>
+                    <td>50</td>
+                    <td><a href="" class="table-link">Nightmare Bringer</a></td>
+                </tr>
+                <tr>
+                    <td>51</td>
+                    <td><a href="" class="table-link">Onryoki</a></td>
+                </tr>
+                <tr>
+                    <td>52</td>
+                    <td><a href="" class="table-link">Ancient Nyotengu</a></td>
+                </tr>
+                <tr>
+                    <td>53</td>
+                    <td><a href="" class="table-link">Nue</a></td>
+                </tr>
+                <tr>
+                    <td>54</td>
+                    <td><a href="" class="table-link">Saito Yoshitatsu</a></td>
+                </tr>
+                <tr>
+                    <td>55</td>
+                    <td><a href="" class="table-link">Yatsu-no-Kami</a></td>
+                </tr>
+                <tr>
+                    <td>56</td>
+                    <td><a href="" class="table-link">Ryomen Sukuna</a></td>
+                </tr>
+                <tr>
+                    <td>57</td>
+                    <td><a href="" class="table-link">Matsunaga Hishahide</a></td>
+                </tr>
+                <tr>
+                    <td>58</td>
+                    <td><a href="" class="table-link">Magara Naotaka</a></td>
+                </tr>
+                <tr>
+                    <td>59</td>
+                    <td><a href="" class="table-link">White Tiger</a></td>
+                </tr>
+                <tr>
+                    <td>60</td>
+                    <td><a href="" class="table-link">Giant Toad</a></td>
+                </tr>
+                <tr>
+                    <td>61</td>
+                    <td><a href="" class="table-link">Tate Eboshi</a></td>
+                </tr>
+                <tr>
+                    <td>62</td>
+                    <td><a href="" class="table-link">Honda Tadakatsu</a></td>
+                </tr>
+                <tr>
+                    <td>63</td>
+                    <td><a href="" class="table-link">Saika Magoichi</a></td>
+                </tr>
+                <tr>
+                    <td>64</td>
+                    <td><a href="" class="table-link">Azai Nagamasa</a></td>
+                </tr>
+                <tr>
+                    <td>65</td>
+                    <td><a href="" class="table-link">Maeda Toshiie</a></td>
+                </tr>
+                <tr>
+                    <td>66</td>
+                    <td><a href="" class="table-link">Lightning Gods of Yomi</a></td>
+                </tr>
+                <tr>
+                    <td>67</td>
+                    <td><a href="" class="table-link">Kamaitachi</a></td>
+                </tr>
+                <tr>
+                    <td>68</td>
+                    <td><a href="" class="table-link">Obsidian Samurai</a></td>
+                </tr>
+                <tr>
+                    <td>69</td>
+                    <td><a href="" class="table-link">Oda Nobunaga</a></td>
+                </tr>
+                <tr>
+                    <td>70</td>
+                    <td><a href="" class="table-link">William</a></td>
+                </tr>
+                <tr>
+                    <td>71</td>
+                    <td><a href="" class="table-link">Enenra</a></td>
+                </tr>
+                <tr>
+                    <td>72</td>
+                    <td><a href="" class="table-link">Minamoto no Yoshitsune</a></td>
+                </tr>
+                <tr>
+                    <td>73</td>
+                    <td><a href="" class="table-link">Tatarimokke</a></td>
+                </tr>
+                <tr>
+                    <td>74</td>
+                    <td><a href="" class="table-link">Shuten Doji</a></td>
+                </tr>
+                <tr>
+                    <td>75</td>
+                    <td><a href="" class="table-link">Tokichiro</a></td>
+                </tr>
+                <tr>
+                    <td>76</td>
+                    <td><a href="" class="table-link">Tsuchigumo</a></td>
+                </tr>
+                <tr>
+                    <td>77</td>
+                    <td><a href="" class="table-link">Ren Hayabusa</a></td>
+                </tr>
+                <tr>
+                    <td>78</td>
+                    <td><a href="" class="table-link">Ryomen Sukuna</a></td>
+                </tr>
+                <tr>
+                    <td>79</td>
+                    <td><a href="" class="table-link">Kasha</a></td>
+                </tr>
+                <tr>
+                    <td>80</td>
+                    <td><a href="" class="table-link">Minamoto no Yorimitsu</a></td>
+                </tr>
+                <tr>
+                    <td>81</td>
+                    <td><a href="" class="table-link">Ancient Nyotengu</a></td>
+                </tr>
+                <tr>
+                    <td>82</td>
+                    <td><a href="" class="table-link">Tate Eboshi</a></td>
+                </tr>
+                <tr>
+                    <td>83</td>
+                    <td><a href="" class="table-link">Saito Toshimitsu</a></td>
+                </tr>
+                <tr>
+                    <td>84</td>
+                    <td><a href="" class="table-link">Benkei</a></td>
+                </tr>
+                <tr>
+                    <td>85</td>
+                    <td><a href="" class="table-link">Imagawa Yoshimoto</a></td>
+                </tr>
+                <tr>
+                    <td>86</td>
+                    <td><a href="" class="table-link">Oni Shibata Katsuie</a></td>
+                </tr>
+                <tr>
+                    <td>87</td>
+                    <td><a href="" class="table-link">Hachisuka Koroku</a></td>
+                </tr>
+                <tr>
+                    <td>88</td>
+                    <td><a href="" class="table-link">Gozuki</a></td>
+                </tr>
+                <tr>
+                    <td>89</td>
+                    <td><a href="" class="table-link">Saika Magoichi</a></td>
+                </tr>
+                <tr>
+                    <td>90</td>
+                    <td><a href="" class="table-link">William</a></td>
+                </tr>
+                <tr>
+                    <td>91</td>
+                    <td><a href="" class="table-link">Lightning Gods of Yomi</a></td>
+                </tr>
+                <tr>
+                    <td>92</td>
+                    <td><a href="" class="table-link">Saito Yoshitatsu</a></td>
+                </tr>
+                <tr>
+                    <td>93</td>
+                    <td><a href="" class="table-link">Giant Toad</a></td>
+                </tr>
+                <tr>
+                    <td>94</td>
+                    <td><a href="" class="table-link">Matsunaga Hishahide</a></td>
+                </tr>
+                <tr>
+                    <td>95</td>
+                    <td><a href="" class="table-link">Minamoto no Yoshitsune</a></td>
+                </tr>
+                <tr>
+                    <td>96</td>
+                    <td><a href="" class="table-link">Kamaitachi</a></td>
+                </tr>
+                <tr>
+                    <td>97</td>
+                    <td><a href="" class="table-link">Obsidian Samurai</a></td>
+                </tr>
+                <tr>
+                    <td>98</td>
+                    <td><a href="" class="table-link">Mezuki</a></td>
+                </tr>
+                <tr>
+                    <td>99</td>
+                    <td><a href="" class="table-link">Nue</a></td>
+                </tr>
+                <tr>
+                    <td>100</td>
+                    <td><a href="" class="table-link">Ren Hayabusa</a></td>
+                </tr>
+                <tr>
+                    <td>101</td>
+                    <td><a href="" class="table-link">Ancient Nyotengu</a></td>
+                </tr>
+                <tr>
+                    <td>102</td>
+                    <td><a href="" class="table-link">White Tiger</a></td>
+                </tr>
+                <tr>
+                    <td>103</td>
+                    <td><a href="" class="table-link">Azai Nagamasa</a></td>
+                </tr>
+                <tr>
+                    <td>104</td>
+                    <td><a href="" class="table-link">Tokichiro (Dream)</a></td>
+                </tr>
+                <tr>
+                    <td>105</td>
+                    <td><a href="" class="table-link">Ashiya Doman</a></td>
+                </tr>
+                <tr>
+                    <td>106</td>
+                    <td><a href="" class="table-link">Kashin Koji</a></td>
+                </tr>
+                <tr>
+                    <td>107</td>
+                    <td><a href="" class="table-link">Otakemaru</a></td>
+                </tr>
+                <tr>
+                    <td>108</td>
+                    <td><a href="" class="table-link">Nightmare Bringer</a></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- Credits -->
+    <section class="container-fluid">
+        <div class="jumbotron jumbotron-credits">
+            <h3 id="credits">Credits:</h3>
+
+            <p>
+                <span class="bold-text">Credits:</span> LiuKang1080
+            </p>
+
+            <p>
+                <span class="bold-text">Nioh 2 Build Bible:</span> OceanMachine - 
+                <a href="https://docs.google.com/spreadsheets/d/1A-uFgSck8pU5NOLh2OVpK_V5-AVfDW42wuiumuf7tlE/edit#gid=2119503531">Link to Nioh 2 Build Bible</a>
+            </p>
+
+            <p>
+                <span class="bold-text">Nioh Community Discord Server:</span>
+                <a href="https://discord.gg/pAH5U9mRBj">Link to Discord Server</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Back to top button -->
+    <a id="back-to-top-button" href="#">Top</a>
+
+
+    <!-- JavaScript and Bootstrap.js Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Local JavaScript -->
+    <!-- <script type="text/javascript" src="https://liukang1080.github.io/Nioh_Website/Nioh2/underworld/floors/js/floors.js"></script> -->
+    <script type="text/javascript" src="./js/floors.js"></script>
+
+</body>
+</html>
+
+<!-- TODO -->
+<!--
+
+-->
