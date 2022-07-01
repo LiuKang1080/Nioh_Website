@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graces / Sets</title>
+    <!--
+    ========== ========== ==========
+    Bootstrap CSS
+    ========== ========== ==========
+    -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--
+    ========== ========== ==========
+    Google Fonts 
+    ========== ========== ==========
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!--
+    ========== ========== ==========
+    General CSS
+    ========== ========== ==========
+    -->
+    <!-- Navbar -->
+    <!-- Absolute Path | Relative Path -->
+    <link rel="stylesheet" type="text/css" href="https://liukang1080.github.io/Nioh_Website/Nioh2/css/navbar.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../../css/navbar.css"> -->
+    
+    <!-- Navbar Media Query -->
+    <link rel="stylesheet" type="text/css" href="https://liukang1080.github.io/Nioh_Website/Nioh2/css/media-query_navbar.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../../css/media-query_navbar.css"> -->
+
+    <!-- General CSS -->
+    <link rel="stylesheet" type="text/css" href="https://liukang1080.github.io/Nioh_Website/Nioh2/css/general.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../../css/general.css"> -->
+
+    <!--
+    ========== ========== ==========
+    Local CSS
+    ========== ========== ==========
+    -->
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <!-- Home Button -->
+        <a class="nav-links" id="nav-home-link" href="#">Home</a>
+
+        <!-- Nioh 2 Dropdown Menu -->
+        <div class="container-flex-row">
+            <img src="https://liukang1080.github.io/Nioh_Website/Nioh2/img/Nioh2_logo_small.png" alt="Nioh 2 Logo">
+            <a class="dropdown-toggle nav-links" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nioh 2</a>
+            <!-- Dropdown Content -->
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_1/Section1_Index.html">Settings / Gameplay</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_2/Section2_Index.html">Missions</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_3/Section3_Index.html">Bosses / Enemies</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_4/Section4_Index.html">Guardian Spirits</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_5/Section5_Index.html">Characters</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_6/Section6_Index.html">Skills / Skill Trees</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_7/Section7_Index.html">Soul Cores</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_8/Section8_Index.html">Stats / Statuses</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_9/Section9_Index.html">Items</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_10/Section10_Index.html">Blacksmith</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_11/Section11_Index.html">Demon Parade Picture Scrolls</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_12/Section12_Index.html">Smithing Texts / Hidden Skills</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_13/Section13_Index.html">The Underworld</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/Nioh2/Section_14/Section14_Index.html">Builds</a></li>
+            </ul>
+        </div>
+
+        <!-- Credits -->
+        <a class="nav-links" id="#nav-credit-link" href="">Credits</a>
+    </nav>
+
+    <!-- Title Text -->
+    <div class="title-text">
+        <h2>Graces / Sets</h2>
+    </div>
+    <hr>
+
+    <!-- Table of Contents -->
+    <div class="table-of-contents">
+        <section>
+            <h3>Table of Contents:</h3>
+            <ol>
+                <li><a class="table-of-contents-links" href="javascript: light()">Base Game Light Armor Sets</a></li>
+                <li><a class="table-of-contents-links" href="javascript: medium()">Base Game Medium Armor Sets</a></li>
+                <li><a class="table-of-contents-links" href="javascript: heavy()">Base Game Heavy Armor Sets</a></li>
+                <li><a class="table-of-contents-links" href="javascript: demon()">Dream of the Demon Sets</a></li>
+                <li><a class="table-of-contents-links" href="javascript: wise()">Dream of the Wise Sets</a></li>
+                <li><a class="table-of-contents-links" href="javascript: nioh()">Dream of the Nioh Sets</a></li>
+                <li><a class="table-of-contents-links" href="javascript: depths()">Depths of the Underworld Sets</a></li>
+                <li><a class="table-of-contents-links" href="javascript: description()">Descriptions</a></li>
+                <li><a class="table-of-contents-links" href="javascript: credits()">Credits</a></li>
+            </ol>
+        </section>
+    </div>
+    <br>
+
+    <!-- 
+    ========== ========== ==========
+    +Value Set Description
+    ========== ========== ==========
+    -->
+    <section class="container-fluid">
+        <div class="jumbotron">
+            <h3 class="section-text">How +Value Sets Work</h3>
+
+            <p>
+                <span class="bold-text">+Value Set: </span> The extra bonus of a +Value set is 
+                <span class="bold-text red-text">Bold, and in Red</span>. +Value sets start to drop on Dream of the Nioh. In 
+                order to obtain the +Value extra bonus you must acquire a full +Value set. You cannot mix and match a regular set
+                with a +Value set. You can however soul match a regular set piece into a +Value set piece.
+            </p>
+        </div>
+    </section>
+
+    <!-- 
+    ========== ========== ==========
+    Base Game Light Armor Sets
+    ========== ========== ==========
+    -->
+    <section class="container-fluid">
+        <div class="jumbotron">
+            <h3 class="section-text" id="light">Base Game Light Armor Sets</h3>
+
+            <table>
+                <!-- Header -->
+                <tr>
+                    <th>Set Name</th>
+                    <th>2 PC</th>
+                    <th>3 PC</th>
+                    <th>4 PC</th>
+                    <th>5 PC</th>
+                    <th>6 PC</th>
+                    <th>7 PC</th>
+                </tr>
+
+                <tr>
+                    <td><span class="bold-text">Appetite for Ascension</span><br>
+                        <span class="italics-text">Merchant Armor</span></td>
+                    <td>Gold Earned +5.0%</td>
+                    <td>Amrita Earned +10.0%</td>
+                    <td>Ki Recovery Speed +15.0%</td>
+                    <td>Auto-Life Recovery (Amrita Absorption) <br>
+                        <span class="bold-text red-text">Increased Attack (Amrita Absorption)</span></td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td><span class="bold-text">Saika's Yatagarasu</span><br>
+                        <span class="italics-text">Yatagarasu Armor</span></td>
+                    <td>Life Drain (Bullseye) 210</td>
+                    <td>Dodge Ki Consumption -10.0%</td>
+                    <td>Melee Damage +5.0%</td>
+                    <td>Auto-Target Weak Point</td>
+                    <td>Reduced Defense (Ranged Weapon Hit) 50%</td>
+                    <td>Untouched Ammo +20% <br>
+                        <span class="bold-text red-text">Bullseye Bonus +20.0%</span></td>
+                </tr>
+                <tr>
+                    <td><span class="bold-text">Servant of the Gods</span><br>
+                        <span class="italics-text">Shinto Priest Armor</span></td>
+                    <td>Untouched Sacred Water 35.0%</td>
+                    <td>Damage Taken vs. Yokai -3.0%</td>
+                    <td>Life Recovery (Purification) 196</td>
+                    <td>Damage Taken vs. Yokai -5.0% <br>
+                        <span class="bold-text red-text">Counter-Yokai Tactics B-</span></td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td><span class="bold-text">The Vicissitudes of Life</span><br>
+                        <span class="italics-text">Pit Viper's Armor</span></td>
+                    <td>Active Skill Ki Consumption -5.0%</td>
+                    <td>Ki +50</td>
+                    <td>Melee Damage vs. Yokai +6.0%</td>
+                    <td>Auto Life Recovery (Purification) <br>
+                        <span class="bold-text red-text">Melee Damage vs. Poisoned Enemy +20.0%</span></td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td><span class="bold-text">Yokai Slayer</span><br>
+                        <span class="italics-text">Sohaya Garb Armor</span></td>
+                    <td>Item Drop Rate vs. Yokai +5.0%</td>
+                    <td>Stealth (Yokai Enemies) A</td>
+                    <td>Melee Damage vs. Yokai +5.5%</td>
+                    <td>Life Drain (Melee Kill) 196 <br>
+                        <span class="bold-text red-text">Melee Damage vs. Yokai +12.0%</span></td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!-- Credits -->
+    <section class="container-fluid">
+        <div class="jumbotron jumbotron-credits">
+            <h3 id="credits">Credits:</h3>
+
+            <p>
+                <span class="bold-text">Credits:</span> LiuKang1080
+            </p>
+
+            <p>
+                <span class="bold-text">Grace / Set Descriptions: </span> Oninomiru, LiuKang1080
+            </p>
+
+            <p>
+                <span class="bold-text">Nioh 2 Build Bible:</span> OceanMachine - 
+                <a href="https://docs.google.com/spreadsheets/d/1A-uFgSck8pU5NOLh2OVpK_V5-AVfDW42wuiumuf7tlE/edit#gid=2119503531">Link to Nioh 2 Build Bible</a>
+            </p>
+
+            <p>
+                <span class="bold-text">Nioh Community Discord Server:</span>
+                <a href="https://discord.gg/pAH5U9mRBj">Link to Discord Server</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Back to top button -->
+    <a id="back-to-top-button" href="#">Top</a>
+
+
+    <!-- JavaScript and Bootstrap.js Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Local JavaScript -->
+    <!-- <script type="text/javascript" src="https://liukang1080.github.io/Nioh_Website/Nioh2/underworld/graces/js/graces.js"></script> -->
+    <script type="text/javascript" src="./js/graces.js"></script>
+</body>
+</html>
