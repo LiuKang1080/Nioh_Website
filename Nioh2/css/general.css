@@ -117,10 +117,16 @@ Div / Section / Jumbotron CSS
     align-items: flex-start;
 }
 
+/* Section Header CSS */
 .section-text {
     text-align: center;
     font-weight: bold;
     color: rgba(44, 132, 253, 255);
+}
+
+/* Paragraph elements' alignment (Flex Items) */
+.description-text {
+    align-self: flex-start;
 }
 
 /* 
