@@ -1,0 +1,9 @@
+/* CSS for spirit_list.html */
+
+
+.spirit-section {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 3em;
+}
