@@ -1,0 +1,32 @@
+/* CSS for spirit_list.html */
+
+
+.spirit-section {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 2em;
+}
+
+.spirit-card {
+    min-width: 500px;
+    max-width: 510px;
+}
+
+.spirit-card > table {
+    min-height: 750px;
+    max-height: 750px;
+}
+
+
+/* 
+========= ========= =========
+Media Query
+========= ========= =========
+*/
+@media screen and (max-width: 1000px) {
+    .spirit-card {
+        min-width: auto;
+        max-width: auto;
+    }
+}
