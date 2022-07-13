@@ -1,6 +1,32 @@
 // JavaScript for spirit_list.html
 
 
+/* 
+========== ========== ========== ========== ==========
+Table of Contents JavaScript 
+========== ========== ========== ========== ==========
+*/
+function spirit_list() {
+    let element = document.getElementById("spirit-list");
+    element.scrollIntoView();
+}
+
+function combination_list() {
+    let element = document.getElementById("combination-list");
+    element.scrollIntoView();
+}
+
+function tier_list() {
+    let element = document.getElementById("tier-list");
+    element.scrollIntoView();
+}
+
+function credits() {
+    let element = document.getElementById("credits");
+    element.scrollIntoView();
+}
+
+
 /*
 ========== ========== ========== ========== ==========
 Back to top button JavaScript 

@@ -9,13 +9,20 @@
 }
 
 .spirit-card {
-    min-width: 500px;
+    min-width: 510px;
     max-width: 510px;
 }
 
 .spirit-card > table {
+    min-width: 510px;
+    max-width: 510px;
+    
     min-height: 750px;
     max-height: 750px;
+}
+
+.paragraph-left {
+    text-align: left;
 }
 
 
@@ -27,6 +34,17 @@ Media Query
 @media screen and (max-width: 1000px) {
     .spirit-card {
         min-width: auto;
-        max-width: auto;
+        max-width: max-content;
+
+        min-height: auto;
+        max-height: max-content;
+    }
+
+    .spirit-card > table {
+        min-width: auto;
+        max-width: max-content;
+
+        min-height: auto;
+        max-height: max-content;
     }
 }
