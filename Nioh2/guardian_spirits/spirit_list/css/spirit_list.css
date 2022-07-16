@@ -21,8 +21,13 @@
     max-height: 750px;
 }
 
-.paragraph-left {
-    text-align: left;
+.flex-paragraph {
+    align-self: flex-start;
+}
+
+.inline-shift-form {
+    width: 7.5%;
+    height: auto;
 }
 
 

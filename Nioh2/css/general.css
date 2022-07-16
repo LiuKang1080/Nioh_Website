@@ -26,6 +26,10 @@ ol, ul {
     color: darkred;
 }
 
+.blue-text {
+    color: rgba(44, 132, 253, 255);
+}
+
 .unicode {
     font-size: 1.25rem;
 }
