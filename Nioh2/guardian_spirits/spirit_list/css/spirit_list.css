@@ -30,6 +30,11 @@
     height: auto;
 }
 
+/* Padding for spirit icons in Tier list table */
+.tier-list-icons a img {
+    padding: 0.25em;
+}
+
 
 /* 
 ========= ========= =========
