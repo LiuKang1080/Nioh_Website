@@ -118,105 +118,178 @@
     <section class="container-fluid">
         <div class="jumbotron">
             <h3 class="section-text">Location of Ethereal Soul Cores Table</h3>
+            <button id="sort-button-1" class="sort-button base-table">Sort Alphabetically</button>
+            <button id="refresh-button-1" class="sort-button">Sort By Original Order</button>
 
-            <table>
+            <table id="base-table">
                 <!-- Header -->
                 <tr>
                     <th>Soul Core Name</th>
                     <th>Location</th>
                 </tr>
 
+                <!-- Gaki -->
                 <tr>
-                    <td><a class="table-link" href="">Gaki</a></td>
+                    <td><a class="table-link" href="">
+                        Gaki <br>
+                        <img src="../img/gaki.png" alt=""></a></td>
                     <td>The Fire God's Magatama (Soaring) - 1st shrine <span class="red-text bold-text">(R)</span></td>
                 </tr>
+
+                <!-- Enki -->
                 <tr>
-                    <td><a class="table-link" href="">Enki</a></td>
+                    <td><a class="table-link" href="">
+                        Enki <br>
+                        <img src="../img/enki.png" alt=""></a></td>
                     <td>The Fire God's Magatama (Soaring) - 1st shrine <span class="red-text bold-text">(R)</span></td>
                 </tr>
+
+                <!-- Yoki -->
                 <tr>
-                    <td><a class="table-link" href="">Yoki</a></td>
+                    <td><a class="table-link" href="">
+                        Yoki <br>
+                        <img src="../img/yoki.png" alt=""></a></td>
                     <td>In the Eye of the Beholder (Afterglow) - 1st shrine <span class="red-text bold-text">(R)</span></td>
                 </tr>
+
+                <!-- Gozuki -->
                 <tr>
-                    <td><a class="table-link" href="">Gozuki</a></td>
+                    <td><a class="table-link" href="">
+                        Gozuki <br>
+                        <img src="../img/gozuki.png" alt=""></a></td>
                     <td>The Golden Castle (Dream) - last shrine, Picture Scroll</td>
                 </tr>
+                
+                <!-- Mezuki -->
                 <tr>
-                    <td><a class="table-link" href="">Mezuki</a></td>
+                    <td><a class="table-link" href="">
+                        Mezuki <br>
+                        <img src="../img/mezuki.png" alt=""></a></td>
                     <td>Floor 1, The Golden Castle (Dream) - last shrine</td>
                 </tr>
+
+                <!-- Ippon-Datara -->
                 <tr>
-                    <td><a class="table-link" href="">Ippon-Datara</a></td>
+                    <td><a class="table-link" href="">
+                        Ippon-Datara <br>
+                        <img src="../img/ippon-datara.png" alt=""></a></td>
                     <td>The Search (Awakening) - 1st shrine <span class="red-text bold-text">(R)</span></td>
                 </tr>
+
+                <!-- Kappa -->
                 <tr>
-                    <td><a class="table-link" href="">Kappa</a></td>
+                    <td><a class="table-link" href="">
+                        Kappa <br>
+                        <img src="../img/kappa.png" alt=""></a></td>
                     <td>
-                        Floor 14 <span class="red-text bold-text">(R)</span>, Mountain of the Dark Lord (T) - last shrine <span class="red-text bold-text">(R)</span>
+                        Floor 14 <span class="red-text bold-text">(R)</span>,
+                        Mountain of the Dark Lord (Twilight) - last shrine <span class="red-text bold-text">(R)</span>
                     </td>
                 </tr>
+
+                <!-- Nurikabe -->
                 <tr>
-                    <td><a class="table-link" href="">Nurikabe</a></td>
-                    <td>
-                        The Viper & the Butterfly (Soaring) - 1st shrine
-                    </td>
+                    <td><a class="table-link" href="">
+                        Nurikabe <br>
+                        <img src="../img/nurikabe.png" alt=""></a></td>
+                    <td>The Viper & the Butterfly (Soaring) - 1st shrine</td>
                 </tr>
+
+                <!-- Mujina -->
                 <tr>
-                    <td><a class="table-link" href="">Mujina</a></td>
+                    <td><a class="table-link" href="">
+                        Mujina <br>
+                        <img src="../img/mujina.png" alt=""></a></td>
                     <td></td>
                 </tr>
+
+                <!-- Enenra -->
                 <tr>
-                    <td><a class="table-link" href="">Enenra</a></td>
+                    <td><a class="table-link" href="">
+                        Enenra <br>
+                        <img src="../img/enenra.png" alt=""></a></td>
                     <td>Picture Scroll</td>
                 </tr>
+
+                <!-- Nure-Onna -->
                 <tr>
-                    <td><a class="table-link" href="">Nure-Onna</a></td>
-                    <td>The Fire God's Magatama <span class="red-text bold-text">(R)</span>, 
-                        The Search <span class="red-text bold-text">(R)</span>
+                    <td><a class="table-link" href="">
+                        Nure-Onna <br>
+                        <img src="../img/nure-onna.png" alt=""></a></td>
+                    <td>
+                        The Fire God's Magatama (Soaring) - 1st Shrine
+                        <span class="red-text bold-text">(R)</span>
                     </td>
                 </tr>
+
+                <!-- Aberrant Soldier -->
                 <tr>
-                    <td><a class="table-link" href="">Aberrant Soldier</a></td>
+                    <td><a class="table-link" href="">
+                        Aberrant Soldier <br>
+                        <img src="../img/abberant_soldier.png" alt=""></a></td>
                     <td>
                         Eternal Rivals (The Tengu's Disciple) - 2nd shrine <span class="red-text bold-text">(R)</span>,
                         Floor 24 <span class="red-text bold-text">(R)</span>
                     </td>
                 </tr>
+
+                <!-- Toxic Slime -->
                 <tr>
-                    <td><a class="table-link" href="">Toxic Slime</a></td>
-                    <td>
-                        An Error in Calculation, Floor 16
-                    </td>
+                    <td><a class="table-link" href="">
+                        Toxic Slime <br>
+                        <img src="../img/toxic_slime.png" alt=""></a></td>
+                    <td>An Error in Calculation (Soaring) - 1st Shrine</td>
                 </tr>
+
+                <!-- Yatsu-no-Kami -->
                 <tr>
-                    <td><a class="table-link" href="">Yatsu-no-Kami</a></td>
+                    <td><a class="table-link" href="">
+                        Yatsu-no-Kami <br>
+                        <img src="../img/yatsu-no-kami.png" alt=""></a></td>
                     <td>Calamity's Pulse (Afterglow)</td>
                 </tr>
+
+                <!-- Yamanba -->
                 <tr>
-                    <td><a class="table-link" href="">Yamanba</a></td>
-                    <td>
-                        Mystery of the Rashomon (2nd Shrine) (Twilight Mission), 
-                        A Way Out (Shadow) - last shrine <span class="red-text bold-text">(R)</span>,
-                        Floor 33
-                    </td>
+                    <td><a class="table-link" href="">
+                        Yamanba <br>
+                        <img src="../img/yamanba.png" alt=""></a></td>
+                    <td>A Way Out (Shadow) - Last Shrine <span class="red-text bold-text">(R)</span></td>
                 </tr>
+
+                <!-- One-Eyed Oni -->
                 <tr>
-                    <td><a class="table-link" href="">One-Eyed Oni</a></td>
+                    <td><a class="table-link" href="">
+                        One-Eyed Oni <br>
+                        <img src="../img/one-eyed-oni.png" alt=""></a></td>
                     <td>A Way Out (Last Shrine)</td>
                 </tr>
+
+                <!-- Karasa Tengu -->
                 <tr>
-                    <td><a class="table-link" href="">Karasu Tengu</a></td>
+                    <td><a class="table-link" href="">
+                        Karasu Tengu <br>
+                        <img src="../img/karasa_tengu.png" alt=""></a></td>
                     <td>The High-spirited Demon (Twilight) - 1st shrine <span class="red-text bold-text">(R)</span></td>
                 </tr>
+
+                <!-- Waira -->
                 <tr>
-                    <td><a class="table-link" href="">Waira</a></td>
+                    <td><a class="table-link" href="">
+                        Waira <br>
+                        <img src="../img/waira.png" alt=""></a></td>
                     <td>Floor 3 <span class="red-text bold-text">(R)</span></td>
                 </tr>
+
+                <!-- Karakasa Umbrella -->
                 <tr>
-                    <td><a class="table-link" href="">Karakasa Umbrella</a></td>
+                    <td><a class="table-link" href="">
+                        Karakasa Umbrella <br>
+                        <img src="../img/karakasa_umbrella.png" alt=""></a></td>
                     <td>Battle at the Temple (The First Samurai) - 1st shrine <span class="red-text bold-text">(R)</span></td>
                 </tr>
+
+                
                 <tr>
                     <td><a class="table-link" href="">Lesser Umi-Bozu</a></td>
                     <td>A Strong Bond (last Shrine) <span class="red-text bold-text">(R)</span></td>
@@ -322,7 +395,7 @@
                 </tr>
                 <tr>
                     <td><a class="table-link" href="">Kodama</a></td>
-                    <td>The Search</td>
+                    <td>The Search (Drop Purified Soul Cores)</td>
                 </tr>
                 <tr>
                     <td><a class="table-link" href="">Infernal Oni-Bi</a></td>
@@ -457,8 +530,16 @@
         <div class="jumbotron jumbotron-credits">
             <h3 id="credits">Credits:</h3>
 
-            <p><strong>Ethereal Soul Core Farming: </strong> neverhere, LOLSAN, Sir Varg, Vikaluka <br> 
+            <p>
+                LiuKang1080
+            </p>
+            <p>
+                <strong>Ethereal Soul Core Farming: </strong> neverhere, LOLSAN, Sir Varg, Vikaluka, Oninomiru, Iriomote, AGreyDawn, Uteh, KitPes <br> 
                 <a href="https://docs.google.com/spreadsheets/d/1-JY2PLuSO9SEe8Cnvri7LkNMmfP5R2XL_eJoIzv3XbA/edit#gid=0">Link to Document</a>
+            </p>
+            <p>
+                <span class="bold-text">Nioh 2 Build Bible:</span> OceanMachine -
+                <a href="https://docs.google.com/spreadsheets/d/1A-uFgSck8pU5NOLh2OVpK_V5-AVfDW42wuiumuf7tlE/edit#gid=2119503531">Link to Nioh 2 Build Bible</a>
             </p>
     
             <p><strong>Nioh Community Discord Server: </strong>
@@ -474,8 +555,8 @@
     <!-- JavaScript and Bootstrap.js Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!-- Local JavaScript -->
-    <script type="text/javascript" src="https://liukang1080.github.io/Nioh_Website/Nioh2/soul_cores/farming_cores/js/farming_cores.js"></script>
-    <!-- <script type="text/javascript" src="./js/farming_cores.js"></script> -->
+    <!-- <script type="text/javascript" src="https://liukang1080.github.io/Nioh_Website/Nioh2/soul_cores/farming_cores/js/farming_cores.js"></script> -->
+    <script type="text/javascript" src="./js/farming_cores.js"></script>
 
 </body>
 </html>
