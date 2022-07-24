@@ -4,3 +4,20 @@
 .core-image {
     padding-left: 0.5em;
 }
+
+.soul-core-red {
+    color: rgba(220, 50, 50, 255);
+}
+
+.soul-core-purple {
+    color: rgba(189, 90, 222, 255);
+}
+
+.soul-core-blue {
+    color: rgba(49, 152, 224, 255);
+}
+
+
+.paragraph-align-left {
+    align-self: flex-start;
+}
