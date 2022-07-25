@@ -19,6 +19,8 @@
     
     min-height: 750px;
     max-height: 750px;
+
+    border: solid black 3px;
 }
 
 .flex-paragraph {
