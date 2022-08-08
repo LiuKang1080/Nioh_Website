@@ -31,6 +31,7 @@ function credits() {
     element.scrollIntoView();
 }
 
+
 /*
 ========== ========== ========== ========== ==========
 Back to top button JavaScript 
@@ -47,6 +48,7 @@ function scrollFunction() {
         back_to_top.style.display = "none";
     }
 }
+
 
 /*
 ========== ========== ========== ========== ==========
@@ -109,6 +111,7 @@ function sort_table(event) {
         }
     }
 }
+
 
 /*
 ========== ========== ========== ========== ==========

@@ -1,3 +1,6 @@
+/* JavaScript for achievements.html */
+
+
 /* 
 ========== ========== ========== ========== ==========
 Table of Contents JavaScript 

@@ -1,3 +1,4 @@
+/* Media Query for the Navbar */
 @media screen and (min-width: 350px) and (max-width: 450px) {
     nav {
         display: flex;

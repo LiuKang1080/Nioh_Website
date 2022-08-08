@@ -9,11 +9,14 @@
 }
 
 nav {
+    /* Flexbox */
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     gap: 3em;
+    
+    /* Sizing and Positioning */
     min-height: 4rem;
     
     /* Google Fonts */
@@ -24,10 +27,13 @@ nav {
 }
 
 .container-flex-row {
+    /* Flexbox */
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
+    
+    /* Sizing and Positioning */
     max-width: 200px;
     padding-top: 0.5em;
     padding-bottom: 0.5em;

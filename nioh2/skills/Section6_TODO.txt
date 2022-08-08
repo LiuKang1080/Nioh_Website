@@ -1,2 +1,17 @@
 Section 6 - Skills / Skill Tree:
 
+Samurai Skill Tree:
+    Active Skills:
+        - 
+
+    Passive Skills:
+        - 
+
+Shiftling Skill Tree:
+    Active Skills:
+        - 
+
+    Passive Skills:
+        - 
+
+Sword Skill Tree:

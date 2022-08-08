@@ -38,6 +38,7 @@ hr {
     width: 100%;
 }
 
+
 /* 
 ========== ========== ========== ========== ==========
 Title Text CSS 
@@ -53,6 +54,7 @@ Title Text CSS
 .title-text h2 {
     margin-top: 0.5em;
 }
+
 
 /* 
 ========== ========== ========== ========== ==========
@@ -74,6 +76,7 @@ Table of Contents CSS
     flex-flow: column nowrap;
     justify-content: start;
 }
+
 
 /* 
 ========== ========== ========== ========== ==========
@@ -133,6 +136,7 @@ Div / Section / Jumbotron CSS
     align-self: flex-start;
 }
 
+
 /* 
 ========== ========== ========== ========== ==========
 Table CSS 
@@ -166,6 +170,7 @@ th, td {
     color: black;
     border-radius: 0.5em;
 }
+
 
 /* 
 ========== ========== ========== ========== ==========

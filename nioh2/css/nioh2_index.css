@@ -2,7 +2,7 @@
 
 
 body {
-    background-image: url("https://liukang1080.github.io/Nioh_Website/Nioh2/img/index_background_image.jpg");
+    background-image: url("https://liukang1080.github.io/Nioh_Website/nioh2/img/index_background_image.jpg");
     /* background-image: url(../img/index_background_image.jpg); */
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -13,6 +13,7 @@ body {
 }
 
 .container-fluid {
+    /* flexbox */
     display: flex;
     flex-flow: row wrap;
     justify-content: center;

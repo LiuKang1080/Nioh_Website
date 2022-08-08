@@ -1,3 +1,6 @@
+/* JavaScript for nioh.html */
+
+
 /* 
 ========== ========== ========== ========== ==========
 Table of Contents JavaScript 

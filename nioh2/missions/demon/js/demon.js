@@ -1,3 +1,6 @@
+/* JavaScript for demon.html */
+
+
 /* 
 ========== ========== ========== ========== ==========
 Table of Contents JavaScript 

@@ -1,3 +1,6 @@
+/* JavaScript for twilight.html */
+
+
 /* 
 ========== ========== ========== ========== ==========
 Table of Contents JavaScript 
@@ -16,6 +19,7 @@ Back to top button JavaScript
 */ 
 back_to_top = document.getElementById("back-to-top-button");
 window.onscroll = function() { scrollFunction() };
+
 
 function scrollFunction() {
     if (document.body.scrollTop > 75 || document.documentElement.scrollTop > 75) {

@@ -1,4 +1,4 @@
-/* JavaScript for weapon_texts.html */
+/* JavaScript for lapis.html */
 
 
 /* 
