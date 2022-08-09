@@ -1,17 +1,195 @@
 Section 6 - Skills / Skill Tree:
 
+
+========== ========== ==========
 Samurai Skill Tree:
+========== ========== ==========
     Active Skills:
-        - 
+        - Stance [innate]
+        - Ki Pulse [innate]
+        - Ki Pulse Heaven
+        - Ki Pulse Man
+        - Ki Pulse Earth
+        - Flux
+        - Flux II
+        - Flash Attack
+        - Purify Yokai Realm [innate]
+        - Running Water Heaven
+        - Running Water Man
+        - Running Water Earth
+        - Grapple [innate]
+        - Final Blow [innate]
+        - Composure
+        - Sacred Bird Flight [Hidden Skill]
+        - Sacred Bird Cry [Hidden Skill]
 
     Passive Skills:
-        - 
+        - Purify Yoaki Realm: Heaven
+        - Purify Yoaki Realm: Man
+        - Purify Yoaki Realm: Earth
+        - Bow Master [I - III]
+        - Matchlock Master [I - III]
+        - Cannon Master [I - III]
+        - Quivermaker
+        - Shot Pouch
+        - Round Carrier
+        - Hands of Death [I - III]
+        - Fortitude [I - III]
+        - Dead Eye [unlimited?]
+        - Fatal Fists [unlimited?]
 
+    Custom Active Skills:
+        - Deliberate Slice
+        - Reckless Slice
+        - Masterful Slice
+        - Nimble Slice
+        - Damage Boost: Strength
+        - Damage Boost: Skill
+        - Damage Boost: Heart
+        - Damage Boost: Constitution
+        - Damage Boost: Stamina
+        - Damage Boost: Courage
+        - Damage Boost: Dexterity
+        - Damage Boost: Magic
+
+
+========== ========== ==========
 Shiftling Skill Tree:
+========== ========== ==========
     Active Skills:
         - 
 
     Passive Skills:
         - 
 
+
+========== ========== ==========
+Ninjutsu Skill Tree:
+========== ========== ==========
+    Active Skills:
+        - 
+
+    Passive Skills:
+        - 
+
+
+========== ========== ==========
+Onmyo Magic Skill Tree:
+========== ========== ==========
+    Active Skills:
+        - 
+
+    Passive Skills:
+        - 
+
+
+========== ========== ==========
 Sword Skill Tree:
+========== ========== ==========
+    Active Skills:
+        - 
+
+    Passive Skills:
+        - 
+
+
+========== ========== ==========
+Dual Swords Skill Tree:
+========== ========== ==========
+    Active Skills:
+        - 
+
+    Passive Skills:
+        - 
+
+
+========== ========== ==========
+Spear Skill Tree:
+========== ========== ==========
+    Active Skills:
+        - 
+
+    Passive Skills:
+        - 
+
+
+========== ========== ==========
+Axe Skill Tree:
+========== ========== ==========
+    Active Skills:
+        - 
+
+    Passive Skills:
+        - 
+
+
+========== ========== ==========
+Kusarigama Skill Tree:
+========== ========== ==========
+    Active Skills:
+        - 
+
+    Passive Skills:
+        - 
+
+
+========== ========== ==========
+Odachi Skill Tree:
+========== ========== ==========
+    Active Skills:
+        - 
+
+    Passive Skills:
+        - 
+
+
+========== ========== ==========
+Tonfa Skill Tree:
+========== ========== ==========
+    Active Skills:
+        - 
+
+    Passive Skills:
+        - 
+
+
+========== ========== ==========
+Hatchets Skill Tree:
+========== ========== ==========
+    Active Skills:
+        - Chain Hurl [innate]
+        - Dual Hurl [innate]
+        - Piercing Hurl [innate]
+
+    Passive Skills:
+        - 
+
+
+========== ========== ==========
+Switchglave Skill Tree:
+========== ========== ==========
+    Active Skills:
+        - 
+
+    Passive Skills:
+        - 
+
+
+========== ========== ==========
+Splitstaff Skill Tree:
+========== ========== ==========
+    Active Skills:
+        - 
+
+    Passive Skills:
+        - Fluid Form [innate]
+
+
+========== ========== ==========
+Fists Skill Tree:
+========== ========== ==========
+    Active Skills:
+        - Unbroken [innate]
+
+    Passive Skills:
+        -
