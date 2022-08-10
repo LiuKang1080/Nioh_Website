@@ -1,0 +1,193 @@
+/* General styling for a variety of components */
+
+
+/* 
+========== ========== ========== ========== ==========
+General CSS 
+========== ========== ========== ========== ==========
+*/
+a {
+    text-decoration: none;
+}
+
+ol, ul {
+    padding-left: 1rem;
+}
+
+.italics-text {
+    font-style: italic;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.red-text {
+    color: darkred;
+}
+
+.blue-text {
+    color: rgba(44, 132, 253, 255);
+}
+
+.unicode {
+    font-size: 1.25rem;
+}
+
+hr {
+    width: 100%;
+}
+
+
+/* 
+========== ========== ========== ========== ==========
+Title Text CSS 
+========== ========== ========== ========== ==========
+*/
+.title-text {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.title-text h2 {
+    margin-top: 0.5em;
+}
+
+
+/* 
+========== ========== ========== ========== ==========
+Table of Contents CSS 
+========== ========== ========== ========== ==========
+*/
+.table-of-contents {
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    justify-content: start;
+}
+
+.table-of-contents section {
+    /* grid */
+    grid-column: 2 / 8;
+
+    /* flex */
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+}
+
+
+/* 
+========== ========== ========== ========== ==========
+Div / Section / Jumbotron CSS 
+========== ========== ========== ========== ==========
+*/
+.container-fluid {
+    /* grid */
+    display: grid;
+    grid-template-columns: 1fr 12fr 1fr;
+
+    /* general */
+    padding: 0;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.jumbotron {
+    /* grid */
+    grid-column: 2 / 3;
+    
+    /* flexbox */
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 1em;
+
+    /* general */
+    background-color: rgba(248, 249, 250, 255);
+    border-radius: 0.3rem;
+    padding: 1em;
+}
+
+.jumbotron h3 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.jumbotron p {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.jumbotron-credits {
+    align-items: flex-start;
+}
+
+/* Section Header CSS */
+.section-text {
+    text-align: center;
+    font-weight: bold;
+    color: rgba(44, 132, 253, 255);
+}
+
+/* Paragraph elements' alignment (Flex Items) */
+.description-text {
+    align-self: flex-start;
+}
+
+
+/* 
+========== ========== ========== ========== ==========
+Table CSS 
+========== ========== ========== ========== ==========
+*/
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    overflow-x: auto;
+}
+
+th, td {
+    padding: 0.6em;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table-link {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.sort-button {
+    min-width: 200px;
+    min-height: 50px;
+    margin-bottom: 1em;
+
+    background-color: rgba(255, 193, 7, 255);
+    color: black;
+    border-radius: 0.5em;
+}
+
+
+/* 
+========== ========== ========== ========== ==========
+Back to top button CSS 
+========== ========== ========== ========== ==========
+*/
+#back-to-top-button {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    margin-bottom: 1em;
+    padding: 0.75em 1.5em;
+
+    text-align: center;
+    font-size: 16px;
+    background-color: rgba(255, 193, 7, 255);
+    color: black;
+    border-radius: 0.25em;
+}

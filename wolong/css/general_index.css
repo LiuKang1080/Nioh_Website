@@ -1,0 +1,31 @@
+/* Styling sheet for multiple general index.html pages */
+
+
+body {
+    background-image: url("https://liukang1080.github.io/Nioh_Website/wolong/img/general_textured_background.png");
+    /* background-image: url("../img/general_textured_background.png"); */
+}
+
+#first-section {
+    margin-top: 17em;
+}
+
+.container-fluid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.btn-group {
+    /* sizing / positioning */
+    min-width: 225px;
+    min-height: 40px;
+    
+    /* general */
+    text-align: center;
+}
+
+.btn-warning {
+    font-size: 16px;
+}

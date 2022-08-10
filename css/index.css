@@ -1,0 +1,41 @@
+/* Styling Sheet for index.html */
+
+
+body {
+    background-image: url("../img/general_textured_background.png");
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a span {
+    padding: 0.5em
+}
+
+/*
+.italics-text {
+    font-style: italic;
+}
+*/
+
+.bold-text {
+    font-weight: bold;
+}
+
+.container-fluid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 0.5em;
+
+    margin-top: 18em;
+}
+
+.card {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}

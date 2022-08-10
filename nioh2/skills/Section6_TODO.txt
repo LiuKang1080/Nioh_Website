@@ -57,10 +57,17 @@ Samurai Skill Tree:
 Shiftling Skill Tree:
 ========== ========== ==========
     Active Skills:
-        - 
+        - Burst Counter: Brute [innate]
+        - Fang Break [innate]
+        - Burst Counter: Feral [innate]
+        - Shadowstep [innate]
+        - Shadowstab [innate]
+        - Burst Counter: Phantom [innate]
+        - Blood Moon: Yin [innate]
+        - Blood Moon: Yang [innate]
 
     Passive Skills:
-        - 
+        - Devour Yokai Realm I [innate]
 
 
 ========== ========== ==========

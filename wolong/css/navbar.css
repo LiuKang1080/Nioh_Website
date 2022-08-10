@@ -1,0 +1,46 @@
+/* Styling Sheet for the navbar component */
+
+
+/* Box Model hack */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    /* Flexbox */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    
+    /* Sizing and Positioning */
+    min-height: 4rem;
+    
+    /* Google Fonts */
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+
+    background-color: rgba(52,58,64,255);
+}
+
+.container-flex-row {
+    /* Flexbox */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    
+    /* Sizing and Positioning */
+    max-width: 200px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: white;
+    margin-left: 0.25em;
+}

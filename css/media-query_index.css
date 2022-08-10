@@ -1,0 +1,12 @@
+/* Media Queries for index.html */
+
+
+@media screen and (min-width: 200px) and (max-width: 799px) {
+    .container-fluid {
+        /* flexbox */
+        gap: 1em;
+
+        /* sizing and positioning */
+        margin-top: 2em;
+    }
+}
