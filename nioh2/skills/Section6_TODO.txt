@@ -5,20 +5,20 @@ Section 6 - Skills / Skill Tree:
 Samurai Skill Tree:
 ========== ========== ==========
     Active Skills:
-        - Stance [innate]
-        - Ki Pulse [innate]
+        - [done] Stance [innate]
+        - [done] Ki Pulse [innate]
+        - [done] Purify Yokai Realm [innate]
+        - Grapple [innate]
+        - Final Blow [innate]
         - Ki Pulse Heaven
         - Ki Pulse Man
         - Ki Pulse Earth
         - Flux
         - Flux II
         - Flash Attack
-        - Purify Yokai Realm [innate]
         - Running Water Heaven
         - Running Water Man
         - Running Water Earth
-        - Grapple [innate]
-        - Final Blow [innate]
         - Composure
         - Sacred Bird Flight [Hidden Skill]
         - Sacred Bird Cry [Hidden Skill]

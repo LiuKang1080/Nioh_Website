@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samurai Skill Tree</title>
+    <!--
+    ========== ========== ==========
+    Bootstrap CSS
+    ========== ========== ==========
+    -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--
+    ========== ========== ==========
+    Google Fonts 
+    ========== ========== ==========
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!--
+    ========== ========== ==========
+    General CSS
+    ========== ========== ==========
+    -->
+    <!-- Navbar -->
+    <!-- Absolute Path | Relative Path -->
+    <link rel="stylesheet" type="text/css" href="https://liukang1080.github.io/Nioh_Website/nioh2/css/navbar.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../../css/navbar.css"> -->
+    
+    <!-- Navbar Media Query -->
+    <link rel="stylesheet" type="text/css" href="https://liukang1080.github.io/Nioh_Website/nioh2/css/media-query_navbar.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../../css/media-query_navbar.css"> -->
+
+    <!-- General CSS -->
+    <link rel="stylesheet" type="text/css" href="https://liukang1080.github.io/Nioh_Website/nioh2/css/general.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../css/general.css"> -->
+
+    <!--
+    ========== ========== ==========
+    Local CSS
+    ========== ========== ==========
+    -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://liukang1080.github.io/Nioh_Website/nioh2/skills/css/samurai_skills.css"> -->
+    <link rel="stylesheet" type="text/css" href="./css/samurai_skills.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <!-- Home Button -->
+        <a class="nav-links" id="nav-home-link" href="https://liukang1080.github.io/Nioh_Website/">Home</a>
+    
+        <!-- Nioh 2 Dropdown Menu -->
+        <div class="container-flex-row">
+            <img src="https://liukang1080.github.io/Nioh_Website/nioh2/img/nioh2_logo_small.png" alt="Nioh 2 Logo">
+            <a class="dropdown-toggle nav-links" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nioh 2</a>
+            <!-- Dropdown Content -->
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/nioh2/nioh2_index.html">Nioh 2 Home</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/nioh2/settings_mechanics/settings_mechanics_index.html">Settings / Gameplay</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/nioh2/missions/missions_index.html">Missions</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/nioh2/enemies/enemies_index.html">Bosses / Enemies</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/nioh2/guardian_spirits/guardian_spirit_index.html">Guardian Spirits</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/nioh2/characters/characters_index.html">Characters</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/nioh2/skills/skills_index.html">Skills / Skill Trees</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/nioh2/soul_cores/cores_index.html">Soul Cores</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/nioh2/stats_status/stats_status_index.html">Stats / Statuses</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/nioh2/items/items_index.html">Items</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/nioh2/blacksmith/blacksmith_index.html">Blacksmith</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/nioh2/picture_scrolls/picture_scrolls.html">Demon Parade Picture Scrolls</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/nioh2/smithing_texts/smithing_texts_index.html">Smithing Texts / Hidden Skills</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/nioh2/underworld/underworld_index.html">The Underworld</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/nioh2/builds/builds/builds.html">Builds</a></li>
+            </ul>
+        </div>
+
+        <!-- Credits -->
+        <a class="nav-links" id="#nav-credit-link" href="https://liukang1080.github.io/Nioh_Website/nioh2/credits/credits.html">Credits</a>
+    </nav>
+
+    <!-- Title Text -->
+    <div class="title-text">
+        <h2>Samurai Skill Tree</h2>
+    </div>
+    <hr>
+
+    <!-- Table of Contents -->
+    <div class="table-of-contents">
+        <section>
+            <h3>Table of Contents:</h3>
+            <ol>
+                <li><a class="table-of-contents-links" href="javascript: description()">Description</a></li>
+                <li><a class="table-of-contents-links" href="javascript: active_skills()">Active Skills</a></li>
+                <li><a class="table-of-contents-links" href="javascript: passive_skills()">Passive Skills</a></li>
+                <li><a class="table-of-contents-links" href="javascript: custom_active_skills()">Custom Active Skills</a></li>
+                <li><a class="table-of-contents-links" href="javascript: credits()">Credits</a></li>
+            </ol>
+        </section>
+    </div>
+    <br>
+
+    <!-- Full Image -->
+    <section class="container-fluid">
+        <div class="jumbotron">
+            <!-- Full Image -->
+            <img src="./img/samurai_skill_tree.png" alt="">
+        </div>
+    </section>
+
+    <!-- Description -->
+    <section class="container-fluid">
+        <div class="jumbotron">
+            <h3 class="section-text" id="description">Description</h3>
+            <!-- Description -->
+            <p>
+                There are 16 Active Skills, 12 Passive Skills, and 11 Custom Active Skills in the Samurai Skill Tree. Custom
+                Active Skills are effects that can be applied to Weapon Active Skills. They must first be customized by going to
+                Skill Customization in the menus &#10230 going to a specific skill &#10230 press X / Square to open the Custom 
+                Active Skill Settings. <br><br>
+
+                <span class="bold-text">Hidden Skills</span> need to be farmed from the respective enemy. You can view all of
+                the Hidden Skills and where to farm them 
+                <a href="https://liukang1080.github.io/Nioh_Website/nioh2/smithing_texts/hidden_skills/hidden_skills.html" class="bold-text">here</a>.
+            </p>
+
+            <!-- Icon Legend -->
+            <p class="flex-paragraph">
+                <span class="bold-text blue-text">Legend:</span><br>
+
+                <img src="./img/logos/all_stances.png" alt=""> = Active Skill for High, Mid, and Low stance. <br>
+                <img src="./img/logos/high_stance.png" alt=""> = Active Skill for High stance. <br>
+                <img src="./img/logos/mid_stance.png" alt=""> = Active Skill for Mid stance. <br>
+                <img src="./img/logos/low_stance.png" alt=""> = Active Skill for Low stance. <br>
+                <img src="./img/logos/passive_skill.png" alt=""><img src="./img/logos/passive_skill_golden.png" alt="" class="legend_image">
+                = Passive Skills. <br>
+                <img src="./img/logos/custom_active_skill.png" alt=""> = Custom Active Skill.
+            </p>
+        </div>
+    </section>
+
+    <!-- Samurai Active Skills -->
+    <section class="container-fluid">
+        <div class="jumbotron">
+            <h3 class="section-text" id="active-skills">Samurai Active Skills</h3>
+
+            <table>
+                <!-- Header -->
+                <tr>
+                    <th>Skill Name</th>
+                    <th>Description</th>
+                </tr>
+                
+                <!-- Stance -->
+                <tr>
+                    <td>
+                        Stance <span class="bold-text">[Innate]</span><br>
+                        <img src="./img/logos/all_stances.png" alt="">
+                    </td>
+                    <td>
+                        Press RB + Y / RB + X / RB + A to switch between High, Mid, and Low stances. <br><br>
+                        Press L1 + Triangle / L1 + Square / L1 + X to switch between High, Mid, and Low stances.
+                    </td>
+                </tr>
+
+                <!-- Ki Pulse -->
+                <tr>
+                    <td>
+                        Ki Pulse <span class="bold-text">[Innate]</span><br>
+                        <img src="./img/logos/all_stances.png" alt="">
+                    </td>
+                    <td>
+                        When surrounded by blue light after an attack, press RB / R1 to recover your Ki.
+                    </td>
+                </tr>
+
+                <!-- Purify Yokai Realm -->
+                <tr>
+                    <td>
+                        Purify Yokai Realm <span class="bold-text">[Innate]</span><br>
+                        <img src="./img/logos/all_stances.png" alt="">
+                    </td>
+                    <td>
+                        Performing a Ki Pulse while inside a Yokai Realm pool will dispel the pool.
+                    </td>
+                </tr>
+
+                <!-- Grapple -->
+                <tr>
+                    <td>
+                        Grapple <span class="bold-text">[Innate]</span><br>
+                        <img src="./img/logos/all_stances.png" alt="">
+                    </td>
+                    <td>
+                        Grapples an enemy who is out of Ki or a downed Yokai, then follows up with a powerful attack.
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- Credits -->
+    <section class="container-fluid">
+        <div class="jumbotron jumbotron-credits">
+            <h3 id="credits">Credits:</h3>
+
+            <p>
+                <span class="bold-text">Credits:</span> LiuKang1080
+            </p>
+
+            <p>
+                <span class="bold-text">Nioh Community Discord Server:</span>
+                <a href="https://discord.gg/pAH5U9mRBj">Link to Discord Server</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Back to top button -->
+    <a id="back-to-top-button" href="#">Top</a>
+
+
+    <!-- JavaScript and Bootstrap.js Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Local JavaScript -->
+    <!-- <script type="text/javascript" src="https://liukang1080.github.io/Nioh_Website/nioh2/skills/js/samurai_skills.js"></script> -->
+    <script type="text/javascript" src="./js/samurai_skills.js"></script>
+
+</body>
+</html>
+
+<!-- TODO -->
+<!--
+
+-->

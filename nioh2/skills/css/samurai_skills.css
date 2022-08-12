@@ -1,0 +1,24 @@
+/* CSS for spirit_list.html */
+
+
+.flex-paragraph {
+    align-self: flex-start;
+}
+
+.legend_image {
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-right: 0.1em;
+}
+
+p img {
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-right: 0.1em;
+}
+
+td img {
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-right: 0.1em;
+}

@@ -1,4 +1,4 @@
-/* JavaScript for skills_index.html */
+/* JavaScript for samurai_skills.html */
 
 
 /* 
@@ -6,13 +6,23 @@
 Table of Contents JavaScript 
 ========== ========== ========== ========== ==========
 */
-function stat_scaling() {
-    let element = document.getElementById("stat-scaling");
+function description() {
+    let element = document.getElementById("description");
     element.scrollIntoView();
 }
 
-function skill_trees() {
-    let element = document.getElementById("skill-trees");
+function active_skills() {
+    let element = document.getElementById("active-skills");
+    element.scrollIntoView();
+}
+
+function passive_skills() {
+    let element = document.getElementById("passive-skills");
+    element.scrollIntoView();
+}
+
+function custom_active_skills() {
+    let element = document.getElementById("custom-active-skills");
     element.scrollIntoView();
 }
 
