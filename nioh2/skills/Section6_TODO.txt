@@ -11,20 +11,20 @@ Samurai Skill Tree:
         - [done] Grapple [innate]
         - [done] Final Blow [innate]
         - [done] Ki Pulse Heaven
-        - Ki Pulse Man
-        - Ki Pulse Earth
-        - Flux
-        - Flux II
-        - Flash Attack
-        - Running Water Heaven
-        - Running Water Man
-        - Running Water Earth
-        - Composure
-        - Sacred Bird Flight [Hidden Skill]
-        - Sacred Bird Cry [Hidden Skill]
+        - [done] Ki Pulse Man
+        - [done] Ki Pulse Earth
+        - [done] Running Water Heaven
+        - [done] Running Water Man
+        - [done] Running Water Earth
+        - [done] Flux
+        - [done] Flux II
+        - [done] Flash Attack
+        - [done] Composure
+        - [done] Sacred Bird Flight [Hidden Skill]
+        - [done] Sacred Bird Cry [Hidden Skill]
 
     Passive Skills:
-        - Purify Yoaki Realm: Heaven
+        - [done] Purify Yoaki Realm: Heaven
         - Purify Yoaki Realm: Man
         - Purify Yoaki Realm: Earth
         - Bow Master [I - III]
