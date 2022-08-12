@@ -8,9 +8,9 @@ Samurai Skill Tree:
         - [done] Stance [innate]
         - [done] Ki Pulse [innate]
         - [done] Purify Yokai Realm [innate]
-        - Grapple [innate]
-        - Final Blow [innate]
-        - Ki Pulse Heaven
+        - [done] Grapple [innate]
+        - [done] Final Blow [innate]
+        - [done] Ki Pulse Heaven
         - Ki Pulse Man
         - Ki Pulse Earth
         - Flux
