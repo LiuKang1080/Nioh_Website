@@ -25,21 +25,21 @@ Samurai Skill Tree:
 
     Passive Skills:
         - [done] Purify Yoaki Realm: Heaven
-        - Purify Yoaki Realm: Man
-        - Purify Yoaki Realm: Earth
-        - Bow Master [I - III]
-        - Matchlock Master [I - III]
-        - Cannon Master [I - III]
-        - Quivermaker
-        - Shot Pouch
-        - Round Carrier
-        - Hands of Death [I - III]
-        - Fortitude [I - III]
-        - Dead Eye [unlimited?]
-        - Fatal Fists [unlimited?]
+        - [done] Purify Yoaki Realm: Man
+        - [done] Purify Yoaki Realm: Earth
+        - [done] Bow Master [I - III]
+        - [done] Matchlock Master [I - III]
+        - [done] Cannon Master [I - III]
+        - [done] Quivermaker
+        - [done] Shot Pouch
+        - [done] Round Carrier
+        - [done] Hands of Death [I - III]
+        - [done] Fortitude [I - III]
+        - [done] Dead Eye [unlimited?]
+        - [done] Fatal Fists [unlimited?]
 
     Custom Active Skills:
-        - Deliberate Slice
+        - [done] Deliberate Slice
         - Reckless Slice
         - Masterful Slice
         - Nimble Slice
