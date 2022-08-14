@@ -112,7 +112,7 @@ Missions:
             Base Game
                 - "Spa Healer"
                 - "Spa Lover"
-            DLC 1 (Tengu's Desciple)
+            DLC 1 (Tengu's Disciple)
                 - "Spa Addict"
             DLC 2 (Darkness In the Capital)
                 - "Spa Fanatic"
