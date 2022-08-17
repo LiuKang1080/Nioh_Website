@@ -35,8 +35,8 @@ Base Game Bosses:
     - William
     - Otakemaru
 
-The Tengu's Desciple (DLC 1) Bosses:
-    - Benkai
+The Tengu's Disciple (DLC 1) Bosses:
+    - Benkei
     - Uminyudo
     - Minamoto no Yoshitsune
     - Taira no Kagekiyo
