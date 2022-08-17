@@ -1,6 +1,92 @@
 Achievements:
 (THE ORDER MATTERS!!!)
 
+Base Game:
+    - [done] Bold Wrangler
+    - [done] Grazer Eraser
+    - Devout Believer
+    - Feather Buster
+    - Schemer
+    - Hidden Hopes
+    - Peal of Ten Thousand Bells
+    - Clean Sweep
+    - Seven Wonders
+    - [done] Core Score
+    - Spa Healer
+    - [done] The Beginning of a Samurai
+    - Full-Fledged Samurai
+    - Sudama Swapper
+    - Trinket Triumph
+    - A Weapon's Mind
+    - Help Wanted
+    - Lover of Letters
+    - Friend of Guardians
+    - Burst Breaker
+    - Latest Masterpiece
+    - Match Made in Heaven
+    - Friend to the Kodama
+    - Remodeling Novice
+    - Twilight Walker
+    - Teamwork
+    - Seasoned Traveler
+    - Yokai Quelling Master
+    - Fuse It or Lose It
+    - Sword Master
+    - Dual Sword Master
+    - Spear Master
+    - Axe Master
+    - Kusarigama Master
+    - Odachi Master
+    - Tonfa Master
+    - Hatchet Master
+    - Switchglave Master
+    - Splitstaff Master
+    - Fist Master
+    - Ninjutsu Master
+    - Onmyo Magic Master
+    - Soul Searcher
+    - Let There Be Light
+    - Kodama Leader
+    - Spa Lover
+    - Tea Connoisseur
+    - Dungball Roller
 
-- [done] Core Score
-- [done] The Beginning of a Samurai
+Tengu's Disciple (DLC 1):
+    - A Kindred Light
+    - The Will to Fight
+    - Casting Out the Shadows
+    - Poetry in Motion
+    - Sundering Arrows
+    - Heretical Glow
+    - Tengu Crusher
+    - Demonic Parade-Goer
+    - Kodama General
+    - Spa Addict
+
+Darkness In The Capital (DLC 2):
+    - The Demon and the Pheonix
+    - Guardian of the Gate
+    - What Must Be Done
+    - The Ultimate Recognition
+    - The Flame That Light the Darkness
+    - Tsuchigumo Exterminated
+    - Behind the Bamboo Blinds
+    - True Atonement
+    - Kodama Pathfinder
+    - Spa Fanatic
+
+The First Samurai (DLC 3):
+    - All Things Begin
+    - A Dream of Peace
+    - The Demon's Den
+    - Spirit Guide
+    - Spa Connoisseur
+    - Way of the Vanquisher
+    - The Path We've Taken
+    - Cleansing Caskmaster
+    - Honoring the Dead
+    - Scent of Danger
+    - A Friend Indeed
+
+Platinum:
+    - You Are Nioh

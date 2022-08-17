@@ -89,6 +89,21 @@
     </div>
     <hr>
 
+    <!-- Table of Contents -->
+    <div class="table-of-contents">
+        <section>
+            <h3>Table of Contents:</h3>
+            <ol>
+                <li><a class="table-of-contents-links" href="javascript: base()">Base Game Achievements</a></li>
+                <li><a class="table-of-contents-links" href="javascript: dlc1()">The Tengu's Disciple (DLC 1) Achievements</a></li>
+                <li><a class="table-of-contents-links" href="javascript: dlc2()">Darkness In The Capital (DLC 2) Achievements</a></li>
+                <li><a class="table-of-contents-links" href="javascript: dlc3()">The First Samurai (DLC 3) Achievements</a></li>
+                <li><a class="table-of-contents-links" href="javascript: credits()">Credits</a></li>
+            </ol>
+        </section>
+    </div>
+    <br>
+
     <!-- Description -->
     <section class="container-fluid">
         <div class="jumbotron">
@@ -107,7 +122,7 @@
     <!-- Achievements Table -->
     <section class="container-fluid">
         <div class="jumbotron">
-            <h3 class="section-text">Achievements</h3>
+            <h3 class="section-text" id="base">Base Game Achievements</h3>
 
             <table>
                 <!-- Header -->
@@ -116,23 +131,51 @@
                     <th>Description</th>
                 </tr>
 
-                <!-- Core Score -->
+                <!-- You Are Nioh / Platinum Trophy -->
                 <tr>
                     <td>
-                        Core Score <br>
-                        <img src="./img/core_score.png" alt="">
+                        You are Nioh <br>
+                        <img src="./img/you_are_nioh.png" alt="">
                     </td>
-                    <td>Obtained your first Soul Core</td>
+                    <td>
+                        <span class="bold-text red-text">[Platinum Trophy]</span> You have unlocked all Achievements!
+                    </td>
                 </tr>
 
-                <!-- The Beginning of a Samurai -->
+                <!-- Bold Wrangler -->
                 <tr>
                     <td>
-                        The Beginning of a Samurai <br>
-                        <img src="./img/the_beginning_of_a_samurai.png" alt="">
+                        Bold Wrangler <br>
+                        <img src="./img/bold_wrangler.png" alt="">
                     </td>
                     <td>
-                        Reached level 10.
+                        Defeated <a href="" class="bold-text">Gozuki</a> in the mission: 
+                        <a href="" class="bold-text">The Village of Cursed Blossoms</a>.
+                    </td>
+                </tr>
+                
+                <!-- Grazer Earser -->
+                <tr>
+                    <td>
+                        Grazer Eraser <br>
+                        <img src="./img/grazer_eraser.png" alt="">
+                    </td>
+                    <td>
+                        Defeated both <a href="" class="bold-text">Gozuki</a> and <a href="" class="bold-text">Mezuki</a> in a
+                        single mission. Can be done in the following missions: <a href="" class="bold-text">The Village of Cursed Blossoms</a>
+                        and <a href="" class="bold-text">The Refined Man of the Underworld</a>.
+                    </td>
+                </tr>
+
+                <!-- Devout Believer -->
+                <tr>
+                    <td>
+                        Devout Believer <br>
+                        <img src="./img/devout_believer.png" alt="">
+                    </td>
+                    <td>
+                        Defeated the boss of <a href="" class="bold-text">The Viper's Sanctum</a> without breaking the statue of
+                        Shirohami. (DO NOT break any of the Snake Statues!)
                     </td>
                 </tr>
             </table>
@@ -162,8 +205,8 @@
     <!-- JavaScript and Bootstrap.js Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!-- Local JavaScript -->
-    <script type="text/javascript" src="https://liukang1080.github.io/Nioh_Website/nioh2/missions/achievements/js/achievements.js"></script>
-    <!-- <script type="text/javascript" src="./js/achievements.js"></script> -->
+    <!-- <script type="text/javascript" src="https://liukang1080.github.io/Nioh_Website/nioh2/missions/achievements/js/achievements.js"></script> -->
+    <script type="text/javascript" src="./js/achievements.js"></script>
 
 </body>
 </html>
