@@ -4,23 +4,23 @@ Achievements:
 Base Game:
     - [done] Bold Wrangler
     - [done] Grazer Eraser
-    - Devout Believer
-    - Feather Buster
-    - Schemer
-    - Hidden Hopes
-    - Peal of Ten Thousand Bells
-    - Clean Sweep
-    - Seven Wonders
+    - [done] Devout Believer
+    - [done] Feather Buster
+    - [done] Schemer
+    - [done] Hidden Hopes
+    - [done] Peal of Ten Thousand Bells
+    - [done] Clean Sweep
+    - [done] Seven Wonders
     - [done] Core Score
-    - Spa Healer
+    - [done] Spa Healer
     - [done] The Beginning of a Samurai
-    - Full-Fledged Samurai
-    - Sudama Swapper
-    - Trinket Triumph
-    - A Weapon's Mind
-    - Help Wanted
-    - Lover of Letters
-    - Friend of Guardians
+    - [done] Full-Fledged Samurai
+    - [done] Sudama Swapper
+    - [done] Trinket Triumph
+    - [done] A Weapon's Mind
+    - [done] Help Wanted
+    - [done] Lover of Letters
+    - [done] Friend of Guardians
     - Burst Breaker
     - Latest Masterpiece
     - Match Made in Heaven
