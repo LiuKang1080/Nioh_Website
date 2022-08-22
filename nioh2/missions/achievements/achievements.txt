@@ -21,15 +21,15 @@ Base Game:
     - [done] Help Wanted
     - [done] Lover of Letters
     - [done] Friend of Guardians
-    - Burst Breaker
-    - Latest Masterpiece
-    - Match Made in Heaven
-    - Friend to the Kodama
-    - Remodeling Novice
-    - Twilight Walker
-    - Teamwork
-    - Seasoned Traveler
-    - Yokai Quelling Master
+    - [done] Burst Breaker
+    - [done] Latest Masterpiece
+    - [done] Match Made in Heaven
+    - [done] Friend to the Kodama
+    - [done] Remodeling Novice
+    - [done] Twilight Walker
+    - [done] Teamwork
+    - [done] Seasoned Traveler
+    - [done] Yokai Quelling Master
     - Fuse It or Lose It
     - Sword Master
     - Dual Sword Master
