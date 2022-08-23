@@ -12,3 +12,20 @@ p a {
 td a {
     font-weight: bold;
 }
+
+
+/* 
+========== ========== ==========
+Special CSS for TD element
+========== ========== ==========
+*/
+.flex-table {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+
+h5 {
+    margin-top: 1.5em;
+}

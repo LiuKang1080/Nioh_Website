@@ -30,25 +30,25 @@ Base Game:
     - [done] Teamwork
     - [done] Seasoned Traveler
     - [done] Yokai Quelling Master
-    - Fuse It or Lose It
-    - Sword Master
-    - Dual Sword Master
-    - Spear Master
-    - Axe Master
-    - Kusarigama Master
-    - Odachi Master
-    - Tonfa Master
-    - Hatchet Master
-    - Switchglave Master
-    - Splitstaff Master
-    - Fist Master
-    - Ninjutsu Master
-    - Onmyo Magic Master
-    - Soul Searcher
-    - Let There Be Light
-    - Kodama Leader
-    - Spa Lover
-    - Tea Connoisseur
+    - [done] Fuse It or Lose It
+    - [done] Sword Master
+    - [done] Dual Sword Master
+    - [done] Spear Master
+    - [done] Axe Master
+    - [done] Kusarigama Master
+    - [done] Odachi Master
+    - [done] Tonfa Master
+    - [done] Hatchet Master
+    - [done] Switchglave Master
+    - [done] Splitstaff Master
+    - [done] Fist Master
+    - [done] Ninjutsu Master
+    - [done] Onmyo Magic Master
+    - [done] Soul Searcher
+    - [done] Let There Be Light
+    - [done] Kodama Leader
+    - [done] Spa Lover
+    - [done] Tea Connoisseur
     - Dungball Roller
 
 Tengu's Disciple (DLC 1):
