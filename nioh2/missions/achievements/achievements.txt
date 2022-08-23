@@ -49,7 +49,7 @@ Base Game:
     - [done] Kodama Leader
     - [done] Spa Lover
     - [done] Tea Connoisseur
-    - Dungball Roller
+    - [done] Dungball Roller
 
 Tengu's Disciple (DLC 1):
     - A Kindred Light
