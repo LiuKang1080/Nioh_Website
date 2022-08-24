@@ -52,16 +52,16 @@ Base Game:
     - [done] Dungball Roller
 
 Tengu's Disciple (DLC 1):
-    - A Kindred Light
-    - The Will to Fight
-    - Casting Out the Shadows
-    - Poetry in Motion
-    - Sundering Arrows
-    - Heretical Glow
-    - Tengu Crusher
-    - Demonic Parade-Goer
-    - Kodama General
-    - Spa Addict
+    - [done] A Kindred Light
+    - [done] The Will to Fight
+    - [done] Casting Out the Shadows
+    - [done] Poetry in Motion
+    - [done] Sundering Arrows
+    - [done] Heretical Glow
+    - [done] Tengu Crusher
+    - [done] Demonic Parade-Goer
+    - [done] Kodama General
+    - [done] Spa Addict
 
 Darkness In The Capital (DLC 2):
     - The Demon and the Phoenix
