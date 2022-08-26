@@ -2,6 +2,14 @@ Achievements:
 (THE ORDER MATTERS!!!)
 
 Base Game:
+    - [done] Dawn of a Dream
+    - [done] An Electrifying Triumph
+    - [done] Hideyoshi
+    - [done] The Paths We Tread
+    - [done] Dream's Toll
+    - [done] Mother and Child
+    - [done] What is Written
+    - [done] Dream Within a Dream
     - [done] Bold Wrangler
     - [done] Grazer Eraser
     - [done] Devout Believer
@@ -76,17 +84,17 @@ Darkness In The Capital (DLC 2):
     - [done] Spa Fanatic
 
 The First Samurai (DLC 3):
-    - All Things Begin
-    - A Dream of Peace
-    - The Demon's Den
-    - Spirit Guide
-    - Spa Connoisseur
-    - Way of the Vanquisher
-    - The Path We've Taken
-    - Cleansing Caskmaster
-    - Honoring the Dead
-    - Scent of Danger
-    - A Friend Indeed
+    - [done] All Things Begin
+    - [done] A Dream of Peace
+    - [done] The Demon's Den
+    - [done] Spirit Guide
+    - [done] Spa Connoisseur
+    - [done] Way of the Vanquisher
+    - [done] The Path We've Taken
+    - [done] Cleansing Caskmaster
+    - [done] Honoring the Dead
+    - [done] Scent of Danger
+    - [done] A Friend Indeed
 
 Platinum:
     - You Are Nioh
