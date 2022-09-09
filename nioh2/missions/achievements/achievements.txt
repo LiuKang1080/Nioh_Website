@@ -97,4 +97,4 @@ The First Samurai (DLC 3):
     - [done] A Friend Indeed
 
 Platinum:
-    - You Are Nioh
+    - [done] You Are Nioh
