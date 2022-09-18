@@ -1,6 +1,10 @@
 /* CSS for spirit_list.html */
 
 
+.flex-paragraph {
+    align-self: flex-start;
+}
+
 .spirit-section {
     display: flex;
     justify-content: center;
@@ -17,15 +21,12 @@
     min-width: 510px;
     max-width: 510px;
     
-    min-height: 750px;
-    max-height: 750px;
+    min-height: 800px;
+    max-height: 800px;
 
     border: solid black 3px;
 }
 
-.flex-paragraph {
-    align-self: flex-start;
-}
 
 .inline-shift-form {
     width: 7.5%;
