@@ -14,12 +14,6 @@ a span {
     padding: 0.5em
 }
 
-/*
-.italics-text {
-    font-style: italic;
-}
-*/
-
 .bold-text {
     font-weight: bold;
 }
@@ -28,9 +22,9 @@ a span {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    gap: 0.5em;
+    gap: 1em;
 
-    margin-top: 18em;
+    margin-top: 12em;
 }
 
 .card {
