@@ -31,6 +31,14 @@
     border-radius: 5%;
 }
 
+.buff-text {
+    color: rgba(103, 166, 161, 255);
+}
+
+.debuff-text {
+    color: rgba(195, 88, 115, 255);
+}
+
 
 /* 
 ========= ========= =========
