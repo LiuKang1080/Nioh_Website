@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wizardry Spells</title>
+    <!-- 
+    ========== ========== ==========  
+    Bootstrap CSS
+    ========== ========== ==========
+    -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- 
+    ========== ========== ==========   
+    Google Fonts 
+    ========== ========== ==========
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+
+    <!-- 
+    ========== ========== ==========
+    General CSS
+    ========== ========== ==========
+    -->
+    <!-- Navbar -->
+    <!-- Absolute Path | Relative Path -->
+    <link rel="stylesheet" type="text/css" href="https://liukang1080.github.io/Nioh_Website/wolong/css/navbar.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/navbar.css"> -->
+    
+    <!-- Navbar Media Query -->
+    <link rel="stylesheet" type="text/css" href="https://liukang1080.github.io/Nioh_Website/wolong/css/media-query_navbar.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/media-query_navbar.css"> -->
+
+    <!-- General CSS -->
+    <link rel="stylesheet" type="text/css" href="https://liukang1080.github.io/Nioh_Website/wolong/css/general.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/general.css"> -->
+
+    <!-- 
+    ========== ========== ==========
+    Local CSS
+    ========== ========== ==========
+    -->
+</head>
+<body>
+    <!-- 
+    ========== ========== ==========
+    Navbar
+    ========== ========== ==========
+    -->
+    <nav>
+        <!-- Home Button -->
+        <a class="nav-links" id="nav-home-link" href="https://liukang1080.github.io/Nioh_Website/">Home</a>
+
+        <!-- Nioh 2 Dropdown Menu -->
+        <div class="container-flex-row">
+            <img src="https://liukang1080.github.io/Nioh_Website/wolong/img/wolong_logo_small.png" alt="Wo Long Logo">
+            <a class="dropdown-toggle nav-links" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">Wo Long</a>
+            <!-- Dropdown Content -->
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/wolong/wolong_index.html">Wo Long Home</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/wolong/settings_mechanics/settings_mechanics_index.html">Settings / Gameplay</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/wolong/missions/missions_index.html">Missions</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/wolong/enemies/enemies_index.html">Bosses / Enemies</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/wolong/divine_beasts/divine_beasts.html">Divine Beasts</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/wolong/characters/characters_index.html">Characters</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/wolong/skills/skills_index.html">Skills / Skill Trees</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/wolong/soul_cores/cores_index.html">Soul Cores</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/wolong/stats_status/stats_status_index.html">Stats / Statuses</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/wolong/items/items_index.html">Items</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/wolong/blacksmith/blacksmith_index.html">Blacksmith</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/wolong/picture_scrolls/picture_scrolls.html">Demon Parade Picture Scrolls</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/wolong/smithing_texts/smithing_texts_index.html">Smithing Texts / Hidden Skills</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/wolong/underworld/underworld_index.html">The Underworld</a></li>
+                <li><a class="dropdown-item" href="https://liukang1080.github.io/Nioh_Website/wolong/builds/builds/builds.html">Builds</a></li>
+            </ul>
+        </div>
+
+        <!-- Credits -->
+        <a class="nav-links" id="#nav-credit-link" href="https://liukang1080.github.io/Nioh_Website/wolong/credits/credits.html">Credits</a>
+    </nav>
+
+    <!-- 
+    ========== ========== ==========
+    Title Text
+    ========== ========== ==========
+    -->
+    <div class="title-text">
+        <h2>Wizardry Spells</h2>
+    </div>
+    <hr>
+
+    <!-- 
+    ========== ========== ==========
+    Table of Contents
+    ========== ========== ==========
+    -->
+    <div class="table-of-contents">
+        <section>
+            <h3>Table of Contents:</h3>
+            <ol>
+                <li><a class="table-of-contents-links" href="javascript: wood_phase()">Wood Phase Wizardry Spells</a></li>
+                <li><a class="table-of-contents-links" href="javascript: fire_phase()">Fire Phase Wizardry Spells</a></li>
+                <li><a class="table-of-contents-links" href="javascript: earth_phase()">Earth Phase Wizardry Spells</a></li>
+                <li><a class="table-of-contents-links" href="javascript: metal_phase()">Metal Phase Wizardry Spells</a></li>
+                <li><a class="table-of-contents-links" href="javascript: water_phase()">Water Phase Wizardry Spells</a></li>
+                <li><a class="table-of-contents-links" href="javascript: credits()">Credits</a></li>
+            </ol>
+        </section>
+    </div>
+    <br>
+
+    <!-- 
+    ========== ========== ==========
+    Description
+    ========== ========== ==========
+    -->
+    <section class="container-fluid">
+        <div class="jumbotron">
+            <h3 class="section-text">Description</h3>
+
+            <p>
+                <span class="bold-text">There are a total of: 30</span> Wizardry Spells (!! Only In Demo !!). There are 6
+                Wizardry Spells for each of the 5 Elemental Phases. Below are tables containing all of the spells along
+                with the requirements to use those spells.
+            </p>
+
+            <h5 class="bold-text">Five Phases Affinities</h5>
+            <p class="italics-text">
+                Wizardry Spells are based on the Five Phases theory in which each of the phases interacts with the others in
+                certain ways. By understanding this, you can counter a Wizardry Spell itself, or the positive / negative
+                effects caused by it.
+            </p>
+
+            <span class="italics-text">"Wood overcomes Earth" . . . Wood Phase counters Earth Phase</span>
+            <span class="italics-text">"Earth overcomes Water" . . . Earth Phase counters Water Phase</span>
+            <span class="italics-text">"Water overcomes Fire" . . . Water Phase counters Fire Phase</span>
+            <span class="italics-text">"Fire overcomes Metal" . . . Fire Phase counters Metal Phase</span>
+            <span class="italics-text">"Metal overcomes Wood" . . . Metal Phase counters Wood Phase</span>
+        </div>
+    </section>
+
+    <!-- 
+    ========== ========== ==========
+    Wood Phase Wizardry Spells
+    ========== ========== ==========
+    -->
+    <section class="container-fluid">
+        <div class="jumbotron">
+            <h3 class="section-text" id="wood-phase">Wood Phase Wizardry Spells</h3>
+
+            <table>
+                <!-- Header -->
+                <tr>
+                    <th>Wizardry Spell Name</th>
+                    <th>Elemental Virtue Requirement</th>
+                    <th>Morale Rank Required</th>
+                    <th>Spirit Cost</th>
+                    <th>Description</th>
+                </tr>
+
+                <tr>
+                    <td>Lightning Weapon <br>
+                        <img src="./img/lightning_weapon.png" alt=""></td>
+                    <td>1</td>
+                    <td>10</td>
+                    <td>800</td>
+                    <td>For a certain period of time, enchants your current Melee Weapon with Lightning.</td>
+                </tr>
+                <tr>
+                    <td>Absorb Vitality <br>
+                        <img src="./img/absorb_vitality.png" alt=""></td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>600</td>
+                    <td>You and your nearby allies can restore HP upon dealing damage to enemies.</td>
+                </tr>
+                <tr>
+                    <td>Lightning Bolt <br>
+                        <img src="./img/lightning_bolt.png" alt=""></td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>400</td>
+                    <td>Calls down a bolt of Lightning on a locked-on target or on a point at a certain distance in front of you.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Heaven's Rage <br>
+                        <img src="./img/heavens_rage.png" alt=""></td>
+                    <td>1</td>
+                    <td>18</td>
+                    <td>550</td>
+                    <td>Calls Lightning to strike in an area around a locked-on target or in front of you.</td>
+                </tr>
+                <tr>
+                    <td>Unstoppable Force <br>
+                        <img src="./img/unstoppable_force.png" alt=""></td>
+                    <td>1</td>
+                    <td>10</td>
+                    <td>400</td>
+                    <td>Increases automatic recovery during Low Spirit and decreases automatic depletion during High Spirit.</td>
+                </tr>
+                <tr>
+                    <td>Spirit Fervor <br>
+                        <img src="./img/spirit_fervor.png" alt=""></td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>750</td>
+                    <td>Grants you and your allies a positive effect that increases Spirit gain when attacking.</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- 
+    ========== ========== ==========
+    Fire Phase Wizardry Spells
+    ========== ========== ==========
+    -->
+    <section class="container-fluid">
+        <div class="jumbotron">
+            <h3 class="section-text" id="fire-phase">Fire Phase Wizardry Spells</h3>
+
+            <table>
+                <!-- Header -->
+                <tr>
+                    <th>Wizardry Spell Name</th>
+                    <th>Elemental Virtue Requirement</th>
+                    <th>Morale Rank Required</th>
+                    <th>Spirit Cost</th>
+                    <th>Description</th>
+                </tr>
+
+                <tr>
+                    <td>Flame Weapon <br>
+                        <img src="./img/flame_weapon.png" alt=""></td>
+                    <td>1</td>
+                    <td>10</td>
+                    <td>800</td>
+                    <td>For a certain time, enchants your current Melee Weapon with Flame.</td>
+                </tr>
+                <tr>
+                    <td>Blasting Flare <br>
+                        <img src="./img/blasting_flare.png" alt=""></td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>250</td>
+                    <td>Emits an eruption of flames to the front.</td>
+                </tr>
+                <tr>
+                    <td>Surging Blaze <br>
+                        <img src="./img/surging_blaze.png" alt=""></td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>450</td>
+                    <td>Releases a spreading blaze to the front. It deals more damage closer to the point of release.</td>
+                </tr>
+                <tr>
+                    <td>Bursting Fireball <br>
+                        <img src="./img/bursting_fireball.png" alt=""></td>
+                    <td>1</td>
+                    <td>18</td>
+                    <td>700</td>
+                    <td>Hurls a terrifying fireball that will split into multiple fireballs and explodes after reaching a certain
+                        distance or hitting an enemy or terrain.                      
+                    </td>
+                </tr>
+                <tr>
+                    <td>Burning Flamewave <br>
+                        <img src="./img/burning_flamewave.png" alt=""></td>
+                    <td>1</td>
+                    <td>10</td>
+                    <td>600</td>
+                    <td>Summons continous eddies of flames in front of you. This deals damage over time to any enemy that comes
+                        in contact with it.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Overpowering Burst <br>
+                        <img src="./img/overpowering_burst.png" alt=""></td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>500</td>
+                    <td>Greatly increases the damage dealt by the Wizardry Spell or Martial Arts next used.</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- 
+    ========== ========== ==========
+    Earth Phase Wizardry Spells
+    ========== ========== ==========
+    -->
+    <section class="container-fluid">
+        <div class="jumbotron">
+            <h3 class="section-text" id="earth-phase">Earth Phase Wizardry Spells</h3>
+
+            <table>
+                <!-- Header -->
+                <tr>
+                    <th>Wizardry Spell Name</th>
+                    <th>Elemental Virtue Requirement</th>
+                    <th>Morale Rank Required</th>
+                    <th>Spirit Cost</th>
+                    <th>Description</th>
+                </tr>
+
+                <tr>
+                    <td>Stone Weapon <br>
+                        <img src="./img/stone_weapon.png" alt=""></td>
+                    <td>1</td>
+                    <td>10</td>
+                    <td>800</td>
+                    <td>For a certain period of time, enchants your current Melee Weapon with Stone.</td>
+                </tr>
+                <tr>
+                    <td>Rock Spike <br>
+                        <img src="./img/rock_spike.png" alt=""></td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>500</td>
+                    <td>Summons rock pillars in front of you. They will explode and knock the enemies away upon contact.</td>
+                </tr>
+                <tr>
+                    <td>Enhanced Defense <br>
+                        <img src="./img/enhanced_defense.png" alt=""></td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>600</td>
+                    <td>For a certain period of time, you receive less damage from enemeies and will not flinch except from some
+                        powerful attacks.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mighty Shockwave <br>
+                        <img src="./img/mighty_shockwave.png" alt=""></td>
+                    <td>1</td>
+                    <td>10</td>
+                    <td>600</td>
+                    <td>Unleashes a shockwave around you that will blow away nearby enemies.</td>
+                </tr>
+                <tr>
+                    <td>Deathly Bog <br>
+                        <img src="./img/deathly_bog.png" alt=""></td>
+                    <td>1</td>
+                    <td>18</td>
+                    <td>600</td>
+                    <td>Creates a bog in nearby area. This bog will cause damage over time to enemies touching it.</td>
+                </tr>
+                <tr>
+                    <td>Lion's Roar <br>
+                        <img src="./img/lions_roar.png" alt=""></td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>800</td>
+                    <td>Lets out a shout that generates a shockwave. Enemies hit will be forced to lock on to you. Also decreaes
+                        damage taken from enemy attacks for a certain period of time.
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- 
+    ========== ========== ==========
+    Metal Phase Wizardry Spells
+    ========== ========== ==========
+    -->
+    <section class="container-fluid">
+        <div class="jumbotron">
+            <h3 class="section-text" id="metal-phase">Metal Phase Wizardry Spells</h3>
+
+            <table>
+                <!-- Header -->
+                <tr>
+                    <th>Wizardry Spell Name</th>
+                    <th>Elemental Virtue Requirement</th>
+                    <th>Morale Rank Required</th>
+                    <th>Spirit Cost</th>
+                    <th>Description</th>
+                </tr>
+
+                <tr>
+                    <td>Toxin Weapon <br>
+                        <img src="./img/toxin_weapon.png" alt=""></td>
+                    <td>1</td>
+                    <td>10</td>
+                    <td>800</td>
+                    <td>For a certain period of time, enchants your current Melee Weapon with Toxin.</td>
+                </tr>
+                <tr>
+                    <td>Poison Bubbles <br>
+                        <img src="./img/poison_bubbles.png" alt=""></td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>250</td>
+                    <td>Releases bubbles of poison that will burst and generate a poison bog when they hit enemies or terrain.
+                        The bog will cause damage over time to enemies touching it.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Toxin Bubbles <br>
+                        <img src="./img/toxin_bubbles.png" alt=""></td>
+                    <td>1</td>
+                    <td>18</td>
+                    <td>600</td>
+                    <td>Releases bubbles of poison to the front. Bubbles will burst and create a poison bog when they hit enemies
+                        or terrain. The bog will cause damage over time to enemies touching it.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Elemental Plague <br>
+                        <img src="./img/elemental_plague.png" alt=""></td>
+                    <td>1</td>
+                    <td>10</td>
+                    <td>500</td>
+                    <td>Increases the accumulation of all status effects dealt to enemies for a certain period of time.</td>
+                </tr>
+                <tr>
+                    <td>Poison Corrosion <br>
+                        <img src="./img/poison_corrosion.png" alt=""></td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>250</td>
+                    <td>Emits a poison fog to the front. The fog will cause damage over time to enemies touching it.</td>
+                </tr>
+                <tr>
+                    <td>Repression Crush <br>
+                        <img src="./img/repression_crush.png" alt=""></td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>400</td>
+                    <td>Releases a curse bolt to the front. Enemeies hit will recover from Spirit Disruption slower for a certain
+                        period of time.
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- 
+    ========== ========== ==========
+    Water Phase Wizardry Spells
+    ========== ========== ==========
+    -->
+    <section class="container-fluid">
+        <div class="jumbotron">
+            <h3 class="section-text" id="water-phase">Water Phase Wizardry Spells</h3>
+
+            <table>
+                <!-- Header -->
+                <tr>
+                    <th>Wizardry Spell Name</th>
+                    <th>Elemental Virtue Requirement</th>
+                    <th>Morale Rank Required</th>
+                    <th>Spirit Cost</th>
+                    <th>Description</th>
+                </tr>
+
+                <tr>
+                    <td>Ice Weapon <br>
+                        <img src="./img/ice_weapon.png" alt=""></td>
+                    <td>1</td>
+                    <td>10</td>
+                    <td>800</td>
+                    <td>For a certain period of time, enchants your current Melee Weapon with Ice.</td>
+                </tr>
+                <tr>
+                    <td>Frost Lance <br>
+                        <img src="./img/frost_lance.png" alt=""></td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>300</td>
+                    <td>Summons a sharply pointed icicle to the front. The icicle will accelerate forward or toward the target
+                        locked on when it was summoned.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Frozen Malice <br>
+                        <img src="./img/frozen_malice.png" alt=""></td>
+                    <td>1</td>
+                    <td>10</td>
+                    <td>750</td>
+                    <td>Generates a large icicle to the front. The icicle will accelerate forward or toward the target locked on
+                        to when it was released.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ominous Chill <br>
+                        <img src="./img/ominous_chill.png" alt=""></td>
+                    <td>1</td>
+                    <td>18</td>
+                    <td>500</td>
+                    <td>Summons small icicles to continuously fall on the locked-on target or on a point at a acertain dsitance
+                        forward.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Unseeable Form <br>
+                        <img src="./img/unseeable_form.png" alt=""></td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>500</td>
+                    <td>For a certain period of time, turns your body invisible and cannot be detected by enemies.</td>
+                </tr>
+                <tr>
+                    <td>Aqua Blink <br>
+                        <img src="./img/aqua_blink.png" alt=""></td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>250</td>
+                    <td>Instantly teleport to the front.</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- 
+    ========== ========== ==========
+    Credits
+    ========== ========== ==========
+    -->
+    <section class="container-fluid">
+        <div class="jumbotron jumbotron-credits">
+            <h3 id="credits">Credits:</h3>
+
+            <p>
+                <span class="bold-text">Credits:</span> LiuKang1080, ShinSeiKen, SacredForce
+            </p>
+
+            <p>
+                <span class="bold-text">Wo Long Build Bible:</span> OceanMachine - 
+                <a href="">Link to Wo Long Build Bible</a>
+            </p>
+
+            <p>
+                <span class="bold-text">Nioh Community Discord Server -</span>
+                <a href="https://discord.gg/pAH5U9mRBj">Link to Discord Server</a>
+                <br>
+
+                <span class="bold-text">Wo Long: Fallen Dynasty Discord Server -</span>
+                <a href="https://discord.gg/fGnaTHbnuy">Link to Discord Server</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- 
+    ========== ========== ==========
+    Back to top button
+    ========== ========== ==========
+    -->
+    <a id="back-to-top-button" href="#">Top</a>
+
+
+    <!-- JavaScript and Bootstrap.js Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Local JavaScript -->
+    <script type="text/javascript" src="https://liukang1080.github.io/Nioh_Website/wolong/wizardry_spells/js/wizardry_spells.js"></script>
+    <!-- <script type="text/javascript" src="./js/wizardry_spells.js"></script> -->
+
+</body>
+</html>
+
+<!-- TODO -->
+<!--
+
+-->
