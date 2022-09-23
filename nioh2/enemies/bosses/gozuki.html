@@ -36,8 +36,8 @@
     <!-- <link rel="stylesheet" type="text/css" href="../../css/media-query_navbar.css"> -->
 
     <!-- General CSS -->
-    <!-- <link rel="stylesheet" type="text/css" href="https://liukang1080.github.io/Nioh_Website/nioh2/css/general.css"> -->
-    <link rel="stylesheet" type="text/css" href="../../css/general.css">
+    <link rel="stylesheet" type="text/css" href="https://liukang1080.github.io/Nioh_Website/nioh2/css/general.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../../css/general.css"> -->
 
     <!--
     ========== ========== ==========
@@ -79,28 +79,100 @@
         <a class="nav-links" id="#nav-credit-link" href="https://liukang1080.github.io/Nioh_Website/nioh2/credits/credits.html">Credits</a>
     </nav>
 
-    <!-- Title Text -->
+    <!-- 
+    ========== ========== ==========
+    Title Text
+    ========== ========== ==========
+    -->
     <div class="title-text">
-        <h2>Yokai Enemies - Gozuki</h2>
+        <h2>Yokai Boss - Gozuki</h2>
     </div>
     <hr>
 
+    <!-- 
+    ========== ========== ==========
+    Table of Contents
+    ========== ========== ==========
+    -->
+    <div class="table-of-contents">
+        <section>
+            <h3>Table of Contents:</h3>
+            <ol>
+                <li><a class="table-of-contents-links" href="javascript: description()">Description / Lore</a></li>
+                <li><a class="table-of-contents-links" href="javascript: missions()">Missions This Boss Appears In</a></li>
+                <li><a class="table-of-contents-links" href="javascript: fighting()">Fighting Strategies</a></li>
+                <li><a class="table-of-contents-links" href="javascript: credits()">Credits</a></li>
+            </ol>
+        </section>
+    </div>
+    <br>
+
+
+
+    <!-- 
+    ========== ========== ==========
+    Carousel Test
+    ========== ========== ==========
     <section class="container-fluid">
         <div class="jumbotron">
-            <h3 class="section-text">Testing</h3>
+            <h3 class="section-text">Carousel Test</h3>
+            
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/gozuki.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/gozuki_2.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    -->
+
+
+
+    <!-- 
+    ========== ========== ==========
+    Description
+    ========== ========== ==========
+    -->
+    <section class="container-fluid">
+        <div class="jumbotron">
+            <h3 class="section-text" id="description">Description / Lore</h3>
+
+            <!-- Main Image -->
+            <img src="./img/gozuki.png" alt="" class="img-fluid">
+        </div>
+    </section>
+   
+    <!-- 
+    ========== ========== ==========
+    Fighting Gozuki
+    ========== ========== ==========
+    -->
+    <section class="container-fluid">
+        <div class="jumbotron">
+            <h3 class="section-text">Fighting Gozuki</h3>
+
+            <span>Fighting Gozuki near lvl 1 with all weapons.</span>
 
             <!-- Gozuki Video -->
             <div class="video-container">
                 <div class="iframe-container">
-                    <iframe width="1200" height="675" src="https://www.youtube.com/embed/7K3Pey5dDs4" title="YouTube video player" frameborder="0" 
+                    <iframe width="1920" height="1080" src="https://www.youtube.com/embed/7K3Pey5dDs4" title="YouTube video player" frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
-            
-
-            <p>
-                Testing content.
-            </p>
         </div>
     </section>
 
@@ -132,8 +204,8 @@
     <!-- JavaScript and Bootstrap.js Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!-- Local JavaScript -->
-    <!-- <script type="text/javascript" src="https://liukang1080.github.io/Nioh_Website/nioh2/enemies/yokai_enemies/js/"></script> -->
-    <!-- <script type="text/javascript" src=""></script> -->
+    <!-- <script type="text/javascript" src="https://liukang1080.github.io/Nioh_Website/nioh2/enemies/bosses/js/template_js_bosses.js"></script> -->
+    <script type="text/javascript" src="./js/template_js_bosses.js"></script>
 
 </body>
 </html>
@@ -144,12 +216,5 @@
         https://www.youtube.com/watch?v=9YffrCViTVk
 
     - Responsive Images:
-        https://www.youtube.com/watch?v=Q5m8cCGdiBo
-
-    - AMP Components: AMP-Gfycat embed:
-        https://amp.dev/documentation/components/amp-gfycat/
-
-    - General AMP Components:
-        https://amp.dev/documentation/components/?format=websites
-
+        - Bootstrap <img class="img-fluid">
 -->
