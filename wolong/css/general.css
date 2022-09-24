@@ -139,6 +139,30 @@ Div / Section / Jumbotron CSS
 
 /* 
 ========== ========== ========== ========== ==========
+Videos & GIFs CSS 
+========== ========== ========== ========== ==========
+*/
+.video-container {
+    width: 75%;
+}
+
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 
+========== ========== ========== ========== ==========
 Table CSS 
 ========== ========== ========== ========== ==========
 */
@@ -190,4 +214,16 @@ Back to top button CSS
     background-color: rgba(255, 193, 7, 255);
     color: black;
     border-radius: 0.25em;
+}
+
+
+/* 
+========== ========== ========== ========== ==========
+Media Query for Videos & GIFs 
+========== ========== ========== ========== ==========
+*/
+@media screen and (max-width: 1000px) {
+    .video-container {
+        width: 100%;
+    }
 }
