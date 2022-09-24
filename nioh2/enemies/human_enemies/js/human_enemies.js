@@ -6,7 +6,7 @@
 Back to top button JavaScript 
 ========== ========== ========== ========== ==========
 */ 
-back_to_top = document.getElementById("back-to-top-button");
+let back_to_top = document.getElementById("back-to-top-button");
 window.onscroll = function() { scrollFunction() };
 
 
