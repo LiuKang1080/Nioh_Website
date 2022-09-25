@@ -46,8 +46,8 @@ function hatchets() {
     element.scrollIntoView();
 }
 
-function switchglave() {
-    let element = document.getElementById("switchglave");
+function switchglaive() {
+    let element = document.getElementById("switchglaive");
     element.scrollIntoView();
 }
 
