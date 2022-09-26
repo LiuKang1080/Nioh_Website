@@ -5,4 +5,40 @@ Guardian Spirit Mechanics:
     -
 
 Guardian Spirit List:
-    -
+    - [done] Amabie
+    - [done] Ame-no-Mitori
+    - [done] Atlas Bear
+    - [done] Baku
+    - [done] Blue Dragon
+    - [done] Genbu
+    - [done] Gyokuto
+    - [done] Hakutaku
+    - [done] Hiyobishin
+    - [done] Hiyokucho
+    - [done] Ho
+    - [done] Ho - Oh
+    - [done] Inosasao
+    - [done] Isanagami
+    - [done] Itokuri
+    - [done] Janomecho
+    - [done] Kagewani
+    - [done] Kurama Tengu
+    - [done] Kuzunoha The Fox
+    - [done] Makami
+    - [done] Masaru
+    - [done] Mizuchi
+    - [done] Nekomata
+    - [done] Nine Tails
+    - [done] Oh
+    - [done] Okuri-Inu
+    - [done] Rokugezo
+    - [done] Saoirse
+    - [done] Shin-Roku
+    - [done] Shirohami
+    - [done] Sohaya
+    - [done] Suzaku
+    - [done] Tengen Kujaku
+    - [done] Usura-Hicho
+    - [done] Yaonami-Hime
+    - [done] Yatagarasu
+    - [done] Yumehami

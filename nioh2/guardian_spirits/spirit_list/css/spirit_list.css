@@ -5,6 +5,10 @@
     align-self: flex-start;
 }
 
+.alphabetical-list {
+    text-align: center;
+}
+
 .spirit-section {
     display: flex;
     justify-content: center;
