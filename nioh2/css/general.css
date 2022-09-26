@@ -136,6 +136,10 @@ Div / Section / Jumbotron CSS
     align-self: flex-start;
 }
 
+.paragraph-centered {
+    text-align: center;
+}
+
 
 /* 
 ========== ========== ========== ========== ==========
