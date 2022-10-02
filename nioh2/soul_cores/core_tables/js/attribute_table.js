@@ -55,10 +55,10 @@ function scrollFunction() {
 Sort Table Function
 ========== ========== ========== ========== ==========
 */
-document.querySelector("#sort-button-1").addEventListener("click", sort_table);
-document.querySelector("#sort-button-2").addEventListener("click", sort_table);
-document.querySelector("#sort-button-3").addEventListener("click", sort_table);
-document.querySelector("#sort-button-4").addEventListener("click", sort_table);
+document.querySelector("#sort-button-1").addEventListener("click", async_call);
+document.querySelector("#sort-button-2").addEventListener("click", async_call);
+document.querySelector("#sort-button-3").addEventListener("click", async_call);
+document.querySelector("#sort-button-4").addEventListener("click", async_call);
 
 
 function sort_table(event) {
@@ -111,6 +111,27 @@ function sort_table(event) {
             switching = true;
         }
     }
+}
+
+function resolve_function(event) {
+    /*
+        - resolve_function is a setTimeout() wrapper function that takes in the sort_table function and returns a promise, the
+            promise will be resolved by the async_call() function.
+    */
+    return new Promise(resolve => {
+        // return the promise from calling the setTimeout function
+        setTimeout(sort_table(event), 0);
+    });
+}
+
+async function async_call(event) {
+    /*
+        - async_call is a wrapper function around the resolve_function():
+            async_call(resolve_function(setTimeout(sort_table)))
+
+        - This function uses async await for the implicit promise chain resolution.
+    */
+    const result = await resolve_function(event);
 }
 
 
