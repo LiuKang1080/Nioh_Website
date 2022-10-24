@@ -157,11 +157,17 @@
             <!-- Main Images / Carousel -->
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
+                    <div class="carousel-item active" data-bs-interval="20000">
                         <img src="./img/gozuki.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Main image of Gozuki.</h5>
+                        </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-bs-interval="20000">
                         <img src="./img/gozuki_2.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Fighting Gozuki in the mission "Village of the Cursed Blossoms".</h5>
+                        </div>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -257,14 +263,41 @@
             <!-- Fighting Description -->
             <p>
                 Gozuki will generally be the second enemy the player faces. This is an optional fight in which the player can
-                skip by walking around. Gozuki drops the Village Cemetry Key, allowing the player to open the door next to the
+                skip by walking around. Gozuki drops the Village Cemetery Key, allowing the player to open the door next to the
                 Gozuki battle area skipping the first half of the level in 
                 <a href="" class="bold-text">Village of the Cursed Blossoms</a>. This first Gozuki the player faces in Village 
                 of the Cursed Blossoms on Deam of the Samurai difficulty will NOT drop a Soul Core, but all other Gozuki fights
                 on all other difficulties do have the chance of dropping the Gozuki Soul Core.
             </p>
 
+            <!-- Drops / Smithing Texts -->
+            <h5 class="bold-text">Drops / Smithing Texts</h5>
+            <table>
+                <tr>
+                    <td><span class="bold-text">Key Items:</span></td>
+                    <td>Village Cemetery Key</td>
+                </tr>
+                <tr>
+                    <td><span class="bold-text">Soul Core:</span></td>
+                    <td>Gozuki Soul Core</td>
+                </tr>
+                <tr>
+                    <td><span class="bold-text">Smithing Texts:</span></td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td><span class="bold-text">Hidden Skills:</span></td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td><span class="bold-text">Crafting Materials:</span></td>
+                    <td>Large Crooked Horn</td>
+                </tr>
+            </table>
+            <br>
+
             <!-- Weaknesses -->
+            <h5 class="bold-text">Weakness</h5>
             <table>
                 <tr>
                     <td><span class="bold-text">Weakness:</span></td>
@@ -280,9 +313,6 @@
                 </tr>
             </table>
             <br>
-
-            <!-- Burst Counters -->
-            <span class="bold-text">Burst Counters</span>
 
             <!-- Gozuki Video -->
             <span class="bold-text">Fighting Gozuki, LVL 1 - 10 with all weapons.</span>
@@ -310,6 +340,9 @@
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
+
+            <!-- Burst Counters -->
+            <span class="bold-text">Burst Counters</span>
         </div>
     </section>
 
