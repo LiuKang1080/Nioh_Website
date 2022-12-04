@@ -1,5 +1,7 @@
 Dream of the Samurai:
-    Awakening Region (Region 1):
+    ========== ========== ========== ========== ==========
+    Awakening Region (Region 1)
+    ========== ========== ========== ========== ==========
         The Village of the Cursed Blossoms (main mission):
             - Gaki (first time)
             - Gozuki (boss) (first time)
@@ -9,13 +11,27 @@ Dream of the Samurai:
             - Yoki (first time)
             - Mezuki (boss) (first time)
 
+        The Violet Cherry Blossoms (twilight mission):
+            - Gaki
+            - Gozuki (boss)
+            - Abbarant Soldier
+            - Enki
+            - Mujina
+            - Nure-Onna
+            - Ippon-Datara
+            - Yoki
+            - Kappa
+            - Maelstrom Oni-bi
+            - Infernal Oni-bi
+            - Mezuki (boss)
+
         The Forest Veiled in Darkness (side mission):
             - Bandit
             - Warrior
             - Gaki
             - Enki
 
-        The Beast Born of Smoke and Flames:
+        The Beast Born of Smoke and Flames (main mission):
             - Bandit
             - Warrior
             - Gaki
@@ -30,22 +46,22 @@ Dream of the Samurai:
             - Nurikabe (first time)
             - Enera (first time)
 
-        A Voice in the Twilight:
+        A Voice in the Twilight (side mission):
             - Gaki
             - Infernal Oni-bi
             - Yoki
             - Enki
             - Gozuki
 
-        Dark Omens:
+        Dark Omens (side mission):
             - Bandit
             - Warrior
             - Sohaya Warrior
-            - Abbarant Soldiers (first time)
+            - Abbarant Soldier (first time)
             - One-Eyed Oni (first time)
             - Kurama Tengu (first time)
 
-        The Viper's Sanctum:
+        The Viper's Sanctum (main mission):
             - Bandit
             - Warrior
             - Ninja
@@ -61,14 +77,33 @@ Dream of the Samurai:
             - Mujina
             - Yatsu-no-Kami (first time)
 
-        A Favor for the Blacksmith:
-            - 
+        A Favor for the Blacksmith (side mission):
+            - Dweller
+            - Lesser Umi-bozu
+            - Gaki
+            - Yoki
+            - Ippon-Datara
+            - Bandit
+            - Wheel Monk
 
-        The Search:
-            - 
+        The Search (side mission):
+            - Gaki
+            - Ippon-Datara
+            - Nure-Onna
+            - Enki
         
-        The Greedy Hunter:
-            - 
+        The Greedy Hunter (side mission):
+            - Bandit
+            - Warrior
+            - Enki
+            - Gaki
+            - Nure-Onna
+            - Yoki
+            - Soyaha Warrior (Switchglaive)
+
+    ========== ========== ========== ========== ==========
+    Soaring Region (Region 2)
+    ========== ========== ========== ========== ==========
 
 
 
