@@ -84,7 +84,7 @@ Dream of the Samurai:
             - Yoki
             - Ippon-Datara
             - Bandit
-            - Wheel Monk
+            - Wheelmonk
 
         The Search (side mission):
             - Gaki
@@ -104,11 +104,57 @@ Dream of the Samurai:
     ========== ========== ========== ========== ==========
     Soaring Region (Region 2)
     ========== ========== ========== ========== ==========
+        The Hidden Monsters of Okehazama (main mission)
+            - Gaki
+            - Enki
+            - Yamanba (first time)
+            - Yoki
+            - Nure-Onna
+            - Kurama Tengu
+            - Bandit
+            - Warrior
+            - Nurikabe
+            - Infernal Oni-bi
+            - Maelstrom Oni-bi
+            - One Eyed Oni
+            - Imagawa Yoshimoto (boss) (first time)
 
+        Imagawa Diehard (side mission):
+            - Bandit
+            - Warrior
+            - Ninja
+            - Imagawa Yoshimoto (boss)
 
+        Hidetatsu's Dying Wish (side mission):
+            - Bandit
+            - Warrior
+            - Sohoya Warrior
+            - Nure-Onna
+            - One Eyed Oni
+            - Gaki
+            - Infernal Oni-bi
+            - Yoki
 
-
-
-
-
+        An Error in Calculation:
+            - Gaki
+            - Toxic Slime
+            - Karakasa Umbrella (first time)
+            - Kurama Tengu
+            - Dweller
+            - Nure-Onna
+            - Biwa Boku-boku (first time)
+            - Enki
+            - One Eyed Oni
+            - Waira (first time)
         
+        The Mysterious One Night Castle:
+            - 
+
+
+
+
+
+
+
+
+
