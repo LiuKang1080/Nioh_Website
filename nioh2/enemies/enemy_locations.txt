@@ -6,8 +6,11 @@ Dream of the Samurai:
             - Gaki (first time)
             - Gozuki (boss) (first time)
             - Enki (first time)
-            - Bandit (first time)
-            - Warrior (first time)
+            - Bandit (bow) (first time)
+            - Bandit (spear) (first time)
+            - Warrior (axe) (first time)
+            - Bandit (sword) (first time)
+            - Bandit (axe) (first time)
             - Yoki (first time)
             - Mezuki (boss) (first time)
 
@@ -26,14 +29,19 @@ Dream of the Samurai:
             - Mezuki (boss)
 
         The Forest Veiled in Darkness (side mission):
-            - Bandit
-            - Warrior
+            - Bandit (axe)
+            - Bandit (sword)
+            - Warrior (spear)
+            - Bandit (bow)
+            - Bandit (spear)
+            - Warrior (dual swords)
             - Gaki
             - Enki
 
         The Beast Born of Smoke and Flames (main mission):
-            - Bandit
-            - Warrior
+            - Bandit (sword)
+            - Warrior (sword)
+            - Bandit (spear)
             - Gaki
             - Ippon Datara (first time)
             - Infernal Oni-bi (first time)
@@ -135,7 +143,7 @@ Dream of the Samurai:
             - Infernal Oni-bi
             - Yoki
 
-        An Error in Calculation:
+        An Error in Calculation (side mission):
             - Gaki
             - Toxic Slime
             - Karakasa Umbrella (first time)
@@ -147,7 +155,7 @@ Dream of the Samurai:
             - One Eyed Oni
             - Waira (first time)
         
-        The Mysterious One Night Castle:
+        The Mysterious One Night Castle (main mission):
             - 
 
 
